@@ -1,0 +1,13 @@
+{
+  "version": "1.2",
+  "metadata_rows": 2287,
+  "metadata_columns": 362,
+  "distinct_author_ids": 2287,
+  "texts_by_language": {
+    "Czech": 441,
+    "German": 1033,
+    "Italian": 813
+  },
+  "original_metadata_member": "merlin-metadata-v1.2/metadata_ratings_indicators.csv",
+  "note": "Statistics from actual mirrored v1.2 metadata; website currently says 2,286, while v1.2 author README, deposit record and actual CSV say 2,287. Do not merge counts across releases."
+}

@@ -1,0 +1,87 @@
+{
+  "catalogue_id": "fraction-subtraction",
+  "status": "mirrored",
+  "license": "GPL-2.0-or-later",
+  "source_package": "CDM",
+  "source_package_version": "8.4-9",
+  "source_commit": "9a731f28426367d9c56576035930c7246a902894",
+  "license_evidence": "https://raw.githubusercontent.com/alexanderrobitzsch/CDM/9a731f28426367d9c56576035930c7246a902894/DESCRIPTION",
+  "scope": "Only the536\u00d720 binary response matrix and20\u00d78 Q-matrix source objects; no original test-question facsimiles or item artwork.",
+  "files": [
+    {
+      "path": "upstream-DESCRIPTION",
+      "source_path": "DESCRIPTION",
+      "source_url": "https://raw.githubusercontent.com/alexanderrobitzsch/CDM/9a731f28426367d9c56576035930c7246a902894/DESCRIPTION",
+      "retrieved_date": "2026-10-29",
+      "bytes": 2394,
+      "sha256": "3cc23eb49273e463ec5ae93c0a0c7f166884af049dce090d6981a141363196cf",
+      "upstream_git_blob_sha": "1347e0cbd81307b0de598a6e55a65a698cdaf741",
+      "role": "original package description/license declaration"
+    },
+    {
+      "path": "original/fraction.subtraction.data.rda",
+      "source_path": "data/fraction.subtraction.data.rda",
+      "source_url": "https://raw.githubusercontent.com/alexanderrobitzsch/CDM/9a731f28426367d9c56576035930c7246a902894/data/fraction.subtraction.data.rda",
+      "retrieved_date": "2026-10-29",
+      "bytes": 1953,
+      "sha256": "b6be3376c173d5be7586c14b86b73a357cb6c7bcc08173f6eb788e4969266cc3",
+      "upstream_git_blob_sha": "744b851643e47ed8b95addab3cf7728363d84884",
+      "role": "original packaged response/Q-matrix source object"
+    },
+    {
+      "path": "original/fraction.subtraction.qmatrix.rda",
+      "source_path": "data/fraction.subtraction.qmatrix.rda",
+      "source_url": "https://raw.githubusercontent.com/alexanderrobitzsch/CDM/9a731f28426367d9c56576035930c7246a902894/data/fraction.subtraction.qmatrix.rda",
+      "retrieved_date": "2026-10-29",
+      "bytes": 408,
+      "sha256": "5b2faf01cd753d78b6bd663ec46ea1dc0f6912e07e0b3dac3f92856a5d5b4ea8",
+      "upstream_git_blob_sha": "272ad43cee5d120212d1994c538563d6585dce0a",
+      "role": "original packaged response/Q-matrix source object"
+    },
+    {
+      "path": "codebooks/fraction.subtraction.data.Rd",
+      "source_path": "man/fraction.subtraction.data.Rd",
+      "source_url": "https://raw.githubusercontent.com/alexanderrobitzsch/CDM/9a731f28426367d9c56576035930c7246a902894/man/fraction.subtraction.data.Rd",
+      "retrieved_date": "2026-10-29",
+      "bytes": 2292,
+      "sha256": "2c63505dce93f4ba633f62dfe52021f67ade1e5f17cbc2f4ccbe92f1ff8e283d",
+      "upstream_git_blob_sha": "04ab69643c2e8c5b110d6505e81d0e53cacfe45a",
+      "role": "original author Rd codebook"
+    },
+    {
+      "path": "codebooks/fraction.subtraction.qmatrix.Rd",
+      "source_path": "man/fraction.subtraction.qmatrix.Rd",
+      "source_url": "https://raw.githubusercontent.com/alexanderrobitzsch/CDM/9a731f28426367d9c56576035930c7246a902894/man/fraction.subtraction.qmatrix.Rd",
+      "retrieved_date": "2026-10-29",
+      "bytes": 2221,
+      "sha256": "9127b7f252cb441b6fcd78bf85cf9a828339c08acedb0896f25c9751d2dea03d",
+      "upstream_git_blob_sha": "3fff816377f30a10fb5e63ffcca0cded5ab960e5",
+      "role": "original author Rd codebook"
+    },
+    {
+      "path": "SOURCE.md",
+      "source_url": null,
+      "retrieved_date": "2026-10-29",
+      "bytes": 4311,
+      "sha256": "89c599735b71be92cbc32e50f3733ebe57bba516760fbbf75a65b1ccb4724d24",
+      "role": "project-generated provenance/reading example"
+    },
+    {
+      "path": "read-data.R",
+      "source_url": null,
+      "retrieved_date": "2026-10-29",
+      "bytes": 260,
+      "sha256": "7c39b5357a4c0dc743bfb44ee9a50c15f80dde0c580122a025a4d8d09e64fe86",
+      "role": "project-generated provenance/reading example"
+    },
+    {
+      "path": "LICENSE.GPL-2.0-or-later.txt",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/GPL-2.0-or-later.txt",
+      "retrieved_date": "2026-10-29",
+      "bytes": 17337,
+      "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3",
+      "role": "full license text"
+    }
+  ],
+  "native_R_verification": "ability.rda : ability,ability.keys \n  ability dims=1525x16 class=matrix,array\n  ability.keys$ICAR16 dims=\n  ability.keys$reasoning dims=\n  ability.keys$letters dims=\n  ability.keys$matrix dims=\n  ability.keys$rotate dims=\niqitems.rda : iqitems \n  iqitems dims=1525x16 class=data.frame\nfraction.subtraction.data.rda : fraction.subtraction.data \n  fraction.subtraction.data dims=536x20 class=data.frame\nfraction.subtraction.qmatrix.rda : fraction.subtraction.qmatrix \n  fraction.subtraction.qmatrix dims=20x8 class=data.frame\ndata.ecpe.rda : data.ecpe \n  data.ecpe$data dims=2922x29\n  data.ecpe$q.matrix dims=28x3\n"
+}

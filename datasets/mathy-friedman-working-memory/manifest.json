@@ -1,0 +1,141 @@
+{
+  "id": "mathy-friedman-working-memory",
+  "status": "mirrored",
+  "license": "CC-BY-4.0",
+  "license_evidence": "https://data.mendeley.com/public-api/datasets/kfc3jyggs7?version=1",
+  "source": "https://doi.org/10.17632/kfc3jyggs7.1",
+  "scope": "All two deposited version-1 data files, unchanged; author description and project field guide",
+  "schemas": [
+    {
+      "file": "dat_all.csv",
+      "delimiter": ";",
+      "rows_excluding_header": 3564,
+      "columns": [
+        "name",
+        "ageMonths",
+        "group",
+        "StimDispTime",
+        "trialNum",
+        "ordering",
+        "resp",
+        "longestSpan",
+        "lengthTrial",
+        "partialCredit",
+        "partialCreditUNIT",
+        "N_Displaced_items",
+        "stimType",
+        "stimCode",
+        "allornothingCredit",
+        "span_trial"
+      ],
+      "column_count": 16
+    },
+    {
+      "file": "dat_partialcreditunitAGG_Unstacked.csv",
+      "delimiter": ";",
+      "rows_excluding_header": 99,
+      "columns": [
+        "name",
+        "ageMonths",
+        "group",
+        "Col",
+        "Cub",
+        "Kan",
+        "Let",
+        "Obj",
+        "Pol",
+        "ColObj",
+        "CubPol",
+        "ratio_Let_ColObj",
+        "ratio_Let_Kan",
+        "ratio_Let_CubPol",
+        "ratio_ColObj_Kan",
+        "ratio_ColObj_CubPol",
+        "ratio_Kan_CubPol",
+        "zCol",
+        "zCub",
+        "zKan",
+        "zLet",
+        "zObj",
+        "zPol"
+      ],
+      "column_count": 23
+    }
+  ],
+  "files": [
+    {
+      "path": "source-metadata.json",
+      "source_url": "https://data.mendeley.com/public-api/datasets/kfc3jyggs7?version=1",
+      "retrieved_date": "2026-10-29",
+      "bytes": 2511,
+      "sha256": "d3dfbf553ad622e779d89c7ca8f88eeacdc09f1936cfb4a60d30724c9361d149",
+      "role": "original provider metadata and license statement"
+    },
+    {
+      "path": "source-file-list.json",
+      "source_url": "https://data.mendeley.com/public-api/datasets/kfc3jyggs7/files?folder_id=root&version=1",
+      "retrieved_date": "2026-10-29",
+      "bytes": 1408,
+      "sha256": "9c1dca903e91f283d074c63547fdc6e14c2c1445dee2af30254dce9a607efa6e",
+      "role": "original file metadata and checksums"
+    },
+    {
+      "path": "original/dat_all.csv",
+      "source_url": "https://data.mendeley.com/public-files/datasets/kfc3jyggs7/files/d0c5b8d5-169c-473f-b2dd-5c61a88b89c4/file_downloaded",
+      "retrieved_date": "2026-10-29",
+      "bytes": 238445,
+      "sha256": "0d0b9195af8ee4e8fcaa7d966291826f9ec92993299d75b2fca019b1518b0a7c",
+      "role": "unmodified original response/derived data",
+      "upstream_file_id": "d0c5b8d5-169c-473f-b2dd-5c61a88b89c4"
+    },
+    {
+      "path": "original/dat_partialcreditunitAGG_Unstacked.csv",
+      "source_url": "https://data.mendeley.com/public-files/datasets/kfc3jyggs7/files/af641063-4d8e-4329-975e-17daa875cec5/file_downloaded",
+      "retrieved_date": "2026-10-29",
+      "bytes": 31012,
+      "sha256": "e2cd767d5d4a956d2430ba0e39fa2e2f442c577e85b45ce88560abe5e4a8f821",
+      "role": "unmodified original response/derived data",
+      "upstream_file_id": "af641063-4d8e-4329-975e-17daa875cec5"
+    },
+    {
+      "path": "LICENSE_CC-BY-4.0.txt",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-4.0.txt",
+      "retrieved_date": "2026-10-29",
+      "bytes": 17023,
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+      "role": "complete standard license text"
+    },
+    {
+      "path": "CODEBOOK.md",
+      "source_url": "https://data.mendeley.com/public-api/datasets/kfc3jyggs7?version=1",
+      "retrieved_date": "2026-10-29",
+      "bytes": 1101,
+      "sha256": "99afc2772f3cacedecef9a6c141ab2eaf36e66e399edced6991b5de417b4f0bf",
+      "role": "project-generated provenance/field inventory"
+    },
+    {
+      "path": "README.md",
+      "source_url": "https://data.mendeley.com/public-api/datasets/kfc3jyggs7?version=1",
+      "retrieved_date": "2026-10-29",
+      "bytes": 1185,
+      "sha256": "01da9163e038247c6c1004a9557c976668c7ec87b3f0fddfe287ee62888738e7",
+      "role": "project-generated provenance/field inventory"
+    },
+    {
+      "path": "SOURCE.md",
+      "source_url": "https://data.mendeley.com/public-api/datasets/kfc3jyggs7?version=1",
+      "retrieved_date": "2026-10-29",
+      "bytes": 1527,
+      "sha256": "ee3e6a3eef584ef462355f0abcb1b2c877d7b028770a7e14d9a46976c37ea0bd",
+      "role": "project-generated provenance/field inventory"
+    },
+    {
+      "path": "codebook-project.json",
+      "source_url": "https://data.mendeley.com/public-api/datasets/kfc3jyggs7?version=1",
+      "retrieved_date": "2026-10-29",
+      "bytes": 1757,
+      "sha256": "8ba6f1ae8a9f758d67220929a08f5265c6110e65d0c41986a2e1928ae22231d7",
+      "role": "project-generated provenance/field inventory"
+    }
+  ]
+}

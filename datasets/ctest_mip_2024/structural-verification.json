@@ -1,0 +1,69 @@
+[
+  {
+    "member": "User Study Data/csv/ctest.csv",
+    "header": [
+      "ctest_idx",
+      "ctest ",
+      "solution",
+      "plaintext",
+      "tokenized text",
+      "strategy, input text, and difficulty"
+    ],
+    "data_rows": 32,
+    "delimiter": ","
+  },
+  {
+    "member": "User Study Data/csv/ctest_user_mapping.csv",
+    "header": [
+      "ctest_idx",
+      "user_idx",
+      "user_response",
+      "individual scores (1 correct, 0 incorrect)",
+      "total score",
+      "total time",
+      "perceived difficulty",
+      "score assessment"
+    ],
+    "data_rows": 160,
+    "delimiter": ","
+  },
+  {
+    "member": "User Study Data/csv/questionnaire.csv",
+    "header": [
+      "user_idx",
+      "cefr",
+      "years",
+      "frequency",
+      "Mother Tongue",
+      "Other Languages",
+      "Other Languages (detail)"
+    ],
+    "data_rows": 40,
+    "delimiter": ","
+  },
+  {
+    "member": "User Study Data/csv/strategy.csv",
+    "header": [
+      "strategy_idx",
+      "ctest_id1",
+      "ctest_id2",
+      "ctest_id3",
+      "ctest_id4"
+    ],
+    "data_rows": 8,
+    "delimiter": ","
+  },
+  {
+    "member": "User Study Data/csv/user.csv",
+    "header": [
+      "user_idx",
+      "username (obfuscated)",
+      "consent",
+      "questionnaire",
+      "finished",
+      "strategy_idx"
+    ],
+    "data_rows": 40,
+    "delimiter": ","
+  }
+]

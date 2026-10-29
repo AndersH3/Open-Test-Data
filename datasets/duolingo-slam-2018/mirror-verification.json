@@ -1,0 +1,113 @@
+{
+  "retrieved_date": "2026-10-29",
+  "primary_source": "https://doi.org/10.7910/DVN/8SWHNO",
+  "metadata_replica": "https://cn.dataone.org/cn/v2/object/sha256%3Ac99e7d3e18a8ee138442180c31cedf54546f51fe4b02555e0894e11cdfebc7e8",
+  "primary_download_status": "Harvard Dataverse download/API returned403; unmodified archive mirror acquired instead",
+  "files": [
+    {
+      "file": "data_en_es.tar.gz",
+      "bytes": 46889834,
+      "sha256": "dac4e97a03e0d35d0b417e4afb8e96a20cdd3bad933bdc590ab4b56c77531393",
+      "upstream_file_doi": "https://doi.org/10.7910/DVN/8SWHNO/C1LOKO",
+      "mirror_url": "https://raw.githubusercontent.com/xinhez/11785-project/master/data/data_en_es.tar.gz",
+      "original_size_evidence": "Harvard Dataverse author-deposited version4 schema.org metadata preserved by DataONE",
+      "archive_members": [
+        "./._CHANGELOG.md",
+        "CHANGELOG.md",
+        "./._LICENSE.md",
+        "LICENSE.md",
+        "./._CITING.md",
+        "CITING.md",
+        "./._en_es.slam.20190204.dev",
+        "en_es.slam.20190204.dev",
+        "./._en_es.slam.20190204.dev.key",
+        "en_es.slam.20190204.dev.key",
+        "./._en_es.slam.20190204.test",
+        "en_es.slam.20190204.test",
+        "./._en_es.slam.20190204.test.key",
+        "en_es.slam.20190204.test.key",
+        "./._en_es.slam.20190204.train",
+        "en_es.slam.20190204.train"
+      ],
+      "documentation_files": [
+        "upstream-documentation/data_en_es/CHANGELOG.md",
+        "upstream-documentation/data_en_es/LICENSE.md",
+        "upstream-documentation/data_en_es/CITING.md"
+      ],
+      "data_changes": "No modification to mirrored archive bytes. Matching original deposit size; original author checksum not available.",
+      "gzip_crc_audit": "Passed complete decompression to EOF"
+    },
+    {
+      "file": "data_es_en.tar.gz",
+      "bytes": 35067817,
+      "sha256": "c53079ed8053f5237225ae1b3713ecb7ecb1d0245369cd60599f17c6a6868243",
+      "upstream_file_doi": "https://doi.org/10.7910/DVN/8SWHNO/Z29WIF",
+      "mirror_url": "https://raw.githubusercontent.com/xinhez/11785-project/master/data/data_es_en.tar.gz",
+      "original_size_evidence": "Harvard Dataverse author-deposited version4 schema.org metadata preserved by DataONE",
+      "archive_members": [
+        "./._CHANGELOG.md",
+        "CHANGELOG.md",
+        "./._LICENSE.md",
+        "LICENSE.md",
+        "./._CITING.md",
+        "CITING.md",
+        "./._es_en.slam.20190204.dev",
+        "es_en.slam.20190204.dev",
+        "./._es_en.slam.20190204.dev.key",
+        "es_en.slam.20190204.dev.key",
+        "./._es_en.slam.20190204.test",
+        "es_en.slam.20190204.test",
+        "./._es_en.slam.20190204.test.key",
+        "es_en.slam.20190204.test.key",
+        "./._es_en.slam.20190204.train",
+        "es_en.slam.20190204.train"
+      ],
+      "documentation_files": [
+        "upstream-documentation/data_es_en/CHANGELOG.md",
+        "upstream-documentation/data_es_en/LICENSE.md",
+        "upstream-documentation/data_es_en/CITING.md"
+      ],
+      "data_changes": "No modification to mirrored archive bytes. Matching original deposit size; original author checksum not available.",
+      "gzip_crc_audit": "Passed complete decompression to EOF"
+    },
+    {
+      "file": "data_fr_en.tar.gz",
+      "bytes": 16134930,
+      "sha256": "f34bb1518d2fbc694d6b142b78b16cb2c755df314e78a1fcb6a86b9987727c31",
+      "upstream_file_doi": "https://doi.org/10.7910/DVN/8SWHNO/5YWVBV",
+      "mirror_url": "https://raw.githubusercontent.com/xinhez/11785-project/master/data/data_fr_en.tar.gz",
+      "original_size_evidence": "Harvard Dataverse author-deposited version4 schema.org metadata preserved by DataONE",
+      "archive_members": [
+        "./._CHANGELOG.md",
+        "CHANGELOG.md",
+        "./._LICENSE.md",
+        "LICENSE.md",
+        "./._CITING.md",
+        "CITING.md",
+        "./._fr_en.slam.20190204.dev",
+        "fr_en.slam.20190204.dev",
+        "./._fr_en.slam.20190204.dev.key",
+        "fr_en.slam.20190204.dev.key",
+        "./._fr_en.slam.20190204.test",
+        "fr_en.slam.20190204.test",
+        "./._fr_en.slam.20190204.test.key",
+        "fr_en.slam.20190204.test.key",
+        "./._fr_en.slam.20190204.train",
+        "fr_en.slam.20190204.train"
+      ],
+      "documentation_files": [
+        "upstream-documentation/data_fr_en/CHANGELOG.md",
+        "upstream-documentation/data_fr_en/LICENSE.md",
+        "upstream-documentation/data_fr_en/CITING.md"
+      ],
+      "data_changes": "No modification to mirrored archive bytes. Matching original deposit size; original author checksum not available.",
+      "gzip_crc_audit": "Passed complete decompression to EOF"
+    }
+  ],
+  "verification_limit": "Primary author-deposited original checksums were unavailable; acquired archives match deposited exact byte sizes and carry matching original v4 licence/changelog. Mirror bytes are independently SHA-256 identified.",
+  "author_deposited_metadata_integrity": {
+    "sha256": "c99e7d3e18a8ee138442180c31cedf54546f51fe4b02555e0894e11cdfebc7e8",
+    "matches_DataONE_content_addressed_PID": true,
+    "scope": "Metadata object only; not checksums of the three original data archives"
+  }
+}

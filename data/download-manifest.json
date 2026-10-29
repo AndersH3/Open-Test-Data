@@ -1,0 +1,247 @@
+{
+  "retrieved_date": "2026-10-29",
+  "release_tag": "datasets-2026-10-29",
+  "files": [
+    {
+      "path": "datasets/ctest_mip_2024/User Study Data.zip",
+      "bytes": 47462,
+      "sha256": "9027d1cfa96e00bef49268171ae886ecb06103454155f5700106b7c7a9194914",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/ctest_mip_2024/User%20Study%20Data.zip"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/raw/data_en_es.tar.gz",
+      "bytes": 46889834,
+      "sha256": "dac4e97a03e0d35d0b417e4afb8e96a20cdd3bad933bdc590ab4b56c77531393",
+      "storage": "github_release",
+      "release_asset": "data_en_es.tar.gz",
+      "url": "https://github.com/AndersH3/Open-Test-Data/releases/download/datasets-2026-10-29/data_en_es.tar.gz"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/raw/data_es_en.tar.gz",
+      "bytes": 35067817,
+      "sha256": "c53079ed8053f5237225ae1b3713ecb7ecb1d0245369cd60599f17c6a6868243",
+      "storage": "github_release",
+      "release_asset": "data_es_en.tar.gz",
+      "url": "https://github.com/AndersH3/Open-Test-Data/releases/download/datasets-2026-10-29/data_es_en.tar.gz"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/raw/data_fr_en.tar.gz",
+      "bytes": 16134930,
+      "sha256": "f34bb1518d2fbc694d6b142b78b16cb2c755df314e78a1fcb6a86b9987727c31",
+      "storage": "github_release",
+      "release_asset": "data_fr_en.tar.gz",
+      "url": "https://github.com/AndersH3/Open-Test-Data/releases/download/datasets-2026-10-29/data_fr_en.tar.gz"
+    },
+    {
+      "path": "datasets/ecpe-grammar/original/data.ecpe.rda",
+      "bytes": 13659,
+      "sha256": "2eeeffcab7985b10e63cdf906facd7c9b970e64f503bc697e9bf4316bb50ed0c",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/ecpe-grammar/original/data.ecpe.rda"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-Contents.zip",
+      "bytes": 173976,
+      "sha256": "aa910a0436d9dbac0ba232f55e27b37ad8d39da285fcf15f1c1eb5d064be98e7",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/ednet/raw/ednet-Contents.zip"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT1.zip",
+      "bytes": 1201163816,
+      "sha256": "0d13933f90201c5101c7fe8659e44474fa049e3fb93181a8ba6fb3e63267b535",
+      "storage": "github_release",
+      "release_asset": "ednet-KT1.zip",
+      "url": "https://github.com/AndersH3/Open-Test-Data/releases/download/datasets-2026-10-29/ednet-KT1.zip"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT2.zip",
+      "bytes": 555757666,
+      "sha256": "bb5dec5708b6af913d8b99997e1a74699fced4555288862a80925bab3b5abff5",
+      "storage": "github_release",
+      "release_asset": "ednet-KT2.zip",
+      "url": "https://github.com/AndersH3/Open-Test-Data/releases/download/datasets-2026-10-29/ednet-KT2.zip"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT3.zip",
+      "bytes": 762774456,
+      "sha256": "cc7823d9a5a0570c81b2c279178547b27ca5c628209f37648f0707484f8efa78",
+      "storage": "github_release",
+      "release_asset": "ednet-KT3.zip",
+      "url": "https://github.com/AndersH3/Open-Test-Data/releases/download/datasets-2026-10-29/ednet-KT3.zip"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT4.zip",
+      "bytes": 1169540359,
+      "sha256": "ae7b699f64980a2e795e3a7f02b144f32f822ba0a5b925826db98f2ef195fd40",
+      "storage": "github_release",
+      "release_asset": "ednet-KT4.zip",
+      "url": "https://github.com/AndersH3/Open-Test-Data/releases/download/datasets-2026-10-29/ednet-KT4.zip"
+    },
+    {
+      "path": "datasets/eedi-neurips-2020/raw/eedi-2020-response-and-metadata-csvs.zip",
+      "bytes": 615045122,
+      "sha256": "2a956a053c21ce576d99a47f32ebaa43b8e8e04b8e0f3964b77e726ffdf8bb7c",
+      "storage": "github_release",
+      "release_asset": "eedi-2020-response-and-metadata-csvs.zip",
+      "url": "https://github.com/AndersH3/Open-Test-Data/releases/download/datasets-2026-10-29/eedi-2020-response-and-metadata-csvs.zip"
+    },
+    {
+      "path": "datasets/fraction-subtraction/original/fraction.subtraction.data.rda",
+      "bytes": 1953,
+      "sha256": "b6be3376c173d5be7586c14b86b73a357cb6c7bcc08173f6eb788e4969266cc3",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/fraction-subtraction/original/fraction.subtraction.data.rda"
+    },
+    {
+      "path": "datasets/fraction-subtraction/original/fraction.subtraction.qmatrix.rda",
+      "bytes": 408,
+      "sha256": "5b2faf01cd753d78b6bd663ec46ea1dc0f6912e07e0b3dac3f92856a5d5b4ea8",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/fraction-subtraction/original/fraction.subtraction.qmatrix.rda"
+    },
+    {
+      "path": "datasets/ganis-kievit-mental-rotation/original/All-stimuli-JPG-file3191717.zip",
+      "bytes": 30364670,
+      "sha256": "bd64561ec9c9cc57b69780554c825f2b734e105c0fa37f96f0556bb4bfd691b4",
+      "storage": "github_release",
+      "release_asset": "All-stimuli-JPG-file3191717.zip",
+      "url": "https://github.com/AndersH3/Open-Test-Data/releases/download/datasets-2026-10-29/All-stimuli-JPG-file3191717.zip"
+    },
+    {
+      "path": "datasets/ganis-kievit-mental-rotation/original/Behavioural_data-file3702010.zip",
+      "bytes": 1747699,
+      "sha256": "3b56dde3defc36d54c85b671f83ade2f7ded685b326be973583ad115bb994e03",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/ganis-kievit-mental-rotation/original/Behavioural_data-file3702010.zip"
+    },
+    {
+      "path": "datasets/junyi-2020/raw/junyi-2020-original.zip",
+      "bytes": 1615467938,
+      "sha256": "d3272a56b3657d19e94f9c4b3c00b7d6b83694c9e9969237d8903ada86d3e7d9",
+      "storage": "github_release",
+      "release_asset": "junyi-2020-original.zip",
+      "url": "https://github.com/AndersH3/Open-Test-Data/releases/download/datasets-2026-10-29/junyi-2020-original.zip"
+    },
+    {
+      "path": "datasets/mathy-friedman-working-memory/original/dat_all.csv",
+      "bytes": 238445,
+      "sha256": "0d0b9195af8ee4e8fcaa7d966291826f9ec92993299d75b2fca019b1518b0a7c",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/mathy-friedman-working-memory/original/dat_all.csv"
+    },
+    {
+      "path": "datasets/mathy-friedman-working-memory/original/dat_partialcreditunitAGG_Unstacked.csv",
+      "bytes": 31012,
+      "sha256": "e2cd767d5d4a956d2430ba0e39fa2e2f442c577e85b45ce88560abe5e4a8f821",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/mathy-friedman-working-memory/original/dat_partialcreditunitAGG_Unstacked.csv"
+    },
+    {
+      "path": "datasets/merlin/merlin-docs-v1.2.zip",
+      "bytes": 5300101,
+      "sha256": "81d97dc4a090fe30b4625a4c84aae0b999297d9332e4fa00e89888c092897aca",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/merlin/merlin-docs-v1.2.zip"
+    },
+    {
+      "path": "datasets/merlin/merlin-exmaralda-v1.2.zip",
+      "bytes": 18030739,
+      "sha256": "9113f045f28c07420c09e39ae8e3f4cf02ad27f22c57640e7a421cefb4476b8b",
+      "storage": "github_release",
+      "release_asset": "merlin-exmaralda-v1.2.zip",
+      "url": "https://github.com/AndersH3/Open-Test-Data/releases/download/datasets-2026-10-29/merlin-exmaralda-v1.2.zip"
+    },
+    {
+      "path": "datasets/merlin/merlin-metadata-v1.2.zip",
+      "bytes": 602475,
+      "sha256": "1e990c82803a3557677d00a4a3a9eb8cdd7ea721f9dd12f7d1ff3d4def11bf8d",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/merlin/merlin-metadata-v1.2.zip"
+    },
+    {
+      "path": "datasets/merlin/merlin-solr-v1.2.zip",
+      "bytes": 6563942,
+      "sha256": "56dd28d9d913a4a824feb413925f7430e3e35b95291f5882ee8f9db6ce313341",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/merlin/merlin-solr-v1.2.zip"
+    },
+    {
+      "path": "datasets/merlin/merlin-tasks-v1.2.zip",
+      "bytes": 8766318,
+      "sha256": "82073cfd03b0f94e72c4194acc7213607e58f74f408ef80b599b2745f6046eb0",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/merlin/merlin-tasks-v1.2.zip"
+    },
+    {
+      "path": "datasets/merlin/merlin-text-v1.2.zip",
+      "bytes": 12697116,
+      "sha256": "949f1ef6c22e6602c28fc971115fa23c9a575a99c17adf8ca23630b928eb63eb",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/merlin/merlin-text-v1.2.zip"
+    },
+    {
+      "path": "datasets/openneuro-ds004636-objective-tasks/original/objective-task-events.zip",
+      "bytes": 2331899,
+      "sha256": "b3970a91f6c02a808bf17a7fe532e4be53fef0752c630fe50cddaf3c10aeb50f",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/openneuro-ds004636-objective-tasks/original/objective-task-events.zip"
+    },
+    {
+      "path": "datasets/sapa-ability-iqitems/original/ability.rda",
+      "bytes": 13019,
+      "sha256": "64e1c8c8a70662b50faabb7be951fe4df5a61c7c693274e5a010eea305dd8005",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/sapa-ability-iqitems/original/ability.rda"
+    },
+    {
+      "path": "datasets/sapa-ability-iqitems/original/iqitems.rda",
+      "bytes": 9972,
+      "sha256": "97e70070d17ff14064d174bc9156510e4436281532a8bc1cf3f4632d71739162",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/sapa-ability-iqitems/original/iqitems.rda"
+    },
+    {
+      "path": "datasets/semeval2013-task7/semeval-5way.zip",
+      "bytes": 12983203,
+      "sha256": "57c14e5c260d8cfd774f3fb954985d94bcfa3407029bfe585179650b907dbf9b",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/Open-Test-Data/blob/main/datasets/semeval2013-task7/semeval-5way.zip"
+    },
+    {
+      "path": "datasets/sro-performance-tasks/original/Complete_02-16-2019-objective-tasks.zip",
+      "bytes": 56562944,
+      "sha256": "63bea957f44bb7c74f86f406f091be43ddd90bd9fd656b61be7b7486affec5e7",
+      "storage": "github_release",
+      "release_asset": "Complete_02-16-2019-objective-tasks.zip",
+      "url": "https://github.com/AndersH3/Open-Test-Data/releases/download/datasets-2026-10-29/Complete_02-16-2019-objective-tasks.zip"
+    },
+    {
+      "path": "datasets/sro-performance-tasks/original/Retest_02-16-2019-objective-tasks.zip",
+      "bytes": 16481482,
+      "sha256": "bf8c60ad0c28024beda37edbc5862bf75893d48a266b483a055b69a449386955",
+      "storage": "github_release",
+      "release_asset": "Retest_02-16-2019-objective-tasks.zip",
+      "url": "https://github.com/AndersH3/Open-Test-Data/releases/download/datasets-2026-10-29/Retest_02-16-2019-objective-tasks.zip"
+    }
+  ],
+  "total_payload_bytes": 6190804432
+}

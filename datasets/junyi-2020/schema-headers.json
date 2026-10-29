@@ -1,0 +1,23 @@
+{
+  "evidence": "Original ZIP local member headers and decompressed first line; no response rows retained",
+  "files": [
+    {
+      "file": "Info_Content.csv",
+      "compressed_bytes": 73308,
+      "uncompressed_bytes": 389397,
+      "header": "ucid,content_pretty_name,content_kind,difficulty,subject,learning_stage,level1_id,level2_id,level3_id,level4_id"
+    },
+    {
+      "file": "Info_UserData.csv",
+      "compressed_bytes": 3145723,
+      "uncompressed_bytes": 6363597,
+      "header": "uuid,gender,points,badges_cnt,first_login_date_TW,user_grade,user_city,has_teacher_cnt,is_self_coach,has_student_cnt,belongs_to_class_cnt,has_class_cnt"
+    },
+    {
+      "file": "Log_Problem.csv",
+      "compressed_bytes": 1612248441,
+      "uncompressed_bytes": 3020754300,
+      "header": "timestamp_TW,uuid,ucid,upid,problem_number,exercise_problem_repeat_session,is_correct,total_sec_taken,total_attempt_cnt,used_hint_cnt,is_hint_used,is_downgrade,is_upgrade,level"
+    }
+  ]
+}

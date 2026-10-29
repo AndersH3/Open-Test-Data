@@ -1,0 +1,814 @@
+{
+  "research_date": "2026-10-29",
+  "final": true,
+  "scope": "37 previously researched catalogue entries; source-specific performance subsets explicitly identified",
+  "summary": {
+    "mirrored": 15,
+    "excluded": 22
+  },
+  "unique_collection_directories": 14,
+  "decisions": [
+    {
+      "catalogue_id": "sapa-ability-iqitems",
+      "status": "mirrored",
+      "reason": "Affirmative package-wide GPL (>=2) grant, with no contrary data-specific restriction found; exact unmodified source objects and documentation preserved. Only `ability.rda` and `iqitems.rda`: two representations of the same 1,525 people×16 cognitive items, plus their codebooks. The current full ICAR archive and its separate access terms are outside this mirror.",
+      "dataset_dir": "datasets/sapa-ability-iqitems",
+      "license": "GPL-2.0-or-later",
+      "source_urls": [
+        "https://github.com/cran/psychTools/blob/7dc591f8ac11c0ef1764cf853f3065aa60653d09/DESCRIPTION",
+        "https://github.com/cran/psychTools/tree/7dc591f8ac11c0ef1764cf853f3065aa60653d09",
+        "https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Licensing",
+        "https://cran.r-project.org/web/packages/policies.html"
+      ],
+      "payload_files": [
+        "datasets/sapa-ability-iqitems/original/ability.rda",
+        "datasets/sapa-ability-iqitems/original/iqitems.rda"
+      ],
+      "manifest": "datasets/sapa-ability-iqitems/manifest.json",
+      "total_payload_bytes": 22991
+    },
+    {
+      "catalogue_id": "ospp-viqt",
+      "status": "excluded",
+      "reason": "A distinct response-data redistribution grant was not established; public downloading does not establish permission.",
+      "dataset_dir": null,
+      "license": "not specified in inspected index/codebook",
+      "source_urls": [
+        "https://openpsychometrics.org/tests/VIQT/",
+        "https://openpsychometrics.org/_rawdata/VIQT_data.zip"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "ospp-mgkt",
+      "status": "excluded",
+      "reason": "A distinct response-data redistribution grant was not established; public downloading does not establish permission.",
+      "dataset_dir": null,
+      "license": "not specified in inspected index/codebook",
+      "source_urls": [
+        "https://openpsychometrics.org/_rawdata/MGKT_data.zip",
+        "https://openpsychometrics.org/tests/MGKT2/"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "ospp-iq1",
+      "status": "excluded",
+      "reason": "A distinct response-data redistribution grant was not established; public downloading does not establish permission.",
+      "dataset_dir": null,
+      "license": "not specified in inspected index/codebook",
+      "source_urls": [
+        "https://openpsychometrics.org/_rawdata/IQ1.zip",
+        "https://openpsychometrics.org/printable/intelligence-quotient-test.pdf"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "ospp-fsiq-alpha",
+      "status": "excluded",
+      "reason": "A distinct response-data redistribution grant was not established; public downloading does not establish permission.",
+      "dataset_dir": null,
+      "license": "not specified in inspected index/codebook",
+      "source_urls": [
+        "https://openpsychometrics.org/_rawdata/FSIQ_0.1_data.zip",
+        "https://openpsychometrics.org/tests/FSIQ/"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "ospp-ebfmt",
+      "status": "excluded",
+      "reason": "Response-data redistribution license unresolved; copyrighted face photos described as research-use, not general redistribution.",
+      "dataset_dir": null,
+      "license": "distinct response-data licence not established",
+      "source_urls": [
+        "https://openpsychometrics.org/_rawdata/EBFMT.zip",
+        "https://openpsychometrics.org/tests/EBFMT/development/"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "ganis-kievit-mental-rotation",
+      "status": "mirrored",
+      "reason": "Original behavioral ZIP file3702010, full JPG stimulus bank and original codebooks; redundant encodings/older archive omitted explicitly",
+      "dataset_dir": "datasets/ganis-kievit-mental-rotation",
+      "license": "CC-BY-4.0",
+      "source_urls": [
+        "https://doi.org/10.6084/m9.figshare.1045385.v13",
+        "https://api.figshare.com/v2/articles/1045385"
+      ],
+      "payload_files": [
+        "datasets/ganis-kievit-mental-rotation/original/All-stimuli-JPG-file3191717.zip",
+        "datasets/ganis-kievit-mental-rotation/original/Behavioural_data-file3702010.zip"
+      ],
+      "total_payload_bytes": 32112369,
+      "manifest": "datasets/ganis-kievit-mental-rotation/manifest.json",
+      "selection_is_subset": false
+    },
+    {
+      "catalogue_id": "sro-performance-tasks",
+      "status": "mirrored",
+      "reason": "23 objective tasks, complete and retest phases; original per-task gzip members untouched",
+      "dataset_dir": "datasets/sro-performance-tasks",
+      "license": "CC-BY-4.0",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6534563/",
+        "https://github.com/IanEisenberg/Self_Regulation_Ontology/blob/4e6e837fb5aaca87ed5914fd9be251156f43eec9/README.md#license"
+      ],
+      "payload_files": [
+        "datasets/sro-performance-tasks/original/Complete_02-16-2019-objective-tasks.zip",
+        "datasets/sro-performance-tasks/original/Retest_02-16-2019-objective-tasks.zip"
+      ],
+      "total_payload_bytes": 73044426,
+      "manifest": "datasets/sro-performance-tasks/manifest.json",
+      "selection_is_subset": true
+    },
+    {
+      "catalogue_id": "openneuro-ds004636-objective-tasks",
+      "status": "mirrored",
+      "reason": "734 BIDS events.tsv files from seven objective tasks; no MRI, surveys or preference tasks",
+      "dataset_dir": "datasets/openneuro-ds004636-objective-tasks",
+      "license": "CC0-1.0",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11271451/",
+        "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/dataset_description.json"
+      ],
+      "payload_files": [
+        "datasets/openneuro-ds004636-objective-tasks/original/objective-task-events.zip"
+      ],
+      "total_payload_bytes": 2331899,
+      "manifest": "datasets/openneuro-ds004636-objective-tasks/manifest.json",
+      "selection_is_subset": true
+    },
+    {
+      "catalogue_id": "mathy-friedman-working-memory",
+      "status": "mirrored",
+      "reason": "All two deposited version-1 data files, unchanged; author description and project field guide",
+      "dataset_dir": "datasets/mathy-friedman-working-memory",
+      "license": "CC-BY-4.0",
+      "source_urls": [
+        "https://doi.org/10.17632/kfc3jyggs7.1",
+        "https://data.mendeley.com/public-api/datasets/kfc3jyggs7?version=1"
+      ],
+      "payload_files": [
+        "datasets/mathy-friedman-working-memory/original/dat_all.csv",
+        "datasets/mathy-friedman-working-memory/original/dat_partialcreditunitAGG_Unstacked.csv"
+      ],
+      "total_payload_bytes": 269457,
+      "manifest": "datasets/mathy-friedman-working-memory/manifest.json",
+      "selection_is_subset": false
+    },
+    {
+      "catalogue_id": "icar-current-restricted",
+      "status": "excluded",
+      "reason": "Current full archive uses Scientific Use License/academic access conditions and no public redistribution permission was established.",
+      "dataset_dir": null,
+      "license": "full ZIP Sharing Level1 Scientific Use License v1; do not assume open redistribution",
+      "source_urls": [
+        "https://doi.org/10.23668/psycharchives.22167",
+        "https://icar-project.com/",
+        "https://www.psycharchives.org/en/item/7466aa16-69bd-49ea-baef-7f828f5b223f"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "pisa-2025",
+      "status": "excluded",
+      "reason": "PISA public-use terms explicitly prohibit third-party redistribution; an anonymously reachable archive is not an overriding grant.",
+      "dataset_dir": null,
+      "license": "PISA-specific public-use terms; sharing prohibited",
+      "source_urls": [
+        "https://www.oecd.org/en/data/datasets/pisa-2025-database.html",
+        "https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=197663"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "pisa-2022",
+      "status": "excluded",
+      "reason": "PISA public-use terms explicitly prohibit third-party redistribution; an anonymously reachable archive is not an overriding grant.",
+      "dataset_dir": null,
+      "license": "PISA-specific public-use terms; sharing prohibited",
+      "source_urls": [
+        "https://www.oecd.org/en/data/datasets/pisa-2022-database.html",
+        "https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=197663"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "pisa-2018-timing",
+      "status": "excluded",
+      "reason": "PISA public-use terms explicitly prohibit third-party redistribution; an anonymously reachable archive is not an overriding grant.",
+      "dataset_dir": null,
+      "license": "PISA-specific public-use terms; sharing prohibited",
+      "source_urls": [
+        "https://www.oecd.org/en/data/datasets/pisa-2018-database.html",
+        "https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=197663"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "piaac-2023",
+      "status": "excluded",
+      "reason": "PIAAC public-use terms explicitly prohibit distribution or disclosure to third parties.",
+      "dataset_dir": null,
+      "license": "PIAAC-specific public-use terms; sharing prohibited",
+      "source_urls": [
+        "https://www.oecd.org/en/data/datasets/PIAAC-2nd-Cycle-Database.html",
+        "https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=424913"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "piaac-2012-logs",
+      "status": "excluded",
+      "reason": "GESIS/OECD source-specific access conditions do not establish a transferable redistribution licence for the precise log archive.",
+      "dataset_dir": null,
+      "license": "Provider terms; redistribution permission not established",
+      "source_urls": [
+        "https://www.gesis.org/en/data-on-adult-education/daten/piaac-daten-zyklus-1/piaac-international/international-piaac-log-files",
+        "https://www.gesis.org/en/data-on-adult-education/daten/piaac-daten-zyklus-1/piaac-international/international-piaac-log-files"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "timss-2023",
+      "status": "excluded",
+      "reason": "Public download is available, but a blanket response-data redistribution grant was not established. IEA separately controls study instruments and restricted items; software restrictions are not used as a substitute for data-licence evidence.",
+      "dataset_dir": null,
+      "license": "IEA provider agreement; response-data redistribution unresolved",
+      "source_urls": [
+        "https://www.iea.nl/data-tools/repository/timss",
+        "https://www.iea.nl/sites/default/files/2019-05/Disclaimer%20and%20License%20Agreement.pdf"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "pirls-2021",
+      "status": "excluded",
+      "reason": "Public download is available, but a blanket response-data redistribution grant was not established. IEA separately controls study instruments and restricted items; software restrictions are not used as a substitute for data-licence evidence.",
+      "dataset_dir": null,
+      "license": "IEA provider agreement; response-data redistribution unresolved",
+      "source_urls": [
+        "https://www.iea.nl/data-tools/repository/pirls",
+        "https://www.iea.nl/sites/default/files/2019-05/Disclaimer%20and%20License%20Agreement.pdf"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "icils-2023",
+      "status": "excluded",
+      "reason": "Public download is available, but a blanket response-data redistribution grant was not established. IEA separately controls study instruments and restricted items; software restrictions are not used as a substitute for data-licence evidence.",
+      "dataset_dir": null,
+      "license": "IEA provider agreement; response-data redistribution unresolved",
+      "source_urls": [
+        "https://www.iea.nl/data-tools/repository/icils",
+        "https://www.iea.nl/sites/default/files/2019-05/Disclaimer%20and%20License%20Agreement.pdf"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "iccs-2022-cognitive",
+      "status": "excluded",
+      "reason": "Public download is available, but a blanket response-data redistribution grant was not established. IEA separately controls study instruments and restricted items; software restrictions are not used as a substitute for data-licence evidence.",
+      "dataset_dir": null,
+      "license": "IEA provider agreement; response-data redistribution unresolved",
+      "source_urls": [
+        "https://www.iea.nl/data-tools/repository/iccs",
+        "https://www.iea.nl/sites/default/files/2019-05/Disclaimer%20and%20License%20Agreement.pdf"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "fraction-subtraction",
+      "status": "mirrored",
+      "reason": "Affirmative package-wide GPL (>=2) grant, with no contrary data-specific restriction found; exact unmodified source objects and documentation preserved. Only the 536 × 20 binary response matrix and 20 × 8 Q-matrix source objects; no original test-question facsimiles or item artwork.",
+      "dataset_dir": "datasets/fraction-subtraction",
+      "license": "GPL-2.0-or-later",
+      "source_urls": [
+        "https://github.com/alexanderrobitzsch/CDM/blob/9a731f28426367d9c56576035930c7246a902894/DESCRIPTION",
+        "https://github.com/alexanderrobitzsch/CDM/tree/9a731f28426367d9c56576035930c7246a902894",
+        "https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Licensing",
+        "https://cran.r-project.org/web/packages/policies.html"
+      ],
+      "payload_files": [
+        "datasets/fraction-subtraction/original/fraction.subtraction.data.rda",
+        "datasets/fraction-subtraction/original/fraction.subtraction.qmatrix.rda"
+      ],
+      "manifest": "datasets/fraction-subtraction/manifest.json",
+      "total_payload_bytes": 2361
+    },
+    {
+      "catalogue_id": "ecpe-grammar",
+      "status": "mirrored",
+      "reason": "Affirmative package-wide GPL (>=2) grant, with no contrary data-specific restriction found; exact unmodified source objects and documentation preserved. Only `data.ecpe.rda`, containing 2,922 people×28 binary grammar-item scores, participant ID and 28 × 3 Q-matrix; no ECPE test questions, forms or handbook.",
+      "dataset_dir": "datasets/ecpe-grammar",
+      "license": "GPL-2.0-or-later",
+      "source_urls": [
+        "https://github.com/alexanderrobitzsch/CDM/blob/9a731f28426367d9c56576035930c7246a902894/DESCRIPTION",
+        "https://github.com/alexanderrobitzsch/CDM/tree/9a731f28426367d9c56576035930c7246a902894",
+        "https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Licensing",
+        "https://cran.r-project.org/web/packages/policies.html"
+      ],
+      "payload_files": [
+        "datasets/ecpe-grammar/original/data.ecpe.rda"
+      ],
+      "manifest": "datasets/ecpe-grammar/manifest.json",
+      "total_payload_bytes": 13659
+    },
+    {
+      "catalogue_id": "assistments-2009",
+      "status": "excluded",
+      "reason": "Official source says free to use with citation, but an explicit right to redistribute the release files was not established. Public download alone is not treated as permission to mirror.",
+      "dataset_dir": null,
+      "license": "Official parent page states free to use and asks for precise source citation; no standard licence found.",
+      "source_urls": [
+        "https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010",
+        "https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data",
+        "https://sites.google.com/site/assistmentsdata/an-explanation-on-how-to-interpret-our-data-sets"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "assistments-2015",
+      "status": "excluded",
+      "reason": "No release-specific explicit redistribution licence was established from the checked primary source. Kept link-only.",
+      "dataset_dir": null,
+      "license": "No release-specific standard licence found; do not infer an explicit redistribution grant from download availability.",
+      "source_urls": [
+        "https://sites.google.com/site/assistmentsdata/datasets/2015-assistments-skill-builder-data"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "junyi-2020",
+      "status": "mirrored",
+      "reason": "Full original Kaggle bundle acquired unchanged; all three source CSVs included; full ZIP CRC audit passed. Provider licence/terms and source-header field guide preserved.",
+      "dataset_dir": "datasets/junyi-2020",
+      "license": "CC-BY-NC-SA-4.0",
+      "source_urls": [
+        "https://www.kaggle.com/datasets/junyiacademy/learning-activity-public-dataset-by-junyi-academy",
+        "https://www.kaggle.com/api/v1/datasets/view/junyiacademy/learning-activity-public-dataset-by-junyi-academy"
+      ],
+      "payload_files": [
+        "datasets/junyi-2020/raw/junyi-2020-original.zip"
+      ],
+      "files": [
+        {
+          "path": "datasets/junyi-2020/CODEBOOK.md",
+          "bytes": 3503,
+          "sha256": "421214e5bd6a54384e89a83ee4160d3eb95be9dea6af2821ebcb13e6477e3903"
+        },
+        {
+          "path": "datasets/junyi-2020/SOURCE.md",
+          "bytes": 2332,
+          "sha256": "a0b86363031c1c9151e0d64345b9d1849a48e8498614943be99fb0b3e732a598"
+        },
+        {
+          "path": "datasets/junyi-2020/UPSTREAM_TERMS.md",
+          "bytes": 3997,
+          "sha256": "653ff154e10f215abf96d4277787dd04fb827966841c0abf69a2d556eda73558"
+        },
+        {
+          "path": "datasets/junyi-2020/LICENSE.txt",
+          "bytes": 19018,
+          "sha256": "600ca4e25fe11762b75a97e714707fab48bb778374e92d24c6ca068791661c11"
+        },
+        {
+          "path": "datasets/junyi-2020/schema-headers.json",
+          "bytes": 981,
+          "sha256": "9ff8c0120cbf160d3739da4dce9aa591d310f024d129c9dfb945164d5f283359"
+        },
+        {
+          "path": "datasets/junyi-2020/raw/junyi-2020-original.zip",
+          "bytes": 1615467938,
+          "sha256": "d3272a56b3657d19e94f9c4b3c00b7d6b83694c9e9969237d8903ada86d3e7d9"
+        },
+        {
+          "path": "datasets/junyi-2020/raw/junyi-2020-original.zip.source.json",
+          "bytes": 970,
+          "sha256": "d637e992fd2c588a74b00343dad009f979dbe0e2546991986556e09c93f84968"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "ednet",
+      "status": "mirrored",
+      "reason": "Full original KT1-KT4 and Contents archives copied without byte changes; every ZIP member CRC verified. Author README/codebook and CC BY-NC4 licence preserved. KT1 final SHA-256 matches the pinned mirror LFS; fixed byte windows match the official source. Canonical Riiid CC BY-NC4 retained.",
+      "dataset_dir": "datasets/ednet",
+      "license": "CC-BY-NC-4.0",
+      "source_urls": [
+        "https://github.com/riiid/ednet",
+        "https://arxiv.org/abs/1912.03072",
+        "https://huggingface.co/datasets/Lucy9999/EdNet-KT1/resolve/790cff06b7c112c4ec072217257de5dd4ec1e77a/EdNet-KT1.zip"
+      ],
+      "payload_files": [
+        "datasets/ednet/raw/ednet-KT1.zip",
+        "datasets/ednet/raw/ednet-KT2.zip",
+        "datasets/ednet/raw/ednet-KT3.zip",
+        "datasets/ednet/raw/ednet-KT4.zip",
+        "datasets/ednet/raw/ednet-Contents.zip"
+      ],
+      "files": [
+        {
+          "path": "datasets/ednet/archive-schemas.json",
+          "bytes": 969,
+          "sha256": "40775e6e062dbc5c6f5371c51c9f7defba3c1d95eb891832ebf53428671f0dd8"
+        },
+        {
+          "path": "datasets/ednet/CODEBOOK.md",
+          "bytes": 2607,
+          "sha256": "73fa5884ceccdaa2046a85e73fc46a38d581242a9482eae090c8c69e53c3ee89"
+        },
+        {
+          "path": "datasets/ednet/SOURCE.md",
+          "bytes": 2772,
+          "sha256": "3a296467751952686d8e0299f81372c2256fc2e9afcae21a56b8421ec0ab589e"
+        },
+        {
+          "path": "datasets/ednet/mirror-verification.json",
+          "bytes": 1903,
+          "sha256": "4d01f6b16146e20de78736796845a1ec5e7a097b23c2915f06cabcf409f440c8"
+        },
+        {
+          "path": "datasets/ednet/LICENSE.txt",
+          "bytes": 17649,
+          "sha256": "cc97a2c4ff7723a1f25179dc7c18f676fa84191bbb36ea7d0061acaf3c102559"
+        },
+        {
+          "path": "datasets/ednet/UPSTREAM_README.md",
+          "bytes": 24298,
+          "sha256": "4230e5fbcc5bda373f315d9cbb4a9eb55e9088225fd1aa5d91b3f628359f923b"
+        },
+        {
+          "path": "datasets/ednet/contents-schema.json",
+          "bytes": 699,
+          "sha256": "5ad6c7fdc7588267f4fb60a8a643f50c473ceb17de12c4a5cb4335bb28cb6665"
+        },
+        {
+          "path": "datasets/ednet/raw/ednet-KT3.zip",
+          "bytes": 762774456,
+          "sha256": "cc7823d9a5a0570c81b2c279178547b27ca5c628209f37648f0707484f8efa78"
+        },
+        {
+          "path": "datasets/ednet/raw/ednet-KT1.zip.source.json",
+          "bytes": 823,
+          "sha256": "a8656201fe43ecedf38958411beb3fe9f9857fa620015ee14709952a2634e6d9"
+        },
+        {
+          "path": "datasets/ednet/raw/ednet-KT1.zip",
+          "bytes": 1201163816,
+          "sha256": "0d13933f90201c5101c7fe8659e44474fa049e3fb93181a8ba6fb3e63267b535"
+        },
+        {
+          "path": "datasets/ednet/raw/ednet-KT2.zip.source.json",
+          "bytes": 787,
+          "sha256": "ea2d6dc8bb09a2209b64449083d33a09361f1997be3f7a703b7960c1ea866755"
+        },
+        {
+          "path": "datasets/ednet/raw/ednet-KT2.zip",
+          "bytes": 555757666,
+          "sha256": "bb5dec5708b6af913d8b99997e1a74699fced4555288862a80925bab3b5abff5"
+        },
+        {
+          "path": "datasets/ednet/raw/ednet-KT3.zip.source.json",
+          "bytes": 787,
+          "sha256": "e72ebc80584adf15ffce34c42b35eca7fc039f23b76cb720de3aa1b80b84ea4a"
+        },
+        {
+          "path": "datasets/ednet/raw/ednet-KT4.zip.source.json",
+          "bytes": 830,
+          "sha256": "1af2089f710ad7fccf2bded47dfcb382dd5b73f48236bb17ff5c265dcfcbfcc2"
+        },
+        {
+          "path": "datasets/ednet/raw/ednet-Contents.zip",
+          "bytes": 173976,
+          "sha256": "aa910a0436d9dbac0ba232f55e27b37ad8d39da285fcf15f1c1eb5d064be98e7"
+        },
+        {
+          "path": "datasets/ednet/raw/ednet-Contents.zip.source.json",
+          "bytes": 806,
+          "sha256": "957cc90f74a68ecd1fe35fafe049e8e6b1db011533463e89fc7600d1ddb0df1a"
+        },
+        {
+          "path": "datasets/ednet/raw/ednet-KT4.zip",
+          "bytes": 1169540359,
+          "sha256": "ae7b699f64980a2e795e3a7f02b144f32f822ba0a5b925826db98f2ef195fd40"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "eedi-neurips-2020",
+      "status": "mirrored",
+      "reason": "All18originalresponse/metadata/challenge CSVtables acquired with exact original bytes and source CRC32 verified. Lossless collection packaging only; all images and macOS resource forks omitted under provider conditions.",
+      "dataset_dir": "datasets/eedi-neurips-2020",
+      "license": "CC-BY-NC-ND-4.0",
+      "source_urls": [
+        "https://www.eedischool.com/projects/neurips-education-challenge",
+        "https://dqanonymousdata.blob.core.windows.net/neurips-public/data.zip",
+        "https://arxiv.org/html/2007.12061v3"
+      ],
+      "payload_files": [
+        "datasets/eedi-neurips-2020/raw/eedi-2020-response-and-metadata-csvs.zip"
+      ],
+      "files": [
+        {
+          "path": "datasets/eedi-neurips-2020/CODEBOOK.md",
+          "bytes": 2751,
+          "sha256": "b8340ae4615ac29c51dad17e7be78529f7b603f0dbf067ecacd19e041248f0da"
+        },
+        {
+          "path": "datasets/eedi-neurips-2020/SOURCE.md",
+          "bytes": 2625,
+          "sha256": "a1ba7db4c3a848440f1b7805227a38692208591e0f6f0160c8a1d0909d958293"
+        },
+        {
+          "path": "datasets/eedi-neurips-2020/extraction-manifest.json",
+          "bytes": 6753,
+          "sha256": "4d9cebd1318cd21a247db80f463916581401666991845b708685ed18aad99a87"
+        },
+        {
+          "path": "datasets/eedi-neurips-2020/LICENSE.txt",
+          "bytes": 17452,
+          "sha256": "4f3c4a321eb0c73182eee7afa3fe0111e24dec193f2d6febcf4207f26af26839"
+        },
+        {
+          "path": "datasets/eedi-neurips-2020/upstream-archive-inventory.json",
+          "bytes": 364157,
+          "sha256": "28a8a005079df41fa75d6d62b7bc3f1bff61a179df5afcf2908ee4eddd211500"
+        },
+        {
+          "path": "datasets/eedi-neurips-2020/schema-headers.json",
+          "bytes": 2928,
+          "sha256": "1469d097d0e4f1a2806695f3f324bed646796ca5c9e6d6522fbbcbf769363933"
+        },
+        {
+          "path": "datasets/eedi-neurips-2020/raw/eedi-2020-response-and-metadata-csvs.zip",
+          "bytes": 615045122,
+          "sha256": "2a956a053c21ce576d99a47f32ebaa43b8e8e04b8e0f3964b77e726ffdf8bb7c"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "duolingo-slam-2018",
+      "status": "mirrored",
+      "reason": "All three version4 course archives acquired unchanged from named mirror, with original Duolingo LICENSE.md/CITING.md/CHANGELOG.md. Exact source-deposited sizes match; original-deposit hashes not exposed. Complete gzip CRC audit passed.",
+      "dataset_dir": "datasets/duolingo-slam-2018",
+      "license": "CC-BY-NC-4.0",
+      "source_urls": [
+        "https://doi.org/10.7910/DVN/8SWHNO",
+        "https://sharedtask.duolingo.com/2018.html",
+        "https://api.datacite.org/dois/10.7910/DVN/8SWHNO",
+        "https://github.com/xinhez/11785-project/tree/master/data"
+      ],
+      "payload_files": [
+        "datasets/duolingo-slam-2018/raw/data_en_es.tar.gz",
+        "datasets/duolingo-slam-2018/raw/data_es_en.tar.gz",
+        "datasets/duolingo-slam-2018/raw/data_fr_en.tar.gz"
+      ],
+      "files": [
+        {
+          "path": "datasets/duolingo-slam-2018/CODEBOOK.md",
+          "bytes": 2171,
+          "sha256": "8313574c64c985ecf15fbb2c3458b2bcbf1b6406e07dc1ac15a5ffff4246c0cb"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/SOURCE.md",
+          "bytes": 3203,
+          "sha256": "9b35e0e2e33c83298b825f26702f2bf877c844dbbea42598c040412601fdb3b2"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/LICENSE.md",
+          "bytes": 17932,
+          "sha256": "9397609dbece8d487b8a2b4f81c357fe9356cbda5a9e6683d035dd4659c182d1"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/mirror-verification.json",
+          "bytes": 5204,
+          "sha256": "83c5d2ede95af568e3e3f897d1965816e61ebd74185ffa9f4eb9523c9631b49b"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/corpus-counts.json",
+          "bytes": 3690,
+          "sha256": "81b830f34701a1d4f86e6412608f293fb717ff28a3587e1d7f62a7f88e3c6a15"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/upstream-version4-metadata.json",
+          "bytes": 3551,
+          "sha256": "c99e7d3e18a8ee138442180c31cedf54546f51fe4b02555e0894e11cdfebc7e8"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/raw/data_fr_en.tar.gz",
+          "bytes": 16134930,
+          "sha256": "f34bb1518d2fbc694d6b142b78b16cb2c755df314e78a1fcb6a86b9987727c31"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/raw/data_en_es.tar.gz.source.json",
+          "bytes": 502,
+          "sha256": "54503b0592883956b3c92862e7b9db78de3ddf27e9c484f808ef70f8280ba8c9"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/raw/data_en_es.tar.gz",
+          "bytes": 46889834,
+          "sha256": "dac4e97a03e0d35d0b417e4afb8e96a20cdd3bad933bdc590ab4b56c77531393"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/raw/data_es_en.tar.gz",
+          "bytes": 35067817,
+          "sha256": "c53079ed8053f5237225ae1b3713ecb7ecb1d0245369cd60599f17c6a6868243"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/upstream-documentation/data_es_en/LICENSE.md",
+          "bytes": 17932,
+          "sha256": "9397609dbece8d487b8a2b4f81c357fe9356cbda5a9e6683d035dd4659c182d1"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/upstream-documentation/data_es_en/CITING.md",
+          "bytes": 809,
+          "sha256": "6bb792421a2e8f297cb3a40bf94bc4951fe483141ef69db6568f0bf7232861f1"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/upstream-documentation/data_es_en/CHANGELOG.md",
+          "bytes": 1981,
+          "sha256": "2501eb1b49a2dffbbfc5024859bbb3afabe220a8da87182ef5f0cf8c416abb81"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/upstream-documentation/data_fr_en/LICENSE.md",
+          "bytes": 17932,
+          "sha256": "9397609dbece8d487b8a2b4f81c357fe9356cbda5a9e6683d035dd4659c182d1"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/upstream-documentation/data_fr_en/CITING.md",
+          "bytes": 809,
+          "sha256": "6bb792421a2e8f297cb3a40bf94bc4951fe483141ef69db6568f0bf7232861f1"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/upstream-documentation/data_fr_en/CHANGELOG.md",
+          "bytes": 1981,
+          "sha256": "2501eb1b49a2dffbbfc5024859bbb3afabe220a8da87182ef5f0cf8c416abb81"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/upstream-documentation/data_en_es/LICENSE.md",
+          "bytes": 17932,
+          "sha256": "9397609dbece8d487b8a2b4f81c357fe9356cbda5a9e6683d035dd4659c182d1"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/upstream-documentation/data_en_es/CITING.md",
+          "bytes": 809,
+          "sha256": "6bb792421a2e8f297cb3a40bf94bc4951fe483141ef69db6568f0bf7232861f1"
+        },
+        {
+          "path": "datasets/duolingo-slam-2018/upstream-documentation/data_en_es/CHANGELOG.md",
+          "bytes": 1981,
+          "sha256": "2501eb1b49a2dffbbfc5024859bbb3afabe220a8da87182ef5f0cf8c416abb81"
+        }
+      ],
+      "verified_counts_file": "datasets/duolingo-slam-2018/corpus-counts.json"
+    },
+    {
+      "catalogue_id": "kdd-cup-2010-algebra",
+      "status": "excluded",
+      "reason": "Public competition download and rules did not establish an explicit reusable-data redistribution grant. No mirrored payload without clearer permission.",
+      "dataset_dir": null,
+      "license": "No explicit standard reusable-data licence found; competition availability is not an unrestricted redistribution grant.",
+      "source_urls": [
+        "https://kdd.org/kdd-cup/view/kdd-cup-2010-student-performance-evaluation/Data",
+        "https://kdd.org/cupfiles/",
+        "https://kdd.org/kdd-cup/view/kdd-cup-2010-student-performance-evaluation/Rules"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "dbe-kt22",
+      "status": "excluded",
+      "reason": "Custom dataset terms could not be fully inspected; paper CC BY4 does not establish dataset rights. Source payload access also returns anti-bot403. Kept link-only because redistribution permission remains unresolved.",
+      "dataset_dir": null,
+      "license": "DataCite registers custom dataset terms, including required citation/acknowledgement; full custom licence could not be inspected. Do not apply the paper CC BY 4.0 licence to the dataset.",
+      "source_urls": [
+        "https://arxiv.org/html/2208.12651v3",
+        "https://api.datacite.org/dois/10.26193/6DZWOH",
+        "https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/6DZWOH"
+      ],
+      "payload_files": []
+    },
+    {
+      "status": "mirrored",
+      "reason": "Explicit primary redistribution license verified; unmodified source payload, full license, attribution/source links, checksums and codebooks retained.",
+      "catalogue_id": "merlin",
+      "dataset_dir": "datasets/merlin",
+      "license": "CC-BY-SA-4.0",
+      "source_urls": [
+        "https://www.merlin-platform.eu/",
+        "https://hdl.handle.net/20.500.12124/59",
+        "https://clarin.eurac.edu/repository/rest/items/44?expand=all"
+      ],
+      "payload_files": [
+        "datasets/merlin/merlin-docs-v1.2.zip",
+        "datasets/merlin/merlin-exmaralda-v1.2.zip",
+        "datasets/merlin/merlin-metadata-v1.2.zip",
+        "datasets/merlin/merlin-solr-v1.2.zip",
+        "datasets/merlin/merlin-tasks-v1.2.zip",
+        "datasets/merlin/merlin-text-v1.2.zip"
+      ],
+      "notes": "Version1.2 actual metadata2287rows/362columns; earlier website2286. PAULA+relANNIS omitted as optional duplicate NLP encodings; all observed skill texts, ratings/tasks/manual annotations retained.",
+      "verified_counts": {
+        "metadata_rows": 2287,
+        "metadata_columns": 362,
+        "distinct_author_ids": 2287,
+        "Czech": 441,
+        "German": 1033,
+        "Italian": 813
+      }
+    },
+    {
+      "catalogue_id": "clc_fce_1_1",
+      "status": "excluded",
+      "reason": "Provider-specific noncommercial research/education license expressly prohibits redistributing corpus files, including via GitHub. No registration/agreement was submitted.",
+      "dataset_dir": null,
+      "license": "Custom Cambridge noncommercial research/education license; no redistribution",
+      "source_urls": [
+        "https://researchdatasets.cambridge.org/datasets/clc-fce-dataset"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "speak_improve_2025",
+      "status": "excluded",
+      "reason": "Provider-specific noncommercial research/education license expressly prohibits redistributing corpus files, including via GitHub. No registration/agreement was submitted.",
+      "dataset_dir": null,
+      "license": "Custom Cambridge noncommercial research/education license; no redistribution",
+      "source_urls": [
+        "https://researchdatasets.cambridge.org/datasets/speak-and-improve-corpus-2025"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "write_improve_2024",
+      "status": "excluded",
+      "reason": "Provider-specific noncommercial research/education license expressly prohibits redistributing corpus files, including via GitHub. No registration/agreement was submitted.",
+      "dataset_dir": null,
+      "license": "Custom Cambridge noncommercial research/education license; no redistribution",
+      "source_urls": [
+        "https://researchdatasets.cambridge.org/datasets/write-and-improve-corpus-2024"
+      ],
+      "payload_files": []
+    },
+    {
+      "status": "mirrored",
+      "reason": "Explicit primary redistribution license verified; unmodified source payload, full license, attribution/source links, checksums and codebooks retained.",
+      "catalogue_id": "ctest_mip_2024",
+      "dataset_dir": "datasets/ctest_mip_2024",
+      "license": "CC-BY-4.0",
+      "source_urls": [
+        "https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/4205",
+        "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658",
+        "https://github.com/UKPLab/arxiv2024-constrained-ctest-generation"
+      ],
+      "payload_files": [
+        "datasets/ctest_mip_2024/User Study Data.zip"
+      ],
+      "notes": "Human user-study archive only; contains ancillary questionnaires/selfratings separated from skill measures. Separate GPT4 outputs, variability/model/software archives omitted. Whole-form duration string retained; no per-gap latency.",
+      "verified_counts": {
+        "users": 40,
+        "forms": 32,
+        "attempts": 160,
+        "gaps_per_attempt": 20,
+        "observed_gap_responses": 3200
+      }
+    },
+    {
+      "status": "mirrored",
+      "reason": "Explicit primary redistribution license verified; unmodified source payload, full license, attribution/source links, checksums and codebooks retained.",
+      "catalogue_id": "semeval2013_beetle",
+      "dataset_dir": "datasets/semeval2013-task7",
+      "license": "CC-BY-SA-3.0",
+      "source_urls": [
+        "https://github.com/myrosia/semeval-2013-task7",
+        "https://github.com/myrosia/semeval-2013-task7/blob/main/LICENSE",
+        "https://aclanthology.org/S13-2045/"
+      ],
+      "payload_files": [
+        "datasets/semeval2013-task7/semeval-5way.zip"
+      ],
+      "notes": "Shared original five-way archive mirrors both corpora once; overlapping Core/Extra and reliability material retained unchanged. Project codebook links original task specification."
+    },
+    {
+      "status": "mirrored",
+      "reason": "Explicit primary redistribution license verified; unmodified source payload, full license, attribution/source links, checksums and codebooks retained.",
+      "catalogue_id": "semeval2013_scientsbank",
+      "dataset_dir": "datasets/semeval2013-task7",
+      "license": "CC-BY-SA-3.0",
+      "source_urls": [
+        "https://github.com/myrosia/semeval-2013-task7",
+        "https://github.com/myrosia/semeval-2013-task7/blob/main/LICENSE",
+        "https://aclanthology.org/S13-2045/"
+      ],
+      "payload_files": [
+        "datasets/semeval2013-task7/semeval-5way.zip"
+      ],
+      "notes": "Shared original five-way archive mirrors both corpora once; overlapping Core/Extra and reliability material retained unchanged. Project codebook links original task specification."
+    }
+  ],
+  "redistribution_policy": "Accept explicit source grants, including formal package-wide licences covering packaged response objects with no contrary data notices. A public download or paper licence alone is not a data grant; packaged data rights do not authorize separate proprietary test stimuli. Third-party licences remain separate from repository AGPL.",
+  "release_tag": "datasets-2026-10-29"
+}

@@ -1,0 +1,97 @@
+{
+  "catalogue_id": "ednet",
+  "retrieval_date": "2026-10-29",
+  "license": "CC-BY-NC-4.0",
+  "files": [
+    {
+      "path": "datasets/ednet/archive-schemas.json",
+      "bytes": 969,
+      "sha256": "40775e6e062dbc5c6f5371c51c9f7defba3c1d95eb891832ebf53428671f0dd8"
+    },
+    {
+      "path": "datasets/ednet/CODEBOOK.md",
+      "bytes": 2607,
+      "sha256": "73fa5884ceccdaa2046a85e73fc46a38d581242a9482eae090c8c69e53c3ee89"
+    },
+    {
+      "path": "datasets/ednet/SOURCE.md",
+      "bytes": 2772,
+      "sha256": "3a296467751952686d8e0299f81372c2256fc2e9afcae21a56b8421ec0ab589e"
+    },
+    {
+      "path": "datasets/ednet/mirror-verification.json",
+      "bytes": 1903,
+      "sha256": "4d01f6b16146e20de78736796845a1ec5e7a097b23c2915f06cabcf409f440c8"
+    },
+    {
+      "path": "datasets/ednet/LICENSE.txt",
+      "bytes": 17649,
+      "sha256": "cc97a2c4ff7723a1f25179dc7c18f676fa84191bbb36ea7d0061acaf3c102559"
+    },
+    {
+      "path": "datasets/ednet/UPSTREAM_README.md",
+      "bytes": 24298,
+      "sha256": "4230e5fbcc5bda373f315d9cbb4a9eb55e9088225fd1aa5d91b3f628359f923b"
+    },
+    {
+      "path": "datasets/ednet/archive-verification.json",
+      "bytes": 4510,
+      "sha256": "f8a2ecb3626651b52ccbf77e4c7eab999c5834fdb408357028742be9b3d7395c"
+    },
+    {
+      "path": "datasets/ednet/contents-schema.json",
+      "bytes": 699,
+      "sha256": "5ad6c7fdc7588267f4fb60a8a643f50c473ceb17de12c4a5cb4335bb28cb6665"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT3.zip",
+      "bytes": 762774456,
+      "sha256": "cc7823d9a5a0570c81b2c279178547b27ca5c628209f37648f0707484f8efa78"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT1.zip.source.json",
+      "bytes": 823,
+      "sha256": "a8656201fe43ecedf38958411beb3fe9f9857fa620015ee14709952a2634e6d9"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT1.zip",
+      "bytes": 1201163816,
+      "sha256": "0d13933f90201c5101c7fe8659e44474fa049e3fb93181a8ba6fb3e63267b535"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT2.zip.source.json",
+      "bytes": 787,
+      "sha256": "ea2d6dc8bb09a2209b64449083d33a09361f1997be3f7a703b7960c1ea866755"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT2.zip",
+      "bytes": 555757666,
+      "sha256": "bb5dec5708b6af913d8b99997e1a74699fced4555288862a80925bab3b5abff5"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT3.zip.source.json",
+      "bytes": 787,
+      "sha256": "e72ebc80584adf15ffce34c42b35eca7fc039f23b76cb720de3aa1b80b84ea4a"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT4.zip.source.json",
+      "bytes": 830,
+      "sha256": "1af2089f710ad7fccf2bded47dfcb382dd5b73f48236bb17ff5c265dcfcbfcc2"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-Contents.zip",
+      "bytes": 173976,
+      "sha256": "aa910a0436d9dbac0ba232f55e27b37ad8d39da285fcf15f1c1eb5d064be98e7"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-Contents.zip.source.json",
+      "bytes": 806,
+      "sha256": "957cc90f74a68ecd1fe35fafe049e8e6b1db011533463e89fc7600d1ddb0df1a"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT4.zip",
+      "bytes": 1169540359,
+      "sha256": "ae7b699f64980a2e795e3a7f02b144f32f822ba0a5b925826db98f2ef195fd40"
+    }
+  ]
+}

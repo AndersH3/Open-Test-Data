@@ -1,0 +1,4 @@
+Original author license statement, excerpt from README section License.
+Source: https://github.com/IanEisenberg/Self_Regulation_Ontology/blob/4e6e837fb5aaca87ed5914fd9be251156f43eec9/README.md#license
+
+The data in this repository are made available under the [Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. You are free to share and adapt the data for any purpose, provided you give appropriate credit.

@@ -1,0 +1,67 @@
+{
+  "catalogue_id": "ecpe-grammar",
+  "status": "mirrored",
+  "license": "GPL-2.0-or-later",
+  "source_package": "CDM",
+  "source_package_version": "8.4-9",
+  "source_commit": "9a731f28426367d9c56576035930c7246a902894",
+  "license_evidence": "https://raw.githubusercontent.com/alexanderrobitzsch/CDM/9a731f28426367d9c56576035930c7246a902894/DESCRIPTION",
+  "scope": "Only `data.ecpe.rda`, containing2,922 people\u00d728 binary grammar-item scores, participant ID and28\u00d73 Q-matrix; no ECPE test questions, forms or handbook.",
+  "files": [
+    {
+      "path": "upstream-DESCRIPTION",
+      "source_path": "DESCRIPTION",
+      "source_url": "https://raw.githubusercontent.com/alexanderrobitzsch/CDM/9a731f28426367d9c56576035930c7246a902894/DESCRIPTION",
+      "retrieved_date": "2026-10-29",
+      "bytes": 2394,
+      "sha256": "3cc23eb49273e463ec5ae93c0a0c7f166884af049dce090d6981a141363196cf",
+      "upstream_git_blob_sha": "1347e0cbd81307b0de598a6e55a65a698cdaf741",
+      "role": "original package description/license declaration"
+    },
+    {
+      "path": "original/data.ecpe.rda",
+      "source_path": "data/data.ecpe.rda",
+      "source_url": "https://raw.githubusercontent.com/alexanderrobitzsch/CDM/9a731f28426367d9c56576035930c7246a902894/data/data.ecpe.rda",
+      "retrieved_date": "2026-10-29",
+      "bytes": 13659,
+      "sha256": "2eeeffcab7985b10e63cdf906facd7c9b970e64f503bc697e9bf4316bb50ed0c",
+      "upstream_git_blob_sha": "b0e23cc5760d4f6fe81af47aff936af044234370",
+      "role": "original packaged response/Q-matrix source object"
+    },
+    {
+      "path": "codebooks/data.ecpe.Rd",
+      "source_path": "man/data.ecpe.Rd",
+      "source_url": "https://raw.githubusercontent.com/alexanderrobitzsch/CDM/9a731f28426367d9c56576035930c7246a902894/man/data.ecpe.Rd",
+      "retrieved_date": "2026-10-29",
+      "bytes": 4251,
+      "sha256": "8bc102267b72b6028f2ac183c57f4c086b9afc2176ab8c9bd1f045f7c87bbb43",
+      "upstream_git_blob_sha": "d538e1a33750a9cd2c9179fbd6d14fade6a38534",
+      "role": "original author Rd codebook"
+    },
+    {
+      "path": "SOURCE.md",
+      "source_url": null,
+      "retrieved_date": "2026-10-29",
+      "bytes": 4399,
+      "sha256": "bd77a0e2eda3fdf64e62ad56a97ad6136f8de34dd6e4e7ccaf2da5d92f884156",
+      "role": "project-generated provenance/reading example"
+    },
+    {
+      "path": "read-data.R",
+      "source_url": null,
+      "retrieved_date": "2026-10-29",
+      "bytes": 194,
+      "sha256": "2291ecd7a204adee1af22e05ece906f38076b35271b4680022a980fa7867b1aa",
+      "role": "project-generated provenance/reading example"
+    },
+    {
+      "path": "LICENSE.GPL-2.0-or-later.txt",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/GPL-2.0-or-later.txt",
+      "retrieved_date": "2026-10-29",
+      "bytes": 17337,
+      "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3",
+      "role": "full license text"
+    }
+  ],
+  "native_R_verification": "ability.rda : ability,ability.keys \n  ability dims=1525x16 class=matrix,array\n  ability.keys$ICAR16 dims=\n  ability.keys$reasoning dims=\n  ability.keys$letters dims=\n  ability.keys$matrix dims=\n  ability.keys$rotate dims=\niqitems.rda : iqitems \n  iqitems dims=1525x16 class=data.frame\nfraction.subtraction.data.rda : fraction.subtraction.data \n  fraction.subtraction.data dims=536x20 class=data.frame\nfraction.subtraction.qmatrix.rda : fraction.subtraction.qmatrix \n  fraction.subtraction.qmatrix dims=20x8 class=data.frame\ndata.ecpe.rda : data.ecpe \n  data.ecpe$data dims=2922x29\n  data.ecpe$q.matrix dims=28x3\n"
+}

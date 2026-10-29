@@ -1,0 +1,102 @@
+{
+  "catalogue_id": "duolingo-slam-2018",
+  "retrieval_date": "2026-10-29",
+  "license": "CC-BY-NC-4.0",
+  "files": [
+    {
+      "path": "datasets/duolingo-slam-2018/CODEBOOK.md",
+      "bytes": 2171,
+      "sha256": "8313574c64c985ecf15fbb2c3458b2bcbf1b6406e07dc1ac15a5ffff4246c0cb"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/SOURCE.md",
+      "bytes": 3203,
+      "sha256": "9b35e0e2e33c83298b825f26702f2bf877c844dbbea42598c040412601fdb3b2"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/LICENSE.md",
+      "bytes": 17932,
+      "sha256": "9397609dbece8d487b8a2b4f81c357fe9356cbda5a9e6683d035dd4659c182d1"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/mirror-verification.json",
+      "bytes": 5204,
+      "sha256": "83c5d2ede95af568e3e3f897d1965816e61ebd74185ffa9f4eb9523c9631b49b"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/corpus-counts.json",
+      "bytes": 3690,
+      "sha256": "81b830f34701a1d4f86e6412608f293fb717ff28a3587e1d7f62a7f88e3c6a15"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/upstream-version4-metadata.json",
+      "bytes": 3551,
+      "sha256": "c99e7d3e18a8ee138442180c31cedf54546f51fe4b02555e0894e11cdfebc7e8"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/raw/data_fr_en.tar.gz",
+      "bytes": 16134930,
+      "sha256": "f34bb1518d2fbc694d6b142b78b16cb2c755df314e78a1fcb6a86b9987727c31"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/raw/data_en_es.tar.gz.source.json",
+      "bytes": 502,
+      "sha256": "54503b0592883956b3c92862e7b9db78de3ddf27e9c484f808ef70f8280ba8c9"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/raw/data_en_es.tar.gz",
+      "bytes": 46889834,
+      "sha256": "dac4e97a03e0d35d0b417e4afb8e96a20cdd3bad933bdc590ab4b56c77531393"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/raw/data_es_en.tar.gz",
+      "bytes": 35067817,
+      "sha256": "c53079ed8053f5237225ae1b3713ecb7ecb1d0245369cd60599f17c6a6868243"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/upstream-documentation/data_es_en/LICENSE.md",
+      "bytes": 17932,
+      "sha256": "9397609dbece8d487b8a2b4f81c357fe9356cbda5a9e6683d035dd4659c182d1"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/upstream-documentation/data_es_en/CITING.md",
+      "bytes": 809,
+      "sha256": "6bb792421a2e8f297cb3a40bf94bc4951fe483141ef69db6568f0bf7232861f1"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/upstream-documentation/data_es_en/CHANGELOG.md",
+      "bytes": 1981,
+      "sha256": "2501eb1b49a2dffbbfc5024859bbb3afabe220a8da87182ef5f0cf8c416abb81"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/upstream-documentation/data_fr_en/LICENSE.md",
+      "bytes": 17932,
+      "sha256": "9397609dbece8d487b8a2b4f81c357fe9356cbda5a9e6683d035dd4659c182d1"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/upstream-documentation/data_fr_en/CITING.md",
+      "bytes": 809,
+      "sha256": "6bb792421a2e8f297cb3a40bf94bc4951fe483141ef69db6568f0bf7232861f1"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/upstream-documentation/data_fr_en/CHANGELOG.md",
+      "bytes": 1981,
+      "sha256": "2501eb1b49a2dffbbfc5024859bbb3afabe220a8da87182ef5f0cf8c416abb81"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/upstream-documentation/data_en_es/LICENSE.md",
+      "bytes": 17932,
+      "sha256": "9397609dbece8d487b8a2b4f81c357fe9356cbda5a9e6683d035dd4659c182d1"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/upstream-documentation/data_en_es/CITING.md",
+      "bytes": 809,
+      "sha256": "6bb792421a2e8f297cb3a40bf94bc4951fe483141ef69db6568f0bf7232861f1"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/upstream-documentation/data_en_es/CHANGELOG.md",
+      "bytes": 1981,
+      "sha256": "2501eb1b49a2dffbbfc5024859bbb3afabe220a8da87182ef5f0cf8c416abb81"
+    }
+  ]
+}

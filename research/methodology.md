@@ -60,7 +60,7 @@ These steps are proposed analysis guidance; no scoring experiment or psychometri
 
 ## Licensing and publication boundary
 
-This project stores original research summaries, metadata and links. Its existing repository license does **not** relicense external response data, item wording, photographs, speech recordings, keys or rubrics. A software package's license is not automatically proof of permission to administer or republish the original test. Some sources allow analysis but prohibit redistributing files; some also restrict derived outputs. Consult the version-specific primary terms linked in each profile before acquisition or publication.
+This project stores original research summaries, metadata and links, plus a separately licensed mirror of sources with explicit redistribution permission. Its existing repository license does **not** relicense external response data, item wording, photographs, speech recordings, keys or rubrics. A software package's license is not automatically proof of permission to administer or republish the original test. Some sources allow analysis but prohibit redistributing files; some also restrict derived outputs. The redistribution audit records each decision; consult the version-specific primary terms before publication.
 
 ## Coverage limitations
 

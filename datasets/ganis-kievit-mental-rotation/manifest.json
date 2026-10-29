@@ -1,0 +1,94 @@
+{
+  "id": "ganis-kievit-mental-rotation",
+  "status": "mirrored",
+  "license": "CC-BY-4.0",
+  "license_evidence": "https://api.figshare.com/v2/articles/1045385",
+  "source": "https://doi.org/10.6084/m9.figshare.1045385.v13",
+  "scope": "Original behavioral ZIP file3702010, full JPG stimulus bank and original codebooks; redundant encodings/older archive omitted explicitly",
+  "files": [
+    {
+      "path": "source-metadata.json",
+      "source_url": "https://api.figshare.com/v2/articles/1045385",
+      "retrieved_date": "2026-10-29",
+      "bytes": 6051,
+      "sha256": "ee653d2cf532f4688384cec7dcf2c302104fd643abed98d86e67881387950ce6",
+      "role": "original provider metadata"
+    },
+    {
+      "path": "original/All-stimuli-JPG-file3191717.zip",
+      "source_url": "https://ndownloader.figshare.com/files/3191717",
+      "retrieved_date": "2026-10-29",
+      "bytes": 30364670,
+      "sha256": "bd64561ec9c9cc57b69780554c825f2b734e105c0fa37f96f0556bb4bfd691b4",
+      "role": "original data/stimuli",
+      "upstream_file_id": 3191717,
+      "upstream_filename": "All stimuli as jpg .zip",
+      "upstream_md5": "02772e56257c89c3fddfd4f0f57dbcb5"
+    },
+    {
+      "path": "codebooks/README_stimuli.txt",
+      "source_url": "https://ndownloader.figshare.com/files/1571341",
+      "retrieved_date": "2026-10-29",
+      "bytes": 799,
+      "sha256": "c4b6a3f96075d5a28e64e127e31e4ebaa8ea685aee021762a7175cdf8a930c72",
+      "role": "original author codebook",
+      "upstream_file_id": 1571341,
+      "upstream_filename": "README_stimuli.txt",
+      "upstream_md5": "f7efe4e80e30671bba7c9ead2510b423"
+    },
+    {
+      "path": "codebooks/Datadescription_behaviour.txt",
+      "source_url": "https://ndownloader.figshare.com/files/1878074",
+      "retrieved_date": "2026-10-29",
+      "bytes": 1349,
+      "sha256": "6a5b9fd5c63e7c1db5fededdcbcb9dc9f85ac9f0ab3a986473c35152682d1cd2",
+      "role": "original author codebook",
+      "upstream_file_id": 1878074,
+      "upstream_filename": "Datadescription_behaviour.txt",
+      "upstream_md5": "65a1ff27095d1074a18ef20847ce6cde"
+    },
+    {
+      "path": "original/Behavioural_data-file3702010.zip",
+      "source_url": "https://ndownloader.figshare.com/files/3702010",
+      "retrieved_date": "2026-10-29",
+      "bytes": 1747699,
+      "sha256": "3b56dde3defc36d54c85b671f83ade2f7ded685b326be973583ad115bb994e03",
+      "role": "original data/stimuli",
+      "upstream_file_id": 3702010,
+      "upstream_filename": "Behavioural_data.zip",
+      "upstream_md5": "6009bda9b036136de3a3349ee58f7726"
+    },
+    {
+      "path": "LICENSE_CC-BY-4.0.txt",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-4.0.txt",
+      "retrieved_date": "2026-10-29",
+      "bytes": 17023,
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+      "role": "complete standard license text"
+    },
+    {
+      "path": "README.md",
+      "source_url": "https://api.figshare.com/v2/articles/1045385",
+      "retrieved_date": "2026-10-29",
+      "bytes": 1684,
+      "sha256": "67f96a79690c352cba84bc338cd48f818ed02051b32af4394fa018cb870733f3",
+      "role": "project-generated provenance/field inventory"
+    },
+    {
+      "path": "SOURCE.md",
+      "source_url": "https://api.figshare.com/v2/articles/1045385",
+      "retrieved_date": "2026-10-29",
+      "bytes": 1235,
+      "sha256": "e94542be8032ad652778c4eab69359546e5f8fd637861a2b3d1d15080906d19d",
+      "role": "project-generated provenance/field inventory"
+    },
+    {
+      "path": "codebooks/Behavioural_data_description-embedded.txt",
+      "source_url": "https://api.figshare.com/v2/articles/1045385",
+      "retrieved_date": "2026-10-29",
+      "bytes": 1349,
+      "sha256": "6a5b9fd5c63e7c1db5fededdcbcb9dc9f85ac9f0ab3a986473c35152682d1cd2",
+      "role": "source license excerpt or extracted original codebook"
+    }
+  ]
+}

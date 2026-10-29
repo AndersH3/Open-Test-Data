@@ -1,0 +1,53 @@
+{
+  "hf_head": {
+    "name": "hf_head",
+    "start": 0,
+    "bytes": 65536,
+    "status": 206,
+    "content_range": "bytes 0-65535/1201163816",
+    "elapsed_sec": 2.137,
+    "sha256": "5466f48791422d2b4422448f7337c403d236ee7b613e92a1d05b206c2659ec3b",
+    "matches_official_local_prefix": true
+  },
+  "hf_middle": {
+    "name": "hf_middle",
+    "start": 100000000,
+    "bytes": 65536,
+    "status": 206,
+    "content_range": "bytes 100000000-100065535/1201163816",
+    "elapsed_sec": 2.392,
+    "sha256": "02cd8afad393f0da941b41de8a670aa035fedfdfc65bb617122a19b1681cc92c",
+    "matches_official_local_prefix": true
+  },
+  "hf_tail": {
+    "name": "hf_tail",
+    "start": 1201098280,
+    "bytes": 65536,
+    "status": 206,
+    "content_range": "bytes 1201098280-1201163815/1201163816",
+    "elapsed_sec": 3.858,
+    "sha256": "89995af4e9f0a8a9e7738f5c2bf79510b8e860273ac7982e681fd3c39041dd44"
+  },
+  "official_tail": {
+    "name": "official_tail",
+    "start": 1201098280,
+    "bytes": 65536,
+    "status": 206,
+    "content_range": "bytes 1201098280-1201163815/1201163816",
+    "elapsed_sec": 2.203,
+    "sha256": "89995af4e9f0a8a9e7738f5c2bf79510b8e860273ac7982e681fd3c39041dd44"
+  },
+  "hf_speed": {
+    "name": "hf_speed",
+    "start": 500000000,
+    "bytes": 1048576,
+    "status": 206,
+    "content_range": "bytes 500000000-501048575/1201163816",
+    "elapsed_sec": 2.989,
+    "sha256": "b882067e50cf733a646c4cca17d020c29d85e711115dbff84095d34a4cb27877"
+  },
+  "tail_match": true,
+  "hf_lfs_expected_sha256": "0d13933f90201c5101c7fe8659e44474fa049e3fb93181a8ba6fb3e63267b535",
+  "hf_resolve_url": "https://huggingface.co/datasets/Lucy9999/EdNet-KT1/resolve/790cff06b7c112c4ec072217257de5dd4ec1e77a/EdNet-KT1.zip",
+  "note": "Third-party card MIT is inconsistent with canonical Riiid CC BY-NC4; original author license governs. Bounded region checks only, not full independent source validation."
+}

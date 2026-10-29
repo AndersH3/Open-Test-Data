@@ -1,0 +1,61 @@
+{
+  "label": "Project-generated structural field inventory, not an original author codebook",
+  "source_description": "Data for Working Memory Develops at a Similar Rate Across Diverse Stimuli\n\n- The data files include the raw data (dat_all) and collapsed data per participant (dat_..._Unstacked). The data files include pre-analyses of the span using the all-or-nothing unit scoring system or the partial credit unit scoring system.\n\n- The ratios between the different types of spans are pre-calculated in dat_..._Unstacked, as well as the z-scores.\n\n- The column names are self-explanatory.\n",
+  "schemas": [
+    {
+      "file": "dat_all.csv",
+      "delimiter": ";",
+      "rows_excluding_header": 3564,
+      "columns": [
+        "name",
+        "ageMonths",
+        "group",
+        "StimDispTime",
+        "trialNum",
+        "ordering",
+        "resp",
+        "longestSpan",
+        "lengthTrial",
+        "partialCredit",
+        "partialCreditUNIT",
+        "N_Displaced_items",
+        "stimType",
+        "stimCode",
+        "allornothingCredit",
+        "span_trial"
+      ],
+      "column_count": 16
+    },
+    {
+      "file": "dat_partialcreditunitAGG_Unstacked.csv",
+      "delimiter": ";",
+      "rows_excluding_header": 99,
+      "columns": [
+        "name",
+        "ageMonths",
+        "group",
+        "Col",
+        "Cub",
+        "Kan",
+        "Let",
+        "Obj",
+        "Pol",
+        "ColObj",
+        "CubPol",
+        "ratio_Let_ColObj",
+        "ratio_Let_Kan",
+        "ratio_Let_CubPol",
+        "ratio_ColObj_Kan",
+        "ratio_ColObj_CubPol",
+        "ratio_Kan_CubPol",
+        "zCol",
+        "zCub",
+        "zKan",
+        "zLet",
+        "zObj",
+        "zPol"
+      ],
+      "column_count": 23
+    }
+  ]
+}

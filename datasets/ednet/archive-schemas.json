@@ -1,0 +1,30 @@
+{
+  "method": "Actual CSV header inspected in each intact original ZIP; not a participant row",
+  "files": [
+    {
+      "archive": "ednet-Contents.zip",
+      "sample_csv_header": "lecture_id,part,tags,video_length,deployed_at",
+      "all_csv_names_count": 4
+    },
+    {
+      "archive": "ednet-KT1.zip",
+      "sample_csv_header": "timestamp,solving_id,question_id,user_answer,elapsed_time",
+      "all_csv_names_count": 784309
+    },
+    {
+      "archive": "ednet-KT2.zip",
+      "sample_csv_header": "timestamp,action_type,item_id,source,user_answer,platform",
+      "all_csv_names_count": 297444
+    },
+    {
+      "archive": "ednet-KT3.zip",
+      "sample_csv_header": "timestamp,action_type,item_id,source,user_answer,platform",
+      "all_csv_names_count": 297915
+    },
+    {
+      "archive": "ednet-KT4.zip",
+      "sample_csv_header": "timestamp,action_type,item_id,cursor_time,source,user_answer,platform",
+      "all_csv_names_count": 297915
+    }
+  ]
+}

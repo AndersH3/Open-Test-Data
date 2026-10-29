@@ -1,0 +1,74 @@
+{
+    "onset": {
+        "LongName": "onset",
+        "Description": "timepoint that stimulus appears on screen that matches scan timeseries",
+        "Units": "seconds"
+    },
+    "duration": {
+        "LongName": "duration",
+        "Description": "fixed period of time during which go stimulus was on screen",
+        "Units": "seconds"
+    },
+    "SS_delay": {
+        "LongName": "SS_delay",
+        "Description": "stop signal delay",
+        "Units": "seconds"
+    },
+    "correct_response": {
+        "LongName": "correct_response",
+        "Description": "what the correct key_press is",
+        "Units": "key_code",
+        "Levels": {
+            "89": "y",
+            "71": "g"
+        },
+        "Notes": "89 was coded for index finger responses, 71 for middle finger responses. This does not reflect stop signal trials and only pertains to choice answers."
+    },
+    "experiment_exp_id": {
+        "LongName": "experiment_exp_id",
+        "Description": "indicates which task was performed"
+    },
+    "key_press": {
+        "LongName": "key_press",
+        "Description": "which key was pressed",
+        "Units": "key_code",
+        "Levels": {
+            "89": "y",
+            "71": "g",
+            "-1": "no response"
+        },
+        "Notes": "89 was coded for index finger responses, 71 for middle finger responses"
+    },
+    "response_time": {
+        "LongName": "response_time",
+        "Units": "seconds"
+    },
+    "stop_response": {
+        "LongName": "stop_response",
+        "Description": "which condition (key) they should withhold response to"
+    },
+    "stopped": {
+        "LongName": "stopped",
+        "Description": "whether participant did not respond on trial",
+        "Units": "boolean",
+        "Levels": {
+            "False": "made a response",
+            "True": "did not make a response"
+        }
+    },
+    "trial_type": {
+        "LongName": "trial_type",
+        "Description": "condition type of trial",
+        "Levels": {
+            "noncrit_signal": "stop signal was shown, but stimulus was not critical (participant should respond)",
+            "crit_stop_success": "stop signal was shown on critical stimulus, and participant successfully witheld response",
+            "crit_stop_failure": "stop signal was shown on critical stimulus, but participant did not withold response",
+            "noncrit_nosignal": "stop signal was not shown, and stimulus was not critical (participant should respond)",
+            "crit_go": "stop signal was not shown on critical stimulus (participant should respond)"
+        }
+    },
+    "worker_id": {
+        "LongName": "worker_id",
+        "Description": "subject identifier"
+    }
+}

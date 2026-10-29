@@ -15,6 +15,10 @@ Research on **skill, knowledge and cognitive-performance tests with human respon
 
 Download/filter the full catalogue: **[JSON](data/catalogue.json)** · **[CSV](data/catalogue.csv)**. See the [field definitions](data/README.md), [verification evidence](data/verification-evidence.json), [research method and analysis guidance](research/methodology.md), and [discovery resources/exclusions](research/discovery-and-exclusions.md).
 
+**Downloaded collection:** [dataset folders, licences and codebooks](datasets/README.md) · [large-file release](https://github.com/AndersH3/Open-Test-Data/releases/tag/datasets-2026-10-29) · [redistribution audit](data/redistribution-audit.json) · [payload checksums](data/download-manifest.json).
+
+**Complete report:** [PDF](output/pdf/open-test-data-complete-research-report.pdf), with executive findings, all 37 profiles, acquisition decisions, source references and methodological guidance. [Report source and build script](reports/).
+
 ## Where to start
 
 These are practical research priorities, not rankings of test quality. Choose the response information needed by the proposed scoring method.
@@ -47,6 +51,6 @@ PISA 2025 is also verified as released, including actual cognitive/process archi
 
 ## What is saved here
 
-Original research summaries, source links, structured metadata, verification notes and selected archive checksums. **No participant response files, restricted corpora, test photographs or protected question banks are included.** Some publicly accessible files were inspected temporarily to verify structure; many large datasets were checked through documentation, archive byte ranges or samples. Evidence levels and unresolved details are recorded explicitly.
+Original research summaries, source links, structured metadata, verification notes, a complete PDF report, and a separately licensed collection of redistributable response files. Small payloads and documentation are committed in [datasets](datasets/); large payloads are [release assets](https://github.com/AndersH3/Open-Test-Data/releases/tag/datasets-2026-10-29). Each collection has licence text, source/attribution notes, codebooks or clearly labelled project field guides, and checksums. The [audit](data/redistribution-audit.json) also records every excluded source and the reason. Eedi question images and redistribution-prohibited corpora are excluded.
 
-The existing [repository license](LICENSE) applies to this project's original contributions. It does not grant rights to external datasets, test questions, keys, rubrics, images or recordings. Recheck the linked version-specific terms before obtaining or publishing external material.
+The existing [repository license](LICENSE) applies to this project's original contributions. External datasets, test questions, keys, rubrics, images and recordings retain their own licences; see [third-party notices](THIRD_PARTY_NOTICES.md). Non-commercial, ShareAlike and NoDerivatives conditions remain applicable. Recheck version-specific terms before publishing external material or derivatives.

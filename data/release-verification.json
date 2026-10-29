@@ -1,0 +1,130 @@
+{
+  "release_tag": "datasets-2026-10-29",
+  "repository": "AndersH3/Open-Test-Data",
+  "assets": [
+    {
+      "path": "datasets/duolingo-slam-2018/raw/data_en_es.tar.gz",
+      "asset_id": 689851248,
+      "name": "data_en_es.tar.gz",
+      "bytes": 46889834,
+      "github_digest": "sha256:dac4e97a03e0d35d0b417e4afb8e96a20cdd3bad933bdc590ab4b56c77531393",
+      "sha256_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/raw/data_es_en.tar.gz",
+      "asset_id": 689851220,
+      "name": "data_es_en.tar.gz",
+      "bytes": 35067817,
+      "github_digest": "sha256:c53079ed8053f5237225ae1b3713ecb7ecb1d0245369cd60599f17c6a6868243",
+      "sha256_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "path": "datasets/duolingo-slam-2018/raw/data_fr_en.tar.gz",
+      "asset_id": 689851521,
+      "name": "data_fr_en.tar.gz",
+      "bytes": 16134930,
+      "github_digest": "sha256:f34bb1518d2fbc694d6b142b78b16cb2c755df314e78a1fcb6a86b9987727c31",
+      "sha256_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT1.zip",
+      "asset_id": 689895694,
+      "name": "ednet-KT1.zip",
+      "bytes": 1201163816,
+      "github_digest": "sha256:0d13933f90201c5101c7fe8659e44474fa049e3fb93181a8ba6fb3e63267b535",
+      "sha256_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT2.zip",
+      "asset_id": 689840099,
+      "name": "ednet-KT2.zip",
+      "bytes": 555757666,
+      "github_digest": "sha256:bb5dec5708b6af913d8b99997e1a74699fced4555288862a80925bab3b5abff5",
+      "sha256_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT3.zip",
+      "asset_id": 689840090,
+      "name": "ednet-KT3.zip",
+      "bytes": 762774456,
+      "github_digest": "sha256:cc7823d9a5a0570c81b2c279178547b27ca5c628209f37648f0707484f8efa78",
+      "sha256_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "path": "datasets/ednet/raw/ednet-KT4.zip",
+      "asset_id": 689895705,
+      "name": "ednet-KT4.zip",
+      "bytes": 1169540359,
+      "github_digest": "sha256:ae7b699f64980a2e795e3a7f02b144f32f822ba0a5b925826db98f2ef195fd40",
+      "sha256_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "path": "datasets/eedi-neurips-2020/raw/eedi-2020-response-and-metadata-csvs.zip",
+      "asset_id": 689900155,
+      "name": "eedi-2020-response-and-metadata-csvs.zip",
+      "bytes": 615045122,
+      "github_digest": "sha256:2a956a053c21ce576d99a47f32ebaa43b8e8e04b8e0f3964b77e726ffdf8bb7c",
+      "sha256_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "path": "datasets/ganis-kievit-mental-rotation/original/All-stimuli-JPG-file3191717.zip",
+      "asset_id": 689808709,
+      "name": "All-stimuli-JPG-file3191717.zip",
+      "bytes": 30364670,
+      "github_digest": "sha256:bd64561ec9c9cc57b69780554c825f2b734e105c0fa37f96f0556bb4bfd691b4",
+      "sha256_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "path": "datasets/junyi-2020/raw/junyi-2020-original.zip",
+      "asset_id": 689895693,
+      "name": "junyi-2020-original.zip",
+      "bytes": 1615467938,
+      "github_digest": "sha256:d3272a56b3657d19e94f9c4b3c00b7d6b83694c9e9969237d8903ada86d3e7d9",
+      "sha256_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "path": "datasets/merlin/merlin-exmaralda-v1.2.zip",
+      "asset_id": 689828466,
+      "name": "merlin-exmaralda-v1.2.zip",
+      "bytes": 18030739,
+      "github_digest": "sha256:9113f045f28c07420c09e39ae8e3f4cf02ad27f22c57640e7a421cefb4476b8b",
+      "sha256_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "path": "datasets/sro-performance-tasks/original/Complete_02-16-2019-objective-tasks.zip",
+      "asset_id": 689808758,
+      "name": "Complete_02-16-2019-objective-tasks.zip",
+      "bytes": 56562944,
+      "github_digest": "sha256:63bea957f44bb7c74f86f406f091be43ddd90bd9fd656b61be7b7486affec5e7",
+      "sha256_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "path": "datasets/sro-performance-tasks/original/Retest_02-16-2019-objective-tasks.zip",
+      "asset_id": 689809750,
+      "name": "Retest_02-16-2019-objective-tasks.zip",
+      "bytes": 16481482,
+      "github_digest": "sha256:bf8c60ad0c28024beda37edbc5862bf75893d48a266b483a055b69a449386955",
+      "sha256_matches": true,
+      "state": "uploaded"
+    }
+  ],
+  "report_asset": {
+    "name": "open-test-data-complete-research-report.pdf",
+    "bytes": 429673,
+    "github_digest": "sha256:b996135a1daa407f7b5b6c58814b75ffebcd229f304e809864f2572e390013e1",
+    "sha256_matches": true
+  },
+  "all_uploads_verified": true
+}

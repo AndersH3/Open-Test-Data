@@ -1,0 +1,241 @@
+{
+  "id" : "1e2ff254-6bba-454f-bd9f-e4aa1ecb7658",
+  "uuid" : "1e2ff254-6bba-454f-bd9f-e4aa1ecb7658",
+  "name" : "Constrained C-Test Generation via Mixed-Integer Programming (Supplementary Material)",
+  "handle" : "tudatalib/4205",
+  "metadata" : {
+    "dc.contributor.author" : [ {
+      "value" : "Lee, Ji-Ung",
+      "language" : null,
+      "authority" : "0d53f9bc-1d47-4ab3-ba3d-593fdea67916",
+      "confidence" : 600,
+      "place" : 0
+    }, {
+      "value" : "Pfetsch, Marc",
+      "language" : null,
+      "authority" : "2ef8267f-bd01-46df-8c51-99c8194b1386",
+      "confidence" : 600,
+      "place" : 1
+    }, {
+      "value" : "Gurevych, Iryna",
+      "language" : null,
+      "authority" : "35732eb5-e21c-40f2-9301-d05adb55cc20",
+      "confidence" : 600,
+      "place" : 2
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2024-04-08T09:54:18Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.available" : [ {
+      "value" : "2024-04-08T09:54:18Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.created" : [ {
+      "value" : "2024-04",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2024-04-08",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description" : [ {
+      "value" : "This work proposes a novel method to generate C-Tests; a deviated form of cloze tests (a gap filling exercise) where only the last part of a word is turned into a gap. In contrast to previous works that only consider varying the gap size or gap placement to achieve locally optimal solutions, we propose a mixed-integer programming (MIP) approach. This allows us to consider gap size and placement simultaneously, achieving globally optimal solutions and to directly integrate state-of-the-art models for gap difficulty prediction into the optimization problem. A user study with 40 participants across four C-Tests generation strategies (including GPT-4) shows that our approach (*MIP*) significantly outperforms two of the baseline strategies (based on gap placement and GPT-4); and performs on-par with the third (based on gap size). Our analysis shows that GPT-4 still struggles to fulfill explicit constraints during generation and that *MIP* produces C-Tests that correlate best with the perceived difficulty. We publish our code, model, and collected data consisting of 32 English C-Tests with 20 gaps each (3,200 in total) under an open source license.",
+      "language" : "de_DE",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/4205",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language.iso" : [ {
+      "value" : "en",
+      "language" : "de_DE",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.license" : [ {
+      "value" : "CC-BY-4.0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject" : [ {
+      "value" : "C-Test",
+      "language" : "de_DE",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "NLP",
+      "language" : "de_DE",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Language Learning",
+      "language" : "de_DE",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Constrained Optimization",
+      "language" : "de_DE",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Machine Learning",
+      "language" : "de_DE",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    } ],
+    "dc.subject.classification" : [ {
+      "value" : "4.43-04",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "4.43-05",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.subject.ddc" : [ {
+      "value" : "004",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "Constrained C-Test Generation via Mixed-Integer Programming (Supplementary Material)",
+      "language" : "de_DE",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Dataset",
+      "language" : "de_DE",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Text",
+      "language" : "de_DE",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Software",
+      "language" : "de_DE",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "dcterms.accessRights" : [ {
+      "value" : "openAccess",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "person.identifier.orcid" : [ {
+      "value" : "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "0000-0002-0947-7193",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "0000-0003-2187-7621",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "tuda.history.classification" : [ {
+      "value" : "Version=2016-2020;409-05 Interaktive und intelligente Systeme, Bild- und Sprachverarbeitung, Computergraphik und Visualisierung",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "tuda.unit" : [ {
+      "value" : "TUDa",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2024-04-19T13:22:39.685Z",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658/relationships"
+    },
+    "version" : {
+      "href" : "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658/submitter"
+    },
+    "self" : {
+      "href" : "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658"
+    }
+  }
+}

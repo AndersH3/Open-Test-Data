@@ -1,0 +1,16 @@
+{
+  "file": "ednet-KT1.zip",
+  "event": "complete",
+  "bytes": 1201163816,
+  "sha256": "0d13933f90201c5101c7fe8659e44474fa049e3fb93181a8ba6fb3e63267b535",
+  "source_url": "https://bit.ly/ednet_kt1",
+  "acquisition_url": "https://huggingface.co/datasets/Lucy9999/EdNet-KT1/resolve/790cff06b7c112c4ec072217257de5dd4ec1e77a/EdNet-KT1.zip",
+  "path": "/home/anonymous/Documents/ChatGPT/New Scoring System/Open-Test-Data/datasets/ednet/raw/ednet-KT1.zip",
+  "zip_entries": 784310,
+  "csv_members": 784309,
+  "first_csv_header": "timestamp,solving_id,question_id,user_answer,elapsed_time",
+  "zip_check": "Central directory and sample CSV header parsed; full CRC audit follows separately",
+  "zip_crc_audit": "Passed: every archive member decompressed and CRC32 verified",
+  "audit_seconds": 37.4,
+  "data_csv_members": 784309
+}

@@ -1,0 +1,27 @@
+{
+  "source": "Original Contents ZIP",
+  "actual_data_tables": 4,
+  "macOS_resource_forks_are_auxiliary": true,
+  "files": [
+    {
+      "file": "contents/lectures.csv",
+      "bytes": 25519,
+      "header": "lecture_id,part,tags,video_length,deployed_at"
+    },
+    {
+      "file": "contents/payments.csv",
+      "bytes": 4398,
+      "header": "payment_item_id,type,duaration,number_of_questions"
+    },
+    {
+      "file": "contents/coupons.csv",
+      "bytes": 2023,
+      "header": "coupon_id,coupon_type,duration"
+    },
+    {
+      "file": "contents/questions.csv",
+      "bytes": 554286,
+      "header": "question_id,bundle_id,explanation_id,correct_answer,part,tags,deployed_at"
+    }
+  ]
+}

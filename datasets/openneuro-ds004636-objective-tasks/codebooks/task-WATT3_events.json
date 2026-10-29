@@ -1,0 +1,90 @@
+{
+    "onset": {
+        "LongName": "onset",
+        "Description": "timepoint that stimulus appears on screen that matches scan timeseries",
+        "Units": "seconds"
+    },
+    "duration": {
+        "LongName": "duration",
+        "Description": "period of time during which stimulus was on screen",
+        "Units": "seconds",
+        "Notes": "This task was self-paced, so duration for trial_id == 'stim' correspond to response_time. Duration for trial_id == 'feedback' was 1 followed by variable length of blank screen (ITI)."
+    },
+    "planning": {
+        "LongName": "planning",
+        "Description": "whether planning time for entire round is included in current trial",
+        "Levels": {
+            "1": "planning time is included in current trial",
+            "0": "planning time is not included in current trial"
+        },
+        "Notes": "participants were instructed to plan all movements in advance and execute them as quickly as possible. the first trial of each round will have planning time included"
+    },
+    "condition": {
+        "LongName": "condition",
+        "Description": "type of trial",
+        "Levels": {
+            "UA_with_intermediate": "unambiguous trial that requires intermediate moves",
+            "UA_without_intermediate": "unambiguous trial that does not require intermediate moves",
+            "PA_with_intermediate": "partially ambiguous trial that requires intermediate moves",
+            "PA_without_intermediate": "partially ambiguous trial that does not require intermediate moves"
+        }
+    },
+    "current_position": {
+        "LongName": "current_position",
+        "Description": "current state of balls on peg. Each three numbers sequentially represent 3 possible positions on each peg. 0 = empty position / 1,2,3 = label for specific balls."
+    },
+    "exp_stage": {
+        "LongName": "exp_stage",
+        "Description": "stage of experiment",
+        "Levels": {
+            "test": "main test portion of the task",
+            "practice": "practice portion of the task"
+        }
+    },
+    "experiment_exp_id": {
+        "LongName": "experiment_exp_id",
+        "Description": "indicates which task was performed"
+    },
+    "goal_state": {
+        "LongName": "goal_state",
+        "Description": "goal state of balls on peg. Each three numbers sequentially represent 3 possible positions on each peg. 0 = empty position / 1,2,3 = label for specific balls."
+    },
+    "key_press": {
+        "LongName": "key_press",
+        "Description": "what participant pressed",
+        "Units": "key_code",
+        "Levels": {
+            "89": "y",
+            "71": "g",
+            "82": "r"
+        },
+        "Notes": "89 was coded for index finger responses, 71 for middle finger responses, and 82 for ring finger responses"
+    },
+    "problem_id": {
+        "LongName": "problem_id",
+        "Description": "problem number",
+        "Notes": "starts at 0"
+    },
+    "response_time": {
+        "LongName": "response_time",
+        "Units": "seconds"
+    },
+    "start_state": {
+        "LongName": "start_state",
+        "Description": "start state of balls on peg. Each three numbers sequentially represent 3 possible positions on each peg. 0 = empty position / 1,2,3 = label for specific balls."
+
+    },
+    "trial_id": {
+        "LongName": "trial_id",
+        "Description": "trial identifier",
+        "Levels": {
+            "feedback": "feedback was shown",
+            "to_hand": "ball moved to hand",
+            "to_board": "ball moved to board"
+        }
+    },
+    "worker_id": {
+        "LongName": "worker_id",
+        "Description": "subject identifier"
+    }
+}

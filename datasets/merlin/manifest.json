@@ -1,0 +1,213 @@
+{
+  "catalogue_ids": [
+    "merlin"
+  ],
+  "dataset_version": "1.2",
+  "retrieved_date": "2026-10-29",
+  "source_url": "https://hdl.handle.net/20.500.12124/59",
+  "license": "CC-BY-SA-4.0",
+  "license_evidence": "Original deposit dc.rights and dc.rights.uri plus embedded LICENSE in metadata archive; full legal text preserved.",
+  "selection": "Complete observed skill texts, ratings, tasks and manual annotation retained. Optional PAULA/relANNIS all-in-one NLP encodings omitted; other already-downloaded source representations retained unmodified.",
+  "files": [
+    {
+      "path": "CHANGELOG.html",
+      "bytes": 3186,
+      "sha256": "1bde086d594fe5407819ff4356a87f0b0618067cc4fbaa51be948290511aad57",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/681/retrieve",
+      "provider_md5": "76a0766f157606d050525b4d3effba52",
+      "provider_checksum_verified": true,
+      "modified": false,
+      "origin": "upstream_unmodified"
+    },
+    {
+      "path": "CODEBOOK.project.md",
+      "bytes": 2496,
+      "sha256": "4a56027704da52f4149f280ec7bf4c2fec5dc6545a1e8fb6cf8349aa6950205f",
+      "origin": "project_generated"
+    },
+    {
+      "path": "LICENSE.cc-by-sa-4.0.txt",
+      "bytes": 18375,
+      "sha256": "cde7883b9050a1104f4ac19a1572aafd6e5d7323b68351aaf51fbf4beba54966",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-SA-4.0.txt",
+      "origin": "standard_license_text",
+      "modified": false
+    },
+    {
+      "path": "README.html",
+      "bytes": 6356,
+      "sha256": "d115f98dfe0bd7ed439f30269b92c0e33c268679037601654c521eb2dad31772",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/680/retrieve",
+      "provider_md5": "01e171606569ee419455959bd670dafa",
+      "provider_checksum_verified": true,
+      "modified": false,
+      "origin": "upstream_unmodified"
+    },
+    {
+      "path": "SOURCE.md",
+      "bytes": 4064,
+      "sha256": "b06c864072bb2e044e8b975daadbf5d3b79e7c7d7a52298bf60a81150e41eef3",
+      "origin": "project_generated"
+    },
+    {
+      "path": "codebooks/annotationscheme/Annotation guidelines.pdf",
+      "bytes": 3074906,
+      "sha256": "202fd0ada619af9269db6c1ec52b9cd464d4ad1d8b8a8a9fbe9b1df9d1e78809",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/683/retrieve",
+      "source_archive_member": "merlin-docs-v1.2/annotationscheme/Annotation guidelines.pdf",
+      "origin": "upstream_unmodified_extraction",
+      "modified": false
+    },
+    {
+      "path": "codebooks/annotationscheme/MERLIN-annotation-scheme.pdf",
+      "bytes": 1009382,
+      "sha256": "79d78cbdc193b78485905b320352a3e1df84b9f77769aeca09d01a4f2a3b040e",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/683/retrieve",
+      "source_archive_member": "merlin-docs-v1.2/annotationscheme/MERLIN-annotation-scheme.pdf",
+      "origin": "upstream_unmodified_extraction",
+      "modified": false
+    },
+    {
+      "path": "codebooks/annotationscheme/MERLIN_FAQ_final.pdf",
+      "bytes": 822153,
+      "sha256": "7fa56d3939e8b7679f37fd7d5acb2204666d6cb694b1fe1118d3c0c7510c3bac",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/683/retrieve",
+      "source_archive_member": "merlin-docs-v1.2/annotationscheme/MERLIN_FAQ_final.pdf",
+      "origin": "upstream_unmodified_extraction",
+      "modified": false
+    },
+    {
+      "path": "codebooks/ratings/MERLIN_Technical-report.pdf",
+      "bytes": 517696,
+      "sha256": "864624d4fee6e87a9d37a376618230fee526f36d8067be847336cc3a5bda9d5b",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/683/retrieve",
+      "source_archive_member": "merlin-docs-v1.2/ratings/MERLIN_Technical-report.pdf",
+      "origin": "upstream_unmodified_extraction",
+      "modified": false
+    },
+    {
+      "path": "codebooks/transcription/Transcription-guidelines_DE.pdf",
+      "bytes": 316040,
+      "sha256": "8925d4658fcdab08c2f4db0021f48f62cfd213f2c828c0fe209b327426fbd39f",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/683/retrieve",
+      "source_archive_member": "merlin-docs-v1.2/transcription/Transcription-guidelines_DE.pdf",
+      "origin": "upstream_unmodified_extraction",
+      "modified": false
+    },
+    {
+      "path": "merlin-docs-v1.2.zip",
+      "bytes": 5300101,
+      "sha256": "81d97dc4a090fe30b4625a4c84aae0b999297d9332e4fa00e89888c092897aca",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/683/retrieve",
+      "provider_md5": "7e998fc8a531168c67cda5c8a2099fbb",
+      "provider_checksum_verified": true,
+      "modified": false,
+      "origin": "upstream_unmodified"
+    },
+    {
+      "path": "merlin-exmaralda-v1.2.zip",
+      "bytes": 18030739,
+      "sha256": "9113f045f28c07420c09e39ae8e3f4cf02ad27f22c57640e7a421cefb4476b8b",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/688/retrieve",
+      "provider_md5": "9ca4d7844d814a8116e387d0c899afdd",
+      "provider_checksum_verified": true,
+      "modified": false,
+      "origin": "upstream_unmodified"
+    },
+    {
+      "path": "merlin-metadata-v1.2.zip",
+      "bytes": 602475,
+      "sha256": "1e990c82803a3557677d00a4a3a9eb8cdd7ea721f9dd12f7d1ff3d4def11bf8d",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/682/retrieve",
+      "provider_md5": "55dbd2a65e805c43cc1d4a8d25405df7",
+      "provider_checksum_verified": true,
+      "modified": false,
+      "origin": "upstream_unmodified"
+    },
+    {
+      "path": "merlin-solr-v1.2.zip",
+      "bytes": 6563942,
+      "sha256": "56dd28d9d913a4a824feb413925f7430e3e35b95291f5882ee8f9db6ce313341",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/689/retrieve",
+      "provider_md5": "3959a7e4b1bff4aa84654eb7ffd0b2ad",
+      "provider_checksum_verified": true,
+      "modified": false,
+      "origin": "upstream_unmodified"
+    },
+    {
+      "path": "merlin-tasks-v1.2.zip",
+      "bytes": 8766318,
+      "sha256": "82073cfd03b0f94e72c4194acc7213607e58f74f408ef80b599b2745f6046eb0",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/684/retrieve",
+      "provider_md5": "7428b83cceef17aaa7a21fd6a707c080",
+      "provider_checksum_verified": true,
+      "modified": false,
+      "origin": "upstream_unmodified"
+    },
+    {
+      "path": "merlin-text-v1.2.zip",
+      "bytes": 12697116,
+      "sha256": "949f1ef6c22e6602c28fc971115fa23c9a575a99c17adf8ca23630b928eb63eb",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/685/retrieve",
+      "provider_md5": "efb404899ce4e2ad0eba178655da7b6d",
+      "provider_checksum_verified": true,
+      "modified": false,
+      "origin": "upstream_unmodified"
+    },
+    {
+      "path": "structural-verification.json",
+      "bytes": 473,
+      "sha256": "ba26da8d17e8f49b233588e48a10065101ca544dfd9bcb6cd976a9647bb1a081",
+      "origin": "project_generated"
+    },
+    {
+      "path": "upstream-metadata-CHANGELOG.md",
+      "bytes": 1660,
+      "sha256": "0f6ecde4716b56fb36310b7c4cc781311081e44aee12ef28795c3d1e438ac698",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/682/retrieve",
+      "source_archive_member": "merlin-metadata-v1.2/CHANGELOG.md",
+      "origin": "upstream_unmodified_extraction",
+      "modified": false
+    },
+    {
+      "path": "upstream-metadata-LICENSE",
+      "bytes": 20133,
+      "sha256": "6d4e2239c9605f95e1031309e8bd156dec62c55817427655003c57baceafb1e2",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/682/retrieve",
+      "source_archive_member": "merlin-metadata-v1.2/LICENSE",
+      "origin": "upstream_unmodified_extraction",
+      "modified": false
+    },
+    {
+      "path": "upstream-metadata-README.md",
+      "bytes": 1946,
+      "sha256": "c7cf47c32ccc18ad4a30d550d613750e735343d98a8da394284b36e630ae4ca7",
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/682/retrieve",
+      "source_archive_member": "merlin-metadata-v1.2/README.md",
+      "origin": "upstream_unmodified_extraction",
+      "modified": false
+    },
+    {
+      "path": "upstream-repository-record.json",
+      "bytes": 10895,
+      "sha256": "d6bac869baae191c34aa041a3d439753995d859dfea70b73cfff54d5d19efe0b",
+      "source_url": "https://clarin.eurac.edu/repository/rest/items/44?expand=all",
+      "origin": "upstream_unmodified",
+      "modified": false
+    }
+  ],
+  "omitted_optional_encodings": [
+    {
+      "name": "merlin-paula-v1.2.zip",
+      "bytes": 82349304,
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/687/retrieve",
+      "reason": "Optional alternate all-in-one corpus representation with automatic dependency/NLP annotation. Complete observed texts/ratings/manual annotation retained in the mirrored text, metadata, tasks and Exmaralda bundles; slow duplicate transfer cancelled and partial files removed."
+    },
+    {
+      "name": "merlin-relannis-v1.2.zip",
+      "bytes": 70158928,
+      "source_url": "https://clarin.eurac.edu/repository/rest/bitstreams/686/retrieve",
+      "reason": "Optional alternate all-in-one corpus representation with automatic dependency/NLP annotation. Complete observed texts/ratings/manual annotation retained in the mirrored text, metadata, tasks and Exmaralda bundles; slow duplicate transfer cancelled and partial files removed."
+    }
+  ]
+}

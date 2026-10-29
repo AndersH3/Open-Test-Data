@@ -18,25 +18,33 @@
     "response_times": "not documented in these objects",
     "scoring": "answer key in iqitems documentation; zero responses scrubbed to missing in official example",
     "priority": "binary and nominal response scoring, IRT, missingness, multidimensionality",
-    "access": "public R package, no registration",
-    "license_data": "package GPL (>=2); no separate data-specific grant inspected",
+    "access": "Exact source .rda objects mirrored with author codebooks, package metadata and full GPL text",
+    "license_data": "Original packaged response source objects under GPL-2.0-or-later; formal package-wide grant, no contrary data notice found. Separate proprietary test-content rights not inferred.",
     "license_items": "not established; do not infer rights to current ICAR bank",
     "landing_url": "https://raw.githubusercontent.com/cran/psychTools/master/man/ability.Rd",
     "download_url": "https://cran.r-project.org/package=psychTools",
     "source_urls": [
       "https://raw.githubusercontent.com/cran/psychTools/master/man/ability.Rd",
       "https://raw.githubusercontent.com/cran/psychTools/master/man/iqitems.Rd",
-      "https://raw.githubusercontent.com/cran/psychTools/master/DESCRIPTION"
+      "https://raw.githubusercontent.com/cran/psychTools/master/DESCRIPTION",
+      "https://github.com/cran/psychTools/blob/7dc591f8ac11c0ef1764cf853f3065aa60653d09/DESCRIPTION",
+      "https://github.com/cran/psychTools/tree/7dc591f8ac11c0ef1764cf853f3065aa60653d09",
+      "https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Licensing",
+      "https://cran.r-project.org/web/packages/policies.html"
     ],
-    "verification_level": "documentation_verified",
-    "verification_detail": "current primary package source documentation",
+    "verification_level": "file_inspected",
+    "verification_detail": "Exact source-distribution R data objects loaded in native R; response and Q-matrix dimensions verified; source hashes and licence retained",
     "verified_date": "2026-10-29",
     "limitations": [
       "short convenience sample",
       "two matrix items flagged for nonmonotonic traces",
       "do not count ability and iqitems as independent datasets"
     ],
-    "notes_file": "research/cognitive-ability.md"
+    "notes_file": "research/cognitive-ability.md",
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/sapa-ability-iqitems",
+    "redistribution_license": "GPL-2.0-or-later",
+    "local_manifest": "datasets/sapa-ability-iqitems/manifest.json"
   },
   {
     "id": "ospp-viqt",
@@ -73,7 +81,10 @@
     ],
     "notes_file": "research/cognitive-ability.md",
     "sha256": "dfeda357d8e5eba931d7cfe7b2a3e3cca3364ee782f7f9f480e392f3b2e6ed2c",
-    "columns_verified": 131
+    "columns_verified": 131,
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "not specified in inspected index/codebook"
   },
   {
     "id": "ospp-mgkt",
@@ -111,7 +122,10 @@
     ],
     "notes_file": "research/cognitive-ability.md",
     "sha256": "bcf5b135ed1116c08da7470875f7f30d5d37118785a66c271c89198e12ceef24",
-    "columns_verified": 137
+    "columns_verified": 137,
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "not specified in inspected index/codebook"
   },
   {
     "id": "ospp-iq1",
@@ -148,7 +162,10 @@
     ],
     "notes_file": "research/cognitive-ability.md",
     "sha256": "99e3a918c0f3452ea25c38788bfa713b34a49f4370529dc0591cc4fc12ec2743",
-    "columns_verified": 28
+    "columns_verified": 28,
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "not specified in inspected index/codebook"
   },
   {
     "id": "ospp-fsiq-alpha",
@@ -187,7 +204,10 @@
     ],
     "notes_file": "research/cognitive-ability.md",
     "sha256": "6ac2deb7aa6913dc7f5c8141a48d6cc3035403eb07d5db411827505c46696135",
-    "columns_verified": 61
+    "columns_verified": 61,
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "not specified in inspected index/codebook"
   },
   {
     "id": "ospp-ebfmt",
@@ -224,7 +244,10 @@
     ],
     "notes_file": "research/cognitive-ability.md",
     "sha256": "adfaa0cd2eadfcb053d53c75109c01175df90fe688c62a28d20f33b66c8d60e1",
-    "columns_verified": 275
+    "columns_verified": 275,
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "distinct response-data licence not established"
   },
   {
     "id": "ganis-kievit-mental-rotation",
@@ -251,7 +274,9 @@
       "https://doi.org/10.6084/m9.figshare.1045385",
       "https://ndownloader.figshare.com/files/1878074",
       "https://ndownloader.figshare.com/files/3702010",
-      "https://doi.org/10.5334/jopd.ai"
+      "https://doi.org/10.5334/jopd.ai",
+      "https://doi.org/10.6084/m9.figshare.1045385.v13",
+      "https://api.figshare.com/v2/articles/1045385"
     ],
     "verification_level": "archive_verified",
     "verification_detail": "official landing/API metadata and downloaded archive structure plus original embedded data description inspected; workbook values not parsed",
@@ -261,7 +286,11 @@
       "two Behavioural_data.zip files require version/file-ID care"
     ],
     "notes_file": "research/cognitive-ability.md",
-    "sha256": "3b56dde3defc36d54c85b671f83ade2f7ded685b326be973583ad115bb994e03"
+    "sha256": "3b56dde3defc36d54c85b671f83ade2f7ded685b326be973583ad115bb994e03",
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/ganis-kievit-mental-rotation",
+    "redistribution_license": "CC-BY-4.0",
+    "local_manifest": "datasets/ganis-kievit-mental-rotation/manifest.json"
   },
   {
     "id": "sro-performance-tasks",
@@ -290,7 +319,8 @@
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC6534563/",
       "https://github.com/IanEisenberg/Self_Regulation_Ontology/tree/master/Data/Complete_02-16-2019",
       "https://github.com/IanEisenberg/Self_Regulation_Ontology",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6431228/"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6431228/",
+      "https://github.com/IanEisenberg/Self_Regulation_Ontology/blob/4e6e837fb5aaca87ed5914fd9be251156f43eec9/README.md#license"
     ],
     "verification_level": "documentation_verified",
     "verification_detail": "primary article/repository documentation; full raw archive not parsed",
@@ -302,7 +332,11 @@
       "variable task reliability"
     ],
     "notes_file": "research/cognitive-ability.md",
-    "retest_participants": 150
+    "retest_participants": 150,
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/sro-performance-tasks",
+    "redistribution_license": "CC-BY-4.0",
+    "local_manifest": "datasets/sro-performance-tasks/manifest.json"
   },
   {
     "id": "openneuro-ds004636-objective-tasks",
@@ -318,7 +352,7 @@
     ],
     "unit": "participant × task item/trial; see granularity",
     "granularity": "BIDS events.tsv and raw/cleaned OSF task files",
-    "sample_size": "103 participants/records; study completers; usable sample varies by task; 68 have no recommended behavioural exclusion",
+    "sample_size": "103 reported study completers; mirrored objective event files cover110 source subject IDs; apply documented exclusions",
     "item_count": "Not verified",
     "selected_options_retained": "task-dependent event/raw records; exact selected-choice fields not yet parsed",
     "response_times": "available; task-dependent fields and sidecars",
@@ -333,17 +367,22 @@
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC11271451/",
       "https://openneuro.org/datasets/ds004636/versions/1.0.4",
       "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/master/dataset_description.json",
-      "https://osf.io/sjvnw/"
+      "https://osf.io/sjvnw/",
+      "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/dataset_description.json"
     ],
     "verification_level": "documentation_verified",
-    "verification_detail": "data descriptor and dataset licence metadata; event payloads not parsed",
+    "verification_detail": "734 objective BIDS event files acquired with original sidecar codebooks; source file bytes and member provenance checked; no MRI or survey/preference tasks",
     "verified_date": "2026-10-29",
     "limitations": [
       "in-scanner task procedures",
       "missing/low-quality runs",
       "exclude survey medley and preference tasks"
     ],
-    "notes_file": "research/cognitive-ability.md"
+    "notes_file": "research/cognitive-ability.md",
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/openneuro-ds004636-objective-tasks",
+    "redistribution_license": "CC0-1.0",
+    "local_manifest": "datasets/openneuro-ds004636-objective-tasks/manifest.json"
   },
   {
     "id": "mathy-friedman-working-memory",
@@ -355,28 +394,34 @@
     ],
     "unit": "participant × task item/trial; see granularity",
     "granularity": "dat_all raw and collapsed per-participant files; schema not yet inspected",
-    "sample_size": "Not verified",
-    "item_count": "Not verified",
+    "sample_size": "99 numeric participant IDs;3,564 raw records;99 participant-collapsed rows",
+    "item_count": "Exact trial/item interpretation remains unresolved; raw and collapsed scoring files are separate",
     "selected_options_retained": "unverified; raw and collapsed files announced",
     "response_times": "unverified",
     "scoring": "all-or-nothing unit and partial-credit unit scoring included",
     "priority": "conditional candidate for comparing span scoring rules",
-    "access": "public Mendeley Data v1",
+    "access": "All two original Mendeley version1 CSV files acquired through normal public API",
     "license_data": "CC BY4.0",
     "license_items": "not separately reviewed",
     "landing_url": "https://data.mendeley.com/datasets/kfc3jyggs7/1",
     "download_url": "https://data.mendeley.com/datasets/kfc3jyggs7/1",
     "source_urls": [
-      "https://data.mendeley.com/datasets/kfc3jyggs7/1"
+      "https://data.mendeley.com/datasets/kfc3jyggs7/1",
+      "https://doi.org/10.17632/kfc3jyggs7.1",
+      "https://data.mendeley.com/public-api/datasets/kfc3jyggs7?version=1"
     ],
-    "verification_level": "metadata_only_or_unresolved",
-    "verification_detail": "official landing page only",
+    "verification_level": "file_inspected",
+    "verification_detail": "Original semicolon CSVs parsed:3,564×16 and99×23; SHA256 verified; no separately deposited author codebook",
     "verified_date": "2026-10-29",
     "limitations": [
       "sample size and exact raw schema unverified",
       "collapsed data cannot replace trial data"
     ],
-    "notes_file": "research/cognitive-ability.md"
+    "notes_file": "research/cognitive-ability.md",
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/mathy-friedman-working-memory",
+    "redistribution_license": "CC-BY-4.0",
+    "local_manifest": "datasets/mathy-friedman-working-memory/manifest.json"
   },
   {
     "id": "icar-current-restricted",
@@ -415,7 +460,10 @@
       "raw dimensions not inspected",
       "historical public-domain descriptions insufficient for current bundle"
     ],
-    "notes_file": "research/cognitive-ability.md"
+    "notes_file": "research/cognitive-ability.md",
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "full ZIP Sharing Level1 Scientific Use License v1; do not assume open redistribution"
   },
   {
     "id": "pisa-2025",
@@ -457,7 +505,10 @@
       "https://webfs.oecd.org/pisa2022/2025/PISA2025_Codebook.xlsx",
       "https://webfs.oecd.org/pisa2022/2025/CY09_MS_COG_PUF.zip",
       "https://webfs.oecd.org/pisa2022/2025/CY09_MS_COG_PROCESS_PUF.zip"
-    ]
+    ],
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "PISA-specific public-use terms; sharing prohibited"
   },
   {
     "id": "pisa-2022",
@@ -496,7 +547,10 @@
       "https://www.oecd.org/en/data/datasets/pisa-2022-database.html",
       "https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=197663",
       "https://webfs.oecd.org/pisa2022/STU_COG_SPSS.zip"
-    ]
+    ],
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "PISA-specific public-use terms; sharing prohibited"
   },
   {
     "id": "pisa-2018-timing",
@@ -535,8 +589,12 @@
       "https://www.oecd.org/en/data/datasets/pisa-2018-database.html",
       "https://webfs.oecd.org/pisa2022/index.html",
       "https://www.oecd.org/content/dam/oecd/en/data/datasets/pisa/pisa-2018-datasets/ssas-sps-data-files/PISA2018%20Aneex%20K%20TechReport.pdf",
-      "https://webfs.oecd.org/pisa2018/SPSS_STU_TTM.zip"
-    ]
+      "https://webfs.oecd.org/pisa2018/SPSS_STU_TTM.zip",
+      "https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=197663"
+    ],
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "PISA-specific public-use terms; sharing prohibited"
   },
   {
     "id": "piaac-2023",
@@ -573,7 +631,10 @@
       "https://www.oecd.org/en/data/datasets/PIAAC-2nd-Cycle-Database.html",
       "https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=424913",
       "https://www.oecd.org/content/dam/oecd/en/about/programmes/edu/piaac/data-materials/cycle-2/piaac-cy2-international-codebook.xlsx"
-    ]
+    ],
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "PIAAC-specific public-use terms; sharing prohibited"
   },
   {
     "id": "piaac-2012-logs",
@@ -609,7 +670,10 @@
     "source_urls": [
       "https://www.gesis.org/en/data-on-adult-education/daten/piaac-daten-zyklus-1/piaac-international/international-piaac-log-files",
       "https://search.gesis.org/research_data/ZA6712"
-    ]
+    ],
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "Provider terms; redistribution permission not established"
   },
   {
     "id": "timss-2023",
@@ -645,8 +709,12 @@
     "source_urls": [
       "https://www.iea.nl/data-tools/repository/timss",
       "https://www.iea.nl/sites/default/files/2025-02/T23_UG-International-Database.pdf",
-      "https://www.iea.nl/sites/default/files/data-repository/TIMSS/TIMSS2023/TIMSS2023_IDB_R_G4.zip"
-    ]
+      "https://www.iea.nl/sites/default/files/data-repository/TIMSS/TIMSS2023/TIMSS2023_IDB_R_G4.zip",
+      "https://www.iea.nl/sites/default/files/2019-05/Disclaimer%20and%20License%20Agreement.pdf"
+    ],
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "IEA provider agreement; response-data redistribution unresolved"
   },
   {
     "id": "pirls-2021",
@@ -681,8 +749,12 @@
     "verification_detail": "Archive header/range check; actual records not parsed; primary documentation checked",
     "source_urls": [
       "https://www.iea.nl/data-tools/repository/pirls",
-      "https://www.iea.nl/sites/default/files/data-repository/PIRLS/PIRLS2021/PIRLS2021_IDB_R.zip"
-    ]
+      "https://www.iea.nl/sites/default/files/data-repository/PIRLS/PIRLS2021/PIRLS2021_IDB_R.zip",
+      "https://www.iea.nl/sites/default/files/2019-05/Disclaimer%20and%20License%20Agreement.pdf"
+    ],
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "IEA provider agreement; response-data redistribution unresolved"
   },
   {
     "id": "icils-2023",
@@ -719,8 +791,12 @@
     "source_urls": [
       "https://www.iea.nl/data-tools/repository/icils",
       "https://www.iea.nl/sites/default/files/2025-02/ICILS_2023_User_Guide.pdf",
-      "https://www.iea.nl/sites/default/files/data-repository/ICILS/ICILS2023/ICILS2023_IDB_R.zip"
-    ]
+      "https://www.iea.nl/sites/default/files/data-repository/ICILS/ICILS2023/ICILS2023_IDB_R.zip",
+      "https://www.iea.nl/sites/default/files/2019-05/Disclaimer%20and%20License%20Agreement.pdf"
+    ],
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "IEA provider agreement; response-data redistribution unresolved"
   },
   {
     "id": "iccs-2022-cognitive",
@@ -757,8 +833,12 @@
     "source_urls": [
       "https://www.iea.nl/data-tools/repository/iccs",
       "https://www.iea.nl/sites/default/files/2024-05/ICCS%20User%20Guide_0.pdf",
-      "https://www.iea.nl/sites/default/files/data-repository/ICCS/ICCS2022/ICCS2022_IDB_R.zip"
-    ]
+      "https://www.iea.nl/sites/default/files/data-repository/ICCS/ICCS2022/ICCS2022_IDB_R.zip",
+      "https://www.iea.nl/sites/default/files/2019-05/Disclaimer%20and%20License%20Agreement.pdf"
+    ],
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "IEA provider agreement; response-data redistribution unresolved"
   },
   {
     "id": "fraction-subtraction",
@@ -773,8 +853,8 @@
     "item_count": "20 test items; 8 skill attributes",
     "response_times": "No",
     "scoring": "1=correct, 0=incorrect; responses already scored; no original selected-answer trace.",
-    "access": "Anonymous CSV export or CDM R package.",
-    "license_data": "CDM package GPL (>=2); separate original dataset grant was not identified. Record package distribution terms without assuming they settle all third-party data rights.",
+    "access": "Exact source .rda objects mirrored with author codebooks, package metadata and full GPL text",
+    "license_data": "Original packaged response source objects under GPL-2.0-or-later; formal package-wide grant, no contrary data notice found. Separate proprietary test-content rights not inferred.",
     "license_items": "Published historical items; separate permission for reproducing item text not verified.",
     "landing_url": "https://raw.githubusercontent.com/alexanderrobitzsch/cdm/master/man/fraction.subtraction.data.Rd",
     "download_url": "https://alexanderrobitzsch.r-universe.dev/CDM/data/fraction.subtraction.data/csv",
@@ -792,10 +872,18 @@
     "source_urls": [
       "https://raw.githubusercontent.com/alexanderrobitzsch/cdm/master/man/fraction.subtraction.data.Rd",
       "https://alexanderrobitzsch.r-universe.dev/CDM/data/fraction.subtraction.qmatrix/csv",
-      "https://alexanderrobitzsch.r-universe.dev/CDM"
+      "https://alexanderrobitzsch.r-universe.dev/CDM",
+      "https://github.com/alexanderrobitzsch/CDM/blob/9a731f28426367d9c56576035930c7246a902894/DESCRIPTION",
+      "https://github.com/alexanderrobitzsch/CDM/tree/9a731f28426367d9c56576035930c7246a902894",
+      "https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Licensing",
+      "https://cran.r-project.org/web/packages/policies.html"
     ],
-    "verification_detail": "raw-file-verified: full CSV has 536 rows × 20 item columns and only 0/1; official package documentation checked.",
-    "verification_level": "file_inspected"
+    "verification_detail": "Exact source-distribution R data objects loaded in native R; response and Q-matrix dimensions verified; source hashes and licence retained",
+    "verification_level": "file_inspected",
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/fraction-subtraction",
+    "redistribution_license": "GPL-2.0-or-later",
+    "local_manifest": "datasets/fraction-subtraction/manifest.json"
   },
   {
     "id": "ecpe-grammar",
@@ -811,8 +899,8 @@
     "item_count": "28 grammar items; not the complete ECPE exam",
     "response_times": "No",
     "scoring": "Binary correctness; remove the id column before scoring.",
-    "access": "Anonymous JSON export or data.ecpe in CDM.",
-    "license_data": "CDM package GPL (>=2); original ECPE response-data licence not separately verified.",
+    "access": "Exact source .rda objects mirrored with author codebooks, package metadata and full GPL text",
+    "license_data": "Original packaged response source objects under GPL-2.0-or-later; formal package-wide grant, no contrary data notice found. Separate proprietary test-content rights not inferred.",
     "license_items": "Full ECPE test content is not supplied by this response export; no item republication grant verified.",
     "landing_url": "https://raw.githubusercontent.com/alexanderrobitzsch/cdm/master/man/data.ecpe.Rd",
     "download_url": "https://alexanderrobitzsch.r-universe.dev/CDM/data/data.ecpe/json",
@@ -829,10 +917,18 @@
     "notes_file": "research/subject-tests-and-learning.md",
     "source_urls": [
       "https://raw.githubusercontent.com/alexanderrobitzsch/cdm/master/man/data.ecpe.Rd",
-      "https://alexanderrobitzsch.r-universe.dev/CDM"
+      "https://alexanderrobitzsch.r-universe.dev/CDM",
+      "https://github.com/alexanderrobitzsch/CDM/blob/9a731f28426367d9c56576035930c7246a902894/DESCRIPTION",
+      "https://github.com/alexanderrobitzsch/CDM/tree/9a731f28426367d9c56576035930c7246a902894",
+      "https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Licensing",
+      "https://cran.r-project.org/web/packages/policies.html"
     ],
-    "verification_detail": "raw-file-verified: full JSON contains data (2,922 records, id plus E1–E28) and q.matrix (28 records).",
-    "verification_level": "file_inspected"
+    "verification_detail": "Exact source-distribution R data objects loaded in native R; response and Q-matrix dimensions verified; source hashes and licence retained",
+    "verification_level": "file_inspected",
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/ecpe-grammar",
+    "redistribution_license": "GPL-2.0-or-later",
+    "local_manifest": "datasets/ecpe-grammar/manifest.json"
   },
   {
     "id": "assistments-2009",
@@ -869,7 +965,10 @@
       "https://sites.google.com/site/assistmentsdata/an-explanation-on-how-to-interpret-our-data-sets"
     ],
     "verification_detail": "raw-sample-verified: corrected CSV header and first records inspected, not complete row counts.",
-    "verification_level": "file_inspected"
+    "verification_level": "file_inspected",
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "Official parent page states free to use and asks for precise source citation; no standard licence found."
   },
   {
     "id": "assistments-2015",
@@ -903,7 +1002,10 @@
       "https://sites.google.com/site/assistmentsdata/datasets/2015-assistments-skill-builder-data"
     ],
     "verification_detail": "raw-file-verified: full CSV row count, unique user/sequence counts, and columns checked.",
-    "verification_level": "file_inspected"
+    "verification_level": "file_inspected",
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "No release-specific standard licence found; do not infer an explicit redistribution grant from download availability."
   },
   {
     "id": "junyi-2020",
@@ -918,7 +1020,7 @@
     "item_count": "1,330 exercise/content metadata rows raw-file verified; unique problem upid count not recounted.",
     "response_times": "total_sec_taken; timestamp_TW also present.",
     "scoring": "is_correct plus attempt/hint indicators; chosen raw answers and an answer key are absent from inspected schema.",
-    "access": "Official Kaggle page and API; anonymous individual-file API requests worked during verification (large Log_Problem is compressed).",
+    "access": "Completed mirrored source files; see local SOURCE.md, codebook, manifest and release links",
     "license_data": "CC BY-NC-SA 4.0 in uploader data card and Kaggle API metadata, with additional source policy text.",
     "license_items": "Content metadata supplied; separate rights to full online problems should not be inferred.",
     "landing_url": "https://www.kaggle.com/datasets/junyiacademy/learning-activity-public-dataset-by-junyi-academy",
@@ -940,8 +1042,12 @@
       "https://www.kaggle.com/api/v1/datasets/download/junyiacademy/learning-activity-public-dataset-by-junyi-academy/Info_Content.csv",
       "https://www.kaggle.com/api/v1/datasets/download/junyiacademy/learning-activity-public-dataset-by-junyi-academy/Log_Problem.csv"
     ],
-    "verification_detail": "metadata- and raw-sample-verified: official Kaggle API licence/card; full Info_Content (1,330 rows), Log_Problem header and first decompressed records inspected.",
-    "verification_level": "file_inspected"
+    "verification_detail": "Full original Kaggle bundle acquired unchanged; all three source CSVs included; full ZIP CRC audit passed. Provider licence/terms and source-header field guide preserved.",
+    "verification_level": "file_inspected",
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/junyi-2020",
+    "redistribution_license": "CC-BY-NC-SA-4.0",
+    "local_manifest": "datasets/junyi-2020/manifest.json"
   },
   {
     "id": "ednet",
@@ -953,9 +1059,9 @@
     "granularity": "KT1 question-solving logs; KT2 answer-selection actions; KT3 explanations/lectures; KT4 wider actions.",
     "sample_size": "KT1: 784,309 per-student files; approximately 131 million actions refers to the broad dataset, not KT1 answer rows.",
     "item_count": "13,169 keyed question metadata rows (raw-file verified).",
-    "response_times": "KT1 elapsed_time in milliseconds; bundle timing can be shared across associated questions; shifted timestamps.",
+    "response_times": "KT1 elapsed_time in milliseconds; bundle time can repeat acrossquestions. KT4 cursor_time is media playhead position, not response latency.",
     "scoring": "Join user_answer (a–d) to Contents correct_answer; bundles identify shared stimuli.",
-    "access": "Public author GitHub links Google Drive ZIPs; Contents archive retrieved, full multi-GB KT archives not downloaded.",
+    "access": "Completed mirrored source files; see local SOURCE.md, codebook, manifest and release links",
     "license_data": "CC BY-NC 4.0, stated by authors for research purposes.",
     "license_items": "Released Contents includes keys/tags/IDs, not question text, passages or audio; no right to reproduce unreleased materials inferred.",
     "landing_url": "https://github.com/riiid/ednet",
@@ -969,15 +1075,20 @@
     "verified_date": "2026-10-29",
     "domain": "subject_tests_and_learning",
     "dataset_kind": "learning_practice_logs",
-    "selected_options_retained": "user_answer a–d and correct_answer documented; learner payload not parsed",
+    "selected_options_retained": "Yes; original KT1 user_answer and Contents correct_answer. For action logs use last respond before bundle submit; erase/undo fields have different semantics.",
     "notes_file": "research/subject-tests-and-learning.md",
     "source_urls": [
       "https://github.com/riiid/ednet",
       "https://bit.ly/ednet-content",
-      "https://arxiv.org/abs/1912.03072"
+      "https://arxiv.org/abs/1912.03072",
+      "https://huggingface.co/datasets/Lucy9999/EdNet-KT1/resolve/790cff06b7c112c4ec072217257de5dd4ec1e77a/EdNet-KT1.zip"
     ],
-    "verification_detail": "raw-metadata-verified: full Contents ZIP and question CSV; log schema/examples and archive links page-verified.",
-    "verification_level": "documentation_verified"
+    "verification_detail": "Full original KT1-KT4 and Contents archives copied without byte changes; every ZIP member CRC verified. Author README/codebook and CC BY-NC4 licence preserved. KT1 final SHA-256 matches the pinned mirror LFS; fixed byte windows match the official source. Canonical Riiid CC BY-NC4 retained.",
+    "verification_level": "file_inspected",
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/ednet",
+    "redistribution_license": "CC-BY-NC-4.0",
+    "local_manifest": "datasets/ednet/manifest.json"
   },
   {
     "id": "eedi-neurips-2020",
@@ -992,9 +1103,9 @@
     "item_count": "27,613 questions (tasks 1/2); 948 (tasks 3/4), with images supplied for the smaller set.",
     "response_times": "No response-duration field in inspected answer metadata: AnswerId, DateAnswered, Confidence, GroupId, QuizId, SchemeOfWorkId. DateAnswered is a timestamp, not response time.",
     "scoring": "CorrectAnswer and selected AnswerValue support rescoring and distractor models; IsCorrect is provided.",
-    "access": "Current Eedi research page links a 626 MB ZIP on Azure; anonymous HTTP byte-range access and ZIP members verified.",
+    "access": "Completed mirrored source files; see local SOURCE.md, codebook, manifest and release links",
     "license_data": "CC BY-NC-ND 4.0, explicitly stated on the official Eedi challenge page. Noncommercial use only; attribution and licence link required; modified/remixed/transformed material may not be distributed.",
-    "license_items": "Official additional condition: question images are supplied only for model training; no other use, printing or sharing with anyone is permitted.",
+    "license_items": "Question images excluded: provider limits them to model training and prohibits sharing/printing. Unchanged response/metadata CSVs only.",
     "landing_url": "https://www.eedischool.com/projects/neurips-education-challenge",
     "download_url": "https://dqanonymousdata.blob.core.windows.net/neurips-public/data.zip",
     "limitations": [
@@ -1017,8 +1128,12 @@
       "https://dqanonymousdata.blob.core.windows.net/neurips-public/data.zip",
       "https://arxiv.org/html/2007.12061v3"
     ],
-    "verification_detail": "raw-sample-verified: ZIP directory, tasks 1/2 and 3/4 training headers and answer metadata; question metadata and official counts also checked. Official Eedi licence and image-specific conditions verified directly (page lines 52–56).",
-    "verification_level": "file_inspected"
+    "verification_detail": "All18originalresponse/metadata/challenge CSVtables acquired with exact original bytes and source CRC32 verified. Lossless collection packaging only; all images and macOS resource forks omitted under provider conditions.",
+    "verification_level": "file_inspected",
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/eedi-neurips-2020",
+    "redistribution_license": "CC-BY-NC-ND-4.0",
+    "local_manifest": "datasets/eedi-neurips-2020/manifest.json"
   },
   {
     "id": "duolingo-slam-2018",
@@ -1030,12 +1145,12 @@
     ],
     "unit": "learner × token within an exercise",
     "granularity": "Token correctness/error labels, correct-answer tokens, user/session and exercise metadata across three language tracks.",
-    "sample_size": "Initial release: >2 million annotated tokens, >6,000 learners, first 30 days (use version-specific counts).",
+    "sample_size": "Acquired version4:7,141,267 token rows across9split files;2,387,567 exercise metadata records; split user counts overlap",
     "item_count": "No fixed common item count; tracks en_es, es_en and fr_en.",
     "response_times": "Whole-exercise seconds; some null/negative logging values need cleaning.",
     "scoring": "0=OK and 1=mistake; this is reversed from ordinary correct=1 coding.",
-    "access": "Official shared-task page links Harvard Dataverse DOI; primary page/API were blocked in this runtime, but DataCite deposited metadata was readable.",
-    "license_data": "CC BY-NC 4.0 explicitly stated in author-deposited DataCite description; Dataverse also records custom terms.",
+    "access": "Completed mirrored source files; see local SOURCE.md, codebook, manifest and release links",
+    "license_data": "CC BY-NC4.0 confirmed by original Duolingo LICENSE.md in all3archives and deposited metadata; full licence/attribution preserved",
     "license_items": "Do not infer a licence for the entire Duolingo curriculum beyond the released corpus.",
     "landing_url": "https://sharedtask.duolingo.com/2018.html",
     "download_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/8SWHNO",
@@ -1053,10 +1168,16 @@
     "source_urls": [
       "https://sharedtask.duolingo.com/2018.html",
       "https://api.datacite.org/dois/10.7910/DVN/8SWHNO",
-      "https://research.duolingo.com/"
+      "https://research.duolingo.com/",
+      "https://doi.org/10.7910/DVN/8SWHNO",
+      "https://github.com/xinhez/11785-project/tree/master/data"
     ],
-    "verification_detail": "page- and DOI-metadata-verified; full data files not inspected due Harvard access denial.",
-    "verification_level": "documentation_verified"
+    "verification_detail": "All three version4 course archives acquired unchanged from named mirror, with original Duolingo LICENSE.md/CITING.md/CHANGELOG.md. Exact source-deposited sizes match; original-deposit hashes not exposed. Complete gzip CRC audit passed.",
+    "verification_level": "file_inspected",
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/duolingo-slam-2018",
+    "redistribution_license": "CC-BY-NC-4.0",
+    "local_manifest": "datasets/duolingo-slam-2018/manifest.json"
   },
   {
     "id": "kdd-cup-2010-algebra",
@@ -1093,7 +1214,10 @@
       "https://kdd.org/kdd-cup/view/kdd-cup-2010-student-performance-evaluation/Rules"
     ],
     "verification_detail": "raw-sample-verified: official ZIP first member algebra_2005_2006_master.txt and tab-delimited header/records inspected.",
-    "verification_level": "file_inspected"
+    "verification_level": "file_inspected",
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "No explicit standard reusable-data licence found; competition availability is not an unrestricted redistribution grant."
   },
   {
     "id": "dbe-kt22",
@@ -1131,7 +1255,10 @@
       "https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/6DZWOH"
     ],
     "verification_detail": "paper- and DOI-metadata-verified; source data unavailable to this runtime.",
-    "verification_level": "documentation_verified"
+    "verification_level": "documentation_verified",
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "DataCite registers custom dataset terms, including required citation/acknowledgement; full custom licence could not be inspected. Do not apply the paper CC BY 4.0 licence to the dataset."
   },
   {
     "domain": "language_and_constructed_response",
@@ -1139,7 +1266,7 @@
     "response_times": "Not verified",
     "verified_date": "2026-10-29",
     "priority": "high_for_constructed_response",
-    "verification_level": "documentation_verified",
+    "verification_level": "file_inspected",
     "notes_file": "research/language-and-short-answers.md",
     "id": "merlin",
     "name": "MERLIN multilingual examination writing",
@@ -1149,10 +1276,10 @@
       "Czech writing"
     ],
     "granularity": "Anonymized exam text with CEFR rating and annotations",
-    "sample_size": "2,286 texts/adult writers in current provider description",
-    "item_count": "Multiple examination writing tasks; not a fixed item matrix",
+    "sample_size": "2,287 version-1.2 metadata rows and distinct author IDs; website previously reported 2,286",
+    "item_count": "Multiple writing tasks; full response texts and ratings mirrored",
     "scoring": "Overall and dimension-specific CEFR ratings; fair ratings; target hypotheses",
-    "access": "Official download links; linked CLARIN endpoint presented anti-bot page during review",
+    "access": "Acquired through normal public CLARIN REST endpoints; original files and provider MD5 verified",
     "license_data": "CC BY-SA 4.0 per current provider",
     "license_items": "Provider states data and resources CC BY-SA 4.0; retain component notices",
     "landing_url": "https://www.merlin-platform.eu/",
@@ -1163,10 +1290,16 @@
     "dataset_kind": "human_rated_performance",
     "source_urls": [
       "https://www.merlin-platform.eu/",
-      "https://www.porta.eurac.edu/lci/merlin/"
+      "https://www.porta.eurac.edu/lci/merlin/",
+      "https://hdl.handle.net/20.500.12124/59",
+      "https://clarin.eurac.edu/repository/rest/items/44?expand=all"
     ],
     "selected_options_retained": "Free-text or spoken performance retained; not selected-option coding",
-    "verification_detail": "See detailed source profile for access and inspection scope"
+    "verification_detail": "Version-1.2 metadata parsed: 2,287 rows ×362 columns; original ZIP integrity and source MD5 checked; text/manual annotations/tasks/codebooks mirrored",
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/merlin",
+    "redistribution_license": "CC-BY-SA-4.0",
+    "local_manifest": "datasets/merlin/manifest.json"
   },
   {
     "domain": "language_and_constructed_response",
@@ -1198,7 +1331,10 @@
       "https://researchdatasets.cambridge.org/datasets/clc-fce-dataset"
     ],
     "selected_options_retained": "Free-text or spoken performance retained; not selected-option coding",
-    "verification_detail": "See detailed source profile for access and inspection scope"
+    "verification_detail": "See detailed source profile for access and inspection scope",
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "Custom Cambridge noncommercial research/education license; no redistribution"
   },
   {
     "domain": "language_and_constructed_response",
@@ -1230,7 +1366,10 @@
       "https://researchdatasets.cambridge.org/datasets/speak-and-improve-corpus-2025"
     ],
     "selected_options_retained": "Free-text or spoken performance retained; not selected-option coding",
-    "verification_detail": "See detailed source profile for access and inspection scope"
+    "verification_detail": "See detailed source profile for access and inspection scope",
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "Custom Cambridge noncommercial research/education license; no redistribution"
   },
   {
     "domain": "language_and_constructed_response",
@@ -1263,15 +1402,18 @@
       "https://researchdatasets.cambridge.org/datasets/write-and-improve-corpus-2024"
     ],
     "selected_options_retained": "Free-text or spoken performance retained; not selected-option coding",
-    "verification_detail": "See detailed source profile for access and inspection scope"
+    "verification_detail": "See detailed source profile for access and inspection scope",
+    "redistribution_status": "excluded",
+    "local_dataset_dir": null,
+    "redistribution_license": "Custom Cambridge noncommercial research/education license; no redistribution"
   },
   {
     "domain": "language_and_constructed_response",
     "unit": "human performance",
-    "response_times": "Not verified",
+    "response_times": "Whole-form total time duration for all160 attempts; no per-gap latency established",
     "verified_date": "2026-10-29",
     "priority": "conditional",
-    "verification_level": "metadata_only_or_unresolved",
+    "verification_level": "file_inspected",
     "notes_file": "research/language-and-short-answers.md",
     "id": "ctest_mip_2024",
     "name": "Constrained English C-Test user study",
@@ -1279,10 +1421,10 @@
       "English gap completion"
     ],
     "granularity": "Individual C-Test gap responses and known solutions documented in CSV",
-    "sample_size": "40 participants",
+    "sample_size": "40 users; 160 user-form attempts; 3,200 observed gap scores",
     "item_count": "32 tests, 20 gaps each; assignment yields repeated observations",
     "scoring": "Gap accuracy against solutions; distinguish human data from generated outputs",
-    "access": "Author repository links university data; university endpoint returned 403",
+    "access": "Original human-study ZIP acquired through normal public university API; provider MD5 verified",
     "license_data": "University record states CC BY 4.0; component notices require checking",
     "license_items": "Verify underlying passage notices separately; code Apache-2.0 is separate",
     "landing_url": "https://github.com/UKPLab/arxiv2024-constrained-ctest-generation",
@@ -1292,10 +1434,16 @@
     ],
     "dataset_kind": "experimental_assessment",
     "source_urls": [
-      "https://github.com/UKPLab/arxiv2024-constrained-ctest-generation"
+      "https://github.com/UKPLab/arxiv2024-constrained-ctest-generation",
+      "https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/4205",
+      "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658"
     ],
     "selected_options_retained": "Free-text or spoken performance retained; not selected-option coding",
-    "verification_detail": "See detailed source profile for access and inspection scope"
+    "verification_detail": "Original source ZIP parsed:40 users,32 forms,160 attempts,20 gap scores each; whole-form duration verified",
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/ctest_mip_2024",
+    "redistribution_license": "CC-BY-4.0",
+    "local_manifest": "datasets/ctest_mip_2024/manifest.json"
   },
   {
     "domain": "language_and_constructed_response",
@@ -1325,10 +1473,16 @@
     ],
     "dataset_kind": "tutoring_short_answers",
     "source_urls": [
-      "https://github.com/myrosia/semeval-2013-task7"
+      "https://github.com/myrosia/semeval-2013-task7",
+      "https://github.com/myrosia/semeval-2013-task7/blob/main/LICENSE",
+      "https://aclanthology.org/S13-2045/"
     ],
     "selected_options_retained": "Free-text student answers retained, rather than multiple-choice options",
-    "verification_detail": "See detailed source profile for access and inspection scope"
+    "verification_detail": "See detailed source profile for access and inspection scope",
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/semeval2013-task7",
+    "redistribution_license": "CC-BY-SA-3.0",
+    "local_manifest": "datasets/semeval2013-task7/manifest.json"
   },
   {
     "domain": "language_and_constructed_response",
@@ -1358,9 +1512,15 @@
     ],
     "dataset_kind": "assessment_short_answers",
     "source_urls": [
-      "https://github.com/myrosia/semeval-2013-task7"
+      "https://github.com/myrosia/semeval-2013-task7",
+      "https://github.com/myrosia/semeval-2013-task7/blob/main/LICENSE",
+      "https://aclanthology.org/S13-2045/"
     ],
     "selected_options_retained": "Free-text student answers retained, rather than multiple-choice options",
-    "verification_detail": "See detailed source profile for access and inspection scope"
+    "verification_detail": "See detailed source profile for access and inspection scope",
+    "redistribution_status": "mirrored",
+    "local_dataset_dir": "datasets/semeval2013-task7",
+    "redistribution_license": "CC-BY-SA-3.0",
+    "local_manifest": "datasets/semeval2013-task7/manifest.json"
   }
 ]

@@ -1,0 +1,16 @@
+{
+  "file": "junyi-2020-original.zip",
+  "event": "complete",
+  "bytes": 1615467938,
+  "sha256": "d3272a56b3657d19e94f9c4b3c00b7d6b83694c9e9969237d8903ada86d3e7d9",
+  "source_url": "https://www.kaggle.com/api/v1/datasets/download/junyiacademy/learning-activity-public-dataset-by-junyi-academy",
+  "acquisition_url": "https://www.kaggle.com/api/v1/datasets/download/junyiacademy/learning-activity-public-dataset-by-junyi-academy",
+  "path": "/home/anonymous/Documents/ChatGPT/New Scoring System/Open-Test-Data/datasets/junyi-2020/raw/junyi-2020-original.zip",
+  "zip_entries": 3,
+  "csv_members": 3,
+  "first_csv_header": "ucid,content_pretty_name,content_kind,difficulty,subject,learning_stage,level1_id,level2_id,level3_id,level4_id",
+  "zip_check": "Central directory and sample CSV header parsed; full CRC audit follows separately",
+  "zip_crc_audit": "Passed: every archive member decompressed and CRC32 verified",
+  "audit_seconds": 15.0,
+  "data_csv_members": 3
+}

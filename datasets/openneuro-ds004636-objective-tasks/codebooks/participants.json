@@ -1,0 +1,32 @@
+{
+    "Age": {
+        "Description": "age of the participant",
+        "Units": "year"
+    },
+    "Gender": {
+        "Description": "gender of the participant as reported by the participant",
+        "Levels": {
+            "Male": "Male",
+            "Female": "Female"
+        }
+    },
+    "Ethnicity": {
+        "Description": "ethnicity of participant as reported by the participant",
+        "Levels": {
+            "NOT Hispanic or Latino": "not hispanic or latino",
+            "Hispanic or Latino": "hispanic or latino"
+        }
+    },
+    "Race": {
+        "Description": "race of participant as reported by the participant",
+        "Levels": {
+            "Asian": "Asian",
+            "More Than One Race": "More than one race",
+            "White": "White",
+            "Black or African American": "Black or African American",
+            "Native Hawaiian or Other Pacific Islander": "Native Hawaiian or Other Pacific Islander",
+            "Unknown / Not Reported": "Unknown / Not Reported",
+            "American Indian/Alaska Native": "American Indian/Alaska Native"
+        }
+    }
+}

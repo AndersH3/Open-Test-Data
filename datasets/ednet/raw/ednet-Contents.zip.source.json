@@ -1,0 +1,15 @@
+{
+  "file": "ednet-Contents.zip",
+  "event": "complete",
+  "bytes": 173976,
+  "sha256": "aa910a0436d9dbac0ba232f55e27b37ad8d39da285fcf15f1c1eb5d064be98e7",
+  "source_url": "https://bit.ly/ednet-content",
+  "acquisition_url": "https://drive.usercontent.google.com/download?id=117aYJAWG3GU48suS66NPaB82HwFj6xWS&export=download&confirm=t",
+  "path": "/home/anonymous/Documents/ChatGPT/New Scoring System/Open-Test-Data/datasets/ednet/raw/ednet-Contents.zip",
+  "zip_entries": 11,
+  "first_csv_header": "lecture_id,part,tags,video_length,deployed_at",
+  "zip_check": "Central directory and sample CSV header parsed; full CRC audit follows separately",
+  "actual_data_csv_members": 4,
+  "csv_members_including_macOS_forks": 8,
+  "zip_crc_audit": "Passed: every archive member decompressed and CRC32 verified"
+}

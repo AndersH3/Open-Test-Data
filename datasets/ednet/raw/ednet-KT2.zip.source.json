@@ -1,0 +1,15 @@
+{
+  "file": "ednet-KT2.zip",
+  "event": "complete",
+  "bytes": 555757666,
+  "sha256": "bb5dec5708b6af913d8b99997e1a74699fced4555288862a80925bab3b5abff5",
+  "source_url": "https://bit.ly/ednet-kt2",
+  "acquisition_url": "https://drive.usercontent.google.com/download?id=1qQQshbzyULW5RjMi7u-IhUr2dT_6uMXA&export=download&confirm=t",
+  "path": "/home/anonymous/Documents/ChatGPT/New Scoring System/Open-Test-Data/datasets/ednet/raw/ednet-KT2.zip",
+  "zip_entries": 297446,
+  "csv_members": 297444,
+  "first_csv_header": "timestamp,action_type,item_id,source,user_answer,platform",
+  "zip_check": "Central directory and sample CSV header parsed; full CRC audit follows separately",
+  "zip_crc_audit": "Passed: every archive member decompressed and CRC32 verified",
+  "audit_seconds": 23.8
+}

@@ -1,0 +1,72 @@
+{
+  "catalogue_ids": [
+    "ctest_mip_2024"
+  ],
+  "retrieved_date": "2026-10-29",
+  "source_url": "https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/4205",
+  "license": "CC-BY-4.0",
+  "license_evidence": "Original item API metadata dc.rights.license states CC-BY-4.0. The code repository separately uses Apache-2.0.",
+  "selection": "Original human User Study Data.zip only; separate generated-output/variability/model/code archives excluded from response-data scope. Archive includes ancillary self-report administration data, explicitly separated from objective gap responses in project guide.",
+  "files": [
+    {
+      "path": "CODEBOOK.project.md",
+      "bytes": 2803,
+      "sha256": "ffe6cf9b7bb6c7f9d0a3011da436ae2d60d6bcb094a7facf7591e31098f33dcb",
+      "origin": "project_generated"
+    },
+    {
+      "path": "LICENSE.cc-by-4.0.txt",
+      "bytes": 17023,
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+      "origin": "upstream_unmodified",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-4.0.txt",
+      "modified": false
+    },
+    {
+      "path": "SOURCE.md",
+      "bytes": 3188,
+      "sha256": "20a521c880caef747428fcf0c1fda5497beecf846f0727b9076ab6e745ae5432",
+      "origin": "project_generated"
+    },
+    {
+      "path": "User Study Data.zip",
+      "bytes": 47462,
+      "sha256": "9027d1cfa96e00bef49268171ae886ecb06103454155f5700106b7c7a9194914",
+      "origin": "upstream_unmodified",
+      "source_url": "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/bitstreams/088d335e-b696-48f3-8f08-bc4dc2cc8dad/content",
+      "modified": false,
+      "provider_md5": "675c833393326a9ecd4ff71744be090f",
+      "provider_checksum_verified": true
+    },
+    {
+      "path": "structural-verification.json",
+      "bytes": 1352,
+      "sha256": "e749039cdd1e2cebccf75ad5ab5265fe5973eb112206f4df2352c07d5d9e84c8",
+      "origin": "project_generated"
+    },
+    {
+      "path": "upstream-README.md",
+      "bytes": 17265,
+      "sha256": "1dd062efa71f4fe1c48647a67a53dbdb3cf6adb49a5ef94bd392655a6203c57c",
+      "origin": "upstream_unmodified",
+      "source_url": "https://raw.githubusercontent.com/UKPLab/arxiv2024-constrained-ctest-generation/master/README.md",
+      "modified": false
+    },
+    {
+      "path": "upstream-code-LICENSE.Apache-2.0.txt",
+      "bytes": 11373,
+      "sha256": "ddd26e054a3905f5481a4b9f6a8614aa499c4733ab232777a27e0859ddf61780",
+      "origin": "upstream_unmodified",
+      "source_url": "https://raw.githubusercontent.com/UKPLab/arxiv2024-constrained-ctest-generation/master/LICENSE.txt",
+      "modified": false
+    },
+    {
+      "path": "upstream-repository-record.json",
+      "bytes": 8084,
+      "sha256": "7e93e8ee1f644419786c4380a72c1ce2814527dc2874311557402ef080d46d9e",
+      "origin": "upstream_unmodified",
+      "source_url": "https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658",
+      "modified": false
+    }
+  ]
+}

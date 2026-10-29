@@ -1,0 +1,95 @@
+{
+    "onset": {
+        "LongName": "onset",
+        "Description": "timepoint that probe appears on screen that matches scan timeseries",
+        "Units": "seconds"
+    },
+    "duration": {
+        "LongName": "duration",
+        "Description": "fixed period of time during which stimulus was on screen",
+        "Units": "seconds"
+    },
+    "correct": {
+        "LongName": "correct",
+        "Description": "whether the response was correct or not",
+        "Units": "boolean",
+        "Levels": {
+            "0": "incorrect",
+            "1": "correct"
+        }
+    },
+    "correct_response": {
+        "LongName": "correct_response",
+        "Description": "what the correct key_press is",
+        "Units": "key_code",
+        "Levels": {
+            "89": "y",
+            "71": "g"
+        },
+        "Notes": "89 was coded for index finger responses, 71 for middle finger responses"
+    },
+    "cue": {
+        "LongName": "cue",
+        "Description": "which cue was presented",
+        "Levels": {
+            "spatial": "deterministically indicates the upcoming target location",
+            "double": "one cue presented at each of the two possible target locations"
+        }
+    },
+    "experiment_exp_id": {
+        "LongName": "experiment_exp_id",
+        "Description": "indicates which task was performed"
+    },
+    "flanker_location": {
+        "LongName": "flanker_location",
+        "Description": "where flanker stimuli were presented",
+        "Levels": {
+            "down": "on lower half of screen",
+            "up": "on upper half of screen"
+        }
+    },
+    "flanker_middle_direction": {
+        "LongName": "flanker_middle_direction",
+        "Description": "direction of critical stimulus arrow",
+        "Levels": {
+            "right": "arrow pointing right",
+            "left": "arrow pointing left"
+        }
+    },
+    "flanker_type": {
+        "LongName": "flanker_type",
+        "Description": "type of flanker condition",
+        "Levels": {
+            "incongruent": "critical stimulus arrow points in opposite direction of flanker arrows",
+            "congruent": "critical stimulus arrow points in same direction as flanker arrows"
+        }
+    },
+    "key_press": {
+        "LongName": "key_press",
+        "Description": "which key was pressed",
+        "Units": "key_code",
+        "Levels": {
+            "89": "y",
+            "71": "g",
+            "-1": "no response"
+        },
+        "Notes": "89 was coded for index finger responses, 71 for middle finger responses"
+    },
+    "trial_id": {
+        "LongName": "trial_id",
+        "Description": "identifier for each trial",
+        "Levels":{
+            "spatialcue": "spatial cue",
+            "doublecue": "double cue",
+            "stim": "probe"
+        }
+    },
+    "response_time": {
+        "LongName": "response_time",
+        "Units": "seconds"
+    },
+    "worker_id": {
+        "LongName": "worker_id",
+        "Description": "subject identifier"
+    }
+}

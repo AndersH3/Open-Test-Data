@@ -1,0 +1,125 @@
+[
+  {
+    "task": "ANT",
+    "columns": [
+      "onset",
+      "duration",
+      "correct",
+      "correct_response",
+      "cue",
+      "experiment_exp_id",
+      "flanker_location",
+      "flanker_middle_direction",
+      "flanker_type",
+      "key_press",
+      "response_time",
+      "trial_id",
+      "worker_id"
+    ]
+  },
+  {
+    "task": "DPX",
+    "columns": [
+      "onset",
+      "duration",
+      "condition",
+      "correct",
+      "correct_response",
+      "experiment_exp_id",
+      "key_press",
+      "response_time",
+      "trial_id",
+      "trial_type",
+      "worker_id"
+    ]
+  },
+  {
+    "task": "WATT3",
+    "columns": [
+      "onset",
+      "duration",
+      "planning",
+      "condition",
+      "current_position",
+      "exp_stage",
+      "experiment_exp_id",
+      "goal_state",
+      "key_press",
+      "problem_id",
+      "response_time",
+      "start_state",
+      "trial_id",
+      "worker_id"
+    ]
+  },
+  {
+    "task": "motorSelectiveStop",
+    "columns": [
+      "onset",
+      "duration",
+      "SS_delay",
+      "correct_response",
+      "experiment_exp_id",
+      "key_press",
+      "response_time",
+      "stop_response",
+      "stopped",
+      "trial_type",
+      "worker_id"
+    ]
+  },
+  {
+    "task": "stopSignal",
+    "columns": [
+      "onset",
+      "duration",
+      "SS_delay",
+      "correct_response",
+      "experiment_exp_id",
+      "key_press",
+      "response_time",
+      "stopped",
+      "trial_type",
+      "worker_id"
+    ]
+  },
+  {
+    "task": "stroop",
+    "columns": [
+      "onset",
+      "duration",
+      "condition",
+      "correct",
+      "correct_response",
+      "experiment_exp_id",
+      "key_press",
+      "response_time",
+      "stim_color",
+      "stim_word",
+      "trial_type",
+      "worker_id"
+    ]
+  },
+  {
+    "task": "twoByTwo",
+    "columns": [
+      "onset",
+      "duration",
+      "CTI",
+      "correct",
+      "correct_response",
+      "cue",
+      "cue_switch",
+      "experiment_exp_id",
+      "key_press",
+      "response_time",
+      "stim_color",
+      "stim_number",
+      "switch_type",
+      "task_type",
+      "task_switch",
+      "worker_id",
+      "first_trial_of_block"
+    ]
+  }
+]

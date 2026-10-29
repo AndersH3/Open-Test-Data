@@ -1,0 +1,139 @@
+{
+  "source_url": "https://dqanonymousdata.blob.core.windows.net/neurips-public/data.zip",
+  "upstream_archive_bytes": 656787242,
+  "retrieved_date": "2026-10-29",
+  "selection": "All18actualCSVtables; question images and macOS resource forks excluded",
+  "data_changes": "None to CSV bytes; technical lossless recompression only",
+  "package_file": "eedi-2020-response-and-metadata-csvs.zip",
+  "package_bytes": 615045122,
+  "package_sha256": "2a956a053c21ce576d99a47f32ebaa43b8e8e04b8e0f3964b77e726ffdf8bb7c",
+  "zip_crc_audit": "Every new package member decompressed and CRC32 verified; every source member also matched original ZIP CRC32",
+  "members": [
+    {
+      "path_in_package": "data/metadata/answer_metadata_task_1_2.csv",
+      "original_member_bytes": 1019436477,
+      "sha256": "d5ea21e12f03829f1786d666f07b80fdbbdc670096b6757955792bb72547e06f",
+      "upstream_crc32": "7e7f2e0e",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/metadata/answer_metadata_task_3_4.csv",
+      "original_member_bytes": 73137422,
+      "sha256": "f985269919d20a9e13eb8656b8472e1ba5e866e5869353593895161767b4ea91",
+      "upstream_crc32": "30e3812d",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/metadata/question_metadata_task_1_2.csv",
+      "original_member_bytes": 741225,
+      "sha256": "673aabe79e8dba2cf82e4bf87221796f2672c1ad264c9e08e2a99bf235704a12",
+      "upstream_crc32": "274c1a68",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/metadata/question_metadata_task_3_4.csv",
+      "original_member_bytes": 22789,
+      "sha256": "44204e3450d0a2298fef0d940677fcd7c373b43f994cd5fec1d7381aff95001b",
+      "upstream_crc32": "7607618f",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/metadata/student_metadata_task_1_2.csv",
+      "original_member_bytes": 3273103,
+      "sha256": "a1678aad3726d781dc28dd17ffa18176d3234170cfd94f60b4f4e0223d8218be",
+      "upstream_crc32": "8de51662",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/metadata/student_metadata_task_3_4.csv",
+      "original_member_bytes": 133215,
+      "sha256": "76335ced56e3bfa333dc64d5ada89ddc22c0d637857c46db72c5ed4b4df74885",
+      "upstream_crc32": "1e0e27fc",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/metadata/subject_metadata.csv",
+      "original_member_bytes": 13527,
+      "sha256": "d576a6eccc171d8eb82a284a9586c27b2bd9941f39f3fcd6ae1110470766f202",
+      "upstream_crc32": "0f1d678a",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/test_data/quality_response_remapped_private.csv",
+      "original_member_bytes": 683,
+      "sha256": "6d032739fb638bf9932a4493954da3dc865a4c4b61306bfc154c03661d1f88a2",
+      "upstream_crc32": "fc91987b",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/test_data/quality_response_remapped_public.csv",
+      "original_member_bytes": 691,
+      "sha256": "1df0e83635629b572c82f8dfff74ef7010ed400b99e8fa94251f80644fa8be6a",
+      "upstream_crc32": "8378c717",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/test_data/test_private_answers_task_1.csv",
+      "original_member_bytes": 45822661,
+      "sha256": "25eb3232afa674262a5cfe181a56fb7876dc42d08fd3289b03e0852385ede345",
+      "upstream_crc32": "9efdfef8",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/test_data/test_private_answers_task_2.csv",
+      "original_member_bytes": 45822663,
+      "sha256": "be97061f7b31e012d547349695ff31e024e5738eabc94536e7aa847619eed1d2",
+      "upstream_crc32": "c36347b8",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/test_data/test_private_task_4.csv",
+      "original_member_bytes": 1281027,
+      "sha256": "bd7d4e0e24bb68146e754450c5a0029c1f5980a85af477e0fea577b7026347cc",
+      "upstream_crc32": "93fd697a",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/test_data/test_private_task_4_more_splits.csv",
+      "original_member_bytes": 2204510,
+      "sha256": "5a3537a5dc9aae309b55299319188d815502729195c94a08c4d493558f3f276a",
+      "upstream_crc32": "5df81ed1",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/test_data/test_public_answers_task_1.csv",
+      "original_member_bytes": 45821597,
+      "sha256": "2ec4e8441bc57046626243bb060b43f9db7c4133745b66c4299eea32c03aab30",
+      "upstream_crc32": "08032ed7",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/test_data/test_public_answers_task_2.csv",
+      "original_member_bytes": 45821599,
+      "sha256": "cdf8c25bb63b37119906601d0a9d4a0b07473bc7716c151d5c9754534d7c6052",
+      "upstream_crc32": "743a0c40",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/test_data/test_public_task_4_more_splits.csv",
+      "original_member_bytes": 3217819,
+      "sha256": "47142c5b9ed648409c1250fe22b734cafbe74de1ff4a8b3b88d5d1814e97f17f",
+      "upstream_crc32": "283c5ebc",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/train_data/train_task_1_2.csv",
+      "original_member_bytes": 430049940,
+      "sha256": "721ebae1c5ddb3f8a4c85a437893216bbba1d8b2ca950ee0681d1f3e98ebdc0e",
+      "upstream_crc32": "ca1eef66",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    },
+    {
+      "path_in_package": "data/train_data/train_task_3_4.csv",
+      "original_member_bytes": 31731601,
+      "sha256": "8bdbe55a310641f9e59caffbff2eac85da0b2f6c6b2bb99fa69922296f52a4e1",
+      "upstream_crc32": "1cf74d25",
+      "change": "None to member contents; lossless recompression and collection subset only"
+    }
+  ]
+}

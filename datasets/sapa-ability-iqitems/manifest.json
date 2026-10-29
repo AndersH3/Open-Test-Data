@@ -1,0 +1,87 @@
+{
+  "catalogue_id": "sapa-ability-iqitems",
+  "status": "mirrored",
+  "license": "GPL-2.0-or-later",
+  "source_package": "psychTools",
+  "source_package_version": "2.6.4",
+  "source_commit": "7dc591f8ac11c0ef1764cf853f3065aa60653d09",
+  "license_evidence": "https://raw.githubusercontent.com/cran/psychTools/7dc591f8ac11c0ef1764cf853f3065aa60653d09/DESCRIPTION",
+  "scope": "Only `ability.rda` and `iqitems.rda`: two representations of the same1,525 people\u00d716 cognitive items, plus their codebooks. The current full ICAR archive and its separate access terms are outside this mirror.",
+  "files": [
+    {
+      "path": "upstream-DESCRIPTION",
+      "source_path": "DESCRIPTION",
+      "source_url": "https://raw.githubusercontent.com/cran/psychTools/7dc591f8ac11c0ef1764cf853f3065aa60653d09/DESCRIPTION",
+      "retrieved_date": "2026-10-29",
+      "bytes": 1123,
+      "sha256": "718a16adfc1378be9539eb0d0201d38def96a467c3cf58f18dba1eca49cb0318",
+      "upstream_git_blob_sha": "78a603d2ca013d723727438a910ccd0b1522a8ee",
+      "role": "original package description/license declaration"
+    },
+    {
+      "path": "original/ability.rda",
+      "source_path": "data/ability.rda",
+      "source_url": "https://raw.githubusercontent.com/cran/psychTools/7dc591f8ac11c0ef1764cf853f3065aa60653d09/data/ability.rda",
+      "retrieved_date": "2026-10-29",
+      "bytes": 13019,
+      "sha256": "64e1c8c8a70662b50faabb7be951fe4df5a61c7c693274e5a010eea305dd8005",
+      "upstream_git_blob_sha": "1735a19845769724798e60bea353400670368cee",
+      "role": "original packaged response/Q-matrix source object"
+    },
+    {
+      "path": "original/iqitems.rda",
+      "source_path": "data/iqitems.rda",
+      "source_url": "https://raw.githubusercontent.com/cran/psychTools/7dc591f8ac11c0ef1764cf853f3065aa60653d09/data/iqitems.rda",
+      "retrieved_date": "2026-10-29",
+      "bytes": 9972,
+      "sha256": "97e70070d17ff14064d174bc9156510e4436281532a8bc1cf3f4632d71739162",
+      "upstream_git_blob_sha": "cfcd7ac02712edbbf4788eba65954acdb130cff2",
+      "role": "original packaged response/Q-matrix source object"
+    },
+    {
+      "path": "codebooks/ability.Rd",
+      "source_path": "man/ability.Rd",
+      "source_url": "https://raw.githubusercontent.com/cran/psychTools/7dc591f8ac11c0ef1764cf853f3065aa60653d09/man/ability.Rd",
+      "retrieved_date": "2026-10-29",
+      "bytes": 5354,
+      "sha256": "6d2ffb8a9c41187dd05affdda4f10188a13261d1f2ed06b5c7b602dd6feed720",
+      "upstream_git_blob_sha": "6e5cca94ecd1948e982fa1d2e4d7720ef2a3da0d",
+      "role": "original author Rd codebook"
+    },
+    {
+      "path": "codebooks/iqitems.Rd",
+      "source_path": "man/iqitems.Rd",
+      "source_url": "https://raw.githubusercontent.com/cran/psychTools/7dc591f8ac11c0ef1764cf853f3065aa60653d09/man/iqitems.Rd",
+      "retrieved_date": "2026-10-29",
+      "bytes": 5419,
+      "sha256": "68d3a4feca82d4aa8546ef1c29806de3e5c2ad50aa9ea608d0ff3fbcf8d392fa",
+      "upstream_git_blob_sha": "431536568a8725298a329ff70d6576bf3191913d",
+      "role": "original author Rd codebook"
+    },
+    {
+      "path": "SOURCE.md",
+      "source_url": null,
+      "retrieved_date": "2026-10-29",
+      "bytes": 4348,
+      "sha256": "8e9bdd0b20ce04ccfa979d8c9ce99625381162f0a0c1ecdb408be842ae10edb2",
+      "role": "project-generated provenance/reading example"
+    },
+    {
+      "path": "read-data.R",
+      "source_url": null,
+      "retrieved_date": "2026-10-29",
+      "bytes": 221,
+      "sha256": "de5214ecef80e5d9dbe73a2171d231b0d1226867723fef7736a42af4a0e6b4c8",
+      "role": "project-generated provenance/reading example"
+    },
+    {
+      "path": "LICENSE.GPL-2.0-or-later.txt",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/GPL-2.0-or-later.txt",
+      "retrieved_date": "2026-10-29",
+      "bytes": 17337,
+      "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3",
+      "role": "full license text"
+    }
+  ],
+  "native_R_verification": "ability.rda : ability,ability.keys \n  ability dims=1525x16 class=matrix,array\n  ability.keys$ICAR16 dims=\n  ability.keys$reasoning dims=\n  ability.keys$letters dims=\n  ability.keys$matrix dims=\n  ability.keys$rotate dims=\niqitems.rda : iqitems \n  iqitems dims=1525x16 class=data.frame\nfraction.subtraction.data.rda : fraction.subtraction.data \n  fraction.subtraction.data dims=536x20 class=data.frame\nfraction.subtraction.qmatrix.rda : fraction.subtraction.qmatrix \n  fraction.subtraction.qmatrix dims=20x8 class=data.frame\ndata.ecpe.rda : data.ecpe \n  data.ecpe$data dims=2922x29\n  data.ecpe$q.matrix dims=28x3\n"
+}

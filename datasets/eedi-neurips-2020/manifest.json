@@ -1,0 +1,42 @@
+{
+  "catalogue_id": "eedi-neurips-2020",
+  "retrieval_date": "2026-10-29",
+  "license": "CC-BY-NC-ND-4.0",
+  "files": [
+    {
+      "path": "datasets/eedi-neurips-2020/CODEBOOK.md",
+      "bytes": 2751,
+      "sha256": "b8340ae4615ac29c51dad17e7be78529f7b603f0dbf067ecacd19e041248f0da"
+    },
+    {
+      "path": "datasets/eedi-neurips-2020/SOURCE.md",
+      "bytes": 2625,
+      "sha256": "a1ba7db4c3a848440f1b7805227a38692208591e0f6f0160c8a1d0909d958293"
+    },
+    {
+      "path": "datasets/eedi-neurips-2020/extraction-manifest.json",
+      "bytes": 6753,
+      "sha256": "4d9cebd1318cd21a247db80f463916581401666991845b708685ed18aad99a87"
+    },
+    {
+      "path": "datasets/eedi-neurips-2020/LICENSE.txt",
+      "bytes": 17452,
+      "sha256": "4f3c4a321eb0c73182eee7afa3fe0111e24dec193f2d6febcf4207f26af26839"
+    },
+    {
+      "path": "datasets/eedi-neurips-2020/upstream-archive-inventory.json",
+      "bytes": 364157,
+      "sha256": "28a8a005079df41fa75d6d62b7bc3f1bff61a179df5afcf2908ee4eddd211500"
+    },
+    {
+      "path": "datasets/eedi-neurips-2020/schema-headers.json",
+      "bytes": 2928,
+      "sha256": "1469d097d0e4f1a2806695f3f324bed646796ca5c9e6d6522fbbcbf769363933"
+    },
+    {
+      "path": "datasets/eedi-neurips-2020/raw/eedi-2020-response-and-metadata-csvs.zip",
+      "bytes": 615045122,
+      "sha256": "2a956a053c21ce576d99a47f32ebaa43b8e8e04b8e0f3964b77e726ffdf8bb7c"
+    }
+  ]
+}

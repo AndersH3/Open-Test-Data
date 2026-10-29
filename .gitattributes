@@ -1,0 +1,5 @@
+# Preserve third-party payload bytes, including original CSV line endings.
+datasets/** -text
+*.zip binary
+*.gz binary
+*.pdf binary

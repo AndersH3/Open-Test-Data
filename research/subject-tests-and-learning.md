@@ -1,6 +1,6 @@
 # Subject tests and learning-response datasets
 
-Research date: **29 October 2026**. Scope: observed human skill/knowledge performance. These ten entries include fixed tests and learning platforms, which need different evaluation designs. No raw student data is intended for committing to the project; store links, provenance, schemas and conditions.
+Research date: **29 October 2026**. Scope: observed human skill/knowledge performance. These ten entries include fixed tests and learning platforms, which need different evaluation designs. Redistributable response files are separately mirrored in the dataset collection and release, with original licences, provenance and codebooks; sources without a clear sharing grant remain linked only. See the redistribution audit for current acquisition status.
 
 ## Main findings
 
@@ -37,7 +37,7 @@ Dense binary correctness matrix; separate item-by-skill Q-matrix. Population/sca
 
 **Access:** Anonymous CSV export or CDM R package.
 
-**Data terms:** CDM package GPL (>=2); separate original dataset grant was not identified. Record package distribution terms without assuming they settle all third-party data rights. **Item terms:** Published historical items; separate permission for reproducing item text not verified.
+**Data terms:** original packaged response and Q-matrix source objects are distributed under the CDM package-wide GPL (>=2) grant, with no contrary data notice found. Exact source objects and author documentation are mirrored; separate test-content rights remain distinct. **Item terms:** Published historical items; separate permission for reproducing item text not verified.
 
 **Limits:** Historical, narrow curriculum sample; not population norms. Q-matrix is a modelling specification, not directly observed mastery. No option-level distractor responses or timing.
 
@@ -55,7 +55,7 @@ Dense scored binary response matrix and 28×3 Q-matrix. Population/scale: 2,922 
 
 **Access:** Anonymous JSON export or data.ecpe in CDM.
 
-**Data terms:** CDM package GPL (>=2); original ECPE response-data licence not separately verified. **Item terms:** Full ECPE test content is not supplied by this response export; no item republication grant verified.
+**Data terms:** the exact packaged ECPE response/Q-matrix source object is distributed under CDM's formal package-wide GPL (>=2), with no contrary data notice found. Source object, licence and author codebook are mirrored; no ECPE question forms or proprietary handbook are supplied. **Item terms:** Full ECPE test content is not supplied by this response export; no item republication grant verified.
 
 **Limits:** Only one section of an English proficiency exam. No raw option choices, response times, or criterion proficiency scores in this object. Estimated diagnostic classes do not constitute ground-truth skill labels.
 
@@ -107,7 +107,7 @@ Log_Problem.csv with uuid, ucid, upid, correctness, time, attempts, hints and le
 
 **Scoring:** is_correct plus attempt/hint indicators; chosen raw answers and an answer key are absent from inspected schema.
 
-**Access:** Official Kaggle page and API; anonymous individual-file API requests worked during verification (large Log_Problem is compressed).
+**Access:** The complete original 2020 Kaggle archive is mirrored, with all source CSVs and a full ZIP CRC audit. Official API/source-policy provenance and hashes are retained.
 
 **Data terms:** CC BY-NC-SA 4.0 in uploader data card and Kaggle API metadata, with additional source policy text. **Item terms:** Content metadata supplied; separate rights to full online problems should not be inferred.
 
@@ -119,13 +119,13 @@ Log_Problem.csv with uuid, ucid, upid, correctness, time, attempts, hints and le
 
 ## 6. EdNet KT1–KT4 (Santa English test preparation)
 
-**Best use:** high for option-based longitudinal scoring and speed/accuracy studies. **Verification:** raw-metadata-verified: full Contents ZIP and question CSV; log schema/examples and archive links page-verified.
+**Best use:** high for option-based longitudinal scoring and speed/accuracy studies. **Verification:** all original KT1-KT4 and Contents archives acquired, source hashes recorded and every ZIP member CRC verified. Actual CSV headers and sample records inspected.
 
 KT1 question-solving logs; KT2 answer-selection actions; KT3 explanations/lectures; KT4 wider actions. Population/scale: KT1: 784,309 per-student files; approximately 131 million actions refers to the broad dataset, not KT1 answer rows. Content: 13,169 keyed question metadata rows (raw-file verified). Timing: KT1 elapsed_time in milliseconds; bundle timing can be shared across associated questions; shifted timestamps.
 
 **Scoring:** Join user_answer (a–d) to Contents correct_answer; bundles identify shared stimuli.
 
-**Access:** Public author GitHub links Google Drive ZIPs; Contents archive retrieved, full multi-GB KT archives not downloaded.
+**Access:** All five original archives are mirrored. KT1 remaining ranges used a pinned, region-verified mirror and matched its full published SHA-256; canonical author CC BY-NC4 terms apply. Other archives came from author-linked public endpoints.
 
 **Data terms:** CC BY-NC 4.0, stated by authors for research purposes. **Item terms:** Released Contents includes keys/tags/IDs, not question text, passages or audio; no right to reproduce unreleased materials inferred.
 
@@ -143,7 +143,7 @@ QuestionId/UserId/AnswerId with IsCorrect, CorrectAnswer, AnswerValue; subject a
 
 **Scoring:** CorrectAnswer and selected AnswerValue support rescoring and distractor models; IsCorrect is provided.
 
-**Access:** Current Eedi research page links a 626 MB ZIP on Azure; anonymous HTTP byte-range access and ZIP members verified.
+**Access:** All original response/metadata/challenge CSVs are mirrored from public Azure byte ranges; every image and macOS resource fork is excluded. The canonical original archive is about 626 MB.
 
 **Data terms:** CC BY-NC-ND 4.0 is explicitly stated on the official Eedi challenge page: noncommercial use, attribution with a licence link, and no distribution of modified material. **Item terms:** The official source restricts question images to model training and prohibits all other uses, printing and sharing with anyone.
 
@@ -155,15 +155,15 @@ QuestionId/UserId/AnswerId with IsCorrect, CorrectAnswer, AnswerValue; subject a
 
 ## 8. Duolingo SLAM 2018 shared-task learner responses
 
-**Best use:** medium: language learning/error prediction rather than a fixed proficiency test. **Verification:** page- and DOI-metadata-verified; full data files not inspected due Harvard access denial.
+**Best use:** medium: language learning/error prediction rather than a fixed proficiency test. **Verification:** acquired version-4 archives inspected; original licence and citation files retained; full gzip CRC audits and SHA-256 checks passed. The Harvard endpoint was unavailable, so the named unchanged mirror and the verification limits are recorded.
 
-Token correctness/error labels, correct-answer tokens, user/session and exercise metadata across three language tracks. Population/scale: Initial release: >2 million annotated tokens, >6,000 learners, first 30 days (use version-specific counts). Content: No fixed common item count; tracks en_es, es_en and fr_en. Timing: Whole-exercise seconds; some null/negative logging values need cleaning.
+Token correctness/error labels, correct-answer tokens, user/session and exercise metadata across three language tracks. Population/scale: initial release described >2 million tokens and >6,000 learners. The acquired version-4 files contain 7,141,267 token rows across nine split files and 2,387,567 exercise metadata records; these are not unique learners. Content: No fixed common item count; tracks en_es, es_en and fr_en. Timing: Whole-exercise seconds; some null/negative logging values need cleaning.
 
 **Scoring:** 0=OK and 1=mistake; this is reversed from ordinary correct=1 coding.
 
-**Access:** Official shared-task page links Harvard Dataverse DOI; primary page/API were blocked in this runtime, but DataCite deposited metadata was readable.
+**Access:** Original version-4 course archives obtained from a named public mirror. Archive sizes match author-deposited metadata; the original deposit exposed no hash for independent upstream equality checking. Mirror hashes, original licences and provenance are preserved.
 
-**Data terms:** CC BY-NC 4.0 explicitly stated in author-deposited DataCite description; Dataverse also records custom terms. **Item terms:** Do not infer a licence for the entire Duolingo curriculum beyond the released corpus.
+**Data terms:** CC BY-NC 4.0 is confirmed by original Duolingo LICENSE.md within all three archives and author-deposited metadata. No additional prohibition on sharing was found in those original files. **Item terms:** Do not infer a licence for the entire Duolingo curriculum beyond the released corpus.
 
 **Limits:** Original challenge version provides labels rather than actual learner strings. Most sessions are lessons/practice; only about 1% are test sessions. Tokens in one exercise are dependent and share a duration; inspect current version and label files before analysis.
 

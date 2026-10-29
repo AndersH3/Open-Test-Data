@@ -1,0 +1,121 @@
+{
+    "onset": {
+        "LongName": "onset",
+        "Description": "timepoint that probe appears on screen that matches scan timeseries",
+        "Units": "seconds"
+    },
+    "duration": {
+        "LongName": "duration",
+        "Description": "fixed period of time during which probe was on screen",
+        "Units": "seconds"
+    },
+    "CTI": {
+        "LongName": "CTI",
+        "Description": "cue to target interval (i.e. time between cue and target onset)",
+        "Units": "seconds",
+        "Notes": "Subtracting CTI from onset will give you the timepoint that the cue appeared on screen"
+    },
+    "correct": {
+        "LongName": "correct",
+        "Description": "whether the response was correct",
+        "Units": "boolean",
+        "Levels": {
+            "False": "incorrect",
+            "True": "correct"
+        }
+    },
+    "correct_response": {
+        "LongName": "correct_response",
+        "Description": "what the correct key_press is",
+        "Units": "key_code",
+        "Levels": {
+            "89": "y",
+            "71": "g"
+        },
+        "Notes": "89 was coded for index finger responses, 71 for middle finger responses"
+    },
+    "cue": {
+        "LongName": "cue",
+        "Description": "which cue was presented to indicate the task",
+        "Levels": {
+            "Orange-Blue": "respond based on color",
+            "Magnitude": "respond based on magnitude",
+            "Color": "respond based on color",
+            "High-Low": "respond based on magnitude"
+        }
+    },
+    "cue_switch": {
+        "LongName": "cue_switch",
+        "Description": "whether cue was switched from previous trial",
+        "Levels": {
+            "n/a": "task was switched",
+            "stay": "cue stayed the same",
+            "switch": "cue was switched"
+        }
+    },
+    "experiment_exp_id": {
+        "LongName": "experiment_exp_id",
+        "Description": "indicates which task was performed"
+    },
+    "key_press": {
+        "LongName": "key_press",
+        "Description": "which key was pressed",
+        "Units": "key_code",
+        "Levels": {
+            "89": "y",
+            "71": "g",
+            "-1": "no response"
+        },
+        "Notes": "89 was coded for index finger responses, 71 for middle finger responses"
+    },
+    "response_time": {
+        "LongName": "response_time",
+        "Units": "seconds"
+    },
+    "stim_color": {
+        "LongName": "stim_color",
+        "Description": "color of stimulus"
+    },
+    "stim_number": {
+        "LongName": "stim_number",
+        "Description": "stimulus shown on screen"
+    },
+    "switch_type": {
+        "LongName": "switch_type",
+        "Description": "whether task and cue were switched from previous trial",
+        "Levels": {
+            "cue_switch": "task was same, but cue was switched",
+            "cue_stay": "task was same, and cue was same",
+            "task_switch": "task switched"
+        }
+    },
+    "task_type": {
+        "LongName": "task_type",
+        "Description": "which task was performed",
+        "Levels": {
+            "magnitude": "respond based on magnitude",
+            "color": "respond based on color"
+        }
+    },
+    "task_switch": {
+        "LongName": "task_switch",
+        "Description": "whether task was switched from previous trial",
+        "Levels": {
+            "stay": "task stayed the same",
+            "switch": "task switched"
+        }
+    },
+    "worker_id": {
+        "LongName": "worker_id",
+        "Description": "subject identifier"
+    },
+    "first_trial_of_block": {
+        "LongName": "first_trial_of_block",
+        "Description": "whether it was the first trial of the block",
+        "Levels": {
+            "0": "not first trial of block",
+            "1": "first trial of block"
+        },
+        "Notes": "first trial of block has no previous trial to compare trial type to"
+    }
+}

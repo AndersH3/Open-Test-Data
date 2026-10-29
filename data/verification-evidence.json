@@ -381,5 +381,16 @@
       },
       "limit": "Rows are answers, not examinees. No person-level deduplication or validity analysis."
     }
+  },
+  "acquisition_phase": {
+    "date": "2026-10-29",
+    "audit": "data/redistribution-audit.json",
+    "payload_manifest": "data/download-manifest.json",
+    "release_verification": "data/release-verification.json",
+    "summary": {
+      "mirrored": 15,
+      "excluded": 22
+    },
+    "limit": "Earlier research checks remain as historical phase evidence; current acquisition facts and source-specific manifests govern mirrored snapshots."
   }
 }

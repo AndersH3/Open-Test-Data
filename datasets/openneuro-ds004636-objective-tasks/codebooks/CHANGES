@@ -1,0 +1,11 @@
+1.0.4 2024-05-20
+  - update title
+1.0.3 2024-05-17
+  - add scans.tsv files and clean up sessions that were divided
+  - update mriqc outputs to match sessions
+1.0.2 2023-09-28
+  - fixed title typo
+1.0.1 2023-09-28
+  - updated title
+1.0.0 2023-09-19
+  - uploading to OpenNeuro

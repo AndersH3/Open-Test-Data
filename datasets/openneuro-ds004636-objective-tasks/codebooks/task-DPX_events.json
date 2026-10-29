@@ -1,0 +1,83 @@
+{
+    "onset": {
+        "LongName": "onset",
+        "Description": "timepoint that stimulus appears on screen that matches scan timeseries",
+        "Units": "seconds"
+    },
+    "duration": {
+        "LongName": "duration",
+        "Description": "fixed period of time during which stimulus was on screen",
+        "Units": "seconds"
+    },
+    "condition": {
+        "LongName": "condition",
+        "Description": "which DPX condition the trial is in",
+        "Levels": {
+            "AY": "A, Y",
+            "BX": "B, X",
+            "AX": "A, X",
+            "BY": "B, Y"
+        }
+    },
+    "correct": {
+        "LongName": "correct",
+        "Description": "whether the response was correct or not",
+        "Units": "boolean",
+        "Levels": {
+            "0": "incorrect",
+            "1": "correct"
+        }
+    },
+    "correct_response": {
+        "LongName": "correct_response",
+        "Description": "what the correct key_press is",
+        "Units": "key_code",
+        "Levels": {
+            "89": "y",
+            "71": "g"
+        },
+        "Notes": "89 was coded for index finger responses, 71 for middle finger responses"
+    },
+    "experiment_exp_id": {
+        "LongName": "experiment_exp_id",
+        "Description": "indicates which task was performed"
+    },
+    "key_press": {
+        "LongName": "key_press",
+        "Description": "which key was pressed",
+        "Units": "key_code",
+        "Levels": {
+            "89": "y",
+            "71": "g",
+            "-1": "no response"
+        },
+        "Notes": "89 was coded for index finger responses, 71 for middle finger responses"
+    },
+    "response_time": {
+        "LongName": "response_time",
+        "Units": "seconds",
+        "Notes": "N/A for portions that do not expect a response (i.e. cue)"
+    },
+    "trial_id": {
+        "LongName": "trial_id",
+        "Description": "trial identifier",
+        "Levels": {
+            "cue": "cue shown (i.e. A, B)",
+            "probe": "probe shown (i.e. X, Y)"
+        }
+    },
+    "trial_type": {
+        "LongName": "trial_type",
+        "Description": "which DPX condition the trial is in",
+        "Levels": {
+            "AY": "A, Y",
+            "BX": "B, X",
+            "AX": "A, X",
+            "BY": "B, Y"
+        }
+    },
+    "worker_id": {
+        "LongName": "worker_id",
+        "Description": "subject identifier"
+    }
+}

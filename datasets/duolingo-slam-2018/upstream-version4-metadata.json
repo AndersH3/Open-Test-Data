@@ -1,0 +1,95 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.7910/DVN/8SWHNO",
+  "@type": "Dataset",
+  "author": [
+    {
+      "affiliation": "Duolingo",
+      "name": "Settles, Burr"
+    }
+  ],
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "text": "B. Settles, C. Brust, E. Gustafson, M. Hagiwara, and N. Madnani. 2018. Second Language Acquisition Modeling. In Proceedings of the NAACL-HLT Workshop on Innovative Use of NLP for Building Educational Applications (BEA). ACL."
+    }
+  ],
+  "creator": [
+    {
+      "affiliation": "Duolingo",
+      "name": "Settles, Burr"
+    }
+  ],
+  "dateModified": "2019-02-13",
+  "datePublished": "2018-01-10",
+  "description": [
+    "This repository contains gzipped files containing more than 2 million tokens (words) from answers submitted by more than 6,000 students over the course of their first 30 days of using Duolingo. It also contains baseline starter code written in Python. There are three data sets, corresponding to three different language courses. More details on the data set and task are available at: http://sharedtask.duolingo.com."
+  ],
+  "distribution": [
+    {
+      "@id": "https://doi.org/10.7910/DVN/8SWHNO/C1LOKO",
+      "@type": "DataDownload",
+      "contentSize": 46889834,
+      "description": "TRAIN, DEV, and TEST sets for English learners (who already speak Spanish).",
+      "fileFormat": "application/x-gzip",
+      "identifier": "https://doi.org/10.7910/DVN/8SWHNO/C1LOKO",
+      "name": "data_en_es.tar.gz"
+    },
+    {
+      "@id": "https://doi.org/10.7910/DVN/8SWHNO/Z29WIF",
+      "@type": "DataDownload",
+      "contentSize": 35067817,
+      "description": "TRAIN, DEV, and TEST sets for Spanish learners (who already speak English).",
+      "fileFormat": "application/x-gzip",
+      "identifier": "https://doi.org/10.7910/DVN/8SWHNO/Z29WIF",
+      "name": "data_es_en.tar.gz"
+    },
+    {
+      "@id": "https://doi.org/10.7910/DVN/8SWHNO/5YWVBV",
+      "@type": "DataDownload",
+      "contentSize": 16134930,
+      "description": "TRAIN, DEV, and TEST sets for French learners (who already speak English).",
+      "fileFormat": "application/x-gzip",
+      "identifier": "https://doi.org/10.7910/DVN/8SWHNO/5YWVBV",
+      "name": "data_fr_en.tar.gz"
+    },
+    {
+      "@id": "https://doi.org/10.7910/DVN/8SWHNO/L3AUDQ",
+      "@type": "DataDownload",
+      "contentSize": 6288,
+      "description": "Python code & README for training a baseline model and evaluations.",
+      "fileFormat": "application/x-gzip",
+      "identifier": "https://doi.org/10.7910/DVN/8SWHNO/L3AUDQ",
+      "name": "starter_code.tar.gz"
+    }
+  ],
+  "identifier": "https://doi.org/10.7910/DVN/8SWHNO",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Harvard Dataverse",
+    "url": "https://dataverse.harvard.edu"
+  },
+  "keywords": [
+    "Computer and Information Science",
+    "Social Sciences",
+    "Duolingo",
+    "Spaced Repetition",
+    "Second Language Acquisition",
+    "Machine Learning",
+    "Computational Linguistics"
+  ],
+  "license": {
+    "@type": "Dataset",
+    "text": "This work is released under the <a href=\"https://creativecommons.org/licenses/by-nc/4.0/\">Creative Commons Attribution-NonCommercial 4.0 International License</a> (CC BY-NC 4.0)."
+  },
+  "name": "Data for the 2018 Duolingo Shared Task on Second Language Acquisition Modeling (SLAM)",
+  "provider": {
+    "@type": "Organization",
+    "name": "Harvard Dataverse"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Harvard Dataverse"
+  },
+  "version": "4"
+}

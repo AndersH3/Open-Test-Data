@@ -1,0 +1,78 @@
+{
+  "source_url": "https://dqanonymousdata.blob.core.windows.net/neurips-public/data.zip",
+  "method": "Actual original CSV header lines; no response rows retained",
+  "files": [
+    {
+      "file": "data/metadata/answer_metadata_task_1_2.csv",
+      "header": "AnswerId,DateAnswered,Confidence,GroupId,QuizId,SchemeOfWorkId"
+    },
+    {
+      "file": "data/metadata/answer_metadata_task_3_4.csv",
+      "header": "AnswerId,DateAnswered,Confidence,GroupId,QuizId,SchemeOfWorkId"
+    },
+    {
+      "file": "data/metadata/question_metadata_task_1_2.csv",
+      "header": "QuestionId,SubjectId"
+    },
+    {
+      "file": "data/metadata/question_metadata_task_3_4.csv",
+      "header": "QuestionId,SubjectId"
+    },
+    {
+      "file": "data/metadata/student_metadata_task_1_2.csv",
+      "header": "UserId,Gender,DateOfBirth,PremiumPupil"
+    },
+    {
+      "file": "data/metadata/student_metadata_task_3_4.csv",
+      "header": "UserId,Gender,DateOfBirth,PremiumPupil"
+    },
+    {
+      "file": "data/metadata/subject_metadata.csv",
+      "header": "SubjectId,Name,ParentId,Level"
+    },
+    {
+      "file": "data/test_data/quality_response_remapped_private.csv",
+      "header": ",Unnamed: 0,left,right,T1_ALR,T2_CL,T3_GF,T4_MQ,T5_NS"
+    },
+    {
+      "file": "data/test_data/quality_response_remapped_public.csv",
+      "header": ",Unnamed: 0,left,right,T1_ALR,T2_CL,T3_GF,T4_MQ,T5_NS"
+    },
+    {
+      "file": "data/test_data/test_private_answers_task_1.csv",
+      "header": "QuestionId,UserId,AnswerId,IsCorrect"
+    },
+    {
+      "file": "data/test_data/test_private_answers_task_2.csv",
+      "header": "QuestionId,UserId,AnswerId,AnswerValue"
+    },
+    {
+      "file": "data/test_data/test_private_task_4.csv",
+      "header": "QuestionId,UserId,AnswerId,IsCorrect,CorrectAnswer,AnswerValue,IsTarget"
+    },
+    {
+      "file": "data/test_data/test_private_task_4_more_splits.csv",
+      "header": "QuestionId,UserId,AnswerId,IsCorrect,CorrectAnswer,AnswerValue,IsTarget_0,IsTarget_1,IsTarget_2,IsTarget_3,IsTarget_4,IsTarget_5,IsTarget_6,IsTarget_7,IsTarget_8,IsTarget_9"
+    },
+    {
+      "file": "data/test_data/test_public_answers_task_1.csv",
+      "header": "QuestionId,UserId,AnswerId,IsCorrect"
+    },
+    {
+      "file": "data/test_data/test_public_answers_task_2.csv",
+      "header": "QuestionId,UserId,AnswerId,AnswerValue"
+    },
+    {
+      "file": "data/test_data/test_public_task_4_more_splits.csv",
+      "header": "QuestionId,UserId,AnswerId,IsCorrect,CorrectAnswer,AnswerValue,IsTarget_0,IsTarget_1,IsTarget_2,IsTarget_3,IsTarget_4,IsTarget_5,IsTarget_6,IsTarget_7,IsTarget_8,IsTarget_9"
+    },
+    {
+      "file": "data/train_data/train_task_1_2.csv",
+      "header": "QuestionId,UserId,AnswerId,IsCorrect,CorrectAnswer,AnswerValue"
+    },
+    {
+      "file": "data/train_data/train_task_3_4.csv",
+      "header": "QuestionId,UserId,AnswerId,IsCorrect,CorrectAnswer,AnswerValue"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+/tmp/
+__pycache__/
+*.pyc
+*.partial
+*.part
+*.download
+*.download-state.json
+
+# Large dataset files are GitHub release assets
+/datasets/duolingo-slam-2018/raw/data_en_es.tar.gz
+/datasets/duolingo-slam-2018/raw/data_es_en.tar.gz
+/datasets/duolingo-slam-2018/raw/data_fr_en.tar.gz
+/datasets/ednet/raw/ednet-KT1.zip
+/datasets/ednet/raw/ednet-KT2.zip
+/datasets/ednet/raw/ednet-KT3.zip
+/datasets/ednet/raw/ednet-KT4.zip
+/datasets/eedi-neurips-2020/raw/eedi-2020-response-and-metadata-csvs.zip
+/datasets/ganis-kievit-mental-rotation/original/All-stimuli-JPG-file3191717.zip
+/datasets/junyi-2020/raw/junyi-2020-original.zip
+/datasets/merlin/merlin-exmaralda-v1.2.zip
+/datasets/sro-performance-tasks/original/Complete_02-16-2019-objective-tasks.zip
+/datasets/sro-performance-tasks/original/Retest_02-16-2019-objective-tasks.zip

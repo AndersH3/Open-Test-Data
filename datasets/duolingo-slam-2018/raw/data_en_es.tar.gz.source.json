@@ -1,0 +1,9 @@
+{
+  "file": "data_en_es.tar.gz",
+  "event": "complete",
+  "bytes": 46889834,
+  "sha256": "dac4e97a03e0d35d0b417e4afb8e96a20cdd3bad933bdc590ab4b56c77531393",
+  "source_url": "https://raw.githubusercontent.com/xinhez/11785-project/master/data/data_en_es.tar.gz",
+  "acquisition_url": "https://raw.githubusercontent.com/xinhez/11785-project/master/data/data_en_es.tar.gz",
+  "path": "/home/anonymous/Documents/ChatGPT/New Scoring System/Open-Test-Data/datasets/duolingo-slam-2018/raw/data_en_es.tar.gz"
+}

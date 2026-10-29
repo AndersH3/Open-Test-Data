@@ -1,0 +1,142 @@
+{
+  "method": "Counted original v4 token rows and exercise-metadata lines, excluding macOS resource forks; no participant IDs or answer rows retained",
+  "date": "2026-10-29",
+  "files": [
+    {
+      "archive": "data_en_es.tar.gz",
+      "file": "en_es.slam.20190204.dev",
+      "token_rows": 387374,
+      "exercises": 115770,
+      "unique_user_ids_within_file": 2592,
+      "sessions": {
+        "lesson": 82969,
+        "practice": 30569,
+        "test": 2232
+      },
+      "label_counts_if_in_file": {},
+      "prompt_lines": 81823
+    },
+    {
+      "archive": "data_en_es.tar.gz",
+      "file": "en_es.slam.20190204.test",
+      "token_rows": 386604,
+      "exercises": 114586,
+      "unique_user_ids_within_file": 2593,
+      "sessions": {
+        "practice": 35341,
+        "lesson": 76631,
+        "test": 2614
+      },
+      "label_counts_if_in_file": {},
+      "prompt_lines": 80440
+    },
+    {
+      "archive": "data_en_es.tar.gz",
+      "file": "en_es.slam.20190204.train",
+      "token_rows": 2622957,
+      "exercises": 824012,
+      "unique_user_ids_within_file": 2593,
+      "sessions": {
+        "lesson": 677756,
+        "practice": 135237,
+        "test": 11019
+      },
+      "label_counts_if_in_file": {
+        "0": 2292169,
+        "1": 330788
+      },
+      "prompt_lines": 595100
+    },
+    {
+      "archive": "data_es_en.tar.gz",
+      "file": "es_en.slam.20190204.dev",
+      "token_rows": 288864,
+      "exercises": 96003,
+      "unique_user_ids_within_file": 2640,
+      "sessions": {
+        "practice": 42297,
+        "lesson": 52954,
+        "test": 752
+      },
+      "label_counts_if_in_file": {},
+      "prompt_lines": 52483
+    },
+    {
+      "archive": "data_es_en.tar.gz",
+      "file": "es_en.slam.20190204.test",
+      "token_rows": 282181,
+      "exercises": 93145,
+      "unique_user_ids_within_file": 2641,
+      "sessions": {
+        "lesson": 45641,
+        "practice": 46795,
+        "test": 709
+      },
+      "label_counts_if_in_file": {},
+      "prompt_lines": 50629
+    },
+    {
+      "archive": "data_es_en.tar.gz",
+      "file": "es_en.slam.20190204.train",
+      "token_rows": 1973556,
+      "exercises": 731896,
+      "unique_user_ids_within_file": 2643,
+      "sessions": {
+        "lesson": 527953,
+        "practice": 197710,
+        "test": 6233
+      },
+      "label_counts_if_in_file": {
+        "0": 1696082,
+        "1": 277474
+      },
+      "prompt_lines": 409829
+    },
+    {
+      "archive": "data_fr_en.tar.gz",
+      "file": "fr_en.slam.20190204.dev",
+      "token_rows": 137564,
+      "exercises": 43610,
+      "unique_user_ids_within_file": 1206,
+      "sessions": {
+        "lesson": 25102,
+        "practice": 18219,
+        "test": 289
+      },
+      "label_counts_if_in_file": {},
+      "prompt_lines": 33202
+    },
+    {
+      "archive": "data_fr_en.tar.gz",
+      "file": "fr_en.slam.20190204.test",
+      "token_rows": 135521,
+      "exercises": 41753,
+      "unique_user_ids_within_file": 1206,
+      "sessions": {
+        "lesson": 22043,
+        "practice": 19489,
+        "test": 221
+      },
+      "label_counts_if_in_file": {},
+      "prompt_lines": 31930
+    },
+    {
+      "archive": "data_fr_en.tar.gz",
+      "file": "fr_en.slam.20190204.train",
+      "token_rows": 926646,
+      "exercises": 326792,
+      "unique_user_ids_within_file": 1213,
+      "sessions": {
+        "lesson": 242453,
+        "practice": 81343,
+        "test": 2996
+      },
+      "label_counts_if_in_file": {
+        "0": 776283,
+        "1": 150363
+      },
+      "prompt_lines": 258592
+    }
+  ],
+  "limit": "User counts per split must not be summed; train/dev/test can overlap learners; rows are tokens, not examinees."
+}

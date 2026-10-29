@@ -1,0 +1,47 @@
+{
+  "dataset_name": "SemEval 2013 Task 7 original five-way release",
+  "retrieved_date": "2026-10-29",
+  "source_url": "https://github.com/myrosia/semeval-2013-task7",
+  "license": "CC BY-SA 3.0 Unported",
+  "license_url": "https://github.com/myrosia/semeval-2013-task7/blob/main/LICENSE",
+  "archive_scope": "Complete original five-way release; includes BEETLE and SciEntsBank, Core/Extra views and reliability material. No student rows removed or altered.",
+  "files": [
+    {
+      "path": "semeval-5way.zip",
+      "source_url": "https://raw.githubusercontent.com/myrosia/semeval-2013-task7/main/semeval-5way.zip",
+      "bytes": 12983203,
+      "sha256": "57c14e5c260d8cfd774f3fb954985d94bcfa3407029bfe585179650b907dbf9b",
+      "modified": false
+    },
+    {
+      "path": "LICENSE.cc-by-sa-3.0.txt",
+      "source_url": "https://raw.githubusercontent.com/myrosia/semeval-2013-task7/main/LICENSE",
+      "bytes": 21065,
+      "sha256": "f257601c4d54b4748016ce74f671ae6be0dbb8e6b9face8f61f2d68019bee9fb",
+      "modified": false
+    },
+    {
+      "path": "upstream-README.md",
+      "source_url": "https://raw.githubusercontent.com/myrosia/semeval-2013-task7/main/README.md",
+      "bytes": 1344,
+      "sha256": "852ce1886bf902fe0ed8f3dfd0169b758d74078d12dc87a357e48fbaac1db140",
+      "modified": false
+    },
+    {
+      "path": "SOURCE.md",
+      "bytes": 2245,
+      "sha256": "d5099923d0e734c00ac81686cdd9e9d98d595f9a5f0402e3947dd77abdde1e53",
+      "origin": "project_generated"
+    },
+    {
+      "path": "CODEBOOK.project.md",
+      "bytes": 2886,
+      "sha256": "6d9723a0fd534ee1b9ff99d1b9a68a976bc3c736409d6217247104db0d6f6955",
+      "origin": "project_generated"
+    }
+  ],
+  "catalogue_ids": [
+    "semeval2013_beetle",
+    "semeval2013_scientsbank"
+  ]
+}

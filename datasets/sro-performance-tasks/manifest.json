@@ -1,0 +1,370 @@
+{
+  "id": "sro-performance-tasks",
+  "status": "mirrored_subset",
+  "license": "CC-BY-4.0",
+  "license_evidence": "https://github.com/IanEisenberg/Self_Regulation_Ontology/blob/4e6e837fb5aaca87ed5914fd9be251156f43eec9/README.md#license",
+  "source_commit": "4e6e837fb5aaca87ed5914fd9be251156f43eec9",
+  "scope": "23 objective tasks, complete and retest phases; original per-task gzip members untouched",
+  "files": [
+    {
+      "path": "original/Complete_02-16-2019-objective-tasks.zip",
+      "source_url": "https://github.com/IanEisenberg/Self_Regulation_Ontology/tree/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019",
+      "retrieved_date": "2026-10-29",
+      "bytes": 56562944,
+      "sha256": "63bea957f44bb7c74f86f406f091be43ddd90bd9fd656b61be7b7486affec5e7",
+      "role": "project packaging of byte-identical original compressed response files",
+      "members": [
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/adaptive_n_back.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/adaptive_n_back.csv.gz",
+          "bytes": 4566117,
+          "sha256": "6d5c55b4981e9ec365f60acb1eb8a350fb687cd5942176dd11a3e8fc622b3c97"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/attention_network_task.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/attention_network_task.csv.gz",
+          "bytes": 1945674,
+          "sha256": "b0dfdc56c02a49d58fcf5ea254820003ca3b9638e4dff371fffec5d58bbbd2e0"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/choice_reaction_time.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/choice_reaction_time.csv.gz",
+          "bytes": 1251383,
+          "sha256": "69d3c8bd92a6c791a14af5b28516d027e7cf18d9b70c5f4b74e20b75ec13f066"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/digit_span.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/digit_span.csv.gz",
+          "bytes": 335141,
+          "sha256": "4414c1e497ffb74d2a38ac8987bad6d4583625981c92859d95446b7b4cc14958"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/directed_forgetting.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/directed_forgetting.csv.gz",
+          "bytes": 1214621,
+          "sha256": "0574dd83d921849eb1feecc8ca6e1d4c484e713fe205388003e67edad1b88db6"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/dot_pattern_expectancy.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/dot_pattern_expectancy.csv.gz",
+          "bytes": 1239645,
+          "sha256": "497c9cc8dea06aedb9631284298695a8b944fc5ef80a7daeef809973b6d17cab"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/go_nogo.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/go_nogo.csv.gz",
+          "bytes": 2488539,
+          "sha256": "7f545c0e409c24ad14b9290100c2e3c228179d20c7b0e8a60c4647658ec7582d"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/hierarchical_rule.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/hierarchical_rule.csv.gz",
+          "bytes": 3166046,
+          "sha256": "789bb454c16b50bf769685bfa0d0ff37d1468270eb58213ea5d37189fda9f2ab"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/keep_track.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/keep_track.csv.gz",
+          "bytes": 181281,
+          "sha256": "81ab242242245cd68b1b3b5428ccc475d27634a69f08321eb521b4ebb92f704a"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/local_global_letter.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/local_global_letter.csv.gz",
+          "bytes": 1165132,
+          "sha256": "9b30e3aad2c38f0e68c187e07c9c80c7d72afb0299e2f5c3b73c5baca9bf3ce2"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/motor_selective_stop_signal.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/motor_selective_stop_signal.csv.gz",
+          "bytes": 3463574,
+          "sha256": "db0cbf94c4346a730b78f8d97e28593050d650ca19de13caab453d40b418d547"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/psychological_refractory_period_two_choices.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/psychological_refractory_period_two_choices.csv.gz",
+          "bytes": 2982527,
+          "sha256": "f7aab4afa0cc69d704be5cd5d9c957896060fceec203d2cc56939b3c6082e96a"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/recent_probes.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/recent_probes.csv.gz",
+          "bytes": 1251603,
+          "sha256": "b76deb2e80e1c6a3ea52451f0380f57b4ba36596ddbd76df0da9a728a5f82691"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/shape_matching.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/shape_matching.csv.gz",
+          "bytes": 3661345,
+          "sha256": "b069bb30abf5575ed55476ad81a366323a0dad04b2ff69b9cfc8cb993e877d6c"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/shift_task.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/shift_task.csv.gz",
+          "bytes": 8833214,
+          "sha256": "da2fc68113b28c348cfab7591b32ef622c6001ed193e5965f22a240bc1176b61"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/simon.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/simon.csv.gz",
+          "bytes": 901612,
+          "sha256": "77a5c6939ed83ccd1fcc7c185b0525522222d37471430f95a099172f21012c6e"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/simple_reaction_time.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/simple_reaction_time.csv.gz",
+          "bytes": 1033954,
+          "sha256": "60733e2ea70d1f48613016bd0356a656935c28e15a92ba1a4cd336c3cbe873bf"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/spatial_span.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/spatial_span.csv.gz",
+          "bytes": 365348,
+          "sha256": "623c97a036321ca85e57b0855e9872c78fa4f2c5899828899b362fd93f4e5af3"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/stim_selective_stop_signal.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/stim_selective_stop_signal.csv.gz",
+          "bytes": 3501690,
+          "sha256": "b9ec574267c47ef22bf9e4d47f0d42e824687eecd101d3329d44b705ef7d692d"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/stop_signal.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/stop_signal.csv.gz",
+          "bytes": 5409982,
+          "sha256": "d34616234f27109a33d9e82343e93c03d91b36be7dc5c48e05f7d578baade4e5"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/stroop.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/stroop.csv.gz",
+          "bytes": 815267,
+          "sha256": "15f65a9a3cc9421ecd303fcf0babcad37acaff0e276698a0aa0d5443d4c907aa"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/threebytwo.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/threebytwo.csv.gz",
+          "bytes": 5562655,
+          "sha256": "0c1f9e31b9cbda248dd690a0816b1050c7a29400d6d70fe2a0e443671f5884f8"
+        },
+        {
+          "path": "Data/Complete_02-16-2019/Individual_Measures/tower_of_london.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/Individual_Measures/tower_of_london.csv.gz",
+          "bytes": 1221686,
+          "sha256": "7c66e9b81c5a1f03e80edff3638f24226f74156b267c9b91ac1c46f5e93da5bc"
+        }
+      ]
+    },
+    {
+      "path": "original/Retest_02-16-2019-objective-tasks.zip",
+      "source_url": "https://github.com/IanEisenberg/Self_Regulation_Ontology/tree/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019",
+      "retrieved_date": "2026-10-29",
+      "bytes": 16481482,
+      "sha256": "bf8c60ad0c28024beda37edbc5862bf75893d48a266b483a055b69a449386955",
+      "role": "project packaging of byte-identical original compressed response files",
+      "members": [
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/adaptive_n_back.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/adaptive_n_back.csv.gz",
+          "bytes": 1327501,
+          "sha256": "b376ad50059bc3e8e7e84567c142d98c5a2a02626217620da57c34dde561e8eb"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/attention_network_task.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/attention_network_task.csv.gz",
+          "bytes": 562977,
+          "sha256": "6dbf196a9adacf135b41e5a8f2fec498d9be63ee1340b0519a53e2ebd3267c83"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/choice_reaction_time.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/choice_reaction_time.csv.gz",
+          "bytes": 364717,
+          "sha256": "7c5aa57d93f470a9f365d5e09970b23d3f157825a1b2fac76e6da23a7c98c6c5"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/digit_span.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/digit_span.csv.gz",
+          "bytes": 98002,
+          "sha256": "27ceffc9be2883193e5cf90998dad6cd21f6f3fdbbdd66071d3cd19e8855dee0"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/directed_forgetting.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/directed_forgetting.csv.gz",
+          "bytes": 352875,
+          "sha256": "1adfac0697e57631c296c99428b6afd588807c749a13100d26c3dd34753c92b9"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/dot_pattern_expectancy.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/dot_pattern_expectancy.csv.gz",
+          "bytes": 362371,
+          "sha256": "fdb5a9bf9c8c12c316046687d3e50f5ec856605bc131b26f154c960dd6d4eeaa"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/go_nogo.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/go_nogo.csv.gz",
+          "bytes": 724399,
+          "sha256": "6289f7bae09e9f3b865ae80e0bf8ca934debc49fcc6d5482631d623d8450fe6e"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/hierarchical_rule.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/hierarchical_rule.csv.gz",
+          "bytes": 917396,
+          "sha256": "8ff22d57234d836d1fba55c9504f0319f52947daec884c4f372e37c1b3f85740"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/keep_track.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/keep_track.csv.gz",
+          "bytes": 53437,
+          "sha256": "79ede6ae8e711b2d473a73c1c6d2351462fe68180df049f5d89aa3c8827c5d9d"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/local_global_letter.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/local_global_letter.csv.gz",
+          "bytes": 340632,
+          "sha256": "e41875cc3ef2a71919372f3ea39013cecbee10919467f059674633579a9f1431"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/motor_selective_stop_signal.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/motor_selective_stop_signal.csv.gz",
+          "bytes": 993974,
+          "sha256": "64eb7e44fc644f312e1e1b257e1c4ab42217564aa27084192ca1a247fe9ac1ce"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/psychological_refractory_period_two_choices.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/psychological_refractory_period_two_choices.csv.gz",
+          "bytes": 860005,
+          "sha256": "d4a1b513e2dbebc4360ca4e4706c0015493f3c9c863cd38fa19d34d378d1f1ee"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/recent_probes.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/recent_probes.csv.gz",
+          "bytes": 362995,
+          "sha256": "5d69be43184b1aaea221ee6aa78c60ddba1686f62c0d54ff5913473e8bdfb21d"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/shape_matching.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/shape_matching.csv.gz",
+          "bytes": 1063544,
+          "sha256": "9048e35119c888a601e85ed560d942457c92065a1735268773721e02b9a3983c"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/shift_task.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/shift_task.csv.gz",
+          "bytes": 2562822,
+          "sha256": "51e09c7eadc8eff41722555350525a287d861229df89906a1516d84bed9dfe6a"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/simon.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/simon.csv.gz",
+          "bytes": 263146,
+          "sha256": "534def0a9ec2e29c46a39cc06d2430c57c32f7336210994fcaac9a2c75a1a3f7"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/simple_reaction_time.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/simple_reaction_time.csv.gz",
+          "bytes": 301090,
+          "sha256": "9d1a1f4b45cb7632f4196341c5f767d5633c1c66deb03b469d521282cad6332c"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/spatial_span.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/spatial_span.csv.gz",
+          "bytes": 106474,
+          "sha256": "8b5d0d2596238c30779428e492d04c2443ce04814985f4f1e24c7f39c99a20cc"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/stim_selective_stop_signal.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/stim_selective_stop_signal.csv.gz",
+          "bytes": 1017320,
+          "sha256": "07e6c94eefd3d07ad79845d2ce6a4849cdb8c9806560def6ad18028577c6b9f7"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/stop_signal.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/stop_signal.csv.gz",
+          "bytes": 1634065,
+          "sha256": "e2b43553c74a877d12892b8d053eceeb967eb309d68faad3dfad34c26e27fb5b"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/stroop.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/stroop.csv.gz",
+          "bytes": 236822,
+          "sha256": "25ab0bc264c728b01b781c2d4424dc338ef03b74e22e386997e1b58f963dc5f6"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/threebytwo.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/threebytwo.csv.gz",
+          "bytes": 1616805,
+          "sha256": "eadbc9dfab0551e9a46626b2f1c3e4fed536a1a912f84adad4278d5df241ac5b"
+        },
+        {
+          "path": "Data/Retest_02-16-2019/Individual_Measures/tower_of_london.csv.gz",
+          "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/Individual_Measures/tower_of_london.csv.gz",
+          "bytes": 353297,
+          "sha256": "e82c040a5eb821f3ef2ef68ca1b806a5c4866181b683a1cf6275390873232300"
+        }
+      ]
+    },
+    {
+      "path": "codebooks/Data/README.md",
+      "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/README.md",
+      "retrieved_date": "2026-10-29",
+      "bytes": 481,
+      "sha256": "c86053a668d501656a95a998d0328a25bf14bd54e7eb246983eda811cdf00894",
+      "role": "original author guide/license evidence"
+    },
+    {
+      "path": "codebooks/Data/Complete_02-16-2019/README.txt",
+      "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/README.txt",
+      "retrieved_date": "2026-10-29",
+      "bytes": 1679,
+      "sha256": "6b47b79ccd3865aa58465b11a0f8af4d75fee44e25273e43613db8c60e3d8d31",
+      "role": "original author guide/license evidence"
+    },
+    {
+      "path": "codebooks/Data/Retest_02-16-2019/README.txt",
+      "source_url": "https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/README.txt",
+      "retrieved_date": "2026-10-29",
+      "bytes": 1679,
+      "sha256": "6b47b79ccd3865aa58465b11a0f8af4d75fee44e25273e43613db8c60e3d8d31",
+      "role": "original author guide/license evidence"
+    },
+    {
+      "path": "LICENSE_CC-BY-4.0.txt",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-4.0.txt",
+      "retrieved_date": "2026-10-29",
+      "bytes": 17023,
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+      "role": "complete standard license text"
+    },
+    {
+      "path": "README.md",
+      "source_url": "https://github.com/IanEisenberg/Self_Regulation_Ontology/blob/4e6e837fb5aaca87ed5914fd9be251156f43eec9/README.md#license",
+      "retrieved_date": "2026-10-29",
+      "bytes": 2823,
+      "sha256": "e17413cb3bd032d95c3b47c258433732c5a0f56940f079d648b0e5bcfbdb0ceb",
+      "role": "project-generated provenance/field inventory"
+    },
+    {
+      "path": "SOURCE.md",
+      "source_url": "https://github.com/IanEisenberg/Self_Regulation_Ontology/blob/4e6e837fb5aaca87ed5914fd9be251156f43eec9/README.md#license",
+      "retrieved_date": "2026-10-29",
+      "bytes": 2175,
+      "sha256": "c3047395cfdff61de9c69e3a80f2a786143255a985639b239d4575e63d25c929",
+      "role": "project-generated provenance/field inventory"
+    },
+    {
+      "path": "codebooks/LICENSE-statement-source.txt",
+      "source_url": "https://github.com/IanEisenberg/Self_Regulation_Ontology/blob/4e6e837fb5aaca87ed5914fd9be251156f43eec9/README.md#license",
+      "retrieved_date": "2026-10-29",
+      "bytes": 471,
+      "sha256": "35f32f445a81edfeb1f35b36c08bf1efabeea364231beee12792cc00d43ab583",
+      "role": "source license excerpt or extracted original codebook"
+    },
+    {
+      "path": "codebooks/observed-column-schemas.json",
+      "source_url": "https://github.com/IanEisenberg/Self_Regulation_Ontology/blob/4e6e837fb5aaca87ed5914fd9be251156f43eec9/README.md#license",
+      "retrieved_date": "2026-10-29",
+      "bytes": 25539,
+      "sha256": "559f13624e5d93bf100a3dee91ac1f1d076a7df842225526299df71a9af7327d",
+      "role": "project-generated provenance/field inventory"
+    }
+  ]
+}

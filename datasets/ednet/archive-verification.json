@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-29",
+  "method": "Full SHA-256 plus every source ZIP member decompressed and CRC32 verified. Actual CSV headers inspected.",
+  "files": [
+    {
+      "file": "ednet-KT1.zip",
+      "event": "complete",
+      "bytes": 1201163816,
+      "sha256": "0d13933f90201c5101c7fe8659e44474fa049e3fb93181a8ba6fb3e63267b535",
+      "source_url": "https://bit.ly/ednet_kt1",
+      "acquisition_url": "https://huggingface.co/datasets/Lucy9999/EdNet-KT1/resolve/790cff06b7c112c4ec072217257de5dd4ec1e77a/EdNet-KT1.zip",
+      "path": "/home/anonymous/Documents/ChatGPT/New Scoring System/Open-Test-Data/datasets/ednet/raw/ednet-KT1.zip",
+      "zip_entries": 784310,
+      "csv_members": 784309,
+      "first_csv_header": "timestamp,solving_id,question_id,user_answer,elapsed_time",
+      "zip_check": "Central directory and sample CSV header parsed; full CRC audit follows separately",
+      "zip_crc_audit": "Passed: every archive member decompressed and CRC32 verified",
+      "audit_seconds": 37.4,
+      "data_csv_members": 784309
+    },
+    {
+      "file": "ednet-KT2.zip",
+      "event": "complete",
+      "bytes": 555757666,
+      "sha256": "bb5dec5708b6af913d8b99997e1a74699fced4555288862a80925bab3b5abff5",
+      "source_url": "https://bit.ly/ednet-kt2",
+      "acquisition_url": "https://drive.usercontent.google.com/download?id=1qQQshbzyULW5RjMi7u-IhUr2dT_6uMXA&export=download&confirm=t",
+      "path": "/home/anonymous/Documents/ChatGPT/New Scoring System/Open-Test-Data/datasets/ednet/raw/ednet-KT2.zip",
+      "zip_entries": 297446,
+      "csv_members": 297444,
+      "first_csv_header": "timestamp,action_type,item_id,source,user_answer,platform",
+      "zip_check": "Central directory and sample CSV header parsed; full CRC audit follows separately",
+      "zip_crc_audit": "Passed: every archive member decompressed and CRC32 verified",
+      "audit_seconds": 23.8
+    },
+    {
+      "file": "ednet-KT3.zip",
+      "event": "complete",
+      "bytes": 762774456,
+      "sha256": "cc7823d9a5a0570c81b2c279178547b27ca5c628209f37648f0707484f8efa78",
+      "source_url": "https://bit.ly/ednet-kt3",
+      "acquisition_url": "https://drive.usercontent.google.com/download?id=1TVyGIWU1Mn3UCjjeD6bcZ57YspByUV7-&export=download&confirm=t",
+      "path": "/home/anonymous/Documents/ChatGPT/New Scoring System/Open-Test-Data/datasets/ednet/raw/ednet-KT3.zip",
+      "zip_entries": 297917,
+      "csv_members": 297915,
+      "first_csv_header": "timestamp,action_type,item_id,source,user_answer,platform",
+      "zip_check": "Central directory and sample CSV header parsed; full CRC audit follows separately",
+      "zip_crc_audit": "Passed: every archive member decompressed and CRC32 verified",
+      "audit_seconds": 27.5
+    },
+    {
+      "file": "ednet-KT4.zip",
+      "event": "complete",
+      "bytes": 1169540359,
+      "sha256": "ae7b699f64980a2e795e3a7f02b144f32f822ba0a5b925826db98f2ef195fd40",
+      "source_url": "https://bit.ly/ednet-kt4",
+      "acquisition_url": "https://drive.usercontent.google.com/download?id=1HHZwpeqMSowWhgEu0URBQQ3FizR9o9mT&export=download&confirm=t",
+      "path": "/home/anonymous/Documents/ChatGPT/New Scoring System/Open-Test-Data/datasets/ednet/raw/ednet-KT4.zip",
+      "zip_entries": 297916,
+      "csv_members": 297915,
+      "first_csv_header": "timestamp,action_type,item_id,cursor_time,source,user_answer,platform",
+      "zip_check": "Central directory and sample CSV header parsed; full CRC audit follows separately",
+      "zip_crc_audit": "Passed: every archive member decompressed and CRC32 verified",
+      "audit_seconds": 31.5,
+      "data_csv_members": 297915
+    },
+    {
+      "file": "ednet-Contents.zip",
+      "event": "complete",
+      "bytes": 173976,
+      "sha256": "aa910a0436d9dbac0ba232f55e27b37ad8d39da285fcf15f1c1eb5d064be98e7",
+      "source_url": "https://bit.ly/ednet-content",
+      "acquisition_url": "https://drive.usercontent.google.com/download?id=117aYJAWG3GU48suS66NPaB82HwFj6xWS&export=download&confirm=t",
+      "path": "/home/anonymous/Documents/ChatGPT/New Scoring System/Open-Test-Data/datasets/ednet/raw/ednet-Contents.zip",
+      "zip_entries": 11,
+      "first_csv_header": "lecture_id,part,tags,video_length,deployed_at",
+      "zip_check": "Central directory and sample CSV header parsed; full CRC audit follows separately",
+      "actual_data_csv_members": 4,
+      "csv_members_including_macOS_forks": 8,
+      "zip_crc_audit": "Passed: every archive member decompressed and CRC32 verified"
+    }
+  ]
+}

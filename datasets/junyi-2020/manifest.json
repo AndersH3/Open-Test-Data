@@ -1,0 +1,42 @@
+{
+  "catalogue_id": "junyi-2020",
+  "retrieval_date": "2026-10-29",
+  "license": "CC-BY-NC-SA-4.0",
+  "files": [
+    {
+      "path": "datasets/junyi-2020/CODEBOOK.md",
+      "bytes": 3503,
+      "sha256": "421214e5bd6a54384e89a83ee4160d3eb95be9dea6af2821ebcb13e6477e3903"
+    },
+    {
+      "path": "datasets/junyi-2020/SOURCE.md",
+      "bytes": 2332,
+      "sha256": "a0b86363031c1c9151e0d64345b9d1849a48e8498614943be99fb0b3e732a598"
+    },
+    {
+      "path": "datasets/junyi-2020/UPSTREAM_TERMS.md",
+      "bytes": 3997,
+      "sha256": "653ff154e10f215abf96d4277787dd04fb827966841c0abf69a2d556eda73558"
+    },
+    {
+      "path": "datasets/junyi-2020/LICENSE.txt",
+      "bytes": 19018,
+      "sha256": "600ca4e25fe11762b75a97e714707fab48bb778374e92d24c6ca068791661c11"
+    },
+    {
+      "path": "datasets/junyi-2020/schema-headers.json",
+      "bytes": 981,
+      "sha256": "9ff8c0120cbf160d3739da4dce9aa591d310f024d129c9dfb945164d5f283359"
+    },
+    {
+      "path": "datasets/junyi-2020/raw/junyi-2020-original.zip",
+      "bytes": 1615467938,
+      "sha256": "d3272a56b3657d19e94f9c4b3c00b7d6b83694c9e9969237d8903ada86d3e7d9"
+    },
+    {
+      "path": "datasets/junyi-2020/raw/junyi-2020-original.zip.source.json",
+      "bytes": 970,
+      "sha256": "d637e992fd2c588a74b00343dad009f979dbe0e2546991986556e09c93f84968"
+    }
+  ]
+}

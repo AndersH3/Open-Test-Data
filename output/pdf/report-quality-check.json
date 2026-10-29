@@ -1,0 +1,14 @@
+{
+  "pages": 57,
+  "references": 240,
+  "text_characters": 165912,
+  "bytes": 429673,
+  "catalogue_profiles": 37,
+  "output": "output/pdf/open-test-data-complete-research-report.pdf",
+  "sha256": "b996135a1daa407f7b5b6c58814b75ffebcd229f304e809864f2572e390013e1",
+  "all_37_ids_present": true,
+  "final_acquisition_audit": true,
+  "visual_review_passed": true,
+  "rendered_pages_reviewed": 57,
+  "independent_layout_review": true
+}
