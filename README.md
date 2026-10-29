@@ -1,6 +1,10 @@
-# Open-Test-Data
+# Skill Data Atlas
 
-Research on **skill, knowledge and cognitive-performance tests with human response data available online**. Personality, attitudes, interests and self-reported ability are excluded from the skill-test shortlist.
+Curated human response datasets for skill, knowledge and cognitive assessment, with licences, codebooks, provenance and research on scoring methods. Personality, attitudes, interests and self-reported ability are excluded from the skill-test shortlist.
+
+## AI disclosure
+
+This project's research, curation, summaries, project field guides and tooling were prepared with **OpenAI Codex and delegated AI agents**. AI performed substantive source research, interpretation, licence assessment, file selection and packaging, writing, coding and technical checks. The mirrored observations came from cited external sources; this workflow did not generate participant answers. **Independent human fact-checking, legal review and peer review are not documented.** Additional AI-agent checks are not independent human validation. The [full disclosure](reports/ai-disclosure.md), also included as Appendix A of the report, explains the work, corrections, evidence and limitations. Disclosure updated 30 October 2026.
 
 **Research date: 29 October 2026.** The catalogue has **37 entries** across four domains. These are dataset versions and source families, not 37 independent experiments or 37 unrestricted open licenses. Conditional-access sources and practice logs are explicitly identified.
 
@@ -15,9 +19,9 @@ Research on **skill, knowledge and cognitive-performance tests with human respon
 
 Download/filter the full catalogue: **[JSON](data/catalogue.json)** · **[CSV](data/catalogue.csv)**. See the [field definitions](data/README.md), [verification evidence](data/verification-evidence.json), [research method and analysis guidance](research/methodology.md), and [discovery resources/exclusions](research/discovery-and-exclusions.md).
 
-**Downloaded collection:** [dataset folders, licences and codebooks](datasets/README.md) · [large-file release](https://github.com/AndersH3/Open-Test-Data/releases/tag/datasets-2026-10-29) · [redistribution audit](data/redistribution-audit.json) · [payload checksums](data/download-manifest.json).
+**Downloaded collection:** [dataset folders, licences and codebooks](datasets/README.md) · [large-file release](https://github.com/AndersH3/skill-data-atlas/releases/tag/datasets-2026-10-29) · [redistribution audit](data/redistribution-audit.json) · [payload checksums](data/download-manifest.json).
 
-**Complete report:** [PDF](output/pdf/open-test-data-complete-research-report.pdf), with executive findings, all 37 profiles, acquisition decisions, source references and methodological guidance. [Report source and build script](reports/).
+**Complete report:** [PDF](output/pdf/skill-data-atlas-complete-research-report.pdf), with executive findings, all 37 profiles, acquisition decisions, source references and methodological guidance. [Report source and build script](reports/).
 
 ## Where to start
 
@@ -34,7 +38,7 @@ These are practical research priorities, not rankings of test quality. Choose th
 | Population and cross-country analysis | PISA 2022; TIMSS 2023; PIAAC 2023 | Large objective response sources with technical documentation | Adaptive/booklet exposure, sample design and provider terms |
 | Digital skill performance | ICILS 2023 | Observed computer/information tasks and optional computational thinking | Shared-task rubric criteria and incomplete item-content release |
 | Speed and revisits in large assessments | PISA 2018 corrected total-time supplement | Explicitly documented timing correction | Original last-visit time differs from total time |
-| Human-rated written performance | MERLIN | Multilingual examination texts, CEFR ratings and CC BY-SA 4.0 resources | Task/language/rater effects; download endpoint needs rechecking |
+| Human-rated written performance | MERLIN | Multilingual examination texts, CEFR ratings and CC BY-SA 4.0 resources | Task/language/rater effects; version-specific annotations |
 | Short-answer grading | BEETLE; SciEntsBank | Original human answers, reference answers and nominal error judgments | Preserve official splits and select one archive view |
 | Learning-aware scoring | ASSISTments 2009; EdNet; Junyi | Repeated performance, feedback and process fields | Define current knowledge versus initial ability; avoid future-data leakage |
 
@@ -51,6 +55,6 @@ PISA 2025 is also verified as released, including actual cognitive/process archi
 
 ## What is saved here
 
-Original research summaries, source links, structured metadata, verification notes, a complete PDF report, and a separately licensed collection of redistributable response files. Small payloads and documentation are committed in [datasets](datasets/); large payloads are [release assets](https://github.com/AndersH3/Open-Test-Data/releases/tag/datasets-2026-10-29). Each collection has licence text, source/attribution notes, codebooks or clearly labelled project field guides, and checksums. The [audit](data/redistribution-audit.json) also records every excluded source and the reason. Eedi question images and redistribution-prohibited corpora are excluded.
+AI-assisted research summaries, source links, structured metadata, verification notes, a complete PDF report, and a separately licensed collection of redistributable response files. Small payloads and documentation are committed in [datasets](datasets/); large payloads are [release assets](https://github.com/AndersH3/skill-data-atlas/releases/tag/datasets-2026-10-29). Each collection has licence text, source/attribution notes, codebooks or clearly labelled project field guides, and checksums. The [audit](data/redistribution-audit.json) also records every excluded source and the reason. Eedi question images and redistribution-prohibited corpora are excluded.
 
 The existing [repository license](LICENSE) applies to this project's original contributions. External datasets, test questions, keys, rubrics, images and recordings retain their own licences; see [third-party notices](THIRD_PARTY_NOTICES.md). Non-commercial, ShareAlike and NoDerivatives conditions remain applicable. Recheck version-specific terms before publishing external material or derivatives.

@@ -25,7 +25,7 @@ Evidence strength does not imply unrestricted access: even an inspected public f
 
 ## How sources were selected and checked
 
-Research proceeded in parallel across cognitive tasks, large educational assessments, learning datasets, and language/constructed-response assessment. Primary sources were preferred: provider databases and terms, university/laboratory releases, original articles and author-maintained software documentation. Search snippets were used for discovery; claims supported only by indexed metadata are explicitly marked. Selected public archives and small response files were checked directly. Counts retain their units: people, submissions, answers, items, passages and events are not interchangeable.
+AI assistants conducted research in parallel across cognitive tasks, large educational assessments, learning datasets, and language/constructed-response assessment. Primary sources were preferred: provider databases and terms, university/laboratory releases, original articles and author-maintained software documentation. Search snippets were used for discovery; claims supported only by indexed metadata are explicitly marked. Selected public archives and small response files were checked directly. Counts retain their units: people, submissions, answers, items, passages and events are not interchangeable.
 
 The priority labels express **practical suitability for a stated research use**, based on response granularity, documentation, access burden and methodological complexity. They are this review's judgments, not empirical rankings of test quality or recommendations for high-stakes individual decisions.
 
@@ -60,7 +60,7 @@ These steps are proposed analysis guidance; no scoring experiment or psychometri
 
 ## Licensing and publication boundary
 
-This project stores original research summaries, metadata and links, plus a separately licensed mirror of sources with explicit redistribution permission. Its existing repository license does **not** relicense external response data, item wording, photographs, speech recordings, keys or rubrics. A software package's license is not automatically proof of permission to administer or republish the original test. Some sources allow analysis but prohibit redistributing files; some also restrict derived outputs. The redistribution audit records each decision; consult the version-specific primary terms before publication.
+This project stores AI-assisted research summaries, metadata and links, plus a separately licensed mirror of sources with explicit redistribution permission. Its existing repository license does **not** relicense external response data, item wording, photographs, speech recordings, keys or rubrics. A software package's license is not automatically proof of permission to administer or republish the original test. Some sources allow analysis but prohibit redistributing files; some also restrict derived outputs. The redistribution audit records each decision; consult the version-specific primary terms before publication.
 
 ## Coverage limitations
 

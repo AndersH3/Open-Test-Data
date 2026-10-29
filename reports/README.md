@@ -1,6 +1,8 @@
 # Complete research report
 
-The [PDF report](../output/pdf/open-test-data-complete-research-report.pdf) combines executive findings, all 37 source profiles, the redistribution audit, acquisition provenance, codebook references, methodological guidance and a numbered bibliography. The [generated Markdown source](complete-report-source.md) is also available.
+The [PDF report](../output/pdf/skill-data-atlas-complete-research-report.pdf) combines executive findings, all 37 source profiles, the redistribution audit, acquisition provenance, codebook references, methodological guidance and a numbered bibliography. The [generated Markdown source](complete-report-source.md) is also available.
+
+The report includes a [short front disclosure](ai-disclosure-short.md) and a [full AI-disclosure appendix](ai-disclosure.md). Research and acquisition are dated 29 October 2026; the project-branding and disclosure revision is dated 30 October 2026. The substantive research, prose and tooling are AI-assisted; independent human fact-checking, legal review and peer review are not documented.
 
 ## Rebuild
 
@@ -10,7 +12,7 @@ Use Python 3 with `reportlab`, `mistune` and `pypdf`, plus DejaVu Sans/Mono font
 python3 reports/build_report.py
 ```
 
-The build reads committed original research notes and the acquisition review. It does not parse participant files or embed their responses. Numbered citations are generated from source links. The resulting PDF has contents, bookmarks and clickable references; `output/pdf/report-quality-check.json` records structural checks. Poppler rendering was additionally reviewed before delivery.
+The build reads committed AI-assisted research notes, the acquisition review and both disclosure sources. It does not parse participant files or embed their responses. Numbered citations are generated from source links. The resulting PDF has contents, bookmarks and clickable references; `output/pdf/report-quality-check.json` records structural checks. Poppler rendering was additionally inspected in an AI-assisted visual review. That layout review is not independent human scientific or legal review.
 
 To regenerate the acquisition review from the committed decision audit and locally present payloads:
 

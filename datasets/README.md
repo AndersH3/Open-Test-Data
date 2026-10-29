@@ -1,8 +1,8 @@
 # Downloaded datasets
 
-Acquisition snapshot: **29 October 2026**. **15 catalogue entries** map to **14 unique collections**. Each collection retains its own licence. Large files are attached to the [dataset release](https://github.com/AndersH3/Open-Test-Data/releases/tag/datasets-2026-10-29); smaller files are committed here.
+Acquisition snapshot: **29 October 2026**. **15 catalogue entries** map to **14 unique collections**. Each collection retains its own licence. Large files are attached to the [dataset release](https://github.com/AndersH3/skill-data-atlas/releases/tag/datasets-2026-10-29); smaller files are committed here.
 
-See the [complete audit](../data/redistribution-audit.json), [payload manifest](../data/download-manifest.json) and [complete research PDF](../output/pdf/open-test-data-complete-research-report.pdf). Download a release asset with an authenticated GitHub account if this repository is private.
+See the [complete audit](../data/redistribution-audit.json), [payload manifest](../data/download-manifest.json) and [complete research PDF](../output/pdf/skill-data-atlas-complete-research-report.pdf). Download a release asset with an authenticated GitHub account if this repository is private.
 
 | Collection | Licence | Sources and codebooks |
 |---|---|---|
@@ -25,5 +25,5 @@ See the [complete audit](../data/redistribution-audit.json), [payload manifest](
 
 Keep each source licence and attribution with redistributed files. Never apply the repository AGPL to third-party datasets. Preserve original file bytes and distinguish an author codebook from a project field guide. SHA-256 hashes cover the payload files; dataset-level manifests additionally record member provenance and source checks where available.
 
-For a large file, follow its manifest URL or use `gh release download datasets-2026-10-29 --repo AndersH3/Open-Test-Data --pattern FILENAME`. Verify the downloaded SHA-256 against `data/download-manifest.json`.
+For a large file, follow its manifest URL or use `gh release download datasets-2026-10-29 --repo AndersH3/skill-data-atlas --pattern FILENAME`. Verify the downloaded SHA-256 against `data/download-manifest.json`.
 

@@ -1,6 +1,6 @@
 # Project field guide: original SemEval 2013 Task 7 XML
 
-This guide was written for Open-Test-Data after inspecting the archive structure. It is **not an original author codebook** and does not redefine the official task. Original source and task specification: https://github.com/myrosia/semeval-2013-task7 and https://aclanthology.org/S13-2045/.
+This guide was written for Skill Data Atlas after inspecting the archive structure. It is **not an original author codebook** and does not redefine the official task. Original source and task specification: https://github.com/myrosia/semeval-2013-task7 and https://aclanthology.org/S13-2045/.
 
 ## Observation structure
 

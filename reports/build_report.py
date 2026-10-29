@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the cited research PDF from the repository's original research notes.
+"""Build the cited research PDF from the AI-assisted project research notes.
 
 Dependencies: reportlab, mistune, pypdf. No dataset responses are embedded.
 Run: python3 reports/build_report.py
@@ -27,9 +27,10 @@ from reportlab.platypus.tableofcontents import TableOfContents
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'output/pdf'
 OUT.mkdir(parents=True, exist_ok=True)
-PDF = OUT / 'open-test-data-complete-research-report.pdf'
+PDF = OUT / 'skill-data-atlas-complete-research-report.pdf'
 DATE = '29 October 2026'
-REPO = 'https://github.com/AndersH3/Open-Test-Data/'
+REVISION_DATE = '30 October 2026'
+REPO = 'https://github.com/AndersH3/skill-data-atlas/'
 NAVY = colors.HexColor('#122D45')
 TEAL = colors.HexColor('#087F8C')
 INK = colors.HexColor('#223747')
@@ -151,6 +152,8 @@ def render_blocks(tokens, context, skip_first_heading=True):
             n=len(matrix[0]); weights=([.24,.76] if n==2 else [.2,.26,.54] if n==3 else [.19,.27,.27,.27] if n==4 else [1/n]*n)
             if n==3 and matrix[0][0].getPlainText()=='Payload':
                 weights=[.58,.17,.25]
+            if n==3 and matrix[0][0].getPlainText()=='Work area':
+                weights=[.18,.44,.38]
             if n==4 and matrix[0][0].getPlainText()=='Archive' and 'SHA-256' in matrix[0][-1].getPlainText():
                 weights=[.23,.14,.12,.51]
             table=Table(matrix,colWidths=[WIDTH*x for x in weights],repeatRows=1,hAlign='LEFT')
@@ -171,8 +174,8 @@ def render_blocks(tokens, context, skip_first_heading=True):
 class ResearchDoc(BaseDocTemplate):
     def __init__(self,path):
         super().__init__(str(path),pagesize=A4,leftMargin=51,rightMargin=51,topMargin=55,bottomMargin=49,
-            title='Open Test Data: Complete Research and Redistribution Report',
-            author='Open-Test-Data research project',subject='Human skill-response datasets, access, licensing and scoring research')
+            title='Skill Data Atlas: Complete Research and Redistribution Report',
+            author='Skill Data Atlas project; AI-assisted with OpenAI Codex',subject='Human skill-response datasets, access, licensing and scoring research')
         frame=Frame(self.leftMargin,self.bottomMargin,self.width,self.height,id='normal',leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0)
         self.addPageTemplates(PageTemplate(id='pages',frames=[frame],onPage=self.decorate))
     def decorate(self,c,doc):
@@ -180,8 +183,8 @@ class ResearchDoc(BaseDocTemplate):
             c.setFillColor(TEAL);c.rect(0,A4[1]-17,A4[0],17,fill=1,stroke=0);return
         c.setStrokeColor(RULE);c.setLineWidth(.5);c.line(51,A4[1]-34,A4[0]-51,A4[1]-34)
         c.setFont('Research',7.3);c.setFillColor(MUTED)
-        c.drawString(51,A4[1]-25,'OPEN-TEST-DATA  /  RESEARCH & REDISTRIBUTION REVIEW')
-        c.drawString(51,28,DATE+'  |  Sources and licence snapshots are version-specific')
+        c.drawString(51,A4[1]-25,'SKILL DATA ATLAS  /  RESEARCH & REDISTRIBUTION REVIEW')
+        c.drawString(51,28,'Research: '+DATE+'  |  Report revision: '+REVISION_DATE)
         c.drawRightString(A4[0]-51,28,str(doc.page))
     def afterFlowable(self,f):
         if getattr(f,'bookmark',None):
@@ -204,14 +207,18 @@ def main():
     audit=json.loads(audit_path.read_text()) if audit_path.exists() else {'decisions':[],'summary':'Acquisition audit in progress; rebuild after completion.'}
     sources.clear()
     md=mistune.create_markdown(renderer='ast',plugins=['table','url'])
-    story=[Spacer(1,75),Paragraph('Open Test Data',S['cover_title']),
+    short_ai=(ROOT/'reports/ai-disclosure-short.md').read_text()
+    short_ai=re.sub(r'^# [^\n]+\n','',short_ai,count=1).strip()
+    short_ai=html.escape(clean(short_ai)).replace('Appendix A','<link href="#ai-disclosure" color="#087F8C">Appendix A</link>')
+    story=[Spacer(1,75),Paragraph('Skill Data Atlas',S['cover_title']),
            Paragraph('A complete review of human skill-response datasets and their redistribution conditions',S['cover_sub']),
            HRFlowable(width=75,thickness=4,color=TEAL,hAlign='LEFT'),Spacer(1,24),
            Paragraph('37 source profiles across cognitive ability, educational and adult assessments, subject learning, language and short-answer performance.',S['body']),
            Spacer(1,18),Paragraph('<b>Research and acquisition date</b><br/>'+DATE,S['body']),
-           Paragraph('<b>Prepared for</b><br/>AndersH3 / Open-Test-Data',S['body']),
-           Spacer(1,25),Paragraph('Evidence-led source review, practical recommendations, version-specific licensing, acquisition status, and reproducible provenance. This report contains no participant responses or protected test illustrations.',S['quote']),
-           Paragraph('<link href="'+REPO+'" color="#087F8C">github.com/AndersH3/Open-Test-Data</link>',S['small']),PageBreak(),
+           Paragraph('<b>Document revision</b><br/>'+REVISION_DATE+' (project branding and AI disclosure)',S['body']),
+           Paragraph('<b>Prepared for</b><br/>AndersH3 / Skill Data Atlas',S['body']),
+           Spacer(1,15),Paragraph('<b>AI disclosure</b><br/>'+short_ai,S['quote']),
+           Paragraph('<link href="'+REPO+'" color="#087F8C">github.com/AndersH3/skill-data-atlas</link>',S['small']),PageBreak(),
            heading('Contents')]
     toc=TableOfContents();toc.levelStyles=[ParagraphStyle('TOC0',fontName='Research-Bold',fontSize=10,leading=17,textColor=NAVY,leftIndent=0,firstLineIndent=0,spaceBefore=8),
        ParagraphStyle('TOC1',fontName='Research',fontSize=8.3,leading=12,textColor=MUTED,leftIndent=15,firstLineIndent=0)]
@@ -232,13 +239,22 @@ def main():
         story.append(heading(title))
         story+=render_blocks(md(clean(text)),file)
         story.append(PageBreak())
+    # Parse the appendix before building the bibliography so its evidence links
+    # receive reference entries, while keeping the appendix at the report end.
+    appendix_path='reports/ai-disclosure.md'
+    appendix_text=(ROOT/appendix_path).read_text()
+    appendix_heading=heading('Appendix A. AI disclosure')
+    appendix_heading.bookmark='ai-disclosure'
+    appendix_flow=[appendix_heading]+render_blocks(md(clean(appendix_text)),appendix_path)
     story.append(heading('10. Sources and references'))
     story.append(Paragraph('Numbered references correspond to clickable citations throughout the report. Source terms and dataset versions were checked on 29 October 2026 unless a profile states a narrower evidence scope. Links are supplied for verification; repository copies do not imply that external content inherits the project licence.',S['body']))
     for url,item in list(sources.items()):
         n=item['number'];title=html.escape(item['title']);safe=html.escape(url,quote=True)
         story.append(Paragraph(f'<b>[{n}] {title}</b><br/><link href="{safe}" color="#087F8C">{html.escape(url)}</link>',S['small']))
+    story.extend([PageBreak(),*appendix_flow])
     ResearchDoc(PDF).multiBuild(story)
-    (ROOT/'reports/complete-report-source.md').write_text('\n\n'.join(source_parts)+'\n\n# Sources\n\n'+'\n'.join(f"[{v['number']}] {v['title']} - {u}" for u,v in sources.items())+'\n')
+    appendix_source=re.sub(r'^# [^\n]+\n','',appendix_text,count=1)
+    (ROOT/'reports/complete-report-source.md').write_text('# Front-report AI disclosure\n\n'+re.sub(r'^# [^\n]+\n','',(ROOT/'reports/ai-disclosure-short.md').read_text(),count=1).strip()+'\n\n'+'\n\n'.join(source_parts)+'\n\n# Sources\n\n'+'\n'.join(f"[{v['number']}] {v['title']} - {u}" for u,v in sources.items())+'\n\n# Appendix A. AI disclosure\n\n'+appendix_source.rstrip()+'\n')
     from pypdf import PdfReader
     reader=PdfReader(PDF)
     text='\n'.join(p.extract_text() or '' for p in reader.pages)
@@ -246,8 +262,13 @@ def main():
     compact=re.sub(r'\s+','',text)
     assert all(r['id'] in compact for r in catalogue),'A catalogue profile is missing from the report audit'
     assert 'Acquisition audit in progress' not in text,'Acquisition report is incomplete'
+    assert 'AI disclosure' in (reader.pages[0].extract_text() or ''),'Front disclosure missing'
+    assert 'Appendix A. AI disclosure' in text,'Disclosure appendix missing'
+    assert 'Rebuilding the PDF is distinct' in text,'Full disclosure text missing'
     metrics={'pages':len(reader.pages),'references':len(sources),'text_characters':len(text),'bytes':PDF.stat().st_size,
-             'catalogue_profiles':len(catalogue),'output':PDF.relative_to(ROOT).as_posix()}
+             'catalogue_profiles':len(catalogue),'output':PDF.relative_to(ROOT).as_posix(),
+             'research_snapshot':'2026-10-29','document_revision':'2026-10-30',
+             'front_ai_disclosure':True,'full_ai_disclosure_appendix':True}
     (OUT/'report-quality-check.json').write_text(json.dumps(metrics,indent=2)+'\n')
     print(json.dumps(metrics,indent=2))
 

@@ -12,7 +12,7 @@ import json
 import subprocess
 
 ROOT=Path(__file__).resolve().parents[1]
-REPO='AndersH3/Open-Test-Data'
+REPO='AndersH3/skill-data-atlas'
 TAG='datasets-2026-10-29'
 
 def gh(args):

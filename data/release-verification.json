@@ -1,6 +1,6 @@
 {
   "release_tag": "datasets-2026-10-29",
-  "repository": "AndersH3/Open-Test-Data",
+  "repository": "AndersH3/skill-data-atlas",
   "assets": [
     {
       "path": "datasets/duolingo-slam-2018/raw/data_en_es.tar.gz",
@@ -121,10 +121,14 @@
     }
   ],
   "report_asset": {
-    "name": "open-test-data-complete-research-report.pdf",
-    "bytes": 429673,
-    "github_digest": "sha256:b996135a1daa407f7b5b6c58814b75ffebcd229f304e809864f2572e390013e1",
-    "sha256_matches": true
+    "asset_id": 690296948,
+    "name": "skill-data-atlas-complete-research-report.pdf",
+    "bytes": 445504,
+    "github_digest": "sha256:d0e8a2c6663940bc671b8b62228400622d34c83b4dd738ebb6d5f54d50417e4c",
+    "sha256_matches": true,
+    "state": "uploaded",
+    "url": "https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/skill-data-atlas-complete-research-report.pdf",
+    "document_revision": "2026-10-30"
   },
   "all_uploads_verified": true
 }
