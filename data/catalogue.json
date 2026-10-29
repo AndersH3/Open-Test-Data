@@ -1,0 +1,1366 @@
+[
+  {
+    "id": "sapa-ability-iqitems",
+    "name": "SAPA cognitive ability: psychTools ability / iqitems",
+    "domain": "cognitive_ability",
+    "dataset_kind": "fixed_assessment",
+    "constructs": [
+      "verbal reasoning",
+      "letter series",
+      "matrix reasoning",
+      "spatial rotation"
+    ],
+    "unit": "participant × task item/trial; see granularity",
+    "granularity": "person by item; raw options and binary scores are two representations of same sample",
+    "sample_size": "1,525 participants/records",
+    "item_count": "16",
+    "selected_options_retained": "yes in iqitems; ability is binary scored representation of same responses",
+    "response_times": "not documented in these objects",
+    "scoring": "answer key in iqitems documentation; zero responses scrubbed to missing in official example",
+    "priority": "binary and nominal response scoring, IRT, missingness, multidimensionality",
+    "access": "public R package, no registration",
+    "license_data": "package GPL (>=2); no separate data-specific grant inspected",
+    "license_items": "not established; do not infer rights to current ICAR bank",
+    "landing_url": "https://raw.githubusercontent.com/cran/psychTools/master/man/ability.Rd",
+    "download_url": "https://cran.r-project.org/package=psychTools",
+    "source_urls": [
+      "https://raw.githubusercontent.com/cran/psychTools/master/man/ability.Rd",
+      "https://raw.githubusercontent.com/cran/psychTools/master/man/iqitems.Rd",
+      "https://raw.githubusercontent.com/cran/psychTools/master/DESCRIPTION"
+    ],
+    "verification_level": "documentation_verified",
+    "verification_detail": "current primary package source documentation",
+    "verified_date": "2026-10-29",
+    "limitations": [
+      "short convenience sample",
+      "two matrix items flagged for nonmonotonic traces",
+      "do not count ability and iqitems as independent datasets"
+    ],
+    "notes_file": "research/cognitive-ability.md"
+  },
+  {
+    "id": "ospp-viqt",
+    "name": "OpenPsychometrics Vocabulary IQ Test",
+    "domain": "cognitive_ability",
+    "dataset_kind": "fixed_assessment",
+    "constructs": [
+      "English word knowledge"
+    ],
+    "unit": "participant × task item/trial; see granularity",
+    "granularity": "person by question, bitmask-coded selected word pair",
+    "sample_size": "12,173 participants/records",
+    "item_count": "45",
+    "selected_options_retained": "yes; bitmask-coded selected word pair with distinct do-not-know and omission codes",
+    "response_times": "E1-E45 fields observed; units not defined in inspected codebook",
+    "scoring": "right - 0.35*wrong; -1 don't know, 0 unanswered; item keys included",
+    "priority": "guessing penalties, omissions, distractor models",
+    "access": "direct public ZIP",
+    "license_data": "not specified in inspected index/codebook",
+    "license_items": "not established",
+    "landing_url": "https://openpsychometrics.org/tests/VIQT/",
+    "download_url": "https://openpsychometrics.org/_rawdata/VIQT_data.zip",
+    "source_urls": [
+      "https://openpsychometrics.org/tests/VIQT/",
+      "https://openpsychometrics.org/_rawdata/VIQT_data.zip"
+    ],
+    "verification_level": "file_inspected",
+    "verification_detail": "ZIP downloaded, codebook and CSV schema/row count inspected",
+    "verified_date": "2026-10-29",
+    "limitations": [
+      "volunteer survey completers",
+      "English exposure dependence",
+      "exclude personality columns"
+    ],
+    "notes_file": "research/cognitive-ability.md",
+    "sha256": "dfeda357d8e5eba931d7cfe7b2a3e3cca3364ee782f7f9f480e392f3b2e6ed2c",
+    "columns_verified": 131
+  },
+  {
+    "id": "ospp-mgkt",
+    "name": "OpenPsychometrics Multifactor General Knowledge Test 2017-2018",
+    "domain": "cognitive_ability",
+    "dataset_kind": "multi_select_assessment",
+    "constructs": [
+      "acquired general knowledge"
+    ],
+    "unit": "participant × task item/trial; see granularity",
+    "granularity": "32 question clusters, 10 options each, 5 keyed correct",
+    "sample_size": "19,218 participants/records",
+    "item_count": "32",
+    "selected_options_retained": "yes; QxA selected options preserved with QxS derived scores",
+    "response_times": "QxE milliseconds; QxI presentation order",
+    "scoring": "historical ZIP QxS = correct selected minus incorrect selected; current webpage penalty differs",
+    "priority": "partial credit, penalties, speed and order effects",
+    "access": "direct public ZIP",
+    "license_data": "not specified in inspected index/codebook",
+    "license_items": "not established",
+    "landing_url": "https://openpsychometrics.org/_rawdata/MGKT_data.zip",
+    "download_url": "https://openpsychometrics.org/_rawdata/MGKT_data.zip",
+    "source_urls": [
+      "https://openpsychometrics.org/_rawdata/MGKT_data.zip",
+      "https://openpsychometrics.org/tests/MGKT2/"
+    ],
+    "verification_level": "file_inspected",
+    "verification_detail": "ZIP downloaded; original codebook, header and record count inspected",
+    "verified_date": "2026-10-29",
+    "limitations": [
+      "cultural dependence",
+      "minimal source cleaning",
+      "question-option local dependence",
+      "version-specific scoring"
+    ],
+    "notes_file": "research/cognitive-ability.md",
+    "sha256": "bcf5b135ed1116c08da7470875f7f30d5d37118785a66c271c89198e12ceef24",
+    "columns_verified": 137
+  },
+  {
+    "id": "ospp-iq1",
+    "name": "OpenPsychometrics experimental matrix IQ test",
+    "domain": "cognitive_ability",
+    "dataset_kind": "fixed_assessment",
+    "constructs": [
+      "nonverbal reasoning"
+    ],
+    "unit": "participant × task item/trial; see granularity",
+    "granularity": "selected distractor image or keyed image per person and item",
+    "sample_size": "400 participants/records",
+    "item_count": "25",
+    "selected_options_retained": "yes; distractor-image codes and keyed-image code, screen position randomized",
+    "response_times": "absent",
+    "scoring": "10 keyed correct; 1-7 distractors; observed zero code unresolved",
+    "priority": "small matrix for distractor scoring diagnostics",
+    "access": "direct public ZIP with images and codebook",
+    "license_data": "not specified in inspected index/codebook",
+    "license_items": "not established",
+    "landing_url": "https://openpsychometrics.org/_rawdata/IQ1.zip",
+    "download_url": "https://openpsychometrics.org/_rawdata/IQ1.zip",
+    "source_urls": [
+      "https://openpsychometrics.org/_rawdata/IQ1.zip",
+      "https://openpsychometrics.org/printable/intelligence-quotient-test.pdf"
+    ],
+    "verification_level": "file_inspected",
+    "verification_detail": "ZIP downloaded and CSV/codebook inspected",
+    "verified_date": "2026-10-29",
+    "limitations": [
+      "developer labels collection quality mediocre",
+      "small convenience sample",
+      "zero-code ambiguity"
+    ],
+    "notes_file": "research/cognitive-ability.md",
+    "sha256": "99e3a918c0f3452ea25c38788bfa713b34a49f4370529dc0591cc4fc12ec2743",
+    "columns_verified": 28
+  },
+  {
+    "id": "ospp-fsiq-alpha",
+    "name": "OpenPsychometrics Full Scale IQ alpha v0.1",
+    "domain": "cognitive_ability",
+    "dataset_kind": "multi_select_assessment",
+    "constructs": [
+      "vocabulary",
+      "mental rotation",
+      "short-term memory"
+    ],
+    "unit": "participant × task item/trial; see granularity",
+    "granularity": "7 vocabulary, 6 rotation, 6 memory composite questions with score/answer/time triplets",
+    "sample_size": "3,194 participants/records",
+    "item_count": "19",
+    "selected_options_retained": "yes; a fields contain selected answer lists alongside derived scores",
+    "response_times": "question e fields in milliseconds",
+    "scoring": "+1 selected correct, -1 selected incorrect; scoring demo included",
+    "priority": "partial credit and speed-accuracy across task types",
+    "access": "direct public ZIP with codebook and demo",
+    "license_data": "not specified in inspected index/codebook",
+    "license_items": "not established",
+    "landing_url": "https://openpsychometrics.org/_rawdata/FSIQ_0.1_data.zip",
+    "download_url": "https://openpsychometrics.org/_rawdata/FSIQ_0.1_data.zip",
+    "source_urls": [
+      "https://openpsychometrics.org/_rawdata/FSIQ_0.1_data.zip",
+      "https://openpsychometrics.org/tests/FSIQ/"
+    ],
+    "verification_level": "file_inspected",
+    "verification_detail": "ZIP downloaded, CSV parsed with comma delimiter and quoted lists, codebook inspected",
+    "verified_date": "2026-10-29",
+    "limitations": [
+      "alpha version",
+      "different from current test",
+      "unsupervised volunteer sample"
+    ],
+    "notes_file": "research/cognitive-ability.md",
+    "sha256": "6ac2deb7aa6913dc7f5c8141a48d6cc3035403eb07d5db411827505c46696135",
+    "columns_verified": 61
+  },
+  {
+    "id": "ospp-ebfmt",
+    "name": "Exposure Based Face Memory Test",
+    "domain": "cognitive_ability",
+    "dataset_kind": "recognition_task",
+    "constructs": [
+      "new/seen face recognition"
+    ],
+    "unit": "participant × task item/trial; see granularity",
+    "granularity": "Q1-Q75 new/seen codes and LAPSE1-LAPSE75",
+    "sample_size": "1,768 participants/records; parsed CSV; official index lists 1769",
+    "item_count": "75",
+    "selected_options_retained": "yes; new/seen choice recorded, but verified correct sequence still needed",
+    "response_times": "milliseconds",
+    "scoring": "1=new, 2=seen; correct sequence not supplied in inspected codebook",
+    "priority": "recognition/latency pipeline example with caution",
+    "access": "direct public ZIP",
+    "license_data": "distinct response-data licence not established",
+    "license_items": "photos copyrighted free for research use; other test parts CC BY4.0",
+    "landing_url": "https://openpsychometrics.org/_rawdata/EBFMT.zip",
+    "download_url": "https://openpsychometrics.org/_rawdata/EBFMT.zip",
+    "source_urls": [
+      "https://openpsychometrics.org/_rawdata/EBFMT.zip",
+      "https://openpsychometrics.org/tests/EBFMT/development/"
+    ],
+    "verification_level": "file_inspected",
+    "verification_detail": "ZIP and CSV/codebook inspected; developer licence page inspected",
+    "verified_date": "2026-10-29",
+    "limitations": [
+      "developer reports statistical and conceptual problems",
+      "missing verified accuracy key",
+      "exclude personality columns"
+    ],
+    "notes_file": "research/cognitive-ability.md",
+    "sha256": "adfaa0cd2eadfcb053d53c75109c01175df90fe688c62a28d20f33b66c8d60e1",
+    "columns_verified": 275
+  },
+  {
+    "id": "ganis-kievit-mental-rotation",
+    "name": "Ganis-Kievit mental rotation validation data",
+    "domain": "cognitive_ability",
+    "dataset_kind": "experimental_task",
+    "constructs": [
+      "mental rotation"
+    ],
+    "unit": "participant × task item/trial; see granularity",
+    "granularity": "per-participant XLSX: trial, stimulus filename, response time, desired response, actual response, angular disparity, correctness",
+    "sample_size": "54 participants/records",
+    "item_count": "Not verified; 384 available stimuli; tested subset distinct from full bank",
+    "selected_options_retained": "yes per original embedded file description: actual response and desired response retained separately",
+    "response_times": "available",
+    "scoring": "desired and actual same/different responses supplied; timeout N/A considered incorrect; raw versus outlier-filtered RT columns distinguished",
+    "priority": "accuracy and latency by parametric difficulty",
+    "access": "public Figshare files, pin file ID due duplicate filenames",
+    "license_data": "CC BY4.0",
+    "license_items": "CC BY4.0 in Figshare deposit",
+    "landing_url": "https://doi.org/10.6084/m9.figshare.1045385",
+    "download_url": "https://ndownloader.figshare.com/files/3702010",
+    "source_urls": [
+      "https://doi.org/10.6084/m9.figshare.1045385",
+      "https://ndownloader.figshare.com/files/1878074",
+      "https://ndownloader.figshare.com/files/3702010",
+      "https://doi.org/10.5334/jopd.ai"
+    ],
+    "verification_level": "archive_verified",
+    "verification_detail": "official landing/API metadata and downloaded archive structure plus original embedded data description inspected; workbook values not parsed",
+    "verified_date": "2026-10-29",
+    "limitations": [
+      "small task-specific validation sample",
+      "two Behavioural_data.zip files require version/file-ID care"
+    ],
+    "notes_file": "research/cognitive-ability.md",
+    "sha256": "3b56dde3defc36d54c85b671f83ade2f7ded685b326be973583ad115bb994e03"
+  },
+  {
+    "id": "sro-performance-tasks",
+    "name": "Self-Regulation Ontology objective performance-task subset",
+    "domain": "cognitive_ability",
+    "dataset_kind": "repeated_trial_battery",
+    "constructs": [
+      "processing speed",
+      "response inhibition",
+      "other objectively scored task constructs"
+    ],
+    "unit": "participant × task item/trial; see granularity",
+    "granularity": "raw trial-by-trial and processed data",
+    "sample_size": "522 participants/records",
+    "item_count": "Not verified; 37 behavioural tasks in full battery; only objectively scored skill tasks in scope",
+    "selected_options_retained": "task-dependent; raw trial data reported, must inspect each task before claiming retained options",
+    "response_times": "task-dependent trial-level latency",
+    "scoring": "task-specific; first-level scoring code linked by authors",
+    "priority": "test-retest stability and speed-accuracy scoring",
+    "access": "public dated GitHub data releases",
+    "license_data": "repository states CC BY4.0",
+    "license_items": "individual experiment code/stimuli not fully audited",
+    "landing_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6534563/",
+    "download_url": "https://github.com/IanEisenberg/Self_Regulation_Ontology/tree/master/Data/Complete_02-16-2019",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6534563/",
+      "https://github.com/IanEisenberg/Self_Regulation_Ontology/tree/master/Data/Complete_02-16-2019",
+      "https://github.com/IanEisenberg/Self_Regulation_Ontology",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6431228/"
+    ],
+    "verification_level": "documentation_verified",
+    "verification_detail": "primary article/repository documentation; full raw archive not parsed",
+    "verified_date": "2026-10-29",
+    "limitations": [
+      "exclude surveys and preference tasks",
+      "online MTurk sample",
+      "imputation/cleaning variants",
+      "variable task reliability"
+    ],
+    "notes_file": "research/cognitive-ability.md",
+    "retest_participants": 150
+  },
+  {
+    "id": "openneuro-ds004636-objective-tasks",
+    "name": "OpenNeuro ds004636 objective task subset",
+    "domain": "cognitive_ability",
+    "dataset_kind": "repeated_trial_battery",
+    "constructs": [
+      "attention",
+      "task switching",
+      "interference",
+      "response inhibition",
+      "planning"
+    ],
+    "unit": "participant × task item/trial; see granularity",
+    "granularity": "BIDS events.tsv and raw/cleaned OSF task files",
+    "sample_size": "103 participants/records; study completers; usable sample varies by task; 68 have no recommended behavioural exclusion",
+    "item_count": "Not verified",
+    "selected_options_retained": "task-dependent event/raw records; exact selected-choice fields not yet parsed",
+    "response_times": "available; task-dependent fields and sidecars",
+    "scoring": "objective task-specific accuracy/latency; suggested_exclusions.csv provided",
+    "priority": "latency/accuracy modeling and quality-filter robustness",
+    "access": "public OpenNeuro and OSF",
+    "license_data": "CC0 in dataset_description.json",
+    "license_items": "not separately audited",
+    "landing_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11271451/",
+    "download_url": "https://openneuro.org/datasets/ds004636/versions/1.0.4",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11271451/",
+      "https://openneuro.org/datasets/ds004636/versions/1.0.4",
+      "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/master/dataset_description.json",
+      "https://osf.io/sjvnw/"
+    ],
+    "verification_level": "documentation_verified",
+    "verification_detail": "data descriptor and dataset licence metadata; event payloads not parsed",
+    "verified_date": "2026-10-29",
+    "limitations": [
+      "in-scanner task procedures",
+      "missing/low-quality runs",
+      "exclude survey medley and preference tasks"
+    ],
+    "notes_file": "research/cognitive-ability.md"
+  },
+  {
+    "id": "mathy-friedman-working-memory",
+    "name": "Working Memory Develops at a Similar Rate Across Diverse Stimuli",
+    "domain": "cognitive_ability",
+    "dataset_kind": "span_tasks",
+    "constructs": [
+      "memory span"
+    ],
+    "unit": "participant × task item/trial; see granularity",
+    "granularity": "dat_all raw and collapsed per-participant files; schema not yet inspected",
+    "sample_size": "Not verified",
+    "item_count": "Not verified",
+    "selected_options_retained": "unverified; raw and collapsed files announced",
+    "response_times": "unverified",
+    "scoring": "all-or-nothing unit and partial-credit unit scoring included",
+    "priority": "conditional candidate for comparing span scoring rules",
+    "access": "public Mendeley Data v1",
+    "license_data": "CC BY4.0",
+    "license_items": "not separately reviewed",
+    "landing_url": "https://data.mendeley.com/datasets/kfc3jyggs7/1",
+    "download_url": "https://data.mendeley.com/datasets/kfc3jyggs7/1",
+    "source_urls": [
+      "https://data.mendeley.com/datasets/kfc3jyggs7/1"
+    ],
+    "verification_level": "metadata_only_or_unresolved",
+    "verification_detail": "official landing page only",
+    "verified_date": "2026-10-29",
+    "limitations": [
+      "sample size and exact raw schema unverified",
+      "collapsed data cannot replace trial data"
+    ],
+    "notes_file": "research/cognitive-ability.md"
+  },
+  {
+    "id": "icar-current-restricted",
+    "name": "ICAR current full materials and psychometric data",
+    "domain": "cognitive_ability",
+    "dataset_kind": "test_bank_and_psychometric_data",
+    "constructs": [
+      "reasoning",
+      "spatial ability",
+      "other ICAR constructs"
+    ],
+    "unit": "participant × task item/trial; see granularity",
+    "granularity": "unverified within restricted archive",
+    "sample_size": "Not verified",
+    "item_count": "Not verified",
+    "selected_options_retained": "unverified within restricted archive",
+    "response_times": "unverified",
+    "scoring": "binary scoring allowed; sum scores and IRT discussed by official FAQ",
+    "priority": "conditional academic candidate; no public mirroring of full materials",
+    "access": "conditional academic registration and Scientific Use License v1",
+    "license_data": "full ZIP Sharing Level1 Scientific Use License v1; do not assume open redistribution",
+    "license_items": "academic scientific use restrictions; public README CC BY4.0 does not license main ZIP",
+    "landing_url": "https://doi.org/10.23668/psycharchives.22167",
+    "download_url": null,
+    "source_urls": [
+      "https://doi.org/10.23668/psycharchives.22167",
+      "https://icar-project.com/",
+      "https://www.psycharchives.org/en/item/7466aa16-69bd-49ea-baef-7f828f5b223f"
+    ],
+    "verification_level": "documentation_verified",
+    "verification_detail": "current official FAQ and archive landing page; published 2026-06-02",
+    "verified_date": "2026-10-29",
+    "limitations": [
+      "no norms",
+      "academic-only restrictions",
+      "raw dimensions not inspected",
+      "historical public-domain descriptions insufficient for current bundle"
+    ],
+    "notes_file": "research/cognitive-ability.md"
+  },
+  {
+    "id": "pisa-2025",
+    "name": "PISA 2025 cognitive responses and process data",
+    "constructs": [
+      "science",
+      "mathematics",
+      "reading",
+      "computational problem solving / LDW (separate file)"
+    ],
+    "unit": "individual student, approximately age 15",
+    "granularity": "raw/coded and scored item responses; cognitive process variables",
+    "sample_size": "Not independently counted; country and domain coverage require codebook inspection",
+    "item_count": "Variable by form and adaptive route; total pool not verified",
+    "response_times": "Separate cognitive process archive; action counts and time-to-first-action verified in codebook; full semantics require documentation",
+    "scoring": "Item codes plus IRT plausible values; preserve routing, missing reasons and weights",
+    "access": "Official download route requests institution, contact and research information and agreement to PUF terms",
+    "license_data": "PISA-specific PUF terms; no third-party redistribution",
+    "license_items": "Separate item-content rights; full bank not established as openly reusable",
+    "landing_url": "https://www.oecd.org/en/data/datasets/pisa-2025-database.html",
+    "download_url": "https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=197663",
+    "archive_url": "https://webfs.oecd.org/pisa2022/2025/CY09_MS_COG_PUF.zip",
+    "process_archive_url": "https://webfs.oecd.org/pisa2022/2025/CY09_MS_COG_PROCESS_PUF.zip",
+    "documentation_url": "https://webfs.oecd.org/pisa2022/2025/PISA2025_Codebook.xlsx",
+    "limitations": [
+      "Released September 2026; archive headers/central directories and codebook checked, full data not imported; final technical report expected 2027; foreign-language files marked April 2027"
+    ],
+    "priority": "A for new-cycle research; B for first ingestion because technical documentation remains draft",
+    "verified_date": "2026-10-29",
+    "domain": "large_scale_assessment",
+    "dataset_kind": "sampled_or_adaptive_assessment",
+    "selected_options_retained": "Raw/scored labels verified in official codebook; exact option semantics require item coding",
+    "notes_file": "research/large-scale-assessments.md",
+    "verification_level": "archive_verified",
+    "verification_detail": "Archive header/range check; actual records not parsed; primary documentation checked",
+    "source_urls": [
+      "https://www.oecd.org/en/data/datasets/pisa-2025-database.html",
+      "https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=197663",
+      "https://webfs.oecd.org/pisa2022/2025/PISA2025_Codebook.xlsx",
+      "https://webfs.oecd.org/pisa2022/2025/CY09_MS_COG_PUF.zip",
+      "https://webfs.oecd.org/pisa2022/2025/CY09_MS_COG_PROCESS_PUF.zip"
+    ]
+  },
+  {
+    "id": "pisa-2022",
+    "name": "PISA 2022",
+    "constructs": [
+      "mathematics",
+      "reading",
+      "science",
+      "creative thinking (optional separate file)",
+      "financial literacy (optional separate file)"
+    ],
+    "unit": "individual student, approximately age 15",
+    "granularity": "cognitive item responses; separate estimated proficiency and contextual files",
+    "sample_size": "Nearly 700,000 participants across 81 economies; not an imported-file row count",
+    "item_count": "Variable by domain, form and adaptive route; not verified",
+    "response_times": "Do not confuse questionnaire timing file with cognitive response time; check cognitive codebook",
+    "scoring": "Raw and scored item codes; plausible values, sampling and replicate weights",
+    "access": "Public PUF download via provider registration and terms",
+    "license_data": "PISA-specific PUF terms; link rather than mirror",
+    "license_items": "Released examples differ from secure bank; separate content permissions",
+    "landing_url": "https://www.oecd.org/en/data/datasets/pisa-2022-database.html",
+    "download_url": "https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=197663",
+    "archive_url": "https://webfs.oecd.org/pisa2022/STU_COG_SPSS.zip",
+    "limitations": [
+      "Matrix/adaptive design; country adjudication and pandemic-era response-rate concerns; optional domain coverage differs"
+    ],
+    "priority": "A: mature large-scale benchmark",
+    "verified_date": "2026-10-29",
+    "domain": "large_scale_assessment",
+    "dataset_kind": "sampled_or_adaptive_assessment",
+    "selected_options_retained": "Raw/coded and scored item responses; confirm item-specific option semantics in codebook",
+    "notes_file": "research/large-scale-assessments.md",
+    "verification_level": "archive_verified",
+    "verification_detail": "Archive header/range check; actual records not parsed; primary documentation checked",
+    "source_urls": [
+      "https://www.oecd.org/en/data/datasets/pisa-2022-database.html",
+      "https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=197663",
+      "https://webfs.oecd.org/pisa2022/STU_COG_SPSS.zip"
+    ]
+  },
+  {
+    "id": "pisa-2018-timing",
+    "name": "PISA 2018 cognitive responses plus corrected total-time/visits supplement",
+    "constructs": [
+      "reading",
+      "mathematics",
+      "science",
+      "optional competence domains"
+    ],
+    "unit": "individual student by administered cognitive item",
+    "granularity": "responses plus derived item process measures, not a complete clickstream",
+    "sample_size": "551,930 in Annex K's illustrated process analysis; selected-domain counts differ",
+    "item_count": "Variable by booklet/adaptive route; not verified",
+    "response_times": "Use corrected TT total across visits when measuring total time; original T reflects last visit",
+    "scoring": "Item responses/scores and plausible values; retain item visits and design variables",
+    "access": "Public PUFs and official supplemental archive; terms apply",
+    "license_data": "PISA-specific PUF terms; no raw-file mirroring",
+    "license_items": "Separate rights; complete item text not public",
+    "landing_url": "https://www.oecd.org/en/data/datasets/pisa-2018-database.html",
+    "download_url": "https://webfs.oecd.org/pisa2022/index.html",
+    "archive_url": "https://webfs.oecd.org/pisa2018/SPSS_STU_TTM.zip",
+    "documentation_url": "https://www.oecd.org/content/dam/oecd/en/data/datasets/pisa/pisa-2018-datasets/ssas-sps-data-files/PISA2018%20Aneex%20K%20TechReport.pdf",
+    "limitations": [
+      "Definition and correction of timing materially affect revisits; paper/digital and shared-screen cases differ"
+    ],
+    "priority": "A for speed-accuracy research",
+    "verified_date": "2026-10-29",
+    "domain": "large_scale_assessment",
+    "dataset_kind": "sampled_or_adaptive_assessment",
+    "selected_options_retained": "Response coding depends on item; timing supplement alone has no options",
+    "notes_file": "research/large-scale-assessments.md",
+    "verification_level": "archive_verified",
+    "verification_detail": "Archive header/range check; actual records not parsed; primary documentation checked",
+    "source_urls": [
+      "https://www.oecd.org/en/data/datasets/pisa-2018-database.html",
+      "https://webfs.oecd.org/pisa2022/index.html",
+      "https://www.oecd.org/content/dam/oecd/en/data/datasets/pisa/pisa-2018-datasets/ssas-sps-data-files/PISA2018%20Aneex%20K%20TechReport.pdf",
+      "https://webfs.oecd.org/pisa2018/SPSS_STU_TTM.zip"
+    ]
+  },
+  {
+    "id": "piaac-2023",
+    "name": "Survey of Adult Skills 2023 / PIAAC cycle 2",
+    "constructs": [
+      "literacy",
+      "numeracy",
+      "adaptive problem solving"
+    ],
+    "unit": "individual adult aged 16–65",
+    "granularity": "cognitive responses in country public-use flat files",
+    "sample_size": "31 participating countries/economies; PUF national coverage and suppressions vary; respondent count not verified",
+    "item_count": "Variable by adaptive route; not verified",
+    "response_times": "Full cognitive log data are outside the main PUF release described in technical-report chapter 12",
+    "scoring": "Cognitive response variables and model-derived plausible values; survey weights required for population inference",
+    "access": "Country CSV/SAS/SPSS; institution/contact/project registration; some country files pending on landing page",
+    "license_data": "PIAAC-specific PUF terms prohibit third-party distribution",
+    "license_items": "Separate content restrictions; public examples are not the entire assessment",
+    "landing_url": "https://www.oecd.org/en/data/datasets/PIAAC-2nd-Cycle-Database.html",
+    "download_url": "https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=424913",
+    "documentation_url": "https://www.oecd.org/content/dam/oecd/en/about/programmes/edu/piaac/data-materials/cycle-2/piaac-cy2-international-codebook.xlsx",
+    "limitations": [
+      "Country suppressions; adaptive selection; cycle-2 adaptive problem solving differs from cycle-1 technology-rich problem solving; do not use self-reported skill-use frequencies as tested competence"
+    ],
+    "priority": "A for adult competencies; B for ingestion complexity",
+    "verified_date": "2026-10-29",
+    "domain": "large_scale_assessment",
+    "dataset_kind": "sampled_or_adaptive_assessment",
+    "selected_options_retained": "Cognitive response codes; original option retention not independently established",
+    "notes_file": "research/large-scale-assessments.md",
+    "verification_level": "documentation_verified",
+    "verification_detail": "Primary documentation and access conditions checked; participant archive not parsed",
+    "source_urls": [
+      "https://www.oecd.org/en/data/datasets/PIAAC-2nd-Cycle-Database.html",
+      "https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=424913",
+      "https://www.oecd.org/content/dam/oecd/en/about/programmes/edu/piaac/data-materials/cycle-2/piaac-cy2-international-codebook.xlsx"
+    ]
+  },
+  {
+    "id": "piaac-2012-logs",
+    "name": "PIAAC 2012 international log files, ZA6712",
+    "constructs": [
+      "literacy",
+      "numeracy",
+      "problem solving in technology-rich environments"
+    ],
+    "unit": "adult assessment event; link to respondent and cognitive PUF",
+    "granularity": "timestamped human interactions; sensitive text masked",
+    "sample_size": "81,744 adults in 17 countries, according to GESIS",
+    "item_count": "Variable one/two competence domains per respondent; not verified",
+    "response_times": "Timestamped XML event records",
+    "scoring": "Join to cognitive response PUF via country plus SEQID; log events are not themselves a scored matrix",
+    "access": "GESIS catalogue; inspect account and version-specific terms; complete item documentation requires OECD confidentiality application",
+    "license_data": "Provider/GESIS conditions; unrestricted open licence not established",
+    "license_items": "Full documentation confidential; released-item documentation public",
+    "landing_url": "https://www.gesis.org/en/data-on-adult-education/daten/piaac-daten-zyklus-1/piaac-international/international-piaac-log-files",
+    "download_url": "https://search.gesis.org/research_data/ZA6712",
+    "doi": "10.4232/1.12955",
+    "limitations": [
+      "Substantial XML processing; masked text prevents some answer-content analyses; merge IDs need country component"
+    ],
+    "priority": "B: rich adult process data",
+    "verified_date": "2026-10-29",
+    "domain": "large_scale_assessment",
+    "dataset_kind": "assessment_event_logs",
+    "selected_options_retained": "Interaction logs; sensitive input text masked; join response PUF for scoring",
+    "notes_file": "research/large-scale-assessments.md",
+    "verification_level": "documentation_verified",
+    "verification_detail": "Primary documentation and access conditions checked; participant archive not parsed",
+    "source_urls": [
+      "https://www.gesis.org/en/data-on-adult-education/daten/piaac-daten-zyklus-1/piaac-international/international-piaac-log-files",
+      "https://search.gesis.org/research_data/ZA6712"
+    ]
+  },
+  {
+    "id": "timss-2023",
+    "name": "TIMSS 2023 grades 4 and 8",
+    "constructs": [
+      "mathematics",
+      "science"
+    ],
+    "unit": "student achievement item, separate grade populations",
+    "granularity": "scored item responses and public screen-level process measures",
+    "sample_size": "Over 650,000 participating students across both grades; selected-file counts not verified",
+    "item_count": "Variable by grade and booklet; not verified",
+    "response_times": "Public screen time/visits; detailed timestamped event logs restricted-use",
+    "scoring": "Dichotomous/partial-credit achievement; plausible values and complex sample weights",
+    "access": "R/SPSS/SAS ZIPs after provider agreement; grade archives separate",
+    "license_data": "IEA provider agreement; no standard open-data licence established",
+    "license_items": "IEA permission conditions; third-party material rights separate",
+    "landing_url": "https://www.iea.nl/data-tools/repository/timss",
+    "download_url": "https://www.iea.nl/data-tools/repository/timss",
+    "archive_url": "https://www.iea.nl/sites/default/files/data-repository/TIMSS/TIMSS2023/TIMSS2023_IDB_R_G4.zip",
+    "documentation_url": "https://www.iea.nl/sites/default/files/2025-02/T23_UG-International-Database.pdf",
+    "limitations": [
+      "Booklet rotation, school clustering, modes and curriculum differences; raw event access requires application"
+    ],
+    "priority": "A for math/science and partial-credit methods",
+    "verified_date": "2026-10-29",
+    "domain": "large_scale_assessment",
+    "dataset_kind": "sampled_or_adaptive_assessment",
+    "selected_options_retained": "Scored achievement responses; raw original choices not established in this review",
+    "notes_file": "research/large-scale-assessments.md",
+    "verification_level": "archive_verified",
+    "verification_detail": "Archive header/range check; actual records not parsed; primary documentation checked",
+    "source_urls": [
+      "https://www.iea.nl/data-tools/repository/timss",
+      "https://www.iea.nl/sites/default/files/2025-02/T23_UG-International-Database.pdf",
+      "https://www.iea.nl/sites/default/files/data-repository/TIMSS/TIMSS2023/TIMSS2023_IDB_R_G4.zip"
+    ]
+  },
+  {
+    "id": "pirls-2021",
+    "name": "PIRLS 2021, second edition including log files",
+    "constructs": [
+      "reading comprehension",
+      "digital reading"
+    ],
+    "unit": "student response nested within reading passage/task",
+    "granularity": "achievement responses; digital process data",
+    "sample_size": "Approximately 400,000 participating students; selected archive counts not verified",
+    "item_count": "Variable by passage/form assignment; not verified",
+    "response_times": "Digital process data available; exact variable interpretation requires user guide",
+    "scoring": "Item response/partial-credit scores, plausible values and survey weights",
+    "access": "R/SPSS/SAS public archive under provider terms",
+    "license_data": "IEA agreement; link to archive rather than assuming unrestricted redistribution",
+    "license_items": "Permission required; reading passages may involve third-party copyright",
+    "landing_url": "https://www.iea.nl/data-tools/repository/pirls",
+    "download_url": "https://www.iea.nl/data-tools/repository/pirls",
+    "archive_url": "https://www.iea.nl/sites/default/files/data-repository/PIRLS/PIRLS2021/PIRLS2021_IDB_R.zip",
+    "doi": "10.58150/PIRLS_2021_edition_2_including_Log-file_data",
+    "limitations": [
+      "Shared passage dependence, adaptive assignment, mode and pandemic timing differences"
+    ],
+    "priority": "A for reading-specific analyses",
+    "verified_date": "2026-10-29",
+    "domain": "large_scale_assessment",
+    "dataset_kind": "sampled_or_adaptive_assessment",
+    "selected_options_retained": "Achievement response codes; original option retention not independently established",
+    "notes_file": "research/large-scale-assessments.md",
+    "verification_level": "archive_verified",
+    "verification_detail": "Archive header/range check; actual records not parsed; primary documentation checked",
+    "source_urls": [
+      "https://www.iea.nl/data-tools/repository/pirls",
+      "https://www.iea.nl/sites/default/files/data-repository/PIRLS/PIRLS2021/PIRLS2021_IDB_R.zip"
+    ]
+  },
+  {
+    "id": "icils-2023",
+    "name": "ICILS 2023",
+    "constructs": [
+      "computer and information literacy",
+      "computational thinking (optional)"
+    ],
+    "unit": "student choice, skills-task score or authoring rubric criterion",
+    "granularity": "actual MC options; assigned scores for constructed responses/computer tasks/analytic criteria",
+    "sample_size": "Over 130,000 students across 35 education systems; optional CT sample smaller",
+    "item_count": "Variable by module and construct; criteria are not necessarily independent items",
+    "response_times": "Standard-public-package item timing not established in this review",
+    "scoring": "Raw options and rubric scores; five plausible values per assessed competence",
+    "access": "R/SPSS/SAS archives under IEA terms; public/restricted variants",
+    "license_data": "IEA agreement; open redistribution not established",
+    "license_items": "Separate IEA study-material permission conditions",
+    "landing_url": "https://www.iea.nl/data-tools/repository/icils",
+    "download_url": "https://www.iea.nl/data-tools/repository/icils",
+    "archive_url": "https://www.iea.nl/sites/default/files/data-repository/ICILS/ICILS2023/ICILS2023_IDB_R.zip",
+    "documentation_url": "https://www.iea.nl/sites/default/files/2025-02/ICILS_2023_User_Guide.pdf",
+    "doi": "10.58150/ICILS_2023_data_2",
+    "limitations": [
+      "Nested task criteria, incomplete content release and CT participation; use July2026 revised technical report"
+    ],
+    "priority": "A for directly assessed digital skills",
+    "verified_date": "2026-10-29",
+    "domain": "large_scale_assessment",
+    "dataset_kind": "sampled_or_adaptive_assessment",
+    "selected_options_retained": "Yes for MC choices; assigned scores for constructed tasks and rubric criteria",
+    "notes_file": "research/large-scale-assessments.md",
+    "verification_level": "archive_verified",
+    "verification_detail": "Archive header/range check; actual records not parsed; primary documentation checked",
+    "source_urls": [
+      "https://www.iea.nl/data-tools/repository/icils",
+      "https://www.iea.nl/sites/default/files/2025-02/ICILS_2023_User_Guide.pdf",
+      "https://www.iea.nl/sites/default/files/data-repository/ICILS/ICILS2023/ICILS2023_IDB_R.zip"
+    ]
+  },
+  {
+    "id": "iccs-2022-cognitive",
+    "name": "ICCS 2022 civic-knowledge test and process data",
+    "constructs": [
+      "civic knowledge",
+      "civic reasoning"
+    ],
+    "unit": "student cognitive-test item",
+    "granularity": "MC response options; constructed-response scores; item and booklet times",
+    "sample_size": "Approximately 82,000 grade-8 students across 24 education systems",
+    "item_count": "Variable by booklet; full pool not verified",
+    "response_times": "Item and booklet total time in seconds for digital process files",
+    "scoring": "Correct options marked in codebooks; supplied R/SAS/SPSS recoding; dichotomous/partial-credit items",
+    "access": "Public SAS/SPSS/R archive, second edition including process data",
+    "license_data": "IEA agreement; redistribution rights not assumed",
+    "license_items": "Most test text/scoring guides secure; separate content permissions",
+    "landing_url": "https://www.iea.nl/data-tools/repository/iccs",
+    "download_url": "https://www.iea.nl/data-tools/repository/iccs",
+    "archive_url": "https://www.iea.nl/sites/default/files/data-repository/ICCS/ICCS2022/ICCS2022_IDB_R.zip",
+    "documentation_url": "https://www.iea.nl/sites/default/files/2024-05/ICCS%20User%20Guide_0.pdf",
+    "doi": "10.58150/ICCS_2022_data_edition_2_including_process_data",
+    "limitations": [
+      "Exclude attitudes/beliefs/participation questionnaires; missing-response defaults differ for calibration and reporting"
+    ],
+    "priority": "B: useful narrower knowledge domain",
+    "verified_date": "2026-10-29",
+    "domain": "large_scale_assessment",
+    "dataset_kind": "sampled_or_adaptive_assessment",
+    "selected_options_retained": "Yes for MC choices; assigned constructed-response scores",
+    "notes_file": "research/large-scale-assessments.md",
+    "verification_level": "archive_verified",
+    "verification_detail": "Archive header/range check; actual records not parsed; primary documentation checked",
+    "source_urls": [
+      "https://www.iea.nl/data-tools/repository/iccs",
+      "https://www.iea.nl/sites/default/files/2024-05/ICCS%20User%20Guide_0.pdf",
+      "https://www.iea.nl/sites/default/files/data-repository/ICCS/ICCS2022/ICCS2022_IDB_R.zip"
+    ]
+  },
+  {
+    "id": "fraction-subtraction",
+    "name": "Tatsuoka fraction subtraction (CDM)",
+    "constructs": [
+      "fraction subtraction",
+      "eight component arithmetic skills"
+    ],
+    "unit": "middle-school student × test item",
+    "granularity": "Dense binary correctness matrix; separate item-by-skill Q-matrix.",
+    "sample_size": "536 students (raw-file verified)",
+    "item_count": "20 test items; 8 skill attributes",
+    "response_times": "No",
+    "scoring": "1=correct, 0=incorrect; responses already scored; no original selected-answer trace.",
+    "access": "Anonymous CSV export or CDM R package.",
+    "license_data": "CDM package GPL (>=2); separate original dataset grant was not identified. Record package distribution terms without assuming they settle all third-party data rights.",
+    "license_items": "Published historical items; separate permission for reproducing item text not verified.",
+    "landing_url": "https://raw.githubusercontent.com/alexanderrobitzsch/cdm/master/man/fraction.subtraction.data.Rd",
+    "download_url": "https://alexanderrobitzsch.r-universe.dev/CDM/data/fraction.subtraction.data/csv",
+    "limitations": [
+      "Historical, narrow curriculum sample; not population norms.",
+      "Q-matrix is a modelling specification, not directly observed mastery.",
+      "No option-level distractor responses or timing."
+    ],
+    "priority": "high: compact fixed-test scoring benchmark",
+    "verified_date": "2026-10-29",
+    "domain": "subject_tests_and_learning",
+    "dataset_kind": "fixed_assessment",
+    "selected_options_retained": "No; binary scored responses only",
+    "notes_file": "research/subject-tests-and-learning.md",
+    "source_urls": [
+      "https://raw.githubusercontent.com/alexanderrobitzsch/cdm/master/man/fraction.subtraction.data.Rd",
+      "https://alexanderrobitzsch.r-universe.dev/CDM/data/fraction.subtraction.qmatrix/csv",
+      "https://alexanderrobitzsch.r-universe.dev/CDM"
+    ],
+    "verification_detail": "raw-file-verified: full CSV has 536 rows × 20 item columns and only 0/1; official package documentation checked.",
+    "verification_level": "file_inspected"
+  },
+  {
+    "id": "ecpe-grammar",
+    "name": "ECPE English grammar section (CDM)",
+    "constructs": [
+      "morphosyntactic rules",
+      "cohesive rules",
+      "lexical rules"
+    ],
+    "unit": "examinee × test item",
+    "granularity": "Dense scored binary response matrix and 28×3 Q-matrix.",
+    "sample_size": "2,922 examinees (raw-file verified)",
+    "item_count": "28 grammar items; not the complete ECPE exam",
+    "response_times": "No",
+    "scoring": "Binary correctness; remove the id column before scoring.",
+    "access": "Anonymous JSON export or data.ecpe in CDM.",
+    "license_data": "CDM package GPL (>=2); original ECPE response-data licence not separately verified.",
+    "license_items": "Full ECPE test content is not supplied by this response export; no item republication grant verified.",
+    "landing_url": "https://raw.githubusercontent.com/alexanderrobitzsch/cdm/master/man/data.ecpe.Rd",
+    "download_url": "https://alexanderrobitzsch.r-universe.dev/CDM/data/data.ecpe/json",
+    "limitations": [
+      "Only one section of an English proficiency exam.",
+      "No raw option choices, response times, or criterion proficiency scores in this object.",
+      "Estimated diagnostic classes do not constitute ground-truth skill labels."
+    ],
+    "priority": "high: fixed-test multidimensional scoring comparison",
+    "verified_date": "2026-10-29",
+    "domain": "subject_tests_and_learning",
+    "dataset_kind": "fixed_assessment",
+    "selected_options_retained": "No; binary scored responses only",
+    "notes_file": "research/subject-tests-and-learning.md",
+    "source_urls": [
+      "https://raw.githubusercontent.com/alexanderrobitzsch/cdm/master/man/data.ecpe.Rd",
+      "https://alexanderrobitzsch.r-universe.dev/CDM"
+    ],
+    "verification_detail": "raw-file-verified: full JSON contains data (2,922 records, id plus E1–E28) and q.matrix (28 records).",
+    "verification_level": "file_inspected"
+  },
+  {
+    "id": "assistments-2009",
+    "name": "ASSISTments 2009–2010 corrected collapsed Skill Builder",
+    "constructs": [
+      "school mathematics",
+      "skill mastery"
+    ],
+    "unit": "student × problem attempt",
+    "granularity": "Longitudinal scored problems, skill tags, hints/attempt counts, response text and timing fields.",
+    "sample_size": "Not recounted for the corrected collapsed release; published counts for other preprocessing variants should not be substituted.",
+    "item_count": "Problem and template identifiers present; exact corrected-release unique count not recounted.",
+    "response_times": "ms_first_response and overlap_time present in raw header.",
+    "scoring": "correct plus attempt/hint indicators; tutoring or hints can make a response incorrect under Skill Builder rules.",
+    "access": "Official Google Sites links corrected collapsed CSV on Google Drive; anonymous byte-range sample succeeded.",
+    "license_data": "Official parent page states free to use and asks for precise source citation; no standard licence found.",
+    "license_items": "No separate grant for reproducing exercise content verified.",
+    "landing_url": "https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010",
+    "download_url": "https://drive.google.com/file/d/1NNXHFRxcArrU0ZJSb9BIL56vmUt5FhlE/view?usp=sharing",
+    "limitations": [
+      "Use the corrected collapsed version: original files duplicate records for multi-skill questions.",
+      "Mastery stopping, feedback and repeated practice make a naive fixed-ability analysis inappropriate.",
+      "response text is not itself an item bank or verified answer key."
+    ],
+    "priority": "high: learning-aware scoring and timing; medium for fixed ability",
+    "verified_date": "2026-10-29",
+    "domain": "subject_tests_and_learning",
+    "dataset_kind": "learning_practice_logs",
+    "selected_options_retained": "answer_text present; a complete selected-option/key scheme not established",
+    "notes_file": "research/subject-tests-and-learning.md",
+    "source_urls": [
+      "https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010",
+      "https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data",
+      "https://sites.google.com/site/assistmentsdata/an-explanation-on-how-to-interpret-our-data-sets"
+    ],
+    "verification_detail": "raw-sample-verified: corrected CSV header and first records inspected, not complete row counts.",
+    "verification_level": "file_inspected"
+  },
+  {
+    "id": "assistments-2015",
+    "name": "ASSISTments 2015 top-100 Skill Builders",
+    "constructs": [
+      "school mathematics practice"
+    ],
+    "unit": "student × practice log entry for a Skill Builder sequence",
+    "granularity": "Four columns only: user_id, log_id, sequence_id, correct.",
+    "sample_size": "19,917 users; 708,631 rows (raw-file verified)",
+    "item_count": "100 sequence_id values (skill builders), not 100 distinct test questions.",
+    "response_times": "No timing column.",
+    "scoring": "Binary correct label.",
+    "access": "Official Google Sites → Google Drive CSV; full 18,334,729-byte CSV retrieved anonymously for structural verification.",
+    "license_data": "No release-specific standard licence found; do not infer an explicit redistribution grant from download availability.",
+    "license_items": "Item text is absent.",
+    "landing_url": "https://sites.google.com/site/assistmentsdata/datasets/2015-assistments-skill-builder-data",
+    "download_url": "https://drive.google.com/file/d/0B_hO8cnpcIMgUGZzRnh3bHJrSjQ/view?usp=sharing",
+    "limitations": [
+      "No question identifier: not suitable for calibrating actual individual items.",
+      "No timestamps, response options, keys, question text, or response times in this file.",
+      "Treating sequence_id as item_id changes the scientific unit."
+    ],
+    "priority": "low for item scoring; medium for skill-level knowledge tracing",
+    "verified_date": "2026-10-29",
+    "domain": "subject_tests_and_learning",
+    "dataset_kind": "learning_practice_logs",
+    "selected_options_retained": "No; binary correctness only; actual item IDs absent",
+    "notes_file": "research/subject-tests-and-learning.md",
+    "source_urls": [
+      "https://sites.google.com/site/assistmentsdata/datasets/2015-assistments-skill-builder-data"
+    ],
+    "verification_detail": "raw-file-verified: full CSV row count, unique user/sequence counts, and columns checked.",
+    "verification_level": "file_inspected"
+  },
+  {
+    "id": "junyi-2020",
+    "name": "Junyi Academy Online Learning Activity Dataset (2020 release; 2018–2019 logs)",
+    "constructs": [
+      "mathematics practice",
+      "elementary through senior-high content"
+    ],
+    "unit": "student × problem attempt within an exercise/content unit",
+    "granularity": "Log_Problem.csv with uuid, ucid, upid, correctness, time, attempts, hints and level transitions; content/user tables.",
+    "sample_size": "Official card: 16,217,311 attempts by 72,630 selected students; not independently recounted.",
+    "item_count": "1,330 exercise/content metadata rows raw-file verified; unique problem upid count not recounted.",
+    "response_times": "total_sec_taken; timestamp_TW also present.",
+    "scoring": "is_correct plus attempt/hint indicators; chosen raw answers and an answer key are absent from inspected schema.",
+    "access": "Official Kaggle page and API; anonymous individual-file API requests worked during verification (large Log_Problem is compressed).",
+    "license_data": "CC BY-NC-SA 4.0 in uploader data card and Kaggle API metadata, with additional source policy text.",
+    "license_items": "Content metadata supplied; separate rights to full online problems should not be inferred.",
+    "landing_url": "https://www.kaggle.com/datasets/junyiacademy/learning-activity-public-dataset-by-junyi-academy",
+    "download_url": "https://www.kaggle.com/api/v1/datasets/download/junyiacademy/learning-activity-public-dataset-by-junyi-academy",
+    "limitations": [
+      "Distinct from the legacy 2015 Junyi dataset with about 25.9 million logs; schemas and counts must not be combined.",
+      "An exercise is a group of problems, not a single item.",
+      "Adaptive practice and repeated attempts require longitudinal evaluation."
+    ],
+    "priority": "high for longitudinal skill modelling",
+    "verified_date": "2026-10-29",
+    "domain": "subject_tests_and_learning",
+    "dataset_kind": "learning_practice_logs",
+    "selected_options_retained": "No in inspected schema; correctness/attempts/hints only",
+    "notes_file": "research/subject-tests-and-learning.md",
+    "source_urls": [
+      "https://www.kaggle.com/datasets/junyiacademy/learning-activity-public-dataset-by-junyi-academy",
+      "https://www.kaggle.com/api/v1/datasets/view/junyiacademy/learning-activity-public-dataset-by-junyi-academy",
+      "https://www.kaggle.com/api/v1/datasets/download/junyiacademy/learning-activity-public-dataset-by-junyi-academy/Info_Content.csv",
+      "https://www.kaggle.com/api/v1/datasets/download/junyiacademy/learning-activity-public-dataset-by-junyi-academy/Log_Problem.csv"
+    ],
+    "verification_detail": "metadata- and raw-sample-verified: official Kaggle API licence/card; full Info_Content (1,330 rows), Log_Problem header and first decompressed records inspected.",
+    "verification_level": "file_inspected"
+  },
+  {
+    "id": "ednet",
+    "name": "EdNet KT1–KT4 (Santa English test preparation)",
+    "constructs": [
+      "TOEIC-style English listening/reading practice"
+    ],
+    "unit": "learner × question response or finer platform action",
+    "granularity": "KT1 question-solving logs; KT2 answer-selection actions; KT3 explanations/lectures; KT4 wider actions.",
+    "sample_size": "KT1: 784,309 per-student files; approximately 131 million actions refers to the broad dataset, not KT1 answer rows.",
+    "item_count": "13,169 keyed question metadata rows (raw-file verified).",
+    "response_times": "KT1 elapsed_time in milliseconds; bundle timing can be shared across associated questions; shifted timestamps.",
+    "scoring": "Join user_answer (a–d) to Contents correct_answer; bundles identify shared stimuli.",
+    "access": "Public author GitHub links Google Drive ZIPs; Contents archive retrieved, full multi-GB KT archives not downloaded.",
+    "license_data": "CC BY-NC 4.0, stated by authors for research purposes.",
+    "license_items": "Released Contents includes keys/tags/IDs, not question text, passages or audio; no right to reproduce unreleased materials inferred.",
+    "landing_url": "https://github.com/riiid/ednet",
+    "download_url": "https://bit.ly/ednet_kt1",
+    "limitations": [
+      "High-level actions are not all test responses.",
+      "Learning, recommendation policy, review and response revisions affect scores.",
+      "No released external TOEIC score criterion: README still labels scores as to be released."
+    ],
+    "priority": "high for option-based longitudinal scoring and speed/accuracy studies",
+    "verified_date": "2026-10-29",
+    "domain": "subject_tests_and_learning",
+    "dataset_kind": "learning_practice_logs",
+    "selected_options_retained": "user_answer a–d and correct_answer documented; learner payload not parsed",
+    "notes_file": "research/subject-tests-and-learning.md",
+    "source_urls": [
+      "https://github.com/riiid/ednet",
+      "https://bit.ly/ednet-content",
+      "https://arxiv.org/abs/1912.03072"
+    ],
+    "verification_detail": "raw-metadata-verified: full Contents ZIP and question CSV; log schema/examples and archive links page-verified.",
+    "verification_level": "documentation_verified"
+  },
+  {
+    "id": "eedi-neurips-2020",
+    "name": "Eedi / NeurIPS 2020 Education Challenge",
+    "constructs": [
+      "school mathematics",
+      "misconception-sensitive diagnostic questions"
+    ],
+    "unit": "student × four-option diagnostic question",
+    "granularity": "QuestionId/UserId/AnswerId with IsCorrect, CorrectAnswer, AnswerValue; subject and answer metadata.",
+    "sample_size": "Official training counts: tasks 1/2 118,971 students and 15,867,850 answers; tasks 3/4 4,918 students and 1,382,727 answers.",
+    "item_count": "27,613 questions (tasks 1/2); 948 (tasks 3/4), with images supplied for the smaller set.",
+    "response_times": "No response-duration field in inspected answer metadata: AnswerId, DateAnswered, Confidence, GroupId, QuizId, SchemeOfWorkId. DateAnswered is a timestamp, not response time.",
+    "scoring": "CorrectAnswer and selected AnswerValue support rescoring and distractor models; IsCorrect is provided.",
+    "access": "Current Eedi research page links a 626 MB ZIP on Azure; anonymous HTTP byte-range access and ZIP members verified.",
+    "license_data": "CC BY-NC-ND 4.0, explicitly stated on the official Eedi challenge page. Noncommercial use only; attribution and licence link required; modified/remixed/transformed material may not be distributed.",
+    "license_items": "Official additional condition: question images are supplied only for model training; no other use, printing or sharing with anyone is permitted.",
+    "landing_url": "https://www.eedischool.com/projects/neurips-education-challenge",
+    "download_url": "https://dqanonymousdata.blob.core.windows.net/neurips-public/data.zip",
+    "limitations": [
+      "Sparse, selected educational sample, not a common complete test.",
+      "Task splits differ in people/items/metadata; preserve their identities.",
+      "Training counts differ from totals that include challenge answers.",
+      "Only the latest answer is retained for each student-question pair; this is not a complete repeated-attempt history.",
+      "Tasks 1/2 and tasks 3/4 use separately anonymised question, user and answer IDs; never cross-join equal numeric IDs across these task pairs."
+    ],
+    "priority": "high for noncommercial distractor-aware scoring within source terms; do not redistribute modified data or question images",
+    "verified_date": "2026-10-29",
+    "domain": "subject_tests_and_learning",
+    "dataset_kind": "selected_assessment_responses",
+    "selected_options_retained": "Yes; AnswerValue, CorrectAnswer and IsCorrect verified in training samples",
+    "notes_file": "research/subject-tests-and-learning.md",
+    "source_urls": [
+      "https://www.eedischool.com/projects/neurips-education-challenge",
+      "https://www.eedischool.com/research",
+      "https://arxiv.org/abs/2007.12061",
+      "https://dqanonymousdata.blob.core.windows.net/neurips-public/data.zip",
+      "https://arxiv.org/html/2007.12061v3"
+    ],
+    "verification_detail": "raw-sample-verified: ZIP directory, tasks 1/2 and 3/4 training headers and answer metadata; question metadata and official counts also checked. Official Eedi licence and image-specific conditions verified directly (page lines 52–56).",
+    "verification_level": "file_inspected"
+  },
+  {
+    "id": "duolingo-slam-2018",
+    "name": "Duolingo SLAM 2018 shared-task learner responses",
+    "constructs": [
+      "beginner second-language written production",
+      "translation",
+      "listening transcription"
+    ],
+    "unit": "learner × token within an exercise",
+    "granularity": "Token correctness/error labels, correct-answer tokens, user/session and exercise metadata across three language tracks.",
+    "sample_size": "Initial release: >2 million annotated tokens, >6,000 learners, first 30 days (use version-specific counts).",
+    "item_count": "No fixed common item count; tracks en_es, es_en and fr_en.",
+    "response_times": "Whole-exercise seconds; some null/negative logging values need cleaning.",
+    "scoring": "0=OK and 1=mistake; this is reversed from ordinary correct=1 coding.",
+    "access": "Official shared-task page links Harvard Dataverse DOI; primary page/API were blocked in this runtime, but DataCite deposited metadata was readable.",
+    "license_data": "CC BY-NC 4.0 explicitly stated in author-deposited DataCite description; Dataverse also records custom terms.",
+    "license_items": "Do not infer a licence for the entire Duolingo curriculum beyond the released corpus.",
+    "landing_url": "https://sharedtask.duolingo.com/2018.html",
+    "download_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/8SWHNO",
+    "limitations": [
+      "Original challenge version provides labels rather than actual learner strings.",
+      "Most sessions are lessons/practice; only about 1% are test sessions.",
+      "Tokens in one exercise are dependent and share a duration; inspect current version and label files before analysis."
+    ],
+    "priority": "medium: language learning/error prediction rather than a fixed proficiency test",
+    "verified_date": "2026-10-29",
+    "domain": "subject_tests_and_learning",
+    "dataset_kind": "learning_practice_logs",
+    "selected_options_retained": "Original challenge has token error labels and correct tokens, rather than learner answer strings",
+    "notes_file": "research/subject-tests-and-learning.md",
+    "source_urls": [
+      "https://sharedtask.duolingo.com/2018.html",
+      "https://api.datacite.org/dois/10.7910/DVN/8SWHNO",
+      "https://research.duolingo.com/"
+    ],
+    "verification_detail": "page- and DOI-metadata-verified; full data files not inspected due Harvard access denial.",
+    "verification_level": "documentation_verified"
+  },
+  {
+    "id": "kdd-cup-2010-algebra",
+    "name": "KDD Cup 2010 Algebra I / Bridge to Algebra",
+    "constructs": [
+      "algebra",
+      "pre-algebra procedural skills"
+    ],
+    "unit": "student × problem step",
+    "granularity": "Step-level correctness, attempts/hints, timing, knowledge components and opportunity counts.",
+    "sample_size": "Development sets: Algebra 2005–06 575 students/813,661 steps; Algebra 2006–07 1,840/2,289,726; Bridge 2006–07 1,146/3,656,871 (official table).",
+    "item_count": "Steps nested in problems; not a fixed common test. Unique item counts not asserted.",
+    "response_times": "Step duration, first transaction, correct transaction and related timestamp columns.",
+    "scoring": "Correct First Attempt (1/0); development master files provide labels for all steps.",
+    "access": "Official SIGKDD archive index serves ZIPs anonymously, despite historical competition rules mentioning registration.",
+    "license_data": "No explicit standard reusable-data licence found; competition availability is not an unrestricted redistribution grant.",
+    "license_items": "No independent grant for Cognitive Tutor item content verified.",
+    "landing_url": "https://kdd.org/kdd-cup/view/kdd-cup-2010-student-performance-evaluation/Data",
+    "download_url": "https://kdd.org/cupfiles/algebra_2005_2006.zip",
+    "limitations": [
+      "One opportunity summarises several attempts, not a single independent response.",
+      "Mastery, curriculum ordering, hints and repeated steps complicate fixed-trait models.",
+      "Several challenge test columns are withheld; use labelled master files when evaluating observed correctness."
+    ],
+    "priority": "medium: process/learning-aware scoring",
+    "verified_date": "2026-10-29",
+    "domain": "subject_tests_and_learning",
+    "dataset_kind": "learning_practice_logs",
+    "selected_options_retained": "Step correctness/attempts; raw selected distractors not established",
+    "notes_file": "research/subject-tests-and-learning.md",
+    "source_urls": [
+      "https://kdd.org/kdd-cup/view/kdd-cup-2010-student-performance-evaluation/Data",
+      "https://kdd.org/cupfiles/",
+      "https://kdd.org/kdd-cup/view/kdd-cup-2010-student-performance-evaluation/Rules"
+    ],
+    "verification_detail": "raw-sample-verified: official ZIP first member algebra_2005_2006_master.txt and tab-delimited header/records inspected.",
+    "verification_level": "file_inspected"
+  },
+  {
+    "id": "dbe-kt22",
+    "name": "Database Exercises for Knowledge Tracing (DBE-KT22)",
+    "constructs": [
+      "relational databases",
+      "university course knowledge"
+    ],
+    "unit": "student × multiple-choice practice question",
+    "granularity": "Correctness, timing, hints, answer revisions, question text/choices, expert difficulty and question/concept relationships.",
+    "sample_size": "Paper reports 1,361 students and 167,222 interactions; not independently recounted.",
+    "item_count": "212 questions, 98 knowledge components (paper).",
+    "response_times": "time_taken in seconds; number of answer changes also documented.",
+    "scoring": "Generated practice_sequences.json answers are binary (0=wrong, 1=correct). Question-choice text is documented, but retention of each learner's selected option in released raw records is unverified because files were inaccessible; do not claim option-level rescoring.",
+    "access": "Authors describe unrestricted ADA access, but current landing/API returned an anti-bot Access Denied page in this runtime.",
+    "license_data": "DataCite registers custom dataset terms, including required citation/acknowledgement; full custom licence could not be inspected. Do not apply the paper CC BY 4.0 licence to the dataset.",
+    "license_items": "Question/choice text documented as included; exact item redistribution conditions unresolved with dataset terms.",
+    "landing_url": "https://arxiv.org/html/2208.12651v3",
+    "download_url": "https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/6DZWOH",
+    "limitations": [
+      "Practice, hints and optional feedback rather than a fixed independent examination.",
+      "Actual download and complete data-use terms remain an access-verification task.",
+      "Expert difficulty is a rating, not a known true latent ability.",
+      "Question-choice metadata does not establish that student selected-option responses were retained."
+    ],
+    "priority": "high candidate once access and custom terms are resolved",
+    "verified_date": "2026-10-29",
+    "domain": "subject_tests_and_learning",
+    "dataset_kind": "learning_practice_logs",
+    "selected_options_retained": "Unverified; documented generated sequences are binary; question-choice text does not establish learner selections",
+    "notes_file": "research/subject-tests-and-learning.md",
+    "source_urls": [
+      "https://arxiv.org/html/2208.12651v3",
+      "https://api.datacite.org/dois/10.26193/6DZWOH",
+      "https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/6DZWOH"
+    ],
+    "verification_detail": "paper- and DOI-metadata-verified; source data unavailable to this runtime.",
+    "verification_level": "documentation_verified"
+  },
+  {
+    "domain": "language_and_constructed_response",
+    "unit": "human performance",
+    "response_times": "Not verified",
+    "verified_date": "2026-10-29",
+    "priority": "high_for_constructed_response",
+    "verification_level": "documentation_verified",
+    "notes_file": "research/language-and-short-answers.md",
+    "id": "merlin",
+    "name": "MERLIN multilingual examination writing",
+    "constructs": [
+      "German writing",
+      "Italian writing",
+      "Czech writing"
+    ],
+    "granularity": "Anonymized exam text with CEFR rating and annotations",
+    "sample_size": "2,286 texts/adult writers in current provider description",
+    "item_count": "Multiple examination writing tasks; not a fixed item matrix",
+    "scoring": "Overall and dimension-specific CEFR ratings; fair ratings; target hypotheses",
+    "access": "Official download links; linked CLARIN endpoint presented anti-bot page during review",
+    "license_data": "CC BY-SA 4.0 per current provider",
+    "license_items": "Provider states data and resources CC BY-SA 4.0; retain component notices",
+    "landing_url": "https://www.merlin-platform.eu/",
+    "download_url": "https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/59",
+    "limitations": [
+      "Task/language and rater effects; ordinal ratings; archive not inspected"
+    ],
+    "dataset_kind": "human_rated_performance",
+    "source_urls": [
+      "https://www.merlin-platform.eu/",
+      "https://www.porta.eurac.edu/lci/merlin/"
+    ],
+    "selected_options_retained": "Free-text or spoken performance retained; not selected-option coding",
+    "verification_detail": "See detailed source profile for access and inspection scope"
+  },
+  {
+    "domain": "language_and_constructed_response",
+    "unit": "human performance",
+    "response_times": "Not verified",
+    "verified_date": "2026-10-29",
+    "priority": "conditional",
+    "verification_level": "documentation_verified",
+    "notes_file": "research/language-and-short-answers.md",
+    "id": "clc_fce_1_1",
+    "name": "Cambridge CLC FCE v1.1",
+    "constructs": [
+      "English writing"
+    ],
+    "granularity": "Candidate script/task text, marks and errors",
+    "sample_size": "1,244 exam scripts; 97 evaluation scripts have original multi-mark answer-level scores",
+    "item_count": "Writing tasks from 2000–2001 examinations",
+    "scoring": "v1.1 task 0–20, script 0–40; corrected historical scores",
+    "access": "Registration and agreement required; not downloaded",
+    "license_data": "Non-commercial research/education; no redistribution; derived releases need prior approval",
+    "license_items": "Proprietary; same release terms; repository license does not apply",
+    "landing_url": "https://researchdatasets.cambridge.org/datasets/clc-fce-dataset",
+    "download_url": null,
+    "limitations": [
+      "Version-specific scales; historical rubric; not automatically comparable to current B2 First"
+    ],
+    "dataset_kind": "human_rated_performance",
+    "source_urls": [
+      "https://researchdatasets.cambridge.org/datasets/clc-fce-dataset"
+    ],
+    "selected_options_retained": "Free-text or spoken performance retained; not selected-option coding",
+    "verification_detail": "See detailed source profile for access and inspection scope"
+  },
+  {
+    "domain": "language_and_constructed_response",
+    "unit": "human performance",
+    "response_times": "Not verified",
+    "verified_date": "2026-10-29",
+    "priority": "conditional",
+    "verification_level": "documentation_verified",
+    "notes_file": "research/language-and-short-answers.md",
+    "id": "speak_improve_2025",
+    "name": "Cambridge Speak & Improve Corpus 2025",
+    "constructs": [
+      "English speaking"
+    ],
+    "granularity": "Audio utterances/tests with indicative human CEFR judgments; subset transcripts/errors",
+    "sample_size": "About 315 hours; over 45,000 utterances; over 7,000 test submissions (not unique speakers)",
+    "item_count": "Four open-speaking parts used",
+    "scoring": "Indicative holistic CEFR by non-operational examiners",
+    "access": "Registration and agreement; corpus not downloaded",
+    "license_data": "Non-commercial research/education; no redistribution; derived releases need prior approval",
+    "license_items": "Proprietary audio/prompts/annotations subject to release terms",
+    "landing_url": "https://researchdatasets.cambridge.org/datasets/speak-and-improve-corpus-2025",
+    "download_url": null,
+    "limitations": [
+      "Audio duration is not response latency; grouped submissions and proficiency judgments"
+    ],
+    "dataset_kind": "human_rated_performance",
+    "source_urls": [
+      "https://researchdatasets.cambridge.org/datasets/speak-and-improve-corpus-2025"
+    ],
+    "selected_options_retained": "Free-text or spoken performance retained; not selected-option coding",
+    "verification_detail": "See detailed source profile for access and inspection scope"
+  },
+  {
+    "domain": "language_and_constructed_response",
+    "unit": "human performance",
+    "response_times": "Not verified",
+    "verified_date": "2026-10-29",
+    "priority": "conditional",
+    "verification_level": "documentation_verified",
+    "notes_file": "research/language-and-short-answers.md",
+    "id": "write_improve_2024",
+    "name": "Cambridge Write & Improve Corpus 2024 (second version)",
+    "constructs": [
+      "English writing",
+      "revision and feedback"
+    ],
+    "granularity": "Essay versions within learner–prompt sets; final indicative CEFR labels",
+    "sample_size": "5,050 learner–prompt sets; 766 users; about 23,000 essay versions",
+    "item_count": "50 selected prompts per report",
+    "scoring": "Final essays human-rated indicative CEFR; first/final error annotation",
+    "access": "Registration and agreement; not downloaded",
+    "license_data": "Non-commercial research/education; no redistribution; derived releases need prior approval",
+    "license_items": "Proprietary prompts/text/annotations under release terms",
+    "landing_url": "https://researchdatasets.cambridge.org/datasets/write-and-improve-corpus-2024",
+    "download_url": null,
+    "limitations": [
+      "Practice with feedback and revision; prevent learner/prompt/version leakage"
+    ],
+    "dataset_kind": "practice_logs_and_human_ratings",
+    "source_urls": [
+      "https://researchdatasets.cambridge.org/datasets/write-and-improve-corpus-2024"
+    ],
+    "selected_options_retained": "Free-text or spoken performance retained; not selected-option coding",
+    "verification_detail": "See detailed source profile for access and inspection scope"
+  },
+  {
+    "domain": "language_and_constructed_response",
+    "unit": "human performance",
+    "response_times": "Not verified",
+    "verified_date": "2026-10-29",
+    "priority": "conditional",
+    "verification_level": "metadata_only_or_unresolved",
+    "notes_file": "research/language-and-short-answers.md",
+    "id": "ctest_mip_2024",
+    "name": "Constrained English C-Test user study",
+    "constructs": [
+      "English gap completion"
+    ],
+    "granularity": "Individual C-Test gap responses and known solutions documented in CSV",
+    "sample_size": "40 participants",
+    "item_count": "32 tests, 20 gaps each; assignment yields repeated observations",
+    "scoring": "Gap accuracy against solutions; distinguish human data from generated outputs",
+    "access": "Author repository links university data; university endpoint returned 403",
+    "license_data": "University record states CC BY 4.0; component notices require checking",
+    "license_items": "Verify underlying passage notices separately; code Apache-2.0 is separate",
+    "landing_url": "https://github.com/UKPLab/arxiv2024-constrained-ctest-generation",
+    "download_url": "https://tudatalib.ulb.tu-darmstadt.de/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658",
+    "limitations": [
+      "Small sample; dependent gaps within passages; raw CSV not inspected"
+    ],
+    "dataset_kind": "experimental_assessment",
+    "source_urls": [
+      "https://github.com/UKPLab/arxiv2024-constrained-ctest-generation"
+    ],
+    "selected_options_retained": "Free-text or spoken performance retained; not selected-option coding",
+    "verification_detail": "See detailed source profile for access and inspection scope"
+  },
+  {
+    "domain": "language_and_constructed_response",
+    "unit": "human performance",
+    "response_times": "Not verified",
+    "verified_date": "2026-10-29",
+    "priority": "high_for_short_answer_grading",
+    "verification_level": "file_inspected",
+    "notes_file": "research/language-and-short-answers.md",
+    "id": "semeval2013_beetle",
+    "name": "SemEval 2013 Task 7 BEETLE",
+    "constructs": [
+      "Electricity/circuit knowledge",
+      "short-answer explanation"
+    ],
+    "granularity": "Human short answers, reference answers, accuracy labels and identifiers in XML",
+    "sample_size": "5,199 Core-view answer rows across train/evaluation; distinct examinees not reconstructed",
+    "item_count": "56 unique question IDs in selected Core view; reliability and Extra views excluded",
+    "scoring": "Five nominal judgments; optional documented correct/other collapse",
+    "access": "Anonymous organizer ZIP; parsed for structural inspection",
+    "license_data": "CC BY-SA 3.0 organizer license",
+    "license_items": "Organizer release CC BY-SA 3.0; retain attribution and notices",
+    "landing_url": "https://github.com/myrosia/semeval-2013-task7",
+    "download_url": "https://raw.githubusercontent.com/myrosia/semeval-2013-task7/main/semeval-5way.zip",
+    "limitations": [
+      "Tutoring rather than independent exam; overlapping views/splits; normalize labels and IDs before use"
+    ],
+    "dataset_kind": "tutoring_short_answers",
+    "source_urls": [
+      "https://github.com/myrosia/semeval-2013-task7"
+    ],
+    "selected_options_retained": "Free-text student answers retained, rather than multiple-choice options",
+    "verification_detail": "See detailed source profile for access and inspection scope"
+  },
+  {
+    "domain": "language_and_constructed_response",
+    "unit": "human performance",
+    "response_times": "Not verified",
+    "verified_date": "2026-10-29",
+    "priority": "high_for_short_answer_grading",
+    "verification_level": "file_inspected",
+    "notes_file": "research/language-and-short-answers.md",
+    "id": "semeval2013_scientsbank",
+    "name": "SemEval 2013 Task 7 SciEntsBank",
+    "constructs": [
+      "School science knowledge",
+      "short-answer explanation"
+    ],
+    "granularity": "Human short answers, reference answers, accuracy labels and identifiers in XML",
+    "sample_size": "10,804 Core-view answer rows across train/evaluation; distinct examinees not reconstructed",
+    "item_count": "196 unique question IDs in selected Core view; reliability and Extra views excluded",
+    "scoring": "Five nominal judgments; optional documented correct/other collapse",
+    "access": "Anonymous organizer ZIP; parsed for structural inspection",
+    "license_data": "CC BY-SA 3.0 organizer license",
+    "license_items": "Organizer release CC BY-SA 3.0; retain attribution and notices",
+    "landing_url": "https://github.com/myrosia/semeval-2013-task7",
+    "download_url": "https://raw.githubusercontent.com/myrosia/semeval-2013-task7/main/semeval-5way.zip",
+    "limitations": [
+      "Sparse modules; identifiers require study-specific interpretation; overlapping views and blank labels"
+    ],
+    "dataset_kind": "assessment_short_answers",
+    "source_urls": [
+      "https://github.com/myrosia/semeval-2013-task7"
+    ],
+    "selected_options_retained": "Free-text student answers retained, rather than multiple-choice options",
+    "verification_detail": "See detailed source profile for access and inspection scope"
+  }
+]

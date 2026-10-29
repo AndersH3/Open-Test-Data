@@ -1,0 +1,385 @@
+{
+  "research_date": "2026-10-29",
+  "limits": "Structural verification only; no raw responses stored and no validity analysis performed. Archive-only checks do not establish participant data quality.",
+  "cognitive": [
+    {
+      "id": "sapa-ability-iqitems",
+      "name": "SAPA cognitive ability: psychTools ability / iqitems",
+      "verification": "current primary package source documentation",
+      "participants": 1525,
+      "items": 16
+    },
+    {
+      "id": "ospp-viqt",
+      "name": "OpenPsychometrics Vocabulary IQ Test",
+      "verification": "ZIP downloaded, codebook and CSV schema/row count inspected",
+      "participants": 12173,
+      "items": 45,
+      "columns_verified": 131,
+      "sha256": "dfeda357d8e5eba931d7cfe7b2a3e3cca3364ee782f7f9f480e392f3b2e6ed2c"
+    },
+    {
+      "id": "ospp-mgkt",
+      "name": "OpenPsychometrics Multifactor General Knowledge Test 2017-2018",
+      "verification": "ZIP downloaded; original codebook, header and record count inspected",
+      "participants": 19218,
+      "items": 32,
+      "columns_verified": 137,
+      "sha256": "bcf5b135ed1116c08da7470875f7f30d5d37118785a66c271c89198e12ceef24"
+    },
+    {
+      "id": "ospp-iq1",
+      "name": "OpenPsychometrics experimental matrix IQ test",
+      "verification": "ZIP downloaded and CSV/codebook inspected",
+      "participants": 400,
+      "items": 25,
+      "columns_verified": 28,
+      "sha256": "99e3a918c0f3452ea25c38788bfa713b34a49f4370529dc0591cc4fc12ec2743"
+    },
+    {
+      "id": "ospp-fsiq-alpha",
+      "name": "OpenPsychometrics Full Scale IQ alpha v0.1",
+      "verification": "ZIP downloaded, CSV parsed with comma delimiter and quoted lists, codebook inspected",
+      "participants": 3194,
+      "items": 19,
+      "columns_verified": 61,
+      "sha256": "6ac2deb7aa6913dc7f5c8141a48d6cc3035403eb07d5db411827505c46696135"
+    },
+    {
+      "id": "ospp-ebfmt",
+      "name": "Exposure Based Face Memory Test",
+      "verification": "ZIP and CSV/codebook inspected; developer licence page inspected",
+      "participants": 1768,
+      "participants_note": "parsed CSV; official index lists 1769",
+      "items": 75,
+      "columns_verified": 275,
+      "sha256": "adfaa0cd2eadfcb053d53c75109c01175df90fe688c62a28d20f33b66c8d60e1"
+    },
+    {
+      "id": "ganis-kievit-mental-rotation",
+      "name": "Ganis-Kievit mental rotation validation data",
+      "verification": "official landing/API metadata and downloaded archive structure plus original embedded data description inspected; workbook values not parsed",
+      "participants": 54,
+      "items": null,
+      "items_note": "384 available stimuli; tested subset distinct from full bank",
+      "sha256": "3b56dde3defc36d54c85b671f83ade2f7ded685b326be973583ad115bb994e03"
+    },
+    {
+      "id": "sro-performance-tasks",
+      "name": "Self-Regulation Ontology objective performance-task subset",
+      "verification": "primary article/repository documentation; full raw archive not parsed",
+      "participants": 522,
+      "items": null,
+      "items_note": "37 behavioural tasks in full battery; only objectively scored skill tasks in scope"
+    },
+    {
+      "id": "openneuro-ds004636-objective-tasks",
+      "name": "OpenNeuro ds004636 objective task subset",
+      "verification": "data descriptor and dataset licence metadata; event payloads not parsed",
+      "participants": 103,
+      "participants_note": "study completers; usable sample varies by task; 68 have no recommended behavioural exclusion",
+      "items": null
+    },
+    {
+      "id": "mathy-friedman-working-memory",
+      "name": "Working Memory Develops at a Similar Rate Across Diverse Stimuli",
+      "verification": "official landing page only",
+      "participants": null,
+      "items": null
+    },
+    {
+      "id": "icar-current-restricted",
+      "name": "ICAR current full materials and psychometric data",
+      "verification": "current official FAQ and archive landing page; published 2026-06-02",
+      "participants": null,
+      "items": null
+    }
+  ],
+  "large_assessments": {
+    "verified_date": "2026-10-29",
+    "method": "HTTP Range requests, ZIP signatures and central-directory names; public XLSX codebook XML inspected. Full participant files not imported.",
+    "archives": [
+      {
+        "url": "https://webfs.oecd.org/pisa2022/2025/CY09_MS_COG_PUF.zip",
+        "status": 206,
+        "total_bytes": 224749839,
+        "last_modified": "Fri, 04 Sep 2026 16:26:32 GMT",
+        "zip_entry": "CY09_MS_COG_20260806.sav"
+      },
+      {
+        "url": "https://webfs.oecd.org/pisa2022/2025/CY09_MS_COG_PROCESS_PUF.zip",
+        "status": 206,
+        "total_bytes": 424600524,
+        "last_modified": "Tue, 11 Aug 2026 13:21:38 GMT",
+        "zip_entry": "CY09_MS_COG_PROCESS_20260806.sav"
+      },
+      {
+        "url": "https://www.iea.nl/sites/default/files/data-repository/TIMSS/TIMSS2023/TIMSS2023_IDB_R_G4.zip",
+        "status": 206,
+        "total_bytes": 1165805991,
+        "last_modified": "Thu, 06 Feb 2025 11:38:10 GMT",
+        "zip_signature": "PK0304"
+      }
+    ],
+    "codebook": {
+      "url": "https://webfs.oecd.org/pisa2022/2025/PISA2025_Codebook.xlsx",
+      "bytes": 985161,
+      "sheets": [
+        "STU",
+        "COG",
+        "LDW",
+        "SCH",
+        "TCH",
+        "STU_TT",
+        "COG_PROCESS"
+      ],
+      "observations": [
+        "COG includes raw and scored response labels",
+        "COG_PROCESS includes number-of-actions and time-to-first-action labels"
+      ],
+      "limit": "Variable documentation checked; response rows, distributions, total test-pool size and full item timing semantics not validated."
+    }
+  },
+  "large_assessment_archive_probes": {
+    "verified_date": "2026-10-29",
+    "method": "HTTP byte-range archive header probes only",
+    "results": [
+      {
+        "id": "pisa-2025",
+        "url": "https://webfs.oecd.org/pisa2022/2025/CY09_MS_COG_PUF.zip",
+        "status": 206,
+        "zip_signature": "504b0304",
+        "content_range": "bytes 0-31/224749839",
+        "last_modified": "Fri, 04 Sep 2026 16:26:32 GMT"
+      },
+      {
+        "id": "pisa-2022",
+        "url": "https://webfs.oecd.org/pisa2022/STU_COG_SPSS.zip",
+        "status": 206,
+        "zip_signature": "504b0304",
+        "content_range": "bytes 0-31/480779795",
+        "last_modified": "Fri, 17 Nov 2023 15:42:23 GMT"
+      },
+      {
+        "id": "pisa-2018-timing",
+        "url": "https://webfs.oecd.org/pisa2018/SPSS_STU_TTM.zip",
+        "status": 206,
+        "zip_signature": "504b0304",
+        "content_range": "bytes 0-31/184570564",
+        "last_modified": "Fri, 25 Sep 2020 09:32:34 GMT"
+      },
+      {
+        "id": "timss-2023",
+        "url": "https://www.iea.nl/sites/default/files/data-repository/TIMSS/TIMSS2023/TIMSS2023_IDB_R_G4.zip",
+        "status": 206,
+        "zip_signature": "504b0304",
+        "content_range": "bytes 0-31/1165805991",
+        "last_modified": "Thu, 06 Feb 2025 11:38:10 GMT"
+      },
+      {
+        "id": "pirls-2021",
+        "url": "https://www.iea.nl/sites/default/files/data-repository/PIRLS/PIRLS2021/PIRLS2021_IDB_R.zip",
+        "status": 206,
+        "zip_signature": "504b0304",
+        "content_range": "bytes 0-31/467314244",
+        "last_modified": "Mon, 18 Mar 2024 14:25:51 GMT"
+      },
+      {
+        "id": "icils-2023",
+        "url": "https://www.iea.nl/sites/default/files/data-repository/ICILS/ICILS2023/ICILS2023_IDB_R.zip",
+        "status": 206,
+        "zip_signature": "504b0304",
+        "content_range": "bytes 0-31/66310831",
+        "last_modified": "Tue, 17 Jun 2025 13:57:36 GMT"
+      },
+      {
+        "id": "iccs-2022-cognitive",
+        "url": "https://www.iea.nl/sites/default/files/data-repository/ICCS/ICCS2022/ICCS2022_IDB_R.zip",
+        "status": 206,
+        "zip_signature": "504b0304",
+        "content_range": "bytes 0-31/58768573",
+        "last_modified": "Tue, 24 Sep 2024 10:37:42 GMT"
+      }
+    ]
+  },
+  "learning": [
+    {
+      "id": "fraction-subtraction",
+      "name": "Tatsuoka fraction subtraction (CDM)",
+      "verification": "raw-file-verified: full CSV has 536 rows × 20 item columns and only 0/1; official package documentation checked.",
+      "sample_size": "536 students (raw-file verified)",
+      "item_count": "20 test items; 8 skill attributes"
+    },
+    {
+      "id": "ecpe-grammar",
+      "name": "ECPE English grammar section (CDM)",
+      "verification": "raw-file-verified: full JSON contains data (2,922 records, id plus E1–E28) and q.matrix (28 records).",
+      "sample_size": "2,922 examinees (raw-file verified)",
+      "item_count": "28 grammar items; not the complete ECPE exam"
+    },
+    {
+      "id": "assistments-2009",
+      "name": "ASSISTments 2009–2010 corrected collapsed Skill Builder",
+      "verification": "raw-sample-verified: corrected CSV header and first records inspected, not complete row counts.",
+      "sample_size": "Not recounted for the corrected collapsed release; published counts for other preprocessing variants should not be substituted.",
+      "item_count": "Problem and template identifiers present; exact corrected-release unique count not recounted."
+    },
+    {
+      "id": "assistments-2015",
+      "name": "ASSISTments 2015 top-100 Skill Builders",
+      "verification": "raw-file-verified: full CSV row count, unique user/sequence counts, and columns checked.",
+      "sample_size": "19,917 users; 708,631 rows (raw-file verified)",
+      "item_count": "100 sequence_id values (skill builders), not 100 distinct test questions."
+    },
+    {
+      "id": "junyi-2020",
+      "name": "Junyi Academy Online Learning Activity Dataset (2020 release; 2018–2019 logs)",
+      "verification": "metadata- and raw-sample-verified: official Kaggle API licence/card; full Info_Content (1,330 rows), Log_Problem header and first decompressed records inspected.",
+      "sample_size": "Official card: 16,217,311 attempts by 72,630 selected students; not independently recounted.",
+      "item_count": "1,330 exercise/content metadata rows raw-file verified; unique problem upid count not recounted."
+    },
+    {
+      "id": "ednet",
+      "name": "EdNet KT1–KT4 (Santa English test preparation)",
+      "verification": "raw-metadata-verified: full Contents ZIP and question CSV; log schema/examples and archive links page-verified.",
+      "sample_size": "KT1: 784,309 per-student files; approximately 131 million actions refers to the broad dataset, not KT1 answer rows.",
+      "item_count": "13,169 keyed question metadata rows (raw-file verified)."
+    },
+    {
+      "id": "eedi-neurips-2020",
+      "name": "Eedi / NeurIPS 2020 Education Challenge",
+      "verification": "raw-sample-verified: ZIP directory, tasks 1/2 and 3/4 training headers and answer metadata; question metadata and official counts also checked. Official Eedi licence and image-specific conditions verified directly (page lines 52–56).",
+      "sample_size": "Official training counts: tasks 1/2 118,971 students and 15,867,850 answers; tasks 3/4 4,918 students and 1,382,727 answers.",
+      "item_count": "27,613 questions (tasks 1/2); 948 (tasks 3/4), with images supplied for the smaller set."
+    },
+    {
+      "id": "duolingo-slam-2018",
+      "name": "Duolingo SLAM 2018 shared-task learner responses",
+      "verification": "page- and DOI-metadata-verified; full data files not inspected due Harvard access denial.",
+      "sample_size": "Initial release: >2 million annotated tokens, >6,000 learners, first 30 days (use version-specific counts).",
+      "item_count": "No fixed common item count; tracks en_es, es_en and fr_en."
+    },
+    {
+      "id": "kdd-cup-2010-algebra",
+      "name": "KDD Cup 2010 Algebra I / Bridge to Algebra",
+      "verification": "raw-sample-verified: official ZIP first member algebra_2005_2006_master.txt and tab-delimited header/records inspected.",
+      "sample_size": "Development sets: Algebra 2005–06 575 students/813,661 steps; Algebra 2006–07 1,840/2,289,726; Bridge 2006–07 1,146/3,656,871 (official table).",
+      "item_count": "Steps nested in problems; not a fixed common test. Unique item counts not asserted."
+    },
+    {
+      "id": "dbe-kt22",
+      "name": "Database Exercises for Knowledge Tracing (DBE-KT22)",
+      "verification": "paper- and DOI-metadata-verified; source data unavailable to this runtime.",
+      "sample_size": "Paper reports 1,361 students and 167,222 interactions; not independently recounted.",
+      "item_count": "212 questions, 98 knowledge components (paper)."
+    }
+  ],
+  "semeval": {
+    "url": "https://raw.githubusercontent.com/myrosia/semeval-2013-task7/main/semeval-5way.zip",
+    "bytes": 12983203,
+    "sha256": "57c14e5c260d8cfd774f3fb954985d94bcfa3407029bfe585179650b907dbf9b",
+    "xml_files": 928,
+    "answers_by_path_group": {
+      "beetle": 10398,
+      "scientsbank": 21848
+    },
+    "unique_question_ids_by_path_group": {
+      "beetle": 56,
+      "scientsbank": 198
+    },
+    "labels": {
+      "correct": 13263,
+      "contradictory": 4883,
+      "non_domain": 608,
+      "partially_correct_incomplete": 7648,
+      "irrelevant": 5687,
+      "non-domain": 14,
+      "": 143
+    },
+    "root_tags": {
+      "question": 928
+    },
+    "sample_schema": {
+      "file": "beetle/test-unseen-answers/Core/FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY1.xml",
+      "root_attributes": [
+        "testSet",
+        "qtype",
+        "id",
+        "module",
+        "stype"
+      ],
+      "student_answer_attributes": [
+        "count",
+        "answerMatch",
+        "id",
+        "accuracy"
+      ]
+    },
+    "verification_date": "2026-10-29",
+    "note": "Archive inspected in temporary storage only. It contains alternative/overlapping Core and Extra representations and/or splits; raw XML answer counts are NOT unique examinees or unique observations. Select an explicit task view and deduplicate by documented source identifiers before analysis. Blank and non-domain labels require normalization. No raw responses included in repository.",
+    "archive_layout_audit": {
+      "xml_files_by_group": {
+        "beetle/test-unseen-answers/Core": 47,
+        "beetle/test-unseen-answers/Extra": 47,
+        "beetle/test-unseen-questions/Core": 9,
+        "beetle/test-unseen-questions/Extra": 9,
+        "beetle/train/Core": 47,
+        "beetle/train/Extra": 47,
+        "sciEntsBank/reliability/round1": 60,
+        "sciEntsBank/test-unseen-answers/Core": 135,
+        "sciEntsBank/test-unseen-answers/Extra": 135,
+        "sciEntsBank/test-unseen-domains/Core": 46,
+        "sciEntsBank/test-unseen-domains/Extra": 46,
+        "sciEntsBank/test-unseen-questions/Core": 15,
+        "sciEntsBank/test-unseen-questions/Extra": 15,
+        "sciEntsBank/train/Core": 135,
+        "sciEntsBank/train/Extra": 135
+      },
+      "answer_rows_by_group": {
+        "beetle/test-unseen-answers/Core": 439,
+        "beetle/test-unseen-answers/Extra": 439,
+        "beetle/test-unseen-questions/Core": 819,
+        "beetle/test-unseen-questions/Extra": 819,
+        "beetle/train/Core": 3941,
+        "beetle/train/Extra": 3941,
+        "sciEntsBank/reliability/round1": 240,
+        "sciEntsBank/test-unseen-answers/Core": 540,
+        "sciEntsBank/test-unseen-answers/Extra": 540,
+        "sciEntsBank/test-unseen-domains/Core": 4562,
+        "sciEntsBank/test-unseen-domains/Extra": 4562,
+        "sciEntsBank/test-unseen-questions/Core": 733,
+        "sciEntsBank/test-unseen-questions/Extra": 733,
+        "sciEntsBank/train/Core": 4969,
+        "sciEntsBank/train/Extra": 4969
+      }
+    },
+    "core_view_summary": {
+      "selection_rule": "XML files with /Core/ in path only; all official train and evaluation splits; reliability excluded",
+      "answer_rows": {
+        "beetle": 5199,
+        "sciEntsBank": 10804
+      },
+      "distinct_question_ids": {
+        "beetle": 56,
+        "sciEntsBank": 196
+      },
+      "labels": {
+        "beetle": {
+          "correct": 2185,
+          "contradictory": 1404,
+          "non_domain": 258,
+          "partially_correct_incomplete": 1203,
+          "irrelevant": 149
+        },
+        "sciEntsBank": {
+          "correct": 4459,
+          "irrelevant": 2663,
+          "partially_correct_incomplete": 2598,
+          "contradictory": 1038,
+          "non_domain": 46
+        }
+      },
+      "limit": "Rows are answers, not examinees. No person-level deduplication or validity analysis."
+    }
+  }
+}
