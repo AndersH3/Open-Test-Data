@@ -121,14 +121,16 @@
     }
   ],
   "report_asset": {
-    "asset_id": 690296948,
+    "asset_id": 690597004,
     "name": "skill-data-atlas-complete-research-report.pdf",
-    "bytes": 445504,
-    "github_digest": "sha256:d0e8a2c6663940bc671b8b62228400622d34c83b4dd738ebb6d5f54d50417e4c",
+    "bytes": 517827,
+    "github_digest": "sha256:f762b2d352cfddce080b013103e3c992f3836ad5aa787a8183a368ec7f5f7962",
     "sha256_matches": true,
     "state": "uploaded",
     "url": "https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/skill-data-atlas-complete-research-report.pdf",
-    "document_revision": "2026-10-30"
+    "document_revision": "2026-10-30",
+    "edition": "Earlier report integrated; 44 profiles, 73 pages and 296 references"
   },
-  "all_uploads_verified": true
+  "all_uploads_verified": true,
+  "small_supplementary_payloads_storage": "Four original payload files in Git; dataset manifests and data/SHA256SUMS record their hashes."
 }

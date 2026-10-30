@@ -1,17 +1,17 @@
 # AI disclosure
 
-Disclosure revision: **30 October 2026**. The research and acquisition snapshot remains **29 October 2026**. The project is **Skill Data Atlas**, hosted at https://github.com/AndersH3/skill-data-atlas.
+Disclosure revision: **30 October 2026**. The initial research and acquisition snapshot is **29 October 2026**; integration of the earlier report, supplementary checks and three small additional mirrors are dated **30 October 2026**. The project is **Skill Data Atlas**, hosted at https://github.com/AndersH3/skill-data-atlas.
 
 ## Nature and extent of AI involvement
 
-This report and the repository's curation material were prepared with **OpenAI Codex**, using a primary AI assistant and delegated AI agents. AI involvement was substantive: it included research, interpretation, selection, writing and coding, rather than only spelling or formatting assistance. Newly written project prose should be understood as AI-assisted material unless a particular file identifies a different source or author.
+This report and the repository's curation material were prepared with **OpenAI Codex**, using a primary assistant and delegated AI agents. They performed substantive research, interpretation, selection, writing and coding. Newly written project prose is AI-assisted unless a file identifies another source or author.
 
-The project record identifies the assistant platform and the use of delegated agents. It does not retain a complete, independently verifiable record of the exact model builds, settings and contexts used for every agent and turn. No particular checkpoint or deterministic generation configuration is therefore asserted for the entire workflow.
+Exact model builds, settings and contexts were not fully retained for every agent and turn. No particular checkpoint or deterministic configuration is asserted for the entire workflow.
 
 | Work area | AI contribution | What the record supports |
 |---|---|---|
 | Discovery and scope | Searched for human skill, knowledge and cognitive-performance response sources; screened out personality and self-report tests from the skill shortlist | A curated search and inclusion judgment, not an exhaustive census |
-| Catalogue and synthesis | Drafted the 37 source profiles, descriptions, comparisons, recommendations, citations and machine-readable catalogue | AI-authored summaries that can contain interpretation or transcription errors |
+| Catalogue and synthesis | Drafted the catalogue profiles, descriptions, comparisons, recommendations, citations and machine-readable catalogue, including seven earlier-report additions | AI-authored summaries that can contain interpretation or transcription errors |
 | Access and licensing | Read provider terms, distinguished data from item-content rights, assessed redistribution, and revised decisions when evidence changed | A documented AI research interpretation, not independent legal clearance |
 | Acquisition and packaging | Downloaded source files, selected named objective-task subsets and packaged eligible files | The selected scope is documented; some mirrors are subsets or omit duplicate encodings |
 | Documentation | Wrote provenance notes and project field guides; retained author documentation where available | Project guides are labelled separately from original author codebooks |
@@ -26,6 +26,12 @@ The project owner specified the research objective, excluded personality-oriente
 **Independent human fact-checking, legal review and scientific peer review are not documented in the available project record.** Checks by additional AI agents remain AI checks; agreement between agents is not independent human validation. At least one delegated review attempt during the rename was interrupted by a usage limit. An interrupted attempt is not treated as a completed review. Completed checks for the delivered edition are recorded in the quality and verification files.
 
 The maintainer remains responsible for decisions about publication and subsequent use. A later human review should be identified as a separate review with its scope, date and evidence, rather than inferred from the repository's existence or from this disclosure.
+
+## Integration of the earlier report
+
+AI assistants extracted the supplied `older_reports/Candidate Datasets.docx`, compared every candidate with the catalogue, checked primary sources and inspected selected files. The original was preserved unchanged with a checksum and candidate crosswalk. Its authorship, prompts and complete AI-generation history are undocumented; embedded citation tokens had no recoverable source map and were not primary evidence.
+
+Corrections cover Music Ensemble's timed Raven block, Much–Mutak's distinct item blocks, the TüEyeQ repository and HCP's identifier-stripped export. Music Ensemble remains linked pending a field-minimization decision. The older equating recommendation became qualified guidance. Three small collections were added with original bytes, licences and codebooks; no linking model was fitted. These are AI checks, without a newly documented human review.
 
 ## Relationship to the original data
 

@@ -2,13 +2,17 @@
 
 ## What was checked
 
-The research catalogue distinguishes response-file inspection, archive verification, primary documentation and unresolved metadata-only evidence. The acquisition phase adds byte counts, SHA-256 hashes, provider hashes where supplied, archive integrity checks, source snapshots and explicit subset rules. The downloaded payload manifest is the authoritative list of mirrored files; the 37-source audit records exclusions as well as acquisitions.
+The research catalogue distinguishes response-file inspection, archive verification, primary documentation and unresolved metadata-only evidence. The acquisition phase adds byte counts, SHA-256 hashes, provider hashes where supplied, archive integrity checks, source snapshots and explicit subset rules. The downloaded payload manifest is the authoritative list of mirrored files; the complete source audit records exclusions as well as acquisitions.
 
 Selected source archives were parsed to verify response schemas and counts. A full parse does not establish that every response is valid or every participant is unique. Provider participation totals, file rows and distinct respondent identifiers remain separate. Some mirrors contain all deposited files; mixed batteries are limited to named objective tasks, and some alternative formats or additional annotations may be omitted. Every such selection is documented in the collection source record.
 
 ## Corrections from acquisition
 
 MERLIN's mirrored version 1.2 has 2,287 metadata records; the earlier website description gives 2,286. The versioned deposit and actual metadata govern this mirror. The English C-Test study contains 40 users, 32 forms and 160 user-form attempts, or 3,200 observed gap scores; whole-form duration is present, while per-gap latency was not established. The working-memory deposit has two original CSV files and distinguishes raw task records from participant-collapsed scores. The OpenNeuro archive contains source subject identifiers beyond the reported study-completer cohort; recommended exclusions must be applied explicitly rather than silently deleting source rows.
+
+## Earlier report integration
+
+The earlier Candidate Datasets document is preserved unchanged in older_reports. Its candidates and recommendations were reconciled against primary papers, data dictionaries and inspected response files on 30 October 2026. The linking chapter records corrected designs, version conflicts, evidence levels and unresolved access. The original citation tokens cannot substitute for recoverable primary references.
 
 ## Rebuild and locate the evidence
 

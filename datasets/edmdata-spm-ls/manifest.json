@@ -1,0 +1,130 @@
+{
+  "catalogue_id": "spm-ls-edmdata",
+  "status": "mirrored",
+  "license": "MIT AND CC-BY-4.0",
+  "source_package": "edmdata",
+  "source_package_version": "1.3.0",
+  "source_commit": "3c0036e4a665b61adde011aac2215b62bd5da33d",
+  "license_evidence": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION",
+  "scope": "Exact packaged `items_spm_ls.rda` numeric source object (499 records \u00d7 12 items), unchanged. No questionnaire, personality measures, proprietary item artwork or test handbook.",
+  "files": [
+    {
+      "path": "CODEBOOK.project.md",
+      "source_url": null,
+      "retrieved_date": "2026-10-30",
+      "bytes": 1042,
+      "sha256": "aee4f3d3018d28c26946d16f342745a3ab40d47c0614280ba69013e90299a4ac",
+      "role": "project-generated provenance or reading guidance"
+    },
+    {
+      "path": "LICENSE.CC-BY-4.0.txt",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-4.0.txt",
+      "retrieved_date": "2026-10-30",
+      "bytes": 17023,
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+      "role": "full underlying data licence text"
+    },
+    {
+      "path": "LICENSE.MIT.upstream.md",
+      "source_url": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/LICENSE.md",
+      "retrieved_date": "2026-10-30",
+      "bytes": 1108,
+      "sha256": "be5596781075425291b9154696fdc7c74118379adf2c67cc1c150ee7dc9e5923",
+      "role": "full upstream MIT licence and notices",
+      "source_path": "LICENSE.md",
+      "upstream_git_blob_sha": "24c076760e51ce7af55643bec353277ab170d904"
+    },
+    {
+      "path": "SOURCE.md",
+      "source_url": null,
+      "retrieved_date": "2026-10-30",
+      "bytes": 3377,
+      "sha256": "e13e56b744bceea773cf9cff2dee2f5d9ee983f8de3d3e6d40ab73b1da18df5e",
+      "role": "project-generated provenance or reading guidance"
+    },
+    {
+      "path": "codebooks/items_spm_ls.Rd",
+      "source_url": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/man/items_spm_ls.Rd",
+      "retrieved_date": "2026-10-30",
+      "bytes": 1947,
+      "sha256": "8ff6f524ff7ae8364d520469ff2193ac68b252d96251051439d0d3ce00033c63",
+      "role": "original author codebook",
+      "source_path": "man/items_spm_ls.Rd",
+      "upstream_git_blob_sha": "bd598271124b5c6ff78d3c88a2aa95a73257d49c"
+    },
+    {
+      "path": "codebooks/spm-ls-build.R",
+      "source_url": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data-raw/spm-ls/spm-ls-build.R",
+      "retrieved_date": "2026-10-30",
+      "bytes": 2493,
+      "sha256": "62850b18b79b7a046bc6786ff536f529c2c40c8d21d8b318d037551d4d2c4e66",
+      "role": "original package transformation script"
+    },
+    {
+      "path": "codebooks/spm-ls-data.R",
+      "source_url": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/R/spm-ls-data.R",
+      "retrieved_date": "2026-10-30",
+      "bytes": 468,
+      "sha256": "4e8ba19ffec6089eb29b358260b2fbb6c36ef405af4c78c32ca2eba86415d41d",
+      "role": "original author data documentation source",
+      "source_path": "R/spm-ls-data.R",
+      "upstream_git_blob_sha": "65b3eb65e1f9e4e32d7ce1044924698b3b2923f7"
+    },
+    {
+      "path": "original/items_spm_ls.rda",
+      "source_url": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data/items_spm_ls.rda",
+      "retrieved_date": "2026-10-30",
+      "bytes": 1098,
+      "sha256": "0d90692decc86da6e30fa54290a637aefc393b6411abe185242821e0b764f6d8",
+      "role": "unchanged packaged response source object",
+      "source_path": "data/items_spm_ls.rda",
+      "upstream_git_blob_sha": "da2af2362b1456cb2f6dba8179bf23de4d7a7038"
+    },
+    {
+      "path": "read-data.R",
+      "source_url": null,
+      "retrieved_date": "2026-10-30",
+      "bytes": 172,
+      "sha256": "912502a917716bd778d418673f5c42f90782cdb320403a30bb0cb7aaecf2aa91",
+      "role": "project-generated provenance or reading guidance"
+    },
+    {
+      "path": "upstream-DESCRIPTION",
+      "source_url": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION",
+      "retrieved_date": "2026-10-30",
+      "bytes": 2036,
+      "sha256": "d4bf94eee6ce974e542f969049adece56b2a45acd3ec93a41535a2a5c41c0f72",
+      "role": "original package description and formal licence declaration",
+      "source_path": "DESCRIPTION",
+      "upstream_git_blob_sha": "e75032bd6f59a1726951952183c24c08f7d9e8af"
+    },
+    {
+      "path": "upstream-LICENSE",
+      "source_url": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/LICENSE",
+      "retrieved_date": "2026-10-30",
+      "bytes": 102,
+      "sha256": "a930fff1a24775b6f8a1a01536664e1c3c080a1a7c30f1bef67f72f88f4a326a",
+      "role": "original package copyright declaration",
+      "source_path": "LICENSE",
+      "upstream_git_blob_sha": "a7c39c4d5eddd4573e55fd75ab884f22d3c04c5e"
+    },
+    {
+      "path": "upstream-data-rights.json",
+      "source_url": "https://api.datacite.org/dois/10.17632/h3yhs5gy3w.1",
+      "retrieved_date": "2026-10-30",
+      "bytes": 5320,
+      "sha256": "c888978640fa17cb6a95e42b5219dcc557608fbdea5e966f01b8484704f2aeac",
+      "role": "registered original-deposit rights and attribution metadata"
+    }
+  ],
+  "native_R_verification": {
+    "object": "items_spm_ls",
+    "rows": 499,
+    "columns": 12,
+    "observed_values": [
+      0,
+      1
+    ],
+    "missing_cells": 0
+  }
+}

@@ -7,11 +7,13 @@ This report was prepared with OpenAI Codex and delegated AI agents, which perfor
 
 ## What this research establishes
 
-There is a substantial supply of human skill-response data online, but no single source supplies every response format, construct and reuse permission. The 37 catalogue entries cover reasoning, vocabulary, general knowledge, spatial ability, memory, attention, mathematics, science, adult literacy and numeracy, digital competence, language production and short-answer explanation. Personality, beliefs, preferences and self-reported ability are excluded from the skill-response scope.
+There is a substantial supply of human skill-response data online, but no single source supplies every response format, construct and reuse permission. The 44 catalogue entries cover reasoning, vocabulary, general knowledge, spatial ability, memory, attention, mathematics, science, adult literacy and numeracy, digital competence, language production and short-answer explanation. Personality, beliefs, preferences and self-reported ability are excluded from the skill-response scope.
 
 The most important practical choice is the observation needed by the proposed scoring rule. Binary correctness supports one class of models; selected distractors, partial work, timing, repeated attempts and human rubric judgments support others. These are not interchangeable. A public sample test or aggregate item statistic does not supply the joint response patterns required to compare individual scores.
 
 This report combines the full source review with a separate redistribution audit and downloaded collection. Every source has a decision, including sources not mirrored because their terms are restrictive, permission remains unresolved or an official download could not be obtained. Source-specific licences, original codebooks where available, project field guides and checksum manifests accompany the mirrored collection. The project licence does not override third-party conditions.
+
+The [earlier Candidate Datasets report](../older_reports/Candidate%20Datasets.docx) is now integrated through a primary-source recheck dated 30 October 2026. Seven distinct source versions were added; IQ1 was retained without duplication. The new linking chapter corrects two-form and retest claims, distinguishes historical SAPA from other releases, and records all earlier candidates in a reconciliation table. Music Ensemble and the Much–Mutak study support common-person analyses with specific design qualifications, rather than an already established equating relation between two complete IQ instruments.
 
 ## Most useful starting points
 
@@ -19,6 +21,7 @@ This report combines the full source review with a separate redistribution audit
 |---|---|---|
 | Can a scoring pipeline reproduce a familiar small item matrix? | SAPA ability/iqitems, fraction subtraction, ECPE grammar | Useful compact structural benchmarks. SAPA's two objects are the same sample; binary-only exports cannot recover distractor choices. Exact packaged response objects are mirrored under their formal GPL grants; separate test-stimulus rights remain distinct. |
 | Does a score capture spatial performance and latency? | Ganis-Kievit mental rotation | Direct behaviour, stimulus conditions and response-time documentation; a small, task-specific validation sample. [Original deposit](https://doi.org/10.6084/m9.figshare.1045385). |
+| Can responses connect tasks or instruction conditions? | Music Ensemble; Much–Mutak matrices; historical SAPA/ICAR | Common IDs, experimental blocks and planned item overlap support different designs. Check construct alignment, condition/order effects, connectedness and missingness. [Integrated linking review](../research/linked-tests-and-legacy-integration.md). |
 | Does a task score remain stable on retesting? | Self-Regulation Ontology objective task subset | Raw trials and retest data permit task-specific stability checks. Exclude surveys and preference tasks. [Author data and licence](https://github.com/IanEisenberg/Self_Regulation_Ontology). |
 | How should span performance receive partial credit? | Mathy-Friedman working-memory data | Original trial and participant-level files document different span-scoring rules. Preserve repeated-trial structure. [Versioned deposit](https://data.mendeley.com/datasets/kfc3jyggs7/1). |
 | What do distractor choices add to educational scoring? | Eedi NeurIPS 2020; EdNet | Actual answers and keys support option-based analysis. Eedi retains only the latest student-question answer and uses separate ID spaces across task pairs; its images have additional restrictions. EdNet is longitudinal test preparation. [Eedi source](https://www.eedischool.com/projects/neurips-education-challenge), [EdNet source](https://github.com/riiid/ednet). |
@@ -48,7 +51,7 @@ These recommendations are a methodological synthesis of the reviewed sources. No
 # 2. Research method and analysis guidance
 
 
-Research cutoff: **29 October 2026**. This is a curated research review, not an exhaustive registry or a certification of each test's validity.
+Initial research cutoff: **29 October 2026**; earlier-report candidates and integration checked **30 October 2026**. This is a curated research review, not an exhaustive registry or a certification of each test's validity.
 
 ## What counts as a skill-based test here?
 
@@ -76,6 +79,10 @@ Evidence strength does not imply unrestricted access: even an inspected public f
 AI assistants conducted research in parallel across cognitive tasks, large educational assessments, learning datasets, and language/constructed-response assessment. Primary sources were preferred: provider databases and terms, university/laboratory releases, original articles and author-maintained software documentation. Search snippets were used for discovery; claims supported only by indexed metadata are explicitly marked. Selected public archives and small response files were checked directly. Counts retain their units: people, submissions, answers, items, passages and events are not interchangeable.
 
 The priority labels express **practical suitability for a stated research use**, based on response granularity, documentation, access burden and methodological complexity. They are this review's judgments, not empirical rankings of test quality or recommendations for high-stakes individual decisions.
+
+## Integration of earlier research
+
+The earlier Word report was retained byte for byte and treated as a secondary discovery document. Each named candidate was reconciled with the existing catalogue and rechecked against primary sources where obtainable. New source versions receive separate records; alternate exports of the same sample do not become independent studies. The linking chapter records corrected administration designs, source/version conflicts, missing identifiers and rights, and distinguishes file checks from documentation-only evidence. An ambiguous earlier citation is not reconstructed as a certain source. The integration did not fit a scoring or linking model.
 
 ## Minimum fields to preserve on acquisition
 
@@ -118,13 +125,13 @@ The search emphasizes openly documented datasets with useful human responses and
 # 3. Redistribution decisions and downloaded collection
 
 
-All **37 catalogue entries** were screened separately from scientific suitability. Current result: **15 mirrored entries**, **22 excluded**, **0 licensed but inaccessible**, and **0 pending**. Mirrored entries map to **14 distinct collection folders** because BEETLE and SciEntsBank share one original release.
+All **44 catalogue entries** were screened separately from scientific suitability. Current result: **18 mirrored entries**, **23 excluded**, **1 licensed but inaccessible**, **2 linked without a mirror**, and **0 pending**. Mirrored entries map to **17 distinct collection folders** because BEETLE and SciEntsBank share one original release.
 
-The acquired response/stimulus payloads total **6,190,804,432 bytes** across **30 files**. Files larger than 15 MB are GitHub release assets; smaller payloads, licences, codebooks, source records and manifests are stored in Git. The release is part of the same repository. File size and SHA-256 provide an integrity record, not proof of psychometric validity.
+The acquired response/stimulus payloads total **6,192,443,865 bytes** across **34 files**. Files larger than 15 MB are GitHub release assets; smaller payloads, licences, codebooks, source records and manifests are stored in Git. The release is part of the same repository. File size and SHA-256 provide an integrity record, not proof of psychometric validity.
 
 ## Decision standard
 
-Redistribution was accepted where an explicit source grant covers the files. This includes formal package-wide GPL grants for packaged response objects when no contrary data notice applies; a separate file header is not required. It does not authorize separate proprietary test banks or stimuli. Standard Creative Commons licences can permit sharing with attribution, non-commercial, ShareAlike or NoDerivatives conditions. Those conditions are preserved rather than replaced by the project licence. Unresolved grants are excluded; clear licences with unavailable files are separately recorded. No restricted-use applications or custom access agreements were submitted.
+Redistribution was accepted where an explicit source grant covers the files. This includes formal package-wide GPL grants for packaged response objects when no contrary data notice applies; a separate file header is not required. It does not authorize separate proprietary test banks or stimuli. Standard Creative Commons licences can permit sharing with attribution, non-commercial, ShareAlike or NoDerivatives conditions. Those conditions are preserved rather than replaced by the project licence. Unresolved grants are excluded; clear licences with unavailable files are separately recorded. Linked sources are kept at the provider for documented scope or acquisition reasons; their status is separate from exclusions and inaccessible files. No restricted-use applications or custom access agreements were submitted.
 
 Eedi is a special case: unchanged response and metadata CSV members are losslessly repackaged; every question image is excluded. No cleaned, filtered or merged derivative response table is distributed. For mixed cognitive batteries, the selected objective tasks and original member hashes are documented; surveys, preference tasks and MRI images are not part of the skill-response mirror.
 
@@ -143,6 +150,13 @@ Eedi is a special case: unchanged response and metadata CSV members are lossless
 | OpenNeuro ds004636 objective task subset (`openneuro-ds004636-objective-tasks`) | mirrored | 734 BIDS events.tsv files from seven objective tasks; no MRI, surveys or preference tasks [Primary evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC11271451/) |
 | Working Memory Develops at a Similar Rate Across Diverse Stimuli (`mathy-friedman-working-memory`) | mirrored | All two deposited version-1 data files, unchanged; author description and project field guide [Primary evidence](https://doi.org/10.17632/kfc3jyggs7.1) |
 | ICAR current full materials and psychometric data (`icar-current-restricted`) | excluded | Current full archive uses Scientific Use License/academic access conditions and no public redistribution permission was established. [Primary evidence](https://doi.org/10.23668/psycharchives.22167) |
+| Music Ensemble: objective cognitive and music-perception tasks (`music-ensemble-cognitive-tasks`) | linked | CC BY-NC 4.0 is explicit, but full 92.8 MB mixed archive is linked rather than mirrored. Selected inspected Raven data retain IP-like collection fields and experimenter identifiers; a field-minimization decision is required before a mirror. [Primary evidence](https://doi.org/10.1038/s41597-026-06654-0) |
+| Much, Mutak, Pohl and Ranger: matrix reasoning under speed and accuracy instructions (`much-mutak-matrices-2025`) | mirrored | Unmodified original main CSV and machine-readable reasoning solutions, with original main and supplemental codebooks; alternative encoding, optional logs and stimulus overviews omitted explicitly. [Primary evidence](https://doi.org/10.5334/jopd.124) |
+| TüEyeQ: CFT 20-R performance and eye tracking (`tueyeq-cft20r`) | inaccessible | Data CC0 grant documented; actual Harvard Dataverse deposit returned a robot challenge/403. The cited figshare DOI is metadata only; paper and version-2 task counts conflict. [Primary evidence](https://doi.org/10.7910/DVN/JGOCKI) |
+| HCP Penn Progressive Matrices: edmdata response matrices (`hcp-penn-matrices-edmdata`) | excluded | Upstream HCP terms require every recipient to register and agree. Package MIT does not override those source-specific conditions; original joining IDs were removed from packaged matrices. [Primary evidence](https://tmsalab.github.io/edmdata/reference/items-hcp-penn.html) |
+| Revised PSVT:R response matrix (`revised-psvtr-edmdata`) | mirrored | Affirmative package-wide MIT grant with no contrary response-object notice found; exact source object and original documentation preserved. Separate proprietary test-stimulus rights are not inferred. [Primary evidence](https://tmsalab.github.io/edmdata/reference/items_revised_psvtr.html) |
+| SPM-LS: final 12 Standard Progressive Matrices items (`spm-ls-edmdata`) | mirrored | Affirmative package-wide MIT grant with no contrary response-object notice found; exact source object and original documentation preserved. Separate proprietary test-stimulus rights are not inferred. Underlying original SPM-LS data are CC BY 4.0; full terms, original-author attribution, DOI rights metadata and upstream transformation script retained alongside package MIT notices. This is the upstream binary-scored object, not the original nominal CSV; no further transformation by this project. [Primary evidence](https://tmsalab.github.io/edmdata/reference/items_spm_ls.html) |
+| Historical SAPA/ICAR 2010–2013 validation response data (`sapa-icar-2010-2013-96958`) | linked | Historical deposit CC0 grant documented. Source remains linked without a new large acquisition; response-file structure and overlap not re-counted. Current full ICAR terms remain separate. [Primary evidence](https://openpsychologydata.metajnl.com/articles/10.5334/jopd.25) |
 | PISA 2025 cognitive responses and process data (`pisa-2025`) | excluded | PISA public-use terms explicitly prohibit third-party redistribution; an anonymously reachable archive is not an overriding grant. [Primary evidence](https://www.oecd.org/en/data/datasets/pisa-2025-database.html) |
 | PISA 2022 (`pisa-2022`) | excluded | PISA public-use terms explicitly prohibit third-party redistribution; an anonymously reachable archive is not an overriding grant. [Primary evidence](https://www.oecd.org/en/data/datasets/pisa-2022-database.html) |
 | PISA 2018 cognitive responses plus corrected total-time/visits supplement (`pisa-2018-timing`) | excluded | PISA public-use terms explicitly prohibit third-party redistribution; an anonymously reachable archive is not an overriding grant. [Primary evidence](https://www.oecd.org/en/data/datasets/pisa-2018-database.html) |
@@ -289,6 +303,78 @@ Redistributors should retain the upstream license/attribution, source links and 
 | Payload | Bytes | SHA-256 prefix |
 |---|---:|---|
 | [data.ecpe.rda](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/ecpe-grammar/original/data.ecpe.rda) | 13,659 | `2eeeffcab7985b10` |
+
+### Revised PSVT:R response matrix
+
+**Licence:** MIT. **Selected scope:** Affirmative package-wide MIT grant with no contrary response-object notice found; exact source object and original documentation preserved. Separate proprietary test-stimulus rights are not inferred.
+
+[Source record and documentation](https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/edmdata-revised-psvtr)
+
+
+Source: **edmdata 1.3.0**, pinned GitHub commit `3c0036e4a665b61adde011aac2215b62bd5da33d`. Retrieved **30 October 2026**. Formal package licence: **MIT + file LICENSE**. Full upstream MIT terms, both upstream copyright declarations and the original DESCRIPTION are preserved alongside this file.
+
+## Redistribution basis
+
+This mirror follows the same policy as the project's other R source-object mirrors: an affirmative formal package-wide grant applies to included source data absent a contrary component notice. The inspected data documentation, package metadata and source tree did not identify a contrary notice for this response object. This is a documented curation judgment, not independent legal clearance. The parent's AGPL does not replace external terms.
+
+Package declaration: https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION
+Package source: https://github.com/tmsalab/edmdata/tree/3c0036e4a665b61adde011aac2215b62bd5da33d
+Full upstream MIT notice: https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/LICENSE.md
+
+## Scope and original attribution
+
+Exact packaged `items_revised_psvtr.rda` numeric source object (516 records × 30 items), unchanged. No questionnaire, personality measures, proprietary item artwork or test handbook.
+
+The codebooks are unmodified author `.Rd` and R documentation. The project field guide is separate. Loading the R data object does not execute a package installer or reconstruct a secure test bank. This workflow added no observations and fitted no scoring model.
+
+The author documentation attributes the response data to Culpepper and Balamuta (2017), “A Hierarchical Model for Accuracy and Choice on Standardized Tests,” Psychometrika 82, 820–845, https://doi.org/10.1007/s11336-015-9484-7. The instrument design is credited to Yoon (2011), “Psychometric properties of the Revised Purdue Spatial Visualization Tests: Visualization of Rotations.” Package authors are James Joseph Balamuta, Steven Andrew Culpepper and Jeffrey Alan Douglas; see the exact upstream DESCRIPTION and notices for roles and copyright holders.
+
+The MIT grant is relied on for this packaged response source object and associated documentation. Permission to administer or republish a separate PSVT:R test form or stimulus bank is not established by this mirror. Only keyed correctness, not distractor selections or timing, is present in the inspected object.
+
+## Technical inspection and limitations
+
+Native R loaded the exact source object. Its dimensions and value set are recorded in `manifest.json`; all cells were binary and none were missing. The object alone does not establish a paired second test, population representativeness or scientific validity. Hashes establish byte identity, not the correctness of every interpretation or upstream rights claim. Retain original licences, notices, provenance and the distinction between author codebooks and project guidance.
+
+| Payload | Bytes | SHA-256 prefix |
+|---|---:|---|
+| [items_revised_psvtr.rda](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/edmdata-revised-psvtr/original/items_revised_psvtr.rda) | 3,182 | `e2d7c69fc21d0574` |
+
+### SPM-LS: final 12 Standard Progressive Matrices items
+
+**Licence:** MIT AND CC-BY-4.0. **Selected scope:** Affirmative package-wide MIT grant with no contrary response-object notice found; exact source object and original documentation preserved. Separate proprietary test-stimulus rights are not inferred. Underlying original SPM-LS data are CC BY 4.0; full terms, original-author attribution, DOI rights metadata and upstream transformation script retained alongside package MIT notices. This is the upstream binary-scored object, not the original nominal CSV; no further transformation by this project.
+
+[Source record and documentation](https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/edmdata-spm-ls)
+
+
+Source: **edmdata 1.3.0**, pinned GitHub commit `3c0036e4a665b61adde011aac2215b62bd5da33d`. Retrieved **30 October 2026**. Formal package licence: **MIT + file LICENSE**. Full upstream MIT terms, both upstream copyright declarations and the original DESCRIPTION are preserved alongside this file.
+
+## Redistribution basis
+
+This mirror follows the same policy as the project's other R source-object mirrors: an affirmative formal package-wide grant applies to included source data absent a contrary component notice. The inspected data documentation, package metadata and source tree did not identify a contrary notice for this response object. This is a documented curation judgment, not independent legal clearance. The parent's AGPL does not replace external terms.
+
+Package declaration: https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION
+Package source: https://github.com/tmsalab/edmdata/tree/3c0036e4a665b61adde011aac2215b62bd5da33d
+Full upstream MIT notice: https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/LICENSE.md
+
+## Scope and original attribution
+
+Exact packaged `items_spm_ls.rda` numeric source object (499 records × 12 items), unchanged. No questionnaire, personality measures, proprietary item artwork or test handbook.
+
+The codebooks are unmodified author `.Rd` and R documentation. The project field guide is separate. Loading the R data object does not execute a package installer or reconstruct a secure test bank. This workflow added no observations and fitted no scoring model.
+
+Original study and deposit: Nils Myszkowski and Martin Storme (2018), “A snapshot of g? Binary and polytomous item-response theory investigations of the last series of the Standard Progressive Matrices (SPM-LS),” Intelligence 68, 109–116, https://doi.org/10.1016/j.intell.2018.03.010. Deposit: https://doi.org/10.17632/h3yhs5gy3w.1.
+
+The original data deposit's registered rights metadata explicitly declares **CC BY 4.0**. The metadata snapshot and complete CC BY 4.0 text are retained. Preserve original-author attribution and the deposit DOI when redistributing the derived binary object, as well as the package MIT notices. **The package maintainers converted selected option codes to keyed binary scores and applied listwise deletion**; their original builder is retained. This project made no additional changes to the packaged data object. These two representations are not independent samples. The original nominal CSV is linked, rather than mirrored, because the provider blocked this session's download attempt.
+
+Robitzsch (2020), https://doi.org/10.20944/preprints202007.0269.v1, is a subsequent reanalysis; it is not the original dataset collection. No right to republish Raven test stimuli is inferred.
+
+## Technical inspection and limitations
+
+Native R loaded the exact source object. Its dimensions and value set are recorded in `manifest.json`; all cells were binary and none were missing. The object alone does not establish a paired second test, population representativeness or scientific validity. Hashes establish byte identity, not the correctness of every interpretation or upstream rights claim. Retain original licences, notices, provenance and the distinction between author codebooks and project guidance.
+
+| Payload | Bytes | SHA-256 prefix |
+|---|---:|---|
+| [items_spm_ls.rda](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/edmdata-spm-ls/original/items_spm_ls.rda) | 1,098 | `0d90692decc86da6` |
 
 ### EdNet KT1–KT4 (Santa English test preparation)
 
@@ -563,6 +649,44 @@ Original bundles remain unmodified. Extraction of documentation PDFs and metadat
 | [merlin-tasks-v1.2.zip](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-tasks-v1.2.zip) | 8,766,318 | `82073cfd03b0f94e` |
 | [merlin-text-v1.2.zip](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-text-v1.2.zip) | 12,697,116 | `949f1ef6c22e6602` |
 
+### Much, Mutak, Pohl and Ranger: matrix reasoning under speed and accuracy instructions
+
+**Licence:** CC-BY-4.0. **Selected scope:** Unmodified original main CSV and machine-readable reasoning solutions, with original main and supplemental codebooks; alternative encoding, optional logs and stimulus overviews omitted explicitly.
+
+[Source record and documentation](https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/much-mutak-matrices-2025)
+
+
+Retrieved 30 October 2026 for Skill Data Atlas. This is an AI-assisted project provenance note.
+
+## Attribution and source
+
+Much, S., Mutak, A., Pohl, S., and Ranger, J. (2025). Data From a Validation Study of Two Psychometric Models on Test-taking Behavior. Journal of Open Psychology Data, 13, 1. https://doi.org/10.5334/jopd.124
+
+Dataset: Modeling speed-ability trade-off and test-taking persistence - Parameter validation for two psychometric models. https://doi.org/10.17605/OSF.IO/9J6HM (https://osf.io/9j6hm/).
+
+## Licence
+
+**CC BY 4.0.** The OSF project's formal licence relationship resolves to https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/ and the data paper explicitly states this data licence in section 3.6. The original OSF node, file metadata, licence metadata and full licence text are saved here. Retain attribution, source links and the licence when sharing. This grant does not transfer rights in separate third-party tests or survey wording. The article identifies copyrighted motivational-disposition material that was not republished in its source repository; no such stimulus material has been added here. The repository AGPL does not replace the dataset licence.
+
+## Exact selection
+
+The unmodified original `tte_data.csv` and `mr_itemsolutions.csv` are mirrored. The original CSV and PDF main codebooks and PDF supplemental codebook accompany them. Provider SHA-256 hashes match all five copied files. The main CSV includes the source's questionnaire covariates; retaining its original bytes does not make those variables skill tests. Exclude action orientation, motivation, effort and other self-report measures from the skill-test shortlist.
+
+Omitted source files: the alternative `tte_data.Rds` encoding; optional `mr_logdata.csv`, `ct_pagetimes.csv` and `tte_disruptions.csv`; stimulus/instruction overviews `mr_ItemOverview.pdf`, `ct_ItemOverview.pdf` and `efcm_ItemOverview.pdf`; and `Preregistration_Psychometric-Model-Validation.pdf`. These remain available from OSF. No participant values were changed, no columns were removed, and no test-item figures were copied. This is a selected file mirror, not a complete OSF deposit.
+
+## Verified structure and study design
+
+The downloaded CSV contains 1,244 rows and 164 columns, with 1,244 unique participant IDs. Observed Group counts are 992 in group 1 and 252 in group 2. The author codebook defines group 1 as accuracy/non-speeded instruction first and group 2 as speeded instruction first.
+
+The original study used two distinct 10-item reasoning blocks, with each participant receiving both instruction conditions and randomized instruction order. It did not administer the same 20 items twice. Distinct block items, fixed item order and changing instructions must be accounted for when comparing scores. There is no claim here that this is an equating dataset for two established IQ instruments.
+
+See `manifest.json` for source URLs, byte sizes, provider checksums and local SHA-256 hashes; see `CODEBOOK.project.md` for a guide to the original author documentation.
+
+| Payload | Bytes | SHA-256 prefix |
+|---|---:|---|
+| [mr_itemsolutions.csv](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/much-mutak-matrices-2025/original/mr_itemsolutions.csv) | 829 | `e5fb1b59fcafd1cd` |
+| [tte_data.csv](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/much-mutak-matrices-2025/original/tte_data.csv) | 1,634,324 | `288515597704dc92` |
+
 ### OpenNeuro ds004636 objective task subset
 
 **Licence:** CC0-1.0. **Selected scope:** 734 BIDS events.tsv files from seven objective tasks; no MRI, surveys or preference tasks
@@ -744,7 +868,7 @@ See manifest.json for original source URLs, byte sizes and SHA-256 checksums. Fo
 # 4. Cognitive ability and performance
 
 
-Verified 29 October 2026. Scope: observed human responses to tasks with objectively assessable performance. Personality, preference, symptom, and other self-report columns in mixed datasets are outside scope. This is a source catalogue; raw participant data and test items should remain with their providers unless reuse rights have been established.
+Initial 11 profiles verified 29 October 2026. Seven additional profiles and the older report's IQ1 comparison were checked on 30 October in the [linking and integration chapter](linked-tests-and-legacy-integration.md). Scope: observed human responses to tasks with objectively assessable performance. Personality, preference, symptom, and other self-report columns in mixed datasets are outside scope. This is a source catalogue; raw participant data and test items should remain with their providers unless reuse rights have been established.
 
 ## Best starting points
 
@@ -816,7 +940,103 @@ Downloads were inspected in memory on 29 October 2026, with Python standard-libr
 IQ1 uses comma-separated data; VIQT and EBFMT use tabs despite `.csv` names. MGKT and FSIQ use commas with quoted selected-answer lists. Preserve response codes and separate original scoring from newly derived scoring.
 
 
-# 5. Large educational and adult assessments
+# 5. Linking tests and integration of earlier research
+
+
+Supplementary review: **30 October 2026**. The earlier [Candidate Datasets report](../older_reports/Candidate%20Datasets.docx) is preserved unchanged, with its [file identity and provenance](../older_reports/README.md). Its recoverable DOI links were treated as discovery leads. Embedded line-number citation tokens have no source map in the Word file and were replaced by new primary references in this chapter. The earlier document's authorship and complete AI-generation history are not documented.
+
+## What the earlier report contributes
+
+The earlier report asks a more specific question than the broad skill-data search: can responses from the same people connect different instruments, subtests or test conditions? It adds useful reasoning, spatial and eye-tracking candidates and motivates an explicit linking design. Its strongest two-form recommendation does not survive the primary-source check. Music Ensemble's Raven sets form one timed administration; Much and colleagues' matrices form two differently instructed blocks of different matched items. Both can support useful measurement research, but neither establishes interchangeable scores on two independently administered established IQ tests.
+
+The current catalogue retains the already inspected OpenPsychometrics IQ1 entry, adds distinct earlier-report source versions, and keeps IRW as a discovery resource. Historical SAPA/ICAR response data are separated from the compact psychTools objects and the conditional current ICAR archive. Shared people, matched musician/nonmusician pairs, alternate item blocks and repeat administrations are different structures; the word "paired" must identify which structure is meant.
+
+## Which designs support which analyses
+
+| Design | What it permits | What still needs checking |
+|---|---|---|
+| Common people completing multiple tasks | Joint calibration, associations, dimensionality and prediction across tasks | Stable IDs, overlapping observations, construct alignment, missingness and order effects |
+| Different forms sharing anchor items | Placement on a common metric under an anchor design | Identical content/scoring, sufficient overlap and anchor invariance across groups |
+| Different blocks under different instructions | Study of instruction, block and item effects | Counterbalancing, position/fatigue, matched-item assumptions and condition-specific parameters |
+| Repeated administrations | Retest stability and change | Practice, memory, interval, attrition and time-varying ability |
+| Matched people from different groups | Covariate-controlled group comparison | A matched pair is two different people; it is not a within-person retest |
+
+These are analysis recommendations, not fitted results. A relevant Crane et al. (2008) paper illustrates common-item co-calibration of four cognitive screening instruments, with checks for differential item functioning. Its methods do not require every person to take every instrument. The older document's abbreviated Crane citation does not uniquely identify a paper or establish a public NACC response file. Treat it as a [methodological reference](https://pmc.ncbi.nlm.nih.gov/articles/PMC2762121/), rather than a new downloadable response collection.
+
+A correlation, a shared participant ID or a common IRT scale does not alone justify equating. Before interpreting scores as interchangeable, establish the intended construct, population, administration, precision and invariance. Use stable source IDs and item/condition/order metadata; estimate linking transformations on training observations and check held-out people and subgroups. The earlier search did not establish a public item-level WAIS-to-Raven crosswalk. That is a dated search result, not proof that no such dataset exists.
+
+## Reconciliation of the older claims
+
+| Earlier candidate or claim | Integrated treatment |
+|---|---|
+| Music Ensemble as two parallel Raven/CFT20-R forms | Corrected to one timed Raven block; retained as a common-person task battery. CFT20-R belongs to TüEyeQ. |
+| Mutak and Much as the same test repeated twice | Corrected to two matched ten-item blocks with changed instructions; 20 main items in total. |
+| TüEyeQ figshare DOI as participant-data download | Corrected to a metadata record; Harvard Dataverse is the participant-data repository. Version conflicts remain explicit. |
+| HCP as only one test per person | Corrected: the full HCP battery has multiple tasks. Its EDMdata Penn export drops the joining identifier. |
+| OpenPsychometrics IQ1 as public domain | Existing inspected 400 by 25 response entry retained; an explicit redistribution licence remains unestablished. |
+| Revised PSVT:R and SPM-LS as CC BY 4.0 | Counts are checked against package documentation; data and separate stimulus rights are assessed individually below. |
+| SAPA/ICAR as roughly 97,000 complete paired tests | Historical release identified separately; planned item missingness prevents treating it as two complete tests per person. |
+| Only two sources can support links | Withdrawn as a blanket conclusion: existing SRO/OpenNeuro batteries and historical SAPA also require source-specific overlap checks. |
+| IRW's dataset count and Crane citation | IRW retained as a changing discovery resource; Crane retained as methods, without inventing a public data grant. |
+
+## Additional source profiles
+
+### Music Ensemble cognitive battery
+
+The [Music Ensemble project](https://osf.io/y97t3/) provides objective tasks sharing participant IDs, including Raven matrices, span tasks, updating and music perception. The original OSF archive is [analysis.zip](https://osf.io/download/dk4eb/); the project API specifies [CC BY-NC 4.0](https://api.osf.io/v2/licenses/60bf992258510b0009a5a9a6/). Stimulus rights remain separate. Personality and self-report outcomes are outside this review's skill scope.
+
+Selected original ZIP members were inspected by byte ranges, without downloading the full 92.8 MB archive. `raven.csv` has 1,438 records, 59 columns and 47 binary correctness fields. One field, `S1M02correct`, is a retained practice item: excluding it reproduces the clean Raven score for every record. The clean file has 1,274 matched records, or 637 pairs; the current abstract/OSF description instead claims 678 pairs. Preserve this discrepancy.
+
+The [2026 data descriptor](https://doi.org/10.1038/s41597-026-06654-0) describes one ten-minute Raven block combining ten Set I items with 36 Set II items. This corrects the older report's parallel-test interpretation. Common people support joint calibration and dimensionality research; they do not by themselves establish score interchangeability. The Raven CSV retains IP-like collection fields and experimenter identifiers. Keep the source linked pending an explicit field-minimization decision; do not mirror the mixed archive wholesale.
+
+### Much, Mutak, Pohl and Ranger matrices study
+
+The [2025 data descriptor](https://doi.org/10.5334/jopd.124) and [OSF deposit](https://doi.org/10.17605/OSF.IO/9J6HM) describe 1,244 people completing two distinct ten-item reasoning blocks, each under a different speed/accuracy instruction. Instruction order was randomized between groups; the inspected CSV has group counts 992/252. These are different matched items, not the same 20-item test repeated. Speed emphasis did not impose a hard reasoning-test deadline.
+
+The original `tte_data.csv` was parsed as **1,244 rows by 164 columns**, with unique IDs. `X_MR` fields retain figural-element selection vectors, `Y_MR` fields binary scores, and `T_MR` fields milliseconds. Training, masking, unsolvable persistence and concentration tasks have separate meanings. The original author codebooks define these fields.
+
+Selected unchanged [response and solution files](../datasets/much-mutak-matrices-2025/SOURCE.md) are mirrored under the formal **CC BY 4.0** data grant, with original codebooks, licence text and matching provider SHA-256 values. Alternative formats, optional logs and stimulus overviews are omitted explicitly. Self-report covariates remain in the unchanged source CSV but stay outside the skill shortlist. This is useful for condition-sensitive scoring and common-person block models; fixed item order, block content, instruction effects, floor effects and unsupervised timing qualify naive score comparisons.
+
+### TüEyeQ CFT performance and eye tracking
+
+The [data paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC8208979/) describes 315 participants completing a CFT 20-R battery with four subtests. It reports 56 presented tasks, binary correctness, omitted responses and six technically problematic items marked missing. Gaze coverage is smaller: 229 participants in raw gaze files and 186 in task-split gaze files. This is a multidomain battery; full-test equating is not demonstrated.
+
+The older [figshare record](https://api.figshare.com/v2/articles/14173244) contains metadata files, rather than participant responses. The actual participant repository is [Harvard Dataverse, DOI 10.7910/DVN/JGOCKI](https://doi.org/10.7910/DVN/JGOCKI). Its [registered version-2 metadata](https://api.datacite.org/dois/10.7910/DVN/JGOCKI) describes 41 tasks, conflicting with the paper. **The discrepancy is unresolved:** live Dataverse access returned a robot challenge/403, so response files were not parsed. Neither count is presented as a current file-verified width.
+
+The paper and deposit metadata specify **CC0** for data; rights to separate CFT stimuli are not inferred. The source remains linked with acquisition pending access. Additional executive-control data are described as available on request, rather than established in the public deposit. Timing and eye-tracking analyses must preserve the source's clock, cleaning and task definitions.
+
+### HCP Penn Matrices in edmdata
+
+The [edmdata documentation](https://tmsalab.github.io/edmdata/reference/items-hcp-penn.html) describes two alternative **1,201 by 24** correctness matrices. One preserves structural missingness after a five-consecutive-error stopping rule; they are representations of the same people. Five entirely nonresponding subjects were removed. The [pinned builder](https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data-raw/hcp-penn-matrix/hcp_penn_matrix_build.R) drops the original HCP subject identifier. The export alone therefore cannot reliably join other HCP outcomes.
+
+The [broader HCP battery](https://www.humanconnectome.org/study/hcp-young-adult/document/quick-reference-open-access-vs-restricted-data) contains multiple cognitive tasks, correcting the older report's single-test claim. Obtaining a source-authorized identifier mapping and the relevant item-level outcomes is separate from downloading one matrix.
+
+The [upstream data-use terms](https://www.vps.humanconnectome.org/study/hcp-young-adult/data-use-terms) require every Open Access data user, including recipients of shared copies, to register and agree. The package's MIT declaration does not remove these conditions. Keep this source linked without an unrestricted mirror; no agreement was accepted on the user's behalf. Package documentation and build code were inspected; the response objects were not loaded in this check. Discontinuation and family-related sampling require analysis-specific treatment.
+
+### Revised PSVT R response matrix
+
+The [source documentation](https://tmsalab.github.io/edmdata/reference/items_revised_psvtr.html) identifies a revised Purdue spatial-rotation test response matrix. Native R inspection of the [pinned package object](https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data/items_revised_psvtr.rda) confirmed **516 rows by 30 columns**, only 0/1 values and no missing cells. It contains scored correctness, rather than selected distractors; no timing or second-instrument linkage was established.
+
+The [package metadata](https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION) and [full licence](https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/LICENSE.md) declare MIT. The earlier report's CC BY 4.0 attribution was not established for this packaged object. Rights to the separate PSVT:R test instrument and stimulus figures are distinct. The [exact source object and author documentation](../datasets/edmdata-revised-psvtr/SOURCE.md) are mirrored with MIT notices; no instrument figures are copied. This small binary matrix supports IRT and factor-model prototypes; it supplies no demonstrated common-person bridge to another instrument.
+
+### SPM LS final series response data
+
+The [edmdata object](https://tmsalab.github.io/edmdata/reference/items_spm_ls.html) contains **499 rows by 12 columns**, verified in native R as binary with no missing cells. It covers the final SPM series. The [builder](https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data-raw/spm-ls/spm-ls-build.R) converts original nominal responses to keyed correctness and performs listwise deletion. These are consequential transformations, not new participants.
+
+The original [Myszkowski–Storme deposit](https://data.mendeley.com/datasets/h3yhs5gy3w/1) is dated 2018; the older report's Robitzsch 2020 attribution refers to reanalysis. The [original deposit's registered rights](https://api.datacite.org/dois/10.17632/h3yhs5gy3w.1) specify **CC BY 4.0**, while the packaged binary object has the package MIT grant. Preserve the original source attribution and transformation provenance. The [exact packaged object](../datasets/edmdata-spm-ls/SOURCE.md) is mirrored with both MIT notices and underlying CC BY 4.0 attribution and terms. The original nominal CSV could not be retrieved in this check. Separate Raven stimulus rights are not inferred. There is no verified paired second-test file. Choose the original nominal data for distractor research and the documented binary representation for correctness-level models; do not count them as independent samples.
+
+### Historical SAPA ICAR validation data
+
+The [2016 descriptor](https://openpsychologydata.metajnl.com/articles/10.5334/jopd.25) reports **96,958 people** receiving random subsets from a **60-item pool**: nine letter/number series, eleven matrices, sixteen verbal-reasoning and twenty-four rotation items. Responses are already scored 0/1; selected distractors and item times were not verified. The actual repository is [Harvard Dataverse](https://doi.org/10.7910/DVN/AD9RVY), with [version-3 rights metadata](https://api.datacite.org/dois/10.7910/DVN/AD9RVY) specifying **CC0**. Participant files were not parsed or mirrored in this integration.
+
+This historical release is distinct from the 1,525 by 16 psychTools sample and from the current full ICAR archive with separate scientific-use conditions. Avoid assuming those samples are independent without an overlap check. Random subsets do not supply two complete tests to every person, but connected item overlap can support joint calibration under suitable missingness and measurement assumptions. The old report's complete-test criterion should therefore be separated from the broader question of whether linking is possible. Web-volunteer sampling, missingness, source version and connectivity remain material limitations.
+
+## Evidence and acquisition record
+
+The [catalogue](../data/catalogue.json), [verification evidence](../data/verification-evidence.json), [integration crosswalk](../data/legacy-report-integration.json) and [redistribution audit](../data/redistribution-audit.json) retain distinct checks for each source. File inspection is structural evidence, not independent scientific validation or human review. No linking model, scoring comparison or equating function was fitted as part of this integration.
+
+
+# 6. Large educational and adult assessments
 
 
 Research cutoff and verification date: **2026-10-29**. Scope: observed achievement/competence responses, excluding personality, beliefs, attitudes and self-reported skill use even when those variables share the same archive. Files were researched and linked; participant-level datasets were not republished. Except for the explicitly described archive-header/codebook checks, the full data were not imported or row-counted.
@@ -918,7 +1138,7 @@ The [IEA repository agreement](https://www.iea.nl/sites/default/files/2019-05/Di
 
 
 
-# 6. Subject tests and learning-response data
+# 7. Subject tests and learning-response data
 
 
 Research date: **29 October 2026**. Scope: observed human skill/knowledge performance. These ten entries include fixed tests and learning platforms, which need different evaluation designs. Redistributable response files are separately mirrored in the dataset collection and release, with original licences, provenance and codebooks; sources without a clear sharing grant remain linked only. See the redistribution audit for current acquisition status.
@@ -1143,7 +1363,7 @@ For a fixed-test score, first use one response per person-item and compare with 
 For all sources, retain the original data version, file checksum, response coding and missing-value conventions. Keep omission, wrong answer, not-administered and not-reached separate when the source distinguishes them. A Q-matrix is expert annotation; an estimated ability or diagnostic classification is model output. Neither is a directly observed gold-standard trait.
 
 
-# 7. Language assessment and constructed responses
+# 8. Language assessment and constructed responses
 
 
 Research date: **2026-10-29**. These sources contain demonstrated performance or human grading of that performance. Access and reuse conditions differ substantially. No restricted corpus was downloaded or republished for this review.
@@ -1190,7 +1410,7 @@ The original organizer supplies three-way and five-way ZIP files, with an explic
 
 
 
-# 8. Discovery resources and exclusions
+# 9. Discovery resources and exclusions
 
 
 Checked **2026-10-29**. These resources extend the search; they are not additional independent response datasets in the catalogue count.
@@ -1200,6 +1420,8 @@ Checked **2026-10-29**. These resources extend the search; they are not addition
 The [Item Response Warehouse](https://itemresponsewarehouse.org/) harmonizes responses across many source studies. Its [collections](https://itemresponsewarehouse.org/collections.html) offer useful starting points: `math`, `reading_vocab`, `trials`, `q_matrix`, and international assessments. Its [core standard](https://itemresponsewarehouse.org/standard.html) uses a common long response representation; nominal responses and item text have separate standards.
 
 Screen each table against the original study, version, license and transformation code. The warehouse also contains personality, symptoms, preferences and simulated/synthetic responses, all outside this project's core scope. Collection membership is partly rule-derived and not exhaustive. A harmonized binary score may omit selected distractors, trial structure or original missing categories. Avoid counting an original source and its harmonized copy as independent evidence. The warehouse is especially useful for discovering more candidates after the carefully documented starter set in this repository.
+
+The older report's “900+ datasets” statement is traceable to version 28.2 in the [2025 IRW introduction](https://doi.org/10.3758/s13428-025-02796-y); it should not be presented as a current live total. Its cognitive candidates were reconciled separately in the [linking chapter](linked-tests-and-legacy-integration.md). IRW remains a resource, not an additional paired-test cohort.
 
 ## Important exclusions and conditional candidates
 
@@ -1217,18 +1439,22 @@ Screen each table against the original study, version, license and transformatio
 “Conditional” is not a judgment that a source is unusable. It records the extra access, licensing or structural work required before it can answer the intended research question.
 
 
-# 9. Verification, limitations and reproducibility
+# 10. Verification, limitations and reproducibility
 
 
 ## What was checked
 
-The research catalogue distinguishes response-file inspection, archive verification, primary documentation and unresolved metadata-only evidence. The acquisition phase adds byte counts, SHA-256 hashes, provider hashes where supplied, archive integrity checks, source snapshots and explicit subset rules. The downloaded payload manifest is the authoritative list of mirrored files; the 37-source audit records exclusions as well as acquisitions.
+The research catalogue distinguishes response-file inspection, archive verification, primary documentation and unresolved metadata-only evidence. The acquisition phase adds byte counts, SHA-256 hashes, provider hashes where supplied, archive integrity checks, source snapshots and explicit subset rules. The downloaded payload manifest is the authoritative list of mirrored files; the complete source audit records exclusions as well as acquisitions.
 
 Selected source archives were parsed to verify response schemas and counts. A full parse does not establish that every response is valid or every participant is unique. Provider participation totals, file rows and distinct respondent identifiers remain separate. Some mirrors contain all deposited files; mixed batteries are limited to named objective tasks, and some alternative formats or additional annotations may be omitted. Every such selection is documented in the collection source record.
 
 ## Corrections from acquisition
 
 MERLIN's mirrored version 1.2 has 2,287 metadata records; the earlier website description gives 2,286. The versioned deposit and actual metadata govern this mirror. The English C-Test study contains 40 users, 32 forms and 160 user-form attempts, or 3,200 observed gap scores; whole-form duration is present, while per-gap latency was not established. The working-memory deposit has two original CSV files and distinguishes raw task records from participant-collapsed scores. The OpenNeuro archive contains source subject identifiers beyond the reported study-completer cohort; recommended exclusions must be applied explicitly rather than silently deleting source rows.
+
+## Earlier report integration
+
+The earlier Candidate Datasets document is preserved unchanged in older_reports. Its candidates and recommendations were reconciled against primary papers, data dictionaries and inspected response files on 30 October 2026. The linking chapter records corrected designs, version conflicts, evidence levels and unresolved access. The original citation tokens cannot substitute for recoverable primary references.
 
 ## Rebuild and locate the evidence
 
@@ -1245,270 +1471,318 @@ The review does not establish population norms, cross-cultural equivalence, caus
 
 # Sources
 
-[1] Original deposit - https://doi.org/10.6084/m9.figshare.1045385
-[2] Author data and licence - https://github.com/IanEisenberg/Self_Regulation_Ontology
-[3] Versioned deposit - https://data.mendeley.com/datasets/kfc3jyggs7/1
-[4] Eedi source - https://www.eedischool.com/projects/neurips-education-challenge
-[5] EdNet source - https://github.com/riiid/ednet
-[6] Junyi release - https://www.kaggle.com/datasets/junyiacademy/learning-activity-public-dataset-by-junyi-academy
-[7] MERLIN source - https://www.merlin-platform.eu/
-[8] Cambridge terms - https://researchdatasets.cambridge.org/datasets/clc-fce-dataset
-[9] Organizer release - https://github.com/myrosia/semeval-2013-task7
-[10] verification evidence - https://github.com/AndersH3/skill-data-atlas/blob/main/data/verification-evidence.json
-[11] SAPA cognitive ability: psychTools ability / iqitems - source documentation - https://github.com/cran/psychTools/blob/7dc591f8ac11c0ef1764cf853f3065aa60653d09/DESCRIPTION
-[12] OpenPsychometrics Vocabulary IQ Test - source documentation - https://openpsychometrics.org/tests/VIQT/
-[13] OpenPsychometrics Multifactor General Knowledge Test 2017-2018 - source documentation - https://openpsychometrics.org/_rawdata/MGKT_data.zip
-[14] OpenPsychometrics experimental matrix IQ test - source documentation - https://openpsychometrics.org/_rawdata/IQ1.zip
-[15] OpenPsychometrics Full Scale IQ alpha v0.1 - source documentation - https://openpsychometrics.org/_rawdata/FSIQ_0.1_data.zip
-[16] Exposure Based Face Memory Test - source documentation - https://openpsychometrics.org/_rawdata/EBFMT.zip
-[17] Ganis-Kievit mental rotation validation data - source documentation - https://doi.org/10.6084/m9.figshare.1045385.v13
-[18] Self-Regulation Ontology objective performance-task subset - source documentation - https://pmc.ncbi.nlm.nih.gov/articles/PMC6534563/
-[19] OpenNeuro ds004636 objective task subset - source documentation - https://pmc.ncbi.nlm.nih.gov/articles/PMC11271451/
-[20] Working Memory Develops at a Similar Rate Across Diverse Stimuli - source documentation - https://doi.org/10.17632/kfc3jyggs7.1
-[21] ICAR current full materials and psychometric data - source documentation - https://doi.org/10.23668/psycharchives.22167
-[22] PISA 2025 cognitive responses and process data - source documentation - https://www.oecd.org/en/data/datasets/pisa-2025-database.html
-[23] PISA 2022 - source documentation - https://www.oecd.org/en/data/datasets/pisa-2022-database.html
-[24] PISA 2018 cognitive responses plus corrected total-time/visits supplement - source documentation - https://www.oecd.org/en/data/datasets/pisa-2018-database.html
-[25] Survey of Adult Skills 2023 / PIAAC cycle 2 - source documentation - https://www.oecd.org/en/data/datasets/PIAAC-2nd-Cycle-Database.html
-[26] PIAAC 2012 international log files, ZA6712 - source documentation - https://www.gesis.org/en/data-on-adult-education/daten/piaac-daten-zyklus-1/piaac-international/international-piaac-log-files
-[27] TIMSS 2023 grades 4 and 8 - source documentation - https://www.iea.nl/data-tools/repository/timss
-[28] PIRLS 2021, second edition including log files - source documentation - https://www.iea.nl/data-tools/repository/pirls
-[29] ICILS 2023 - source documentation - https://www.iea.nl/data-tools/repository/icils
-[30] ICCS 2022 civic-knowledge test and process data - source documentation - https://www.iea.nl/data-tools/repository/iccs
-[31] Tatsuoka fraction subtraction (CDM) - source documentation - https://github.com/alexanderrobitzsch/CDM/blob/9a731f28426367d9c56576035930c7246a902894/DESCRIPTION
-[32] ASSISTments 2009–2010 corrected collapsed Skill Builder - source documentation - https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010
-[33] ASSISTments 2015 top-100 Skill Builders - source documentation - https://sites.google.com/site/assistmentsdata/datasets/2015-assistments-skill-builder-data
-[34] Duolingo SLAM 2018 shared-task learner responses - source documentation - https://doi.org/10.7910/DVN/8SWHNO
-[35] KDD Cup 2010 Algebra I / Bridge to Algebra - source documentation - https://kdd.org/kdd-cup/view/kdd-cup-2010-student-performance-evaluation/Data
-[36] Database Exercises for Knowledge Tracing (DBE-KT22) - source documentation - https://arxiv.org/html/2208.12651v3
-[37] Cambridge Speak & Improve Corpus 2025 - source documentation - https://researchdatasets.cambridge.org/datasets/speak-and-improve-corpus-2025
-[38] Cambridge Write & Improve Corpus 2024 (second version) - source documentation - https://researchdatasets.cambridge.org/datasets/write-and-improve-corpus-2024
-[39] Constrained English C-Test user study - source documentation - https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/4205
-[40] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/ctest_mip_2024
-[41] Constrained English C-Test user study - source documentation - https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658
-[42] tudatalib.ulb.tu-darmstadt.de - content - https://tudatalib.ulb.tu-darmstadt.de/server/api/core/bitstreams/088d335e-b696-48f3-8f08-bc4dc2cc8dad/content
-[43] Constrained English C-Test user study - source documentation - https://github.com/UKPLab/arxiv2024-constrained-ctest-generation
-[44] arxiv.org - 2404.08821 - https://arxiv.org/abs/2404.08821
-[45] raw.githubusercontent.com - CC-BY-4.0.txt - https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-4.0.txt
-[46] creativecommons.org - 4.0 - https://creativecommons.org/licenses/by/4.0/
-[47] User Study Data.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/ctest_mip_2024/User%20Study%20Data.zip
-[48] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/duolingo-slam-2018
-[49] Duolingo SLAM 2018 shared-task learner responses - source documentation - https://sharedtask.duolingo.com/2018.html
-[50] Duolingo SLAM 2018 shared-task learner responses - source documentation - https://api.datacite.org/dois/10.7910/DVN/8SWHNO
-[51] cn.dataone.org - sha256:c99e7d3e18a8ee138442180c31cedf54546f51fe4b02555e0894e11cdfebc7e8 - https://cn.dataone.org/cn/v2/object/sha256%3Ac99e7d3e18a8ee138442180c31cedf54546f51fe4b02555e0894e11cdfebc7e8
-[52] doi.org - C1LOKO - https://doi.org/10.7910/DVN/8SWHNO/C1LOKO
-[53] doi.org - Z29WIF - https://doi.org/10.7910/DVN/8SWHNO/Z29WIF
-[54] doi.org - 5YWVBV - https://doi.org/10.7910/DVN/8SWHNO/5YWVBV
-[55] Duolingo SLAM 2018 shared-task learner responses - source documentation - https://github.com/xinhez/11785-project/tree/master/data
-[56] creativecommons.org - 4.0 - https://creativecommons.org/licenses/by-nc/4.0/
-[57] data_en_es.tar.gz - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/data_en_es.tar.gz
-[58] data_es_en.tar.gz - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/data_es_en.tar.gz
-[59] data_fr_en.tar.gz - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/data_fr_en.tar.gz
-[60] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/ecpe-grammar
-[61] Tatsuoka fraction subtraction (CDM) - source documentation - https://github.com/alexanderrobitzsch/CDM/tree/9a731f28426367d9c56576035930c7246a902894
-[62] R Core Team - Writing R Extensions: Licensing - https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Licensing
-[63] CRAN Repository Policy - source formats and licensing - https://cran.r-project.org/web/packages/policies.html
-[64] www.gnu.org - gpl-2.0.html - https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-[65] raw.githubusercontent.com - GPL-2.0-or-later.txt - https://raw.githubusercontent.com/spdx/license-list-data/main/text/GPL-2.0-or-later.txt
-[66] psych.unl.edu - dcm12ncme - http://psych.unl.edu/jtemplin/teaching/dcm/dcm12ncme/
-[67] data.ecpe.rda - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/ecpe-grammar/original/data.ecpe.rda
-[68] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/ednet
-[69] raw.githubusercontent.com - README.md - https://raw.githubusercontent.com/riiid/ednet/master/README.md
-[70] KT1 - https://bit.ly/ednet_kt1
-[71] KT2 - https://bit.ly/ednet-kt2
-[72] KT3 - https://bit.ly/ednet-kt3
-[73] KT4 - https://bit.ly/ednet-kt4
-[74] Contents - https://bit.ly/ednet-content
-[75] EdNet KT1–KT4 (Santa English test preparation) - source documentation - https://arxiv.org/abs/1912.03072
-[76] raw.githubusercontent.com - CC-BY-NC-4.0.txt - https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-NC-4.0.txt
-[77] EdNet KT1–KT4 (Santa English test preparation) - source documentation - https://huggingface.co/datasets/Lucy9999/EdNet-KT1/resolve/790cff06b7c112c4ec072217257de5dd4ec1e77a/EdNet-KT1.zip
-[78] ednet-Contents.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/ednet/raw/ednet-Contents.zip
-[79] ednet-KT1.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/ednet-KT1.zip
-[80] ednet-KT2.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/ednet-KT2.zip
-[81] ednet-KT3.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/ednet-KT3.zip
-[82] ednet-KT4.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/ednet-KT4.zip
-[83] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/eedi-neurips-2020
-[84] Eedi / NeurIPS 2020 Education Challenge - source documentation - https://dqanonymousdata.blob.core.windows.net/neurips-public/data.zip
-[85] Eedi / NeurIPS 2020 Education Challenge - source documentation - https://arxiv.org/abs/2007.12061
-[86] Eedi / NeurIPS 2020 Education Challenge - source documentation - https://arxiv.org/html/2007.12061v3
-[87] raw.githubusercontent.com - CC-BY-NC-ND-4.0.txt - https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-NC-ND-4.0.txt
-[88] creativecommons.org - 4.0 - https://creativecommons.org/licenses/by-nc-nd/4.0/
-[89] eedi-2020-response-and-metadata-csvs.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/eedi-2020-response-and-metadata-csvs.zip
-[90] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/fraction-subtraction
-[91] fraction.subtraction.data.rda - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/fraction-subtraction/original/fraction.subtraction.data.rda
-[92] fraction.subtraction.qmatrix.rda - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/fraction-subtraction/original/fraction.subtraction.qmatrix.rda
-[93] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/ganis-kievit-mental-rotation
-[94] Ganis-Kievit mental rotation validation data - source documentation - https://api.figshare.com/v2/articles/1045385
-[95] ndownloader.figshare.com - 3191717 - https://ndownloader.figshare.com/files/3191717
-[96] ndownloader.figshare.com - 1571341 - https://ndownloader.figshare.com/files/1571341
-[97] Ganis-Kievit mental rotation validation data - source documentation - https://ndownloader.figshare.com/files/1878074
-[98] Ganis-Kievit mental rotation validation data - source documentation - https://ndownloader.figshare.com/files/3702010
-[99] All-stimuli-JPG-file3191717.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/All-stimuli-JPG-file3191717.zip
-[100] Behavioural_data-file3702010.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/ganis-kievit-mental-rotation/original/Behavioural_data-file3702010.zip
-[101] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/junyi-2020
-[102] Junyi Academy Online Learning Activity Dataset (2020 release; 2018–2019 logs) - source documentation - https://www.kaggle.com/api/v1/datasets/view/junyiacademy/learning-activity-public-dataset-by-junyi-academy
-[103] www.kaggle.com - learning-activity-public-dataset-by-junyi-academy - https://www.kaggle.com/api/v1/datasets/download/junyiacademy/learning-activity-public-dataset-by-junyi-academy
-[104] www.kaggle.com - learning-activity-public-dataset-by-junyi-academy - https://www.kaggle.com/api/v1/datasets/list/junyiacademy/learning-activity-public-dataset-by-junyi-academy
-[105] www.junyiacademy.org - policy - https://www.junyiacademy.org/about/policy
-[106] raw.githubusercontent.com - CC-BY-NC-SA-4.0.txt - https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-NC-SA-4.0.txt
-[107] creativecommons.org - 4.0 - https://creativecommons.org/licenses/by-nc-sa/4.0/
-[108] junyi-2020-original.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/junyi-2020-original.zip
-[109] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/mathy-friedman-working-memory
-[110] Working Memory Develops at a Similar Rate Across Diverse Stimuli - source documentation - https://data.mendeley.com/public-api/datasets/kfc3jyggs7?version=1
-[111] data.mendeley.com - files - https://data.mendeley.com/public-api/datasets/kfc3jyggs7/files?folder_id=root&version=1
-[112] data.mendeley.com - file downloaded - https://data.mendeley.com/public-files/datasets/kfc3jyggs7/files/d0c5b8d5-169c-473f-b2dd-5c61a88b89c4/file_downloaded
-[113] data.mendeley.com - file downloaded - https://data.mendeley.com/public-files/datasets/kfc3jyggs7/files/af641063-4d8e-4329-975e-17daa875cec5/file_downloaded
-[114] dat_all.csv - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/mathy-friedman-working-memory/original/dat_all.csv
-[115] dat_partialcreditunitAGG_Unstacked.csv - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/mathy-friedman-working-memory/original/dat_partialcreditunitAGG_Unstacked.csv
-[116] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/merlin
-[117] clarin.eurac.edu - 59 - https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/59
-[118] MERLIN multilingual examination writing - source documentation - https://hdl.handle.net/20.500.12124/59
-[119] MERLIN multilingual examination writing - source documentation - https://clarin.eurac.edu/repository/rest/items/44?expand=all
-[120] gitlab.inf.unibz.it - v1.2 - https://gitlab.inf.unibz.it/commul/merlin-platform/data-bundle/-/tags/v1.2
-[121] aclanthology.org - L14-1488 - https://aclanthology.org/L14-1488/
-[122] merlin-docs-v1.2.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-docs-v1.2.zip
-[123] merlin-exmaralda-v1.2.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/merlin-exmaralda-v1.2.zip
-[124] merlin-metadata-v1.2.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-metadata-v1.2.zip
-[125] merlin-solr-v1.2.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-solr-v1.2.zip
-[126] merlin-tasks-v1.2.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-tasks-v1.2.zip
-[127] merlin-text-v1.2.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-text-v1.2.zip
-[128] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/openneuro-ds004636-objective-tasks
-[129] OpenNeuro ds004636 objective task subset - source documentation - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/dataset_description.json
-[130] codeload.github.com - 769186fe1b185fae16437f380bfebd56edf7acd7 - https://codeload.github.com/OpenNeuroDatasets/ds004636/tar.gz/769186fe1b185fae16437f380bfebd56edf7acd7
-[131] raw.githubusercontent.com - CHANGES - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/CHANGES
-[132] raw.githubusercontent.com - README.md - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/README.md
-[133] raw.githubusercontent.com - participants.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/participants.json
-[134] raw.githubusercontent.com - participants.tsv - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/participants.tsv
-[135] raw.githubusercontent.com - task-ANT events.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/task-ANT_events.json
-[136] raw.githubusercontent.com - task-DPX events.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/task-DPX_events.json
-[137] raw.githubusercontent.com - task-WATT3 events.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/task-WATT3_events.json
-[138] raw.githubusercontent.com - task-motorSelectiveStop events.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/task-motorSelectiveStop_events.json
-[139] raw.githubusercontent.com - task-stopSignal events.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/task-stopSignal_events.json
-[140] raw.githubusercontent.com - task-stroop events.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/task-stroop_events.json
-[141] raw.githubusercontent.com - task-twoByTwo events.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/task-twoByTwo_events.json
-[142] raw.githubusercontent.com - CC0-1.0.txt - https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC0-1.0.txt
-[143] objective-task-events.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/openneuro-ds004636-objective-tasks/original/objective-task-events.zip
-[144] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/sapa-ability-iqitems
-[145] SAPA cognitive ability: psychTools ability / iqitems - source documentation - https://github.com/cran/psychTools/tree/7dc591f8ac11c0ef1764cf853f3065aa60653d09
-[146] www.sapa-project.org -  - https://www.sapa-project.org/
-[147] ability.rda - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/sapa-ability-iqitems/original/ability.rda
-[148] iqitems.rda - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/sapa-ability-iqitems/original/iqitems.rda
-[149] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/semeval2013-task7
-[150] raw.githubusercontent.com - semeval-5way.zip - https://raw.githubusercontent.com/myrosia/semeval-2013-task7/main/semeval-5way.zip
-[151] SemEval 2013 Task 7 BEETLE - source documentation - https://aclanthology.org/S13-2045/
-[152] doi.org - s10579-015-9313-8 - https://doi.org/10.1007/s10579-015-9313-8
-[153] semeval-5way.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/semeval2013-task7/semeval-5way.zip
-[154] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/sro-performance-tasks
-[155] Self-Regulation Ontology objective performance-task subset - source documentation - https://github.com/IanEisenberg/Self_Regulation_Ontology/blob/4e6e837fb5aaca87ed5914fd9be251156f43eec9/README.md#license
-[156] github.com - Complete 02-16-2019 - https://github.com/IanEisenberg/Self_Regulation_Ontology/tree/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019
-[157] github.com - Retest 02-16-2019 - https://github.com/IanEisenberg/Self_Regulation_Ontology/tree/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019
-[158] raw.githubusercontent.com - README.md - https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/README.md
-[159] raw.githubusercontent.com - README.txt - https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/README.txt
-[160] raw.githubusercontent.com - README.txt - https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/README.txt
-[161] Complete_02-16-2019-objective-tasks.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/Complete_02-16-2019-objective-tasks.zip
-[162] Retest_02-16-2019-objective-tasks.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/Retest_02-16-2019-objective-tasks.zip
-[163] Current ability documentation - https://raw.githubusercontent.com/cran/psychTools/master/man/ability.Rd
-[164] iqitems documentation and key - https://raw.githubusercontent.com/cran/psychTools/master/man/iqitems.Rd
-[165] package licence - https://raw.githubusercontent.com/cran/psychTools/master/DESCRIPTION
-[166] download and codebook - https://openpsychometrics.org/_rawdata/VIQT_data.zip
-[167] current form, with different scoring - https://openpsychometrics.org/tests/MGKT2/
-[168] printable instrument - https://openpsychometrics.org/printable/intelligence-quotient-test.pdf
-[169] current test - https://openpsychometrics.org/tests/FSIQ/
-[170] development and licence - https://openpsychometrics.org/tests/EBFMT/development/
-[171] paper - https://doi.org/10.5334/jopd.ai
-[172] data release - https://github.com/IanEisenberg/Self_Regulation_Ontology/tree/master/Data/Complete_02-16-2019
-[173] retest paper - https://pmc.ncbi.nlm.nih.gov/articles/PMC6431228/
-[174] versioned data - https://openneuro.org/datasets/ds004636/versions/1.0.4
-[175] CC0 metadata - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/master/dataset_description.json
-[176] raw behaviour OSF - https://osf.io/sjvnw/
-[177] official ICAR FAQ - https://icar-project.com/
-[178] Scientific Use License record - https://www.psycharchives.org/en/item/7466aa16-69bd-49ea-baef-7f828f5b223f
-[179] official programme page - https://www.oecd.org/en/about/programmes/pisa.html
-[180] official file index - https://webfs.oecd.org/pisa2022/index.html
-[181] NCES methodology - https://nces.ed.gov/surveys/pisa/pisa2025/technical-notes/
-[182] official results - https://www.oecd.org/en/publications/2023/12/pisa-2022-results-volume-i_76772a36/full-report.html
-[183] Technical report Annex K - https://www.oecd.org/content/dam/oecd/en/data/datasets/pisa/pisa-2018-datasets/ssas-sps-data-files/PISA2018%20Aneex%20K%20TechReport.pdf
-[184] GESIS - https://www.gesis.org/en/data-on-adult-education/daten/piaac-daten-zyklus-1/piaac-international/international-public-use-files
-[185] technical report chapter 12 - https://www.oecd.org/content/dam/oecd/en/about/programmes/edu/piaac/technical-reports/cycle-2/piaac-technical-report-2023/chapter-12-piaac-technical-report-draft-1.pdf
-[186] catalogue entry is ZA6712 - https://search.gesis.org/research_data/ZA6712
-[187] OECD first-cycle page - https://www.oecd.org/en/data/datasets/piaac-1st-cycle-database.html
-[188] official release announcement - https://www.iea.nl/node/4611
-[189] database user guide - https://www.iea.nl/sites/default/files/2025-02/T23_UG-International-Database.pdf
-[190] Boston College - https://timss.bc.edu/latest-news/t23-international-results-release.html
-[191] IEA restricted-use documentation - https://www.iea.nl/node/4604
-[192] process-data release announcement - https://www.iea.nl/news-events/news/pirls-2021-process-data-available
-[193] official international report description - https://www.iea.nl/publications/study-reports/international-reports-iea-studies/pirls-2021-international-results
-[194] restricted-use route - https://www.iea.nl/node/4053
-[195] user guide - https://www.iea.nl/sites/default/files/2025-02/ICILS_2023_User_Guide.pdf
-[196] official release - https://www.iea.nl/news-events/news/icils-2023-international-report-results-and-resources-now-available-online
-[197] technical report was revised in July 2026 - https://www.iea.nl/publications/icils-2023-technical-report
-[198] IEA's process release - https://www.iea.nl/node/4452
-[199] user guide - https://www.iea.nl/sites/default/files/2024-05/ICCS%20User%20Guide_0.pdf
-[200] The study centre's release - https://ausawards.acer.edu.au/ae/news/article/citizenship-education-in-times-of-global-challenge
-[201] PISA PUF download terms - https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=197663
-[202] PIAAC PUF terms - https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=424913
-[203] OECD's general data terms - https://www.oecd.org/en/about/terms-conditions.html
-[204] IEA repository agreement - https://www.iea.nl/sites/default/files/2019-05/Disclaimer%20and%20License%20Agreement.pdf
-[205] IEA's materials page - https://www.iea.nl/data
-[206] NCES - https://nces.ed.gov/nationsreportcard/researchcenter/datatools.aspx
-[207] The 2017 mathematics process-data release - https://www.nationsreportcard.gov/process_data/
-[208] Tatsuoka fraction subtraction (CDM) - source documentation - https://raw.githubusercontent.com/alexanderrobitzsch/cdm/master/man/fraction.subtraction.data.Rd
-[209] Tatsuoka fraction subtraction (CDM) - source documentation - https://alexanderrobitzsch.r-universe.dev/CDM/data/fraction.subtraction.qmatrix/csv
-[210] Tatsuoka fraction subtraction (CDM) - source documentation - https://alexanderrobitzsch.r-universe.dev/CDM
-[211] alexanderrobitzsch.r-universe.dev - csv - https://alexanderrobitzsch.r-universe.dev/CDM/data/fraction.subtraction.data/csv
-[212] ECPE English grammar section (CDM) - source documentation - https://raw.githubusercontent.com/alexanderrobitzsch/cdm/master/man/data.ecpe.Rd
-[213] alexanderrobitzsch.r-universe.dev - json - https://alexanderrobitzsch.r-universe.dev/CDM/data/data.ecpe/json
-[214] ASSISTments 2009–2010 corrected collapsed Skill Builder - source documentation - https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data
-[215] ASSISTments 2009–2010 corrected collapsed Skill Builder - source documentation - https://sites.google.com/site/assistmentsdata/an-explanation-on-how-to-interpret-our-data-sets
-[216] drive.google.com - view - https://drive.google.com/file/d/1NNXHFRxcArrU0ZJSb9BIL56vmUt5FhlE/view?usp=sharing
-[217] drive.google.com - view - https://drive.google.com/file/d/0B_hO8cnpcIMgUGZzRnh3bHJrSjQ/view?usp=sharing
-[218] Junyi Academy Online Learning Activity Dataset (2020 release; 2018–2019 logs) - source documentation - https://www.kaggle.com/api/v1/datasets/download/junyiacademy/learning-activity-public-dataset-by-junyi-academy/Info_Content.csv
-[219] Junyi Academy Online Learning Activity Dataset (2020 release; 2018–2019 logs) - source documentation - https://www.kaggle.com/api/v1/datasets/download/junyiacademy/learning-activity-public-dataset-by-junyi-academy/Log_Problem.csv
-[220] Eedi / NeurIPS 2020 Education Challenge - source documentation - https://www.eedischool.com/research
-[221] Duolingo SLAM 2018 shared-task learner responses - source documentation - https://research.duolingo.com/
-[222] dataverse.harvard.edu - dataset.xhtml - https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/8SWHNO
-[223] KDD Cup 2010 Algebra I / Bridge to Algebra - source documentation - https://kdd.org/cupfiles/
-[224] KDD Cup 2010 Algebra I / Bridge to Algebra - source documentation - https://kdd.org/kdd-cup/view/kdd-cup-2010-student-performance-evaluation/Rules
-[225] kdd.org - algebra 2005 2006.zip - https://kdd.org/cupfiles/algebra_2005_2006.zip
-[226] Database Exercises for Knowledge Tracing (DBE-KT22) - source documentation - https://api.datacite.org/dois/10.26193/6DZWOH
-[227] Database Exercises for Knowledge Tracing (DBE-KT22) - source documentation - https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/6DZWOH
-[228] Maintainer documentation - https://raw.githubusercontent.com/alexanderrobitzsch/cdm/master/man/data.dtmr.Rd
-[229] Eurac corpus description - https://www.porta.eurac.edu/lci/merlin/
-[230] original research paper - https://aclanthology.org/P11-1019/
-[231] release report - https://doi.org/10.17863/CAM.114333
-[232] report and version description - https://www.repository.cam.ac.uk/items/ba155087-0754-4c6b-ade8-68858e1df2f0
-[233] university data record - https://tudatalib.ulb.tu-darmstadt.de/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658
-[234] license - https://github.com/myrosia/semeval-2013-task7/blob/main/LICENSE
-[235] Official description and terms - https://researchdatasets.cambridge.org/datasets/cambridge-multiple-choice-questions-reading-dataset
-[236] technical report with schema - https://www.repository.cam.ac.uk/bitstreams/90fc31ea-bd4c-4b33-8474-1e127635a6d3/download
-[237] Item Response Warehouse - https://itemresponsewarehouse.org/
-[238] collections - https://itemresponsewarehouse.org/collections.html
-[239] core standard - https://itemresponsewarehouse.org/standard.html
-[240] Official access page - https://ef-lab.mmll.cam.ac.uk/EFCAMDAT.html
-[241] github.com - skill-data-atlas - https://github.com/AndersH3/skill-data-atlas
-[242] catalogue - https://github.com/AndersH3/skill-data-atlas/blob/main/data/catalogue.json
-[243] redistribution audit - https://github.com/AndersH3/skill-data-atlas/blob/main/data/redistribution-audit.json
-[244] payload manifest - https://github.com/AndersH3/skill-data-atlas/blob/main/data/download-manifest.json
-[245] release verification - https://github.com/AndersH3/skill-data-atlas/blob/main/data/release-verification.json
-[246] dataset source records - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/README.md
-[247] report quality record - https://github.com/AndersH3/skill-data-atlas/blob/main/output/pdf/report-quality-check.json
-[248] report builder - https://github.com/AndersH3/skill-data-atlas/blob/main/reports/build_report.py
+[1] earlier Candidate Datasets report - https://github.com/AndersH3/skill-data-atlas/blob/main/older_reports/Candidate%20Datasets.docx
+[2] Original deposit - https://doi.org/10.6084/m9.figshare.1045385
+[3] Integrated linking review - https://github.com/AndersH3/skill-data-atlas/blob/main/research/linked-tests-and-legacy-integration.md
+[4] Author data and licence - https://github.com/IanEisenberg/Self_Regulation_Ontology
+[5] Versioned deposit - https://data.mendeley.com/datasets/kfc3jyggs7/1
+[6] Eedi source - https://www.eedischool.com/projects/neurips-education-challenge
+[7] EdNet source - https://github.com/riiid/ednet
+[8] Junyi release - https://www.kaggle.com/datasets/junyiacademy/learning-activity-public-dataset-by-junyi-academy
+[9] MERLIN source - https://www.merlin-platform.eu/
+[10] Cambridge terms - https://researchdatasets.cambridge.org/datasets/clc-fce-dataset
+[11] Organizer release - https://github.com/myrosia/semeval-2013-task7
+[12] verification evidence - https://github.com/AndersH3/skill-data-atlas/blob/main/data/verification-evidence.json
+[13] SAPA cognitive ability: psychTools ability / iqitems - source documentation - https://github.com/cran/psychTools/blob/7dc591f8ac11c0ef1764cf853f3065aa60653d09/DESCRIPTION
+[14] OpenPsychometrics Vocabulary IQ Test - source documentation - https://openpsychometrics.org/tests/VIQT/
+[15] OpenPsychometrics Multifactor General Knowledge Test 2017-2018 - source documentation - https://openpsychometrics.org/_rawdata/MGKT_data.zip
+[16] OpenPsychometrics experimental matrix IQ test - source documentation - https://openpsychometrics.org/_rawdata/IQ1.zip
+[17] OpenPsychometrics Full Scale IQ alpha v0.1 - source documentation - https://openpsychometrics.org/_rawdata/FSIQ_0.1_data.zip
+[18] Exposure Based Face Memory Test - source documentation - https://openpsychometrics.org/_rawdata/EBFMT.zip
+[19] Ganis-Kievit mental rotation validation data - source documentation - https://doi.org/10.6084/m9.figshare.1045385.v13
+[20] Self-Regulation Ontology objective performance-task subset - source documentation - https://pmc.ncbi.nlm.nih.gov/articles/PMC6534563/
+[21] OpenNeuro ds004636 objective task subset - source documentation - https://pmc.ncbi.nlm.nih.gov/articles/PMC11271451/
+[22] Working Memory Develops at a Similar Rate Across Diverse Stimuli - source documentation - https://doi.org/10.17632/kfc3jyggs7.1
+[23] ICAR current full materials and psychometric data - source documentation - https://doi.org/10.23668/psycharchives.22167
+[24] Music Ensemble: objective cognitive and music-perception tasks - source documentation - https://doi.org/10.1038/s41597-026-06654-0
+[25] Much, Mutak, Pohl and Ranger: matrix reasoning under speed and accuracy instructions - source documentation - https://doi.org/10.5334/jopd.124
+[26] TüEyeQ: CFT 20-R performance and eye tracking - source documentation - https://doi.org/10.7910/DVN/JGOCKI
+[27] HCP Penn Progressive Matrices: edmdata response matrices - source documentation - https://tmsalab.github.io/edmdata/reference/items-hcp-penn.html
+[28] Revised PSVT:R response matrix - source documentation - https://tmsalab.github.io/edmdata/reference/items_revised_psvtr.html
+[29] SPM-LS: final 12 Standard Progressive Matrices items - source documentation - https://tmsalab.github.io/edmdata/reference/items_spm_ls.html
+[30] Historical SAPA/ICAR 2010–2013 validation response data - source documentation - https://openpsychologydata.metajnl.com/articles/10.5334/jopd.25
+[31] PISA 2025 cognitive responses and process data - source documentation - https://www.oecd.org/en/data/datasets/pisa-2025-database.html
+[32] PISA 2022 - source documentation - https://www.oecd.org/en/data/datasets/pisa-2022-database.html
+[33] PISA 2018 cognitive responses plus corrected total-time/visits supplement - source documentation - https://www.oecd.org/en/data/datasets/pisa-2018-database.html
+[34] Survey of Adult Skills 2023 / PIAAC cycle 2 - source documentation - https://www.oecd.org/en/data/datasets/PIAAC-2nd-Cycle-Database.html
+[35] PIAAC 2012 international log files, ZA6712 - source documentation - https://www.gesis.org/en/data-on-adult-education/daten/piaac-daten-zyklus-1/piaac-international/international-piaac-log-files
+[36] TIMSS 2023 grades 4 and 8 - source documentation - https://www.iea.nl/data-tools/repository/timss
+[37] PIRLS 2021, second edition including log files - source documentation - https://www.iea.nl/data-tools/repository/pirls
+[38] ICILS 2023 - source documentation - https://www.iea.nl/data-tools/repository/icils
+[39] ICCS 2022 civic-knowledge test and process data - source documentation - https://www.iea.nl/data-tools/repository/iccs
+[40] Tatsuoka fraction subtraction (CDM) - source documentation - https://github.com/alexanderrobitzsch/CDM/blob/9a731f28426367d9c56576035930c7246a902894/DESCRIPTION
+[41] ASSISTments 2009–2010 corrected collapsed Skill Builder - source documentation - https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010
+[42] ASSISTments 2015 top-100 Skill Builders - source documentation - https://sites.google.com/site/assistmentsdata/datasets/2015-assistments-skill-builder-data
+[43] Duolingo SLAM 2018 shared-task learner responses - source documentation - https://doi.org/10.7910/DVN/8SWHNO
+[44] KDD Cup 2010 Algebra I / Bridge to Algebra - source documentation - https://kdd.org/kdd-cup/view/kdd-cup-2010-student-performance-evaluation/Data
+[45] Database Exercises for Knowledge Tracing (DBE-KT22) - source documentation - https://arxiv.org/html/2208.12651v3
+[46] Cambridge Speak & Improve Corpus 2025 - source documentation - https://researchdatasets.cambridge.org/datasets/speak-and-improve-corpus-2025
+[47] Cambridge Write & Improve Corpus 2024 (second version) - source documentation - https://researchdatasets.cambridge.org/datasets/write-and-improve-corpus-2024
+[48] Constrained English C-Test user study - source documentation - https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/4205
+[49] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/ctest_mip_2024
+[50] Constrained English C-Test user study - source documentation - https://tudatalib.ulb.tu-darmstadt.de/server/api/core/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658
+[51] tudatalib.ulb.tu-darmstadt.de - content - https://tudatalib.ulb.tu-darmstadt.de/server/api/core/bitstreams/088d335e-b696-48f3-8f08-bc4dc2cc8dad/content
+[52] Constrained English C-Test user study - source documentation - https://github.com/UKPLab/arxiv2024-constrained-ctest-generation
+[53] arxiv.org - 2404.08821 - https://arxiv.org/abs/2404.08821
+[54] raw.githubusercontent.com - CC-BY-4.0.txt - https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-4.0.txt
+[55] creativecommons.org - 4.0 - https://creativecommons.org/licenses/by/4.0/
+[56] User Study Data.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/ctest_mip_2024/User%20Study%20Data.zip
+[57] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/duolingo-slam-2018
+[58] Duolingo SLAM 2018 shared-task learner responses - source documentation - https://sharedtask.duolingo.com/2018.html
+[59] Duolingo SLAM 2018 shared-task learner responses - source documentation - https://api.datacite.org/dois/10.7910/DVN/8SWHNO
+[60] cn.dataone.org - sha256:c99e7d3e18a8ee138442180c31cedf54546f51fe4b02555e0894e11cdfebc7e8 - https://cn.dataone.org/cn/v2/object/sha256%3Ac99e7d3e18a8ee138442180c31cedf54546f51fe4b02555e0894e11cdfebc7e8
+[61] doi.org - C1LOKO - https://doi.org/10.7910/DVN/8SWHNO/C1LOKO
+[62] doi.org - Z29WIF - https://doi.org/10.7910/DVN/8SWHNO/Z29WIF
+[63] doi.org - 5YWVBV - https://doi.org/10.7910/DVN/8SWHNO/5YWVBV
+[64] Duolingo SLAM 2018 shared-task learner responses - source documentation - https://github.com/xinhez/11785-project/tree/master/data
+[65] creativecommons.org - 4.0 - https://creativecommons.org/licenses/by-nc/4.0/
+[66] data_en_es.tar.gz - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/data_en_es.tar.gz
+[67] data_es_en.tar.gz - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/data_es_en.tar.gz
+[68] data_fr_en.tar.gz - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/data_fr_en.tar.gz
+[69] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/ecpe-grammar
+[70] Tatsuoka fraction subtraction (CDM) - source documentation - https://github.com/alexanderrobitzsch/CDM/tree/9a731f28426367d9c56576035930c7246a902894
+[71] R Core Team - Writing R Extensions: Licensing - https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Licensing
+[72] CRAN Repository Policy - source formats and licensing - https://cran.r-project.org/web/packages/policies.html
+[73] www.gnu.org - gpl-2.0.html - https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+[74] raw.githubusercontent.com - GPL-2.0-or-later.txt - https://raw.githubusercontent.com/spdx/license-list-data/main/text/GPL-2.0-or-later.txt
+[75] psych.unl.edu - dcm12ncme - http://psych.unl.edu/jtemplin/teaching/dcm/dcm12ncme/
+[76] data.ecpe.rda - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/ecpe-grammar/original/data.ecpe.rda
+[77] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/edmdata-revised-psvtr
+[78] HCP Penn Progressive Matrices: edmdata response matrices - source documentation - https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION
+[79] github.com - 3c0036e4a665b61adde011aac2215b62bd5da33d - https://github.com/tmsalab/edmdata/tree/3c0036e4a665b61adde011aac2215b62bd5da33d
+[80] Revised PSVT:R response matrix - source documentation - https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/LICENSE.md
+[81] doi.org - s11336-015-9484-7 - https://doi.org/10.1007/s11336-015-9484-7
+[82] items_revised_psvtr.rda - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/edmdata-revised-psvtr/original/items_revised_psvtr.rda
+[83] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/edmdata-spm-ls
+[84] doi.org - j.intell.2018.03.010 - https://doi.org/10.1016/j.intell.2018.03.010
+[85] SPM-LS: final 12 Standard Progressive Matrices items - source documentation - https://doi.org/10.17632/h3yhs5gy3w.1
+[86] doi.org - preprints202007.0269.v1 - https://doi.org/10.20944/preprints202007.0269.v1
+[87] items_spm_ls.rda - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/edmdata-spm-ls/original/items_spm_ls.rda
+[88] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/ednet
+[89] raw.githubusercontent.com - README.md - https://raw.githubusercontent.com/riiid/ednet/master/README.md
+[90] KT1 - https://bit.ly/ednet_kt1
+[91] KT2 - https://bit.ly/ednet-kt2
+[92] KT3 - https://bit.ly/ednet-kt3
+[93] KT4 - https://bit.ly/ednet-kt4
+[94] Contents - https://bit.ly/ednet-content
+[95] EdNet KT1–KT4 (Santa English test preparation) - source documentation - https://arxiv.org/abs/1912.03072
+[96] raw.githubusercontent.com - CC-BY-NC-4.0.txt - https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-NC-4.0.txt
+[97] EdNet KT1–KT4 (Santa English test preparation) - source documentation - https://huggingface.co/datasets/Lucy9999/EdNet-KT1/resolve/790cff06b7c112c4ec072217257de5dd4ec1e77a/EdNet-KT1.zip
+[98] ednet-Contents.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/ednet/raw/ednet-Contents.zip
+[99] ednet-KT1.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/ednet-KT1.zip
+[100] ednet-KT2.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/ednet-KT2.zip
+[101] ednet-KT3.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/ednet-KT3.zip
+[102] ednet-KT4.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/ednet-KT4.zip
+[103] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/eedi-neurips-2020
+[104] Eedi / NeurIPS 2020 Education Challenge - source documentation - https://dqanonymousdata.blob.core.windows.net/neurips-public/data.zip
+[105] Eedi / NeurIPS 2020 Education Challenge - source documentation - https://arxiv.org/abs/2007.12061
+[106] Eedi / NeurIPS 2020 Education Challenge - source documentation - https://arxiv.org/html/2007.12061v3
+[107] raw.githubusercontent.com - CC-BY-NC-ND-4.0.txt - https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-NC-ND-4.0.txt
+[108] creativecommons.org - 4.0 - https://creativecommons.org/licenses/by-nc-nd/4.0/
+[109] eedi-2020-response-and-metadata-csvs.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/eedi-2020-response-and-metadata-csvs.zip
+[110] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/fraction-subtraction
+[111] fraction.subtraction.data.rda - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/fraction-subtraction/original/fraction.subtraction.data.rda
+[112] fraction.subtraction.qmatrix.rda - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/fraction-subtraction/original/fraction.subtraction.qmatrix.rda
+[113] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/ganis-kievit-mental-rotation
+[114] Ganis-Kievit mental rotation validation data - source documentation - https://api.figshare.com/v2/articles/1045385
+[115] ndownloader.figshare.com - 3191717 - https://ndownloader.figshare.com/files/3191717
+[116] ndownloader.figshare.com - 1571341 - https://ndownloader.figshare.com/files/1571341
+[117] Ganis-Kievit mental rotation validation data - source documentation - https://ndownloader.figshare.com/files/1878074
+[118] Ganis-Kievit mental rotation validation data - source documentation - https://ndownloader.figshare.com/files/3702010
+[119] All-stimuli-JPG-file3191717.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/All-stimuli-JPG-file3191717.zip
+[120] Behavioural_data-file3702010.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/ganis-kievit-mental-rotation/original/Behavioural_data-file3702010.zip
+[121] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/junyi-2020
+[122] Junyi Academy Online Learning Activity Dataset (2020 release; 2018–2019 logs) - source documentation - https://www.kaggle.com/api/v1/datasets/view/junyiacademy/learning-activity-public-dataset-by-junyi-academy
+[123] www.kaggle.com - learning-activity-public-dataset-by-junyi-academy - https://www.kaggle.com/api/v1/datasets/download/junyiacademy/learning-activity-public-dataset-by-junyi-academy
+[124] www.kaggle.com - learning-activity-public-dataset-by-junyi-academy - https://www.kaggle.com/api/v1/datasets/list/junyiacademy/learning-activity-public-dataset-by-junyi-academy
+[125] www.junyiacademy.org - policy - https://www.junyiacademy.org/about/policy
+[126] raw.githubusercontent.com - CC-BY-NC-SA-4.0.txt - https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-NC-SA-4.0.txt
+[127] creativecommons.org - 4.0 - https://creativecommons.org/licenses/by-nc-sa/4.0/
+[128] junyi-2020-original.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/junyi-2020-original.zip
+[129] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/mathy-friedman-working-memory
+[130] Working Memory Develops at a Similar Rate Across Diverse Stimuli - source documentation - https://data.mendeley.com/public-api/datasets/kfc3jyggs7?version=1
+[131] data.mendeley.com - files - https://data.mendeley.com/public-api/datasets/kfc3jyggs7/files?folder_id=root&version=1
+[132] data.mendeley.com - file downloaded - https://data.mendeley.com/public-files/datasets/kfc3jyggs7/files/d0c5b8d5-169c-473f-b2dd-5c61a88b89c4/file_downloaded
+[133] data.mendeley.com - file downloaded - https://data.mendeley.com/public-files/datasets/kfc3jyggs7/files/af641063-4d8e-4329-975e-17daa875cec5/file_downloaded
+[134] dat_all.csv - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/mathy-friedman-working-memory/original/dat_all.csv
+[135] dat_partialcreditunitAGG_Unstacked.csv - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/mathy-friedman-working-memory/original/dat_partialcreditunitAGG_Unstacked.csv
+[136] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/merlin
+[137] clarin.eurac.edu - 59 - https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/59
+[138] MERLIN multilingual examination writing - source documentation - https://hdl.handle.net/20.500.12124/59
+[139] MERLIN multilingual examination writing - source documentation - https://clarin.eurac.edu/repository/rest/items/44?expand=all
+[140] gitlab.inf.unibz.it - v1.2 - https://gitlab.inf.unibz.it/commul/merlin-platform/data-bundle/-/tags/v1.2
+[141] aclanthology.org - L14-1488 - https://aclanthology.org/L14-1488/
+[142] merlin-docs-v1.2.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-docs-v1.2.zip
+[143] merlin-exmaralda-v1.2.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/merlin-exmaralda-v1.2.zip
+[144] merlin-metadata-v1.2.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-metadata-v1.2.zip
+[145] merlin-solr-v1.2.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-solr-v1.2.zip
+[146] merlin-tasks-v1.2.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-tasks-v1.2.zip
+[147] merlin-text-v1.2.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-text-v1.2.zip
+[148] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/much-mutak-matrices-2025
+[149] Much, Mutak, Pohl and Ranger: matrix reasoning under speed and accuracy instructions - source documentation - https://doi.org/10.17605/OSF.IO/9J6HM
+[150] osf.io - 9j6hm - https://osf.io/9j6hm/
+[151] api.osf.io - 563c1cf88c5e4a3877f9e96a - https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/
+[152] mr_itemsolutions.csv - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/much-mutak-matrices-2025/original/mr_itemsolutions.csv
+[153] tte_data.csv - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/much-mutak-matrices-2025/original/tte_data.csv
+[154] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/openneuro-ds004636-objective-tasks
+[155] OpenNeuro ds004636 objective task subset - source documentation - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/dataset_description.json
+[156] codeload.github.com - 769186fe1b185fae16437f380bfebd56edf7acd7 - https://codeload.github.com/OpenNeuroDatasets/ds004636/tar.gz/769186fe1b185fae16437f380bfebd56edf7acd7
+[157] raw.githubusercontent.com - CHANGES - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/CHANGES
+[158] raw.githubusercontent.com - README.md - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/README.md
+[159] raw.githubusercontent.com - participants.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/participants.json
+[160] raw.githubusercontent.com - participants.tsv - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/participants.tsv
+[161] raw.githubusercontent.com - task-ANT events.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/task-ANT_events.json
+[162] raw.githubusercontent.com - task-DPX events.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/task-DPX_events.json
+[163] raw.githubusercontent.com - task-WATT3 events.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/task-WATT3_events.json
+[164] raw.githubusercontent.com - task-motorSelectiveStop events.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/task-motorSelectiveStop_events.json
+[165] raw.githubusercontent.com - task-stopSignal events.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/task-stopSignal_events.json
+[166] raw.githubusercontent.com - task-stroop events.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/task-stroop_events.json
+[167] raw.githubusercontent.com - task-twoByTwo events.json - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/769186fe1b185fae16437f380bfebd56edf7acd7/task-twoByTwo_events.json
+[168] raw.githubusercontent.com - CC0-1.0.txt - https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC0-1.0.txt
+[169] objective-task-events.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/openneuro-ds004636-objective-tasks/original/objective-task-events.zip
+[170] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/sapa-ability-iqitems
+[171] SAPA cognitive ability: psychTools ability / iqitems - source documentation - https://github.com/cran/psychTools/tree/7dc591f8ac11c0ef1764cf853f3065aa60653d09
+[172] www.sapa-project.org -  - https://www.sapa-project.org/
+[173] ability.rda - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/sapa-ability-iqitems/original/ability.rda
+[174] iqitems.rda - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/sapa-ability-iqitems/original/iqitems.rda
+[175] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/semeval2013-task7
+[176] raw.githubusercontent.com - semeval-5way.zip - https://raw.githubusercontent.com/myrosia/semeval-2013-task7/main/semeval-5way.zip
+[177] SemEval 2013 Task 7 BEETLE - source documentation - https://aclanthology.org/S13-2045/
+[178] doi.org - s10579-015-9313-8 - https://doi.org/10.1007/s10579-015-9313-8
+[179] semeval-5way.zip - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/semeval2013-task7/semeval-5way.zip
+[180] Source record and documentation - https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/sro-performance-tasks
+[181] Self-Regulation Ontology objective performance-task subset - source documentation - https://github.com/IanEisenberg/Self_Regulation_Ontology/blob/4e6e837fb5aaca87ed5914fd9be251156f43eec9/README.md#license
+[182] github.com - Complete 02-16-2019 - https://github.com/IanEisenberg/Self_Regulation_Ontology/tree/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019
+[183] github.com - Retest 02-16-2019 - https://github.com/IanEisenberg/Self_Regulation_Ontology/tree/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019
+[184] raw.githubusercontent.com - README.md - https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/README.md
+[185] raw.githubusercontent.com - README.txt - https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Complete_02-16-2019/README.txt
+[186] raw.githubusercontent.com - README.txt - https://raw.githubusercontent.com/IanEisenberg/Self_Regulation_Ontology/4e6e837fb5aaca87ed5914fd9be251156f43eec9/Data/Retest_02-16-2019/README.txt
+[187] Complete_02-16-2019-objective-tasks.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/Complete_02-16-2019-objective-tasks.zip
+[188] Retest_02-16-2019-objective-tasks.zip - https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/Retest_02-16-2019-objective-tasks.zip
+[189] Current ability documentation - https://raw.githubusercontent.com/cran/psychTools/master/man/ability.Rd
+[190] iqitems documentation and key - https://raw.githubusercontent.com/cran/psychTools/master/man/iqitems.Rd
+[191] package licence - https://raw.githubusercontent.com/cran/psychTools/master/DESCRIPTION
+[192] download and codebook - https://openpsychometrics.org/_rawdata/VIQT_data.zip
+[193] current form, with different scoring - https://openpsychometrics.org/tests/MGKT2/
+[194] printable instrument - https://openpsychometrics.org/printable/intelligence-quotient-test.pdf
+[195] current test - https://openpsychometrics.org/tests/FSIQ/
+[196] development and licence - https://openpsychometrics.org/tests/EBFMT/development/
+[197] paper - https://doi.org/10.5334/jopd.ai
+[198] data release - https://github.com/IanEisenberg/Self_Regulation_Ontology/tree/master/Data/Complete_02-16-2019
+[199] retest paper - https://pmc.ncbi.nlm.nih.gov/articles/PMC6431228/
+[200] versioned data - https://openneuro.org/datasets/ds004636/versions/1.0.4
+[201] CC0 metadata - https://raw.githubusercontent.com/OpenNeuroDatasets/ds004636/master/dataset_description.json
+[202] raw behaviour OSF - https://osf.io/sjvnw/
+[203] official ICAR FAQ - https://icar-project.com/
+[204] Scientific Use License record - https://www.psycharchives.org/en/item/7466aa16-69bd-49ea-baef-7f828f5b223f
+[205] file identity and provenance - https://github.com/AndersH3/skill-data-atlas/blob/main/older_reports/README.md
+[206] methodological reference - https://pmc.ncbi.nlm.nih.gov/articles/PMC2762121/
+[207] Music Ensemble project - https://osf.io/y97t3/
+[208] analysis.zip - https://osf.io/download/dk4eb/
+[209] CC BY-NC 4.0 - https://api.osf.io/v2/licenses/60bf992258510b0009a5a9a6/
+[210] response and solution files - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/much-mutak-matrices-2025/SOURCE.md
+[211] data paper - https://pmc.ncbi.nlm.nih.gov/articles/PMC8208979/
+[212] figshare record - https://api.figshare.com/v2/articles/14173244
+[213] registered version-2 metadata - https://api.datacite.org/dois/10.7910/DVN/JGOCKI
+[214] pinned builder - https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data-raw/hcp-penn-matrix/hcp_penn_matrix_build.R
+[215] broader HCP battery - https://www.humanconnectome.org/study/hcp-young-adult/document/quick-reference-open-access-vs-restricted-data
+[216] upstream data-use terms - https://www.vps.humanconnectome.org/study/hcp-young-adult/data-use-terms
+[217] pinned package object - https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data/items_revised_psvtr.rda
+[218] exact source object and author documentation - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/edmdata-revised-psvtr/SOURCE.md
+[219] builder - https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data-raw/spm-ls/spm-ls-build.R
+[220] Myszkowski-Storme deposit - https://data.mendeley.com/datasets/h3yhs5gy3w/1
+[221] original deposit's registered rights - https://api.datacite.org/dois/10.17632/h3yhs5gy3w.1
+[222] exact packaged object - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/edmdata-spm-ls/SOURCE.md
+[223] Harvard Dataverse - https://doi.org/10.7910/DVN/AD9RVY
+[224] version-3 rights metadata - https://api.datacite.org/dois/10.7910/DVN/AD9RVY
+[225] catalogue - https://github.com/AndersH3/skill-data-atlas/blob/main/data/catalogue.json
+[226] integration crosswalk - https://github.com/AndersH3/skill-data-atlas/blob/main/data/legacy-report-integration.json
+[227] redistribution audit - https://github.com/AndersH3/skill-data-atlas/blob/main/data/redistribution-audit.json
+[228] official programme page - https://www.oecd.org/en/about/programmes/pisa.html
+[229] official file index - https://webfs.oecd.org/pisa2022/index.html
+[230] NCES methodology - https://nces.ed.gov/surveys/pisa/pisa2025/technical-notes/
+[231] official results - https://www.oecd.org/en/publications/2023/12/pisa-2022-results-volume-i_76772a36/full-report.html
+[232] Technical report Annex K - https://www.oecd.org/content/dam/oecd/en/data/datasets/pisa/pisa-2018-datasets/ssas-sps-data-files/PISA2018%20Aneex%20K%20TechReport.pdf
+[233] GESIS - https://www.gesis.org/en/data-on-adult-education/daten/piaac-daten-zyklus-1/piaac-international/international-public-use-files
+[234] technical report chapter 12 - https://www.oecd.org/content/dam/oecd/en/about/programmes/edu/piaac/technical-reports/cycle-2/piaac-technical-report-2023/chapter-12-piaac-technical-report-draft-1.pdf
+[235] catalogue entry is ZA6712 - https://search.gesis.org/research_data/ZA6712
+[236] OECD first-cycle page - https://www.oecd.org/en/data/datasets/piaac-1st-cycle-database.html
+[237] official release announcement - https://www.iea.nl/node/4611
+[238] database user guide - https://www.iea.nl/sites/default/files/2025-02/T23_UG-International-Database.pdf
+[239] Boston College - https://timss.bc.edu/latest-news/t23-international-results-release.html
+[240] IEA restricted-use documentation - https://www.iea.nl/node/4604
+[241] process-data release announcement - https://www.iea.nl/news-events/news/pirls-2021-process-data-available
+[242] official international report description - https://www.iea.nl/publications/study-reports/international-reports-iea-studies/pirls-2021-international-results
+[243] restricted-use route - https://www.iea.nl/node/4053
+[244] user guide - https://www.iea.nl/sites/default/files/2025-02/ICILS_2023_User_Guide.pdf
+[245] official release - https://www.iea.nl/news-events/news/icils-2023-international-report-results-and-resources-now-available-online
+[246] technical report was revised in July 2026 - https://www.iea.nl/publications/icils-2023-technical-report
+[247] IEA's process release - https://www.iea.nl/node/4452
+[248] user guide - https://www.iea.nl/sites/default/files/2024-05/ICCS%20User%20Guide_0.pdf
+[249] The study centre's release - https://ausawards.acer.edu.au/ae/news/article/citizenship-education-in-times-of-global-challenge
+[250] PISA PUF download terms - https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=197663
+[251] PIAAC PUF terms - https://survey.oecd.org/index.php?lang=en&r=survey/index&sid=424913
+[252] OECD's general data terms - https://www.oecd.org/en/about/terms-conditions.html
+[253] IEA repository agreement - https://www.iea.nl/sites/default/files/2019-05/Disclaimer%20and%20License%20Agreement.pdf
+[254] IEA's materials page - https://www.iea.nl/data
+[255] NCES - https://nces.ed.gov/nationsreportcard/researchcenter/datatools.aspx
+[256] The 2017 mathematics process-data release - https://www.nationsreportcard.gov/process_data/
+[257] Tatsuoka fraction subtraction (CDM) - source documentation - https://raw.githubusercontent.com/alexanderrobitzsch/cdm/master/man/fraction.subtraction.data.Rd
+[258] Tatsuoka fraction subtraction (CDM) - source documentation - https://alexanderrobitzsch.r-universe.dev/CDM/data/fraction.subtraction.qmatrix/csv
+[259] Tatsuoka fraction subtraction (CDM) - source documentation - https://alexanderrobitzsch.r-universe.dev/CDM
+[260] alexanderrobitzsch.r-universe.dev - csv - https://alexanderrobitzsch.r-universe.dev/CDM/data/fraction.subtraction.data/csv
+[261] ECPE English grammar section (CDM) - source documentation - https://raw.githubusercontent.com/alexanderrobitzsch/cdm/master/man/data.ecpe.Rd
+[262] alexanderrobitzsch.r-universe.dev - json - https://alexanderrobitzsch.r-universe.dev/CDM/data/data.ecpe/json
+[263] ASSISTments 2009–2010 corrected collapsed Skill Builder - source documentation - https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data
+[264] ASSISTments 2009–2010 corrected collapsed Skill Builder - source documentation - https://sites.google.com/site/assistmentsdata/an-explanation-on-how-to-interpret-our-data-sets
+[265] drive.google.com - view - https://drive.google.com/file/d/1NNXHFRxcArrU0ZJSb9BIL56vmUt5FhlE/view?usp=sharing
+[266] drive.google.com - view - https://drive.google.com/file/d/0B_hO8cnpcIMgUGZzRnh3bHJrSjQ/view?usp=sharing
+[267] Junyi Academy Online Learning Activity Dataset (2020 release; 2018–2019 logs) - source documentation - https://www.kaggle.com/api/v1/datasets/download/junyiacademy/learning-activity-public-dataset-by-junyi-academy/Info_Content.csv
+[268] Junyi Academy Online Learning Activity Dataset (2020 release; 2018–2019 logs) - source documentation - https://www.kaggle.com/api/v1/datasets/download/junyiacademy/learning-activity-public-dataset-by-junyi-academy/Log_Problem.csv
+[269] Eedi / NeurIPS 2020 Education Challenge - source documentation - https://www.eedischool.com/research
+[270] Duolingo SLAM 2018 shared-task learner responses - source documentation - https://research.duolingo.com/
+[271] dataverse.harvard.edu - dataset.xhtml - https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/8SWHNO
+[272] KDD Cup 2010 Algebra I / Bridge to Algebra - source documentation - https://kdd.org/cupfiles/
+[273] KDD Cup 2010 Algebra I / Bridge to Algebra - source documentation - https://kdd.org/kdd-cup/view/kdd-cup-2010-student-performance-evaluation/Rules
+[274] kdd.org - algebra 2005 2006.zip - https://kdd.org/cupfiles/algebra_2005_2006.zip
+[275] Database Exercises for Knowledge Tracing (DBE-KT22) - source documentation - https://api.datacite.org/dois/10.26193/6DZWOH
+[276] Database Exercises for Knowledge Tracing (DBE-KT22) - source documentation - https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/6DZWOH
+[277] Maintainer documentation - https://raw.githubusercontent.com/alexanderrobitzsch/cdm/master/man/data.dtmr.Rd
+[278] Eurac corpus description - https://www.porta.eurac.edu/lci/merlin/
+[279] original research paper - https://aclanthology.org/P11-1019/
+[280] release report - https://doi.org/10.17863/CAM.114333
+[281] report and version description - https://www.repository.cam.ac.uk/items/ba155087-0754-4c6b-ade8-68858e1df2f0
+[282] university data record - https://tudatalib.ulb.tu-darmstadt.de/items/1e2ff254-6bba-454f-bd9f-e4aa1ecb7658
+[283] license - https://github.com/myrosia/semeval-2013-task7/blob/main/LICENSE
+[284] Official description and terms - https://researchdatasets.cambridge.org/datasets/cambridge-multiple-choice-questions-reading-dataset
+[285] technical report with schema - https://www.repository.cam.ac.uk/bitstreams/90fc31ea-bd4c-4b33-8474-1e127635a6d3/download
+[286] Item Response Warehouse - https://itemresponsewarehouse.org/
+[287] collections - https://itemresponsewarehouse.org/collections.html
+[288] core standard - https://itemresponsewarehouse.org/standard.html
+[289] 2025 IRW introduction - https://doi.org/10.3758/s13428-025-02796-y
+[290] Official access page - https://ef-lab.mmll.cam.ac.uk/EFCAMDAT.html
+[291] github.com - skill-data-atlas - https://github.com/AndersH3/skill-data-atlas
+[292] payload manifest - https://github.com/AndersH3/skill-data-atlas/blob/main/data/download-manifest.json
+[293] release verification - https://github.com/AndersH3/skill-data-atlas/blob/main/data/release-verification.json
+[294] dataset source records - https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/README.md
+[295] report quality record - https://github.com/AndersH3/skill-data-atlas/blob/main/output/pdf/report-quality-check.json
+[296] report builder - https://github.com/AndersH3/skill-data-atlas/blob/main/reports/build_report.py
 
 # Appendix A. AI disclosure
 
 
-Disclosure revision: **30 October 2026**. The research and acquisition snapshot remains **29 October 2026**. The project is **Skill Data Atlas**, hosted at https://github.com/AndersH3/skill-data-atlas.
+Disclosure revision: **30 October 2026**. The initial research and acquisition snapshot is **29 October 2026**; integration of the earlier report, supplementary checks and three small additional mirrors are dated **30 October 2026**. The project is **Skill Data Atlas**, hosted at https://github.com/AndersH3/skill-data-atlas.
 
 ## Nature and extent of AI involvement
 
-This report and the repository's curation material were prepared with **OpenAI Codex**, using a primary AI assistant and delegated AI agents. AI involvement was substantive: it included research, interpretation, selection, writing and coding, rather than only spelling or formatting assistance. Newly written project prose should be understood as AI-assisted material unless a particular file identifies a different source or author.
+This report and the repository's curation material were prepared with **OpenAI Codex**, using a primary assistant and delegated AI agents. They performed substantive research, interpretation, selection, writing and coding. Newly written project prose is AI-assisted unless a file identifies another source or author.
 
-The project record identifies the assistant platform and the use of delegated agents. It does not retain a complete, independently verifiable record of the exact model builds, settings and contexts used for every agent and turn. No particular checkpoint or deterministic generation configuration is therefore asserted for the entire workflow.
+Exact model builds, settings and contexts were not fully retained for every agent and turn. No particular checkpoint or deterministic configuration is asserted for the entire workflow.
 
 | Work area | AI contribution | What the record supports |
 |---|---|---|
 | Discovery and scope | Searched for human skill, knowledge and cognitive-performance response sources; screened out personality and self-report tests from the skill shortlist | A curated search and inclusion judgment, not an exhaustive census |
-| Catalogue and synthesis | Drafted the 37 source profiles, descriptions, comparisons, recommendations, citations and machine-readable catalogue | AI-authored summaries that can contain interpretation or transcription errors |
+| Catalogue and synthesis | Drafted the catalogue profiles, descriptions, comparisons, recommendations, citations and machine-readable catalogue, including seven earlier-report additions | AI-authored summaries that can contain interpretation or transcription errors |
 | Access and licensing | Read provider terms, distinguished data from item-content rights, assessed redistribution, and revised decisions when evidence changed | A documented AI research interpretation, not independent legal clearance |
 | Acquisition and packaging | Downloaded source files, selected named objective-task subsets and packaged eligible files | The selected scope is documented; some mirrors are subsets or omit duplicate encodings |
 | Documentation | Wrote provenance notes and project field guides; retained author documentation where available | Project guides are labelled separately from original author codebooks |
@@ -1523,6 +1797,12 @@ The project owner specified the research objective, excluded personality-oriente
 **Independent human fact-checking, legal review and scientific peer review are not documented in the available project record.** Checks by additional AI agents remain AI checks; agreement between agents is not independent human validation. At least one delegated review attempt during the rename was interrupted by a usage limit. An interrupted attempt is not treated as a completed review. Completed checks for the delivered edition are recorded in the quality and verification files.
 
 The maintainer remains responsible for decisions about publication and subsequent use. A later human review should be identified as a separate review with its scope, date and evidence, rather than inferred from the repository's existence or from this disclosure.
+
+## Integration of the earlier report
+
+AI assistants extracted the supplied `older_reports/Candidate Datasets.docx`, compared every candidate with the catalogue, checked primary sources and inspected selected files. The original was preserved unchanged with a checksum and candidate crosswalk. Its authorship, prompts and complete AI-generation history are undocumented; embedded citation tokens had no recoverable source map and were not primary evidence.
+
+Corrections cover Music Ensemble's timed Raven block, Much–Mutak's distinct item blocks, the TüEyeQ repository and HCP's identifier-stripped export. Music Ensemble remains linked pending a field-minimization decision. The older equating recommendation became qualified guidance. Three small collections were added with original bytes, licences and codebooks; no linking model was fitted. These are AI checks, without a newly documented human review.
 
 ## Relationship to the original data
 

@@ -1,0 +1,350 @@
+{
+  "data": {
+    "id": "9j6hm",
+    "type": "nodes",
+    "attributes": {
+      "title": "Modeling speed-ability trade-off and test-taking persistence - Parameter validation for two psychometric models",
+      "description": "The purpose of this study is to validate the model parameters of two psychometric models for responses and response times on test items.",
+      "category": "project",
+      "custom_citation": null,
+      "date_created": "2023-11-20T14:54:51.010289",
+      "date_modified": "2025-05-07T08:00:53.202993",
+      "registration": false,
+      "preprint": false,
+      "fork": false,
+      "collection": false,
+      "tags": [
+        "accumulator models",
+        "psychometric models",
+        "response times",
+        "speed-ability trade-off",
+        "test-taking behavior",
+        "validation study"
+      ],
+      "access_requests_enabled": false,
+      "node_license": {
+        "copyright_holders": [
+          ""
+        ],
+        "year": "2024"
+      },
+      "analytics_key": "",
+      "current_user_can_comment": false,
+      "current_user_permissions": [
+        "read"
+      ],
+      "current_user_is_contributor": false,
+      "current_user_is_contributor_or_group_member": false,
+      "wiki_enabled": false,
+      "public": true,
+      "subjects": [
+        [
+          {
+            "id": "584240da54be81056cecac48",
+            "text": "Social and Behavioral Sciences"
+          },
+          {
+            "id": "584240da54be81056cecac68",
+            "text": "Psychology"
+          },
+          {
+            "id": "584240da54be81056cecab4e",
+            "text": "Quantitative Psychology"
+          }
+        ],
+        [
+          {
+            "id": "584240da54be81056cecac48",
+            "text": "Social and Behavioral Sciences"
+          },
+          {
+            "id": "584240da54be81056cecac68",
+            "text": "Psychology"
+          },
+          {
+            "id": "584240da54be81056cecab7e",
+            "text": "Cognitive Psychology"
+          }
+        ]
+      ]
+    },
+    "relationships": {
+      "license": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/",
+            "meta": {}
+          }
+        },
+        "data": {
+          "id": "563c1cf88c5e4a3877f9e96a",
+          "type": "licenses"
+        }
+      },
+      "children": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/children/",
+            "meta": {}
+          }
+        }
+      },
+      "collected_in": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/collections/",
+            "meta": {}
+          }
+        }
+      },
+      "comments": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/comments/?filter%5Btarget%5D=9j6hm",
+            "meta": {}
+          }
+        }
+      },
+      "contributors": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/contributors/",
+            "meta": {}
+          }
+        }
+      },
+      "bibliographic_contributors": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/bibliographic_contributors/",
+            "meta": {}
+          }
+        }
+      },
+      "implicit_contributors": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/implicit_contributors/",
+            "meta": {}
+          }
+        }
+      },
+      "files": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/files/",
+            "meta": {}
+          }
+        }
+      },
+      "settings": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/settings/",
+            "meta": {}
+          }
+        },
+        "data": {
+          "id": "9j6hm",
+          "type": "node-setting"
+        }
+      },
+      "wikis": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/wikis/",
+            "meta": {}
+          }
+        }
+      },
+      "forks": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/forks/",
+            "meta": {}
+          }
+        }
+      },
+      "node_links": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/node_links/",
+            "meta": {}
+          }
+        }
+      },
+      "linked_by_nodes": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/linked_by_nodes/",
+            "meta": {}
+          }
+        }
+      },
+      "linked_by_registrations": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/linked_by_registrations/",
+            "meta": {}
+          }
+        }
+      },
+      "identifiers": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/identifiers/",
+            "meta": {}
+          }
+        }
+      },
+      "affiliated_institutions": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/institutions/",
+            "meta": {}
+          },
+          "self": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/relationships/institutions/",
+            "meta": {}
+          }
+        }
+      },
+      "draft_registrations": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/draft_registrations/",
+            "meta": {}
+          }
+        }
+      },
+      "registrations": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/registrations/",
+            "meta": {}
+          }
+        }
+      },
+      "region": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/regions/de-1/",
+            "meta": {}
+          }
+        },
+        "data": {
+          "id": "de-1",
+          "type": "regions"
+        }
+      },
+      "root": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/",
+            "meta": {}
+          }
+        },
+        "data": {
+          "id": "9j6hm",
+          "type": "nodes"
+        }
+      },
+      "logs": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/logs/",
+            "meta": {}
+          }
+        }
+      },
+      "linked_nodes": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/linked_nodes/",
+            "meta": {}
+          },
+          "self": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/relationships/linked_nodes/",
+            "meta": {}
+          }
+        }
+      },
+      "linked_registrations": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/linked_registrations/",
+            "meta": {}
+          },
+          "self": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/relationships/linked_registrations/",
+            "meta": {}
+          }
+        }
+      },
+      "view_only_links": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/view_only_links/",
+            "meta": {}
+          }
+        }
+      },
+      "citation": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/citation/",
+            "meta": {}
+          }
+        },
+        "data": {
+          "id": "9j6hm",
+          "type": "citation"
+        }
+      },
+      "preprints": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/preprints/",
+            "meta": {}
+          }
+        }
+      },
+      "storage": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/storage/",
+            "meta": {}
+          }
+        },
+        "data": {
+          "id": "9j6hm",
+          "type": "node-storage"
+        }
+      },
+      "cedar_metadata_records": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/9j6hm/cedar_metadata_records/",
+            "meta": {}
+          }
+        }
+      },
+      "subjects_acceptable": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/subjects/",
+            "meta": {}
+          }
+        }
+      }
+    },
+    "links": {
+      "html": "https://osf.io/9j6hm/",
+      "self": "https://api.osf.io/v2/nodes/9j6hm/",
+      "iri": "https://osf.io/9j6hm"
+    }
+  },
+  "meta": {
+    "version": "2.0"
+  }
+}

@@ -1,6 +1,6 @@
 # Scope, evidence and selection method
 
-Research cutoff: **29 October 2026**. This is a curated research review, not an exhaustive registry or a certification of each test's validity.
+Initial research cutoff: **29 October 2026**; earlier-report candidates and integration checked **30 October 2026**. This is a curated research review, not an exhaustive registry or a certification of each test's validity.
 
 ## What counts as a skill-based test here?
 
@@ -28,6 +28,10 @@ Evidence strength does not imply unrestricted access: even an inspected public f
 AI assistants conducted research in parallel across cognitive tasks, large educational assessments, learning datasets, and language/constructed-response assessment. Primary sources were preferred: provider databases and terms, university/laboratory releases, original articles and author-maintained software documentation. Search snippets were used for discovery; claims supported only by indexed metadata are explicitly marked. Selected public archives and small response files were checked directly. Counts retain their units: people, submissions, answers, items, passages and events are not interchangeable.
 
 The priority labels express **practical suitability for a stated research use**, based on response granularity, documentation, access burden and methodological complexity. They are this review's judgments, not empirical rankings of test quality or recommendations for high-stakes individual decisions.
+
+## Integration of earlier research
+
+The earlier Word report was retained byte for byte and treated as a secondary discovery document. Each named candidate was reconciled with the existing catalogue and rechecked against primary sources where obtainable. New source versions receive separate records; alternate exports of the same sample do not become independent studies. The linking chapter records corrected administration designs, source/version conflicts, missing identifiers and rights, and distinguishes file checks from documentation-only evidence. An ambiguous earlier citation is not reconstructed as a certain source. The integration did not fit a scoring or linking model.
 
 ## Minimum fields to preserve on acquisition
 

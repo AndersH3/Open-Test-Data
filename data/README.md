@@ -1,6 +1,6 @@
 # Catalogue fields
 
-`catalogue.json` is an array with one object per **dataset version or source family**. `catalogue.csv` has the same records, with arrays flattened using ` | `. They describe sources, not examinees. Research date: **2026-10-29**.
+`catalogue.json` is an array with one object per **dataset version or source family**. `catalogue.csv` has the same records, with arrays flattened using ` | `. They describe sources, not examinees. Initial research date: **2026-10-29**; earlier-report additions verified **2026-10-30**.
 
 | Field | Meaning |
 |---|---|
@@ -28,4 +28,6 @@ Counts across entries must not be summed: samples can overlap; multiple PISA cyc
 
 The acquisition phase adds `redistribution_status`, `local_dataset_dir`, `local_manifest` and `redistribution_license` to catalogue records. The [redistribution audit](redistribution-audit.json) gives evidence and exclusion reasons for every entry. The [download manifest](download-manifest.json) identifies payload files, exact byte counts, SHA-256 hashes and Git/release storage URLs. [Release verification](release-verification.json) compares GitHub asset digests with the downloaded originals. Dataset-level manifests retain finer member and codebook provenance. Third-party payloads preserve original bytes; Git line-ending normalization is disabled for the dataset folders.
 
-[SHA256SUMS](SHA256SUMS) provides the same 30 payload hashes in standard command-line format. After placing release assets at their manifest paths, run `sha256sum -c data/SHA256SUMS` from the repository root.
+[SHA256SUMS](SHA256SUMS) provides the same payload hashes in standard command-line format. After placing release assets at their manifest paths, run `sha256sum -c data/SHA256SUMS` from the repository root.
+
+The [earlier-report integration record](legacy-report-integration.json) maps every older candidate to its treatment, preserves the source DOCX checksum and distinguishes seven added source versions from existing IQ1 and discovery/method references. Catalogue growth does not imply an equal increase in independent samples.

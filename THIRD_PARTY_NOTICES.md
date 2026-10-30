@@ -21,4 +21,12 @@ The repository's AGPL licence applies to original project contributions. **It do
 
 Source-specific attributions, citations, version identifiers and acquisition paths are in each `SOURCE.md` and manifest. A project-authored field guide is labelled as such; it does not claim author approval or add permissions to original material. Retain the relevant notices and licence text when redistributing any source files.
 
-The [37-source redistribution audit](data/redistribution-audit.json) records sources excluded from the mirror. Public availability or a paper's licence alone is not a data grant. Formal package-wide GPL grants can cover packaged response objects when no contrary notice applies; they do not authorize separate proprietary test banks or stimuli. No restricted-use applications or custom access agreements were submitted on the user's behalf.
+The [complete redistribution audit](data/redistribution-audit.json) records sources excluded from the mirror. Public availability or a paper's licence alone is not a data grant. Formal package-wide GPL grants can cover packaged response objects when no contrary notice applies; they do not authorize separate proprietary test banks or stimuli. No restricted-use applications or custom access agreements were submitted on the user's behalf.
+
+## Supplementary collections added 30 October 2026
+
+- [Much, Mutak, Pohl and Ranger matrices](datasets/much-mutak-matrices-2025/SOURCE.md): CC BY 4.0; unmodified selected response/solution CSVs and original codebooks. Questionnaire covariates retained in the source file are outside the skill shortlist. Optional logs and stimulus figures are not mirrored.
+- [Revised PSVT:R packaged responses](datasets/edmdata-revised-psvtr/SOURCE.md): exact pinned edmdata object under its formal MIT package grant, with original notices; separate instrument and stimulus rights are not inferred.
+- [SPM-LS packaged responses](datasets/edmdata-spm-ls/SOURCE.md): exact pinned binary object with MIT package notices and underlying Myszkowski–Storme CC BY 4.0 attribution and terms. Binary rescoring/listwise deletion provenance is retained; no Raven stimulus figures are copied.
+
+The original earlier Word report is preserved in `older_reports/` as a supplied secondary research document. Its claims were rechecked rather than converted into a blanket data licence. Additional Music Ensemble, TüEyeQ, HCP and historical SAPA sources have distinct linked or access-qualified decisions in the audit.

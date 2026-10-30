@@ -1,5 +1,6 @@
 {
   "retrieved_date": "2026-10-29",
+  "inventory_updated_date": "2026-10-30",
   "release_tag": "datasets-2026-10-29",
   "files": [
     {
@@ -41,6 +42,22 @@
       "storage": "git",
       "release_asset": null,
       "url": "https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/ecpe-grammar/original/data.ecpe.rda"
+    },
+    {
+      "path": "datasets/edmdata-revised-psvtr/original/items_revised_psvtr.rda",
+      "bytes": 3182,
+      "sha256": "e2d7c69fc21d0574fc2306a426129324a631f04dcc3f26cbba32773e25b8f702",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/edmdata-revised-psvtr/original/items_revised_psvtr.rda"
+    },
+    {
+      "path": "datasets/edmdata-spm-ls/original/items_spm_ls.rda",
+      "bytes": 1098,
+      "sha256": "0d90692decc86da6e30fa54290a637aefc393b6411abe185242821e0b764f6d8",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/edmdata-spm-ls/original/items_spm_ls.rda"
     },
     {
       "path": "datasets/ednet/raw/ednet-Contents.zip",
@@ -195,6 +212,22 @@
       "url": "https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-text-v1.2.zip"
     },
     {
+      "path": "datasets/much-mutak-matrices-2025/original/mr_itemsolutions.csv",
+      "bytes": 829,
+      "sha256": "e5fb1b59fcafd1cd9e8513c012733e23c38328d124982f9fedf4ab9991b678d8",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/much-mutak-matrices-2025/original/mr_itemsolutions.csv"
+    },
+    {
+      "path": "datasets/much-mutak-matrices-2025/original/tte_data.csv",
+      "bytes": 1634324,
+      "sha256": "288515597704dc9279a3202fd16ad81ac8a5a5eab12c7c8863ae93e61505e1a3",
+      "storage": "git",
+      "release_asset": null,
+      "url": "https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/much-mutak-matrices-2025/original/tte_data.csv"
+    },
+    {
       "path": "datasets/openneuro-ds004636-objective-tasks/original/objective-task-events.zip",
       "bytes": 2331899,
       "sha256": "b3970a91f6c02a808bf17a7fe532e4be53fef0752c630fe50cddaf3c10aeb50f",
@@ -243,5 +276,5 @@
       "url": "https://github.com/AndersH3/skill-data-atlas/releases/download/datasets-2026-10-29/Retest_02-16-2019-objective-tasks.zip"
     }
   ],
-  "total_payload_bytes": 6190804432
+  "total_payload_bytes": 6192443865
 }

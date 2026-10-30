@@ -1,6 +1,6 @@
 # Cognitive ability and performance datasets
 
-Verified 29 October 2026. Scope: observed human responses to tasks with objectively assessable performance. Personality, preference, symptom, and other self-report columns in mixed datasets are outside scope. This is a source catalogue; raw participant data and test items should remain with their providers unless reuse rights have been established.
+Initial 11 profiles verified 29 October 2026. Seven additional profiles and the older report's IQ1 comparison were checked on 30 October in the [linking and integration chapter](linked-tests-and-legacy-integration.md). Scope: observed human responses to tasks with objectively assessable performance. Personality, preference, symptom, and other self-report columns in mixed datasets are outside scope. This is a source catalogue; raw participant data and test items should remain with their providers unless reuse rights have been established.
 
 ## Best starting points
 

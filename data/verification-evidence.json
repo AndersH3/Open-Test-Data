@@ -1,6 +1,6 @@
 {
   "research_date": "2026-10-29",
-  "limits": "Structural verification only; no raw responses stored and no validity analysis performed. Archive-only checks do not establish participant data quality.",
+  "limits": "Structural verification only; no participant values are stored in this evidence file and no validity analysis was performed. Archive-only checks do not establish participant data quality. Redistributable response payloads are stored separately in datasets and release assets.",
   "cognitive": [
     {
       "id": "sapa-ability-iqitems",
@@ -392,5 +392,149 @@
       "excluded": 22
     },
     "limit": "Earlier research checks remain as historical phase evidence; current acquisition facts and source-specific manifests govern mirrored snapshots."
-  }
+  },
+  "supplementary_review_date": "2026-10-30",
+  "legacy_integration": [
+    {
+      "id": "music-ensemble-cognitive-tasks",
+      "verification_level": "file_inspected",
+      "verification": "OSF project/file/licence APIs read; ZIP directory and three small original members inspected using byte ranges and member CRC checks. Raven dimensions, binary coding, ID linkage, matched count and practice exclusion recomputed; full-archive SHA/CRC not verified.",
+      "sample_size": "1,438 records in inspected Raven and clean full CSVs; 1,274 records have a matched-participant ID (637 musician/nonmusician pairs). Provider abstract/OSF description claim 678 pairs, inconsistent with these files and paper body.",
+      "item_count": "Raven: one timed block of 46 scored items (last 10 Set I plus 36 Set II); separate retained S1M02correct practice field. Other objective tasks have task-specific trial counts.",
+      "source_urls": [
+        "https://doi.org/10.1038/s41597-026-06654-0",
+        "https://osf.io/y97t3/",
+        "https://api.osf.io/v2/nodes/y97t3/",
+        "https://api.osf.io/v2/files/67dd57509a9368c91e053a9c/",
+        "https://api.osf.io/v2/licenses/60bf992258510b0009a5a9a6/",
+        "https://osf.io/download/dk4eb/"
+      ],
+      "file_checks": {
+        "verified_date": "2026-10-30",
+        "archive_file_id": "67dd57509a9368c91e053a9c",
+        "archive_guid": "dk4eb",
+        "archive_version": 7,
+        "archive_bytes": 92762354,
+        "provider_archive_sha256": "0911abbacb909b7fc57cddbc4adc5435addc8c823954e874c5c282b92d6b356d",
+        "archive_sha256_verified": false,
+        "selected_member_crc_verified": true,
+        "files": [
+          {
+            "name": "raven.csv",
+            "bytes": 369587,
+            "sha256": "bbae2f14ad98cc1124616883713884dbcec1999d7f4a11c3cda2b642878d0548"
+          },
+          {
+            "name": "dat-clean-full.csv",
+            "bytes": 369152,
+            "sha256": "86dfd4628556d060f286bb8683e97073fa3899fe9a978375dd94b914425f708c"
+          },
+          {
+            "name": "dictionary.xlsx",
+            "bytes": 38418,
+            "sha256": "035e9b1499b0d06cb5779a6e1a1d3fd121c058e1d3fd89b1c34f8131dd169fe9"
+          }
+        ],
+        "raven_rows": 1438,
+        "raven_columns": 59,
+        "correctness_columns": 47,
+        "scored_correctness_columns": 46,
+        "practice_correctness_column": "S1M02correct",
+        "correctness_values": [
+          "0",
+          "1"
+        ],
+        "summary_score_matches_excluding_practice": 1438,
+        "matched_records": 1274,
+        "matched_pairs": 637,
+        "ip_like_field_nonempty": 1438,
+        "experimenter_field_nonempty": 1438
+      }
+    },
+    {
+      "id": "much-mutak-matrices-2025",
+      "verification_level": "file_inspected",
+      "verification": "Unmodified CSV parsed: 1,244 rows × 164 columns, 1,244 unique IDs, groups 992/252; all original file provider SHA-256 values match; author codebook inspected",
+      "sample_size": "1,244 participants; observed unique IDs; instruction-order groups 992/252",
+      "item_count": "20 main reasoning items in two 10-item blocks; training, masking, persistence and concentration tasks separately flagged",
+      "source_urls": [
+        "https://doi.org/10.5334/jopd.124",
+        "https://doi.org/10.17605/OSF.IO/9J6HM",
+        "https://api.osf.io/v2/nodes/9j6hm/",
+        "https://osf.io/download/jbtz2/",
+        "https://osf.io/download/9sc5w/"
+      ]
+    },
+    {
+      "id": "tueyeq-cft20r",
+      "verification_level": "documentation_verified",
+      "verification": "Primary paper and DOI metadata checked. Figshare DOI 14173244 inspected and contains metadata only, not participant responses. Dataverse V2 description conflicts with paper task count; payload not parsed.",
+      "sample_size": "315 reported participants; eye-tracking subsets are smaller",
+      "item_count": "56 presented tasks in paper; current Dataverse V2 metadata describes41; release-specific discrepancy unresolved",
+      "source_urls": [
+        "https://doi.org/10.7910/DVN/JGOCKI",
+        "https://api.datacite.org/dois/10.7910/DVN/JGOCKI",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8208979/",
+        "https://api.figshare.com/v2/articles/14173244"
+      ]
+    },
+    {
+      "id": "hcp-penn-matrices-edmdata",
+      "verification_level": "documentation_verified",
+      "verification": "Primary package documentation and builder inspected. Builder removes subject IDs and retains only correctness fields. Original HCP cognitive battery and sharing terms checked; packaged response objects not loaded.",
+      "sample_size": "1,201 packaged records after removing five entirely nonresponding subjects",
+      "item_count": "24 columns; instrument documentation also mentions 3 bonus items outside packaged width",
+      "source_urls": [
+        "https://tmsalab.github.io/edmdata/reference/items-hcp-penn.html",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/R/hcp-penn-matrix.R",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data-raw/hcp-penn-matrix/hcp_penn_matrix_build.R",
+        "https://www.humanconnectome.org/study/hcp-young-adult/document/quick-reference-open-access-vs-restricted-data",
+        "https://www.vps.humanconnectome.org/study/hcp-young-adult/data-use-terms",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION"
+      ]
+    },
+    {
+      "id": "revised-psvtr-edmdata",
+      "verification_level": "file_inspected",
+      "verification": "NativeR loaded pinned source object; dimensions516 × 30, only 0/1 values and zero NA verified. File: 3,182 bytes, SHA-256: e2d7c69fc21d0574fc2306a426129324a631f04dcc3f26cbba32773e25b8f702. No cross-test join inspected.",
+      "sample_size": "516 packaged records",
+      "item_count": "30",
+      "source_urls": [
+        "https://tmsalab.github.io/edmdata/reference/items_revised_psvtr.html",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/R/revised-psvtr-data.R",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data/items_revised_psvtr.rda",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/LICENSE.md"
+      ]
+    },
+    {
+      "id": "spm-ls-edmdata",
+      "verification_level": "file_inspected",
+      "verification": "NativeR loaded pinned source object; dimensions499 × 12, only 0/1 values and zero NA verified. File: 1,098 bytes, SHA-256: 0d90692decc86da6e30fa54290a637aefc393b6411abe185242821e0b764f6d8. No cross-test join inspected.",
+      "sample_size": "499 packaged records",
+      "item_count": "12",
+      "source_urls": [
+        "https://tmsalab.github.io/edmdata/reference/items_spm_ls.html",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/R/spm-ls-data.R",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data/items_spm_ls.rda",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/LICENSE.md",
+        "https://doi.org/10.17632/h3yhs5gy3w.1",
+        "https://api.datacite.org/dois/10.17632/h3yhs5gy3w.1",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data-raw/spm-ls/spm-ls-build.R"
+      ]
+    },
+    {
+      "id": "sapa-icar-2010-2013-96958",
+      "verification_level": "documentation_verified",
+      "verification": "Primary 2016 data descriptor and registered deposit V3 rights metadata inspected; historical response payload notparsed. Different sample/release from psychTools 1,525 × 16 ability/iqitems.",
+      "sample_size": "96,958 reported participants",
+      "item_count": "60-item pool: 9 letter/number series, 11 matrices, 16 verbal reasoning, 24 rotation",
+      "source_urls": [
+        "https://openpsychologydata.metajnl.com/articles/10.5334/jopd.25",
+        "https://doi.org/10.7910/DVN/AD9RVY",
+        "https://api.datacite.org/dois/10.7910/DVN/AD9RVY"
+      ]
+    }
+  ]
 }

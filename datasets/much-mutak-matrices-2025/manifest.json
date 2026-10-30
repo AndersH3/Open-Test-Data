@@ -1,0 +1,129 @@
+{
+  "id": "much-mutak-matrices-2025",
+  "status": "mirrored",
+  "license": "CC-BY-4.0",
+  "license_evidence": "https://api.osf.io/v2/nodes/9j6hm/",
+  "source": "https://doi.org/10.17605/OSF.IO/9J6HM",
+  "scope": "Unmodified original main CSV and machine-readable reasoning solutions, with original main and supplemental codebooks; alternative encoding, optional logs and stimulus overviews omitted explicitly.",
+  "files": [
+    {
+      "path": "original/tte_data.csv",
+      "source_url": "https://osf.io/download/p25gr/",
+      "retrieved_date": "2026-10-30",
+      "bytes": 1634324,
+      "sha256": "288515597704dc9279a3202fd16ad81ac8a5a5eab12c7c8863ae93e61505e1a3",
+      "role": "original response data",
+      "upstream_file_id": "667ed06bb0ed5903db79e83a",
+      "upstream_sha256": "288515597704dc9279a3202fd16ad81ac8a5a5eab12c7c8863ae93e61505e1a3",
+      "upstream_md5": "250a64f7748ec73c1f616b7a6bcfb42c",
+      "provider_sha256_matches": true
+    },
+    {
+      "path": "original/mr_itemsolutions.csv",
+      "source_url": "https://osf.io/download/yvx7k/",
+      "retrieved_date": "2026-10-30",
+      "bytes": 829,
+      "sha256": "e5fb1b59fcafd1cd9e8513c012733e23c38328d124982f9fedf4ab9991b678d8",
+      "role": "original response data",
+      "upstream_file_id": "667ed0921c69c003d7274365",
+      "upstream_sha256": "e5fb1b59fcafd1cd9e8513c012733e23c38328d124982f9fedf4ab9991b678d8",
+      "upstream_md5": "ebaf1a7dfdcfdae13556365e9c225cd7",
+      "provider_sha256_matches": true
+    },
+    {
+      "path": "codebooks/tte_codebook.csv",
+      "source_url": "https://osf.io/download/jbtz2/",
+      "retrieved_date": "2026-10-30",
+      "bytes": 15318,
+      "sha256": "5eebf52238f31b0d9db2ce6ac7bf3c9dd4eb10e8621e375d44dcf78184043cc8",
+      "role": "original author codebook",
+      "upstream_file_id": "66cf4c29cc51d2d82d180b17",
+      "upstream_sha256": "5eebf52238f31b0d9db2ce6ac7bf3c9dd4eb10e8621e375d44dcf78184043cc8",
+      "upstream_md5": "1033b6f234199da37cb804770e88d518",
+      "provider_sha256_matches": true
+    },
+    {
+      "path": "codebooks/tte_codebook.pdf",
+      "source_url": "https://osf.io/download/sph7j/",
+      "retrieved_date": "2026-10-30",
+      "bytes": 449497,
+      "sha256": "78e1317c1183bc9a8472c34bbb57af816c8bf9974eb784b9844ce055f570b2e5",
+      "role": "original author codebook",
+      "upstream_file_id": "66e2b58e6222538dc2cb0782",
+      "upstream_sha256": "78e1317c1183bc9a8472c34bbb57af816c8bf9974eb784b9844ce055f570b2e5",
+      "upstream_md5": "8beeb8b9b1c4f16b011b1e4273964182",
+      "provider_sha256_matches": true
+    },
+    {
+      "path": "codebooks/tte_suppl_codebook.pdf",
+      "source_url": "https://osf.io/download/9sc5w/",
+      "retrieved_date": "2026-10-30",
+      "bytes": 308882,
+      "sha256": "f592f9e0f21a8fbbe75cda81c71fbe7aac9dbf2d0c2af1748579fe2ce9497bc2",
+      "role": "original author codebook",
+      "upstream_file_id": "66e2b5a8a605c907212dd1d6",
+      "upstream_sha256": "f592f9e0f21a8fbbe75cda81c71fbe7aac9dbf2d0c2af1748579fe2ce9497bc2",
+      "upstream_md5": "2db94ac8c6559d6307f930e00e60f5f0",
+      "provider_sha256_matches": true
+    },
+    {
+      "path": "provenance/osf-node.json",
+      "role": "original provider metadata",
+      "source_url": "https://api.osf.io/v2/nodes/9j6hm/",
+      "retrieved_date": "2026-10-30",
+      "bytes": 8754,
+      "sha256": "47ffb0051b1d7af2dbaf39d9af53fc79f583586290d0a3ea7bb879976bcbeb22"
+    },
+    {
+      "path": "provenance/osf-file-metadata.json",
+      "role": "original provider file metadata",
+      "source_url": "https://api.osf.io/v2/nodes/9j6hm/files/osfstorage/",
+      "retrieved_date": "2026-10-30",
+      "bytes": 41129,
+      "sha256": "da233bf91e3f31707971fe007d8f904d5c595ecb2968a7ee78f05fc7de64f322"
+    },
+    {
+      "path": "provenance/osf-license.json",
+      "role": "original provider licence metadata",
+      "source_url": "https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/",
+      "retrieved_date": "2026-10-30",
+      "bytes": 13243,
+      "sha256": "a138a6cbcfd6133c1a9c5d96f6b01d07195d320cfb5ff8485fdfeb2c4d0ce485"
+    },
+    {
+      "path": "LICENSE_CC-BY-4.0.txt",
+      "role": "complete licence text from OSF",
+      "source_url": "https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/",
+      "retrieved_date": "2026-10-30",
+      "bytes": 12718,
+      "sha256": "2e91064753e0c585d4c935b825c8065d264cca8aa845dacfda2738436f023810"
+    },
+    {
+      "path": "SOURCE.md",
+      "role": "AI-assisted project provenance note",
+      "source_url": null,
+      "retrieved_date": "2026-10-30",
+      "bytes": 3103,
+      "sha256": "4ff73858a3468af4f9b8ce927e7ecc62c00228fcc7ac13bbec13acde9234e806"
+    },
+    {
+      "path": "CODEBOOK.project.md",
+      "role": "AI-assisted project field guide",
+      "source_url": null,
+      "retrieved_date": "2026-10-30",
+      "bytes": 2998,
+      "sha256": "786478870ac07eb9bf11fb4e4974c05d80113c800f45c21d0a7548ed374a9c64"
+    }
+  ],
+  "verification": {
+    "participant_rows": 1244,
+    "columns": 164,
+    "unique_ids": 1244,
+    "group_counts": {
+      "1": 992,
+      "2": 252
+    },
+    "provider_sha256_all_match": true,
+    "data_transformed": false
+  }
+}

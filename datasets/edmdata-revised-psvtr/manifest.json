@@ -1,0 +1,106 @@
+{
+  "catalogue_id": "revised-psvtr-edmdata",
+  "status": "mirrored",
+  "license": "MIT",
+  "source_package": "edmdata",
+  "source_package_version": "1.3.0",
+  "source_commit": "3c0036e4a665b61adde011aac2215b62bd5da33d",
+  "license_evidence": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION",
+  "scope": "Exact packaged `items_revised_psvtr.rda` numeric source object (516 records \u00d7 30 items), unchanged. No questionnaire, personality measures, proprietary item artwork or test handbook.",
+  "files": [
+    {
+      "path": "CODEBOOK.project.md",
+      "source_url": null,
+      "retrieved_date": "2026-10-30",
+      "bytes": 1050,
+      "sha256": "eefaa2e81f2684ad0632bf454f06a112e2a649a3e0f05f6ae067b171a1ed8bb1",
+      "role": "project-generated provenance or reading guidance"
+    },
+    {
+      "path": "LICENSE.MIT.upstream.md",
+      "source_url": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/LICENSE.md",
+      "retrieved_date": "2026-10-30",
+      "bytes": 1108,
+      "sha256": "be5596781075425291b9154696fdc7c74118379adf2c67cc1c150ee7dc9e5923",
+      "role": "full upstream MIT licence and notices",
+      "source_path": "LICENSE.md",
+      "upstream_git_blob_sha": "24c076760e51ce7af55643bec353277ab170d904"
+    },
+    {
+      "path": "SOURCE.md",
+      "source_url": null,
+      "retrieved_date": "2026-10-30",
+      "bytes": 3050,
+      "sha256": "841a8dd2123acb59480c162623d2518252cb0cd539aabf010c7487657f2c0468",
+      "role": "project-generated provenance or reading guidance"
+    },
+    {
+      "path": "codebooks/items_revised_psvtr.Rd",
+      "source_url": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/man/items_revised_psvtr.Rd",
+      "retrieved_date": "2026-10-30",
+      "bytes": 3029,
+      "sha256": "5a04fa6df6861be878d33e2ae5062392f073998dc571a434d350d6239c599d13",
+      "role": "original author codebook",
+      "source_path": "man/items_revised_psvtr.Rd",
+      "upstream_git_blob_sha": "584820069343c7e651fcadf02b499c1a489cd982"
+    },
+    {
+      "path": "codebooks/revised-psvtr-data.R",
+      "source_url": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/R/revised-psvtr-data.R",
+      "retrieved_date": "2026-10-30",
+      "bytes": 1628,
+      "sha256": "f86ecbf55eb34daa96696d1d5e71c33430aa0b0115beefd7cbdfeb433204905d",
+      "role": "original author data documentation source",
+      "source_path": "R/revised-psvtr-data.R",
+      "upstream_git_blob_sha": "263b150d81d66ca456334decc176f44af6d24dd4"
+    },
+    {
+      "path": "original/items_revised_psvtr.rda",
+      "source_url": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data/items_revised_psvtr.rda",
+      "retrieved_date": "2026-10-30",
+      "bytes": 3182,
+      "sha256": "e2d7c69fc21d0574fc2306a426129324a631f04dcc3f26cbba32773e25b8f702",
+      "role": "unchanged packaged response source object",
+      "source_path": "data/items_revised_psvtr.rda",
+      "upstream_git_blob_sha": "2eab8b1953bf6eacaaf50a766bb8d8cd6693c3e9"
+    },
+    {
+      "path": "read-data.R",
+      "source_url": null,
+      "retrieved_date": "2026-10-30",
+      "bytes": 186,
+      "sha256": "5248572f07458412d13d9efa550dd3d485da19474efad920156542dd35ecb731",
+      "role": "project-generated provenance or reading guidance"
+    },
+    {
+      "path": "upstream-DESCRIPTION",
+      "source_url": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION",
+      "retrieved_date": "2026-10-30",
+      "bytes": 2036,
+      "sha256": "d4bf94eee6ce974e542f969049adece56b2a45acd3ec93a41535a2a5c41c0f72",
+      "role": "original package description and formal licence declaration",
+      "source_path": "DESCRIPTION",
+      "upstream_git_blob_sha": "e75032bd6f59a1726951952183c24c08f7d9e8af"
+    },
+    {
+      "path": "upstream-LICENSE",
+      "source_url": "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/LICENSE",
+      "retrieved_date": "2026-10-30",
+      "bytes": 102,
+      "sha256": "a930fff1a24775b6f8a1a01536664e1c3c080a1a7c30f1bef67f72f88f4a326a",
+      "role": "original package copyright declaration",
+      "source_path": "LICENSE",
+      "upstream_git_blob_sha": "a7c39c4d5eddd4573e55fd75ab884f22d3c04c5e"
+    }
+  ],
+  "native_R_verification": {
+    "object": "items_revised_psvtr",
+    "rows": 516,
+    "columns": 30,
+    "observed_values": [
+      0,
+      1
+    ],
+    "missing_cells": 0
+  }
+}

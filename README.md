@@ -6,13 +6,13 @@ Curated human response datasets for skill, knowledge and cognitive assessment, w
 
 This project's research, curation, summaries, project field guides and tooling were prepared with **OpenAI Codex and delegated AI agents**. AI performed substantive source research, interpretation, licence assessment, file selection and packaging, writing, coding and technical checks. The mirrored observations came from cited external sources; this workflow did not generate participant answers. **Independent human fact-checking, legal review and peer review are not documented.** Additional AI-agent checks are not independent human validation. The [full disclosure](reports/ai-disclosure.md), also included as Appendix A of the report, explains the work, corrections, evidence and limitations. Disclosure updated 30 October 2026.
 
-**Research date: 29 October 2026.** The catalogue has **37 entries** across four domains. These are dataset versions and source families, not 37 independent experiments or 37 unrestricted open licenses. Conditional-access sources and practice logs are explicitly identified.
+**Initial research: 29 October 2026; earlier-report integration: 30 October 2026.** The catalogue has **44 entries** across four domains. These are dataset versions and source families, not 44 independent experiments or 44 unrestricted open licenses. Conditional-access sources and practice logs are explicitly identified.
 
 ## Read the research
 
 | Coverage | Profiles | Detailed findings |
 |---|---:|---|
-| Cognitive ability and performance | 11 | [Reasoning, vocabulary, knowledge, spatial rotation, memory, attention and inhibition](research/cognitive-ability.md) |
+| Cognitive ability and performance | 18 | [Reasoning, vocabulary, knowledge, spatial rotation, memory, attention and inhibition](research/cognitive-ability.md) |
 | Large educational and adult assessments | 9 | [PISA, PIAAC, TIMSS, PIRLS, ICILS and civic knowledge](research/large-scale-assessments.md) |
 | Subject tests and learning datasets | 10 | [Fraction subtraction, ECPE, ASSISTments, Junyi, EdNet, Eedi, Duolingo, KDD and database exercises](research/subject-tests-and-learning.md) |
 | Language assessment and short answers | 7 | [MERLIN, Cambridge writing/speaking, C-Tests, BEETLE and SciEntsBank](research/language-and-short-answers.md) |
@@ -21,7 +21,9 @@ Download/filter the full catalogue: **[JSON](data/catalogue.json)** · **[CSV](d
 
 **Downloaded collection:** [dataset folders, licences and codebooks](datasets/README.md) · [large-file release](https://github.com/AndersH3/skill-data-atlas/releases/tag/datasets-2026-10-29) · [redistribution audit](data/redistribution-audit.json) · [payload checksums](data/download-manifest.json).
 
-**Complete report:** [PDF](output/pdf/skill-data-atlas-complete-research-report.pdf), with executive findings, all 37 profiles, acquisition decisions, source references and methodological guidance. [Report source and build script](reports/).
+**Complete report:** [PDF](output/pdf/skill-data-atlas-complete-research-report.pdf), with executive findings, all 44 profiles, acquisition decisions, source references and methodological guidance. [Report source and build script](reports/).
+
+The [earlier report](older_reports/Candidate%20Datasets.docx) is preserved unchanged. Its candidates are reconciled in the [linking chapter](research/linked-tests-and-legacy-integration.md) and [machine-readable integration record](data/legacy-report-integration.json). The review corrects the older parallel-form and repeat-test claims; it adds seven source versions without duplicating IQ1. Three small response collections were added with licences and codebooks; larger or conditional sources remain linked.
 
 ## Where to start
 
@@ -34,6 +36,7 @@ These are practical research priorities, not rankings of test quality. Choose th
 | Omission, guessing and partial-credit rules | OpenPsychometrics VIQT, MGKT, FSIQ alpha | Selected answers and documented historical scoring | Volunteer samples, version differences; redistribution rights unresolved |
 | Distractor-sensitive educational scoring | Eedi NeurIPS 2020 | Actual choices, keys and correctness | Sparse selected data; release terms and image restrictions apply |
 | Spatial accuracy and speed | Ganis–Kievit mental rotation | Actual/desired responses and timing; deposited data and stimuli CC BY 4.0 | Small task-specific validation sample |
+| Linking tasks and instruction conditions | Music Ensemble; Much–Mutak matrices; historical SAPA/ICAR | Common-person or connected-item designs | Raven block, instruction effects and planned missingness need distinct analyses; see the linking chapter |
 | Stability of cognitive-task scoring | Self-Regulation Ontology performance subset | Trial data and retesting | Exclude surveys and preference tasks; inspect task reliability |
 | Population and cross-country analysis | PISA 2022; TIMSS 2023; PIAAC 2023 | Large objective response sources with technical documentation | Adaptive/booklet exposure, sample design and provider terms |
 | Digital skill performance | ICILS 2023 | Observed computer/information tasks and optional computational thinking | Shared-task rubric criteria and incomplete item-content release |

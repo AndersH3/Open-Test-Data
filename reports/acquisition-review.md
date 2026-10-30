@@ -1,12 +1,12 @@
 # Redistribution decisions and downloaded collection
 
-All **37 catalogue entries** were screened separately from scientific suitability. Current result: **15 mirrored entries**, **22 excluded**, **0 licensed but inaccessible**, and **0 pending**. Mirrored entries map to **14 distinct collection folders** because BEETLE and SciEntsBank share one original release.
+All **44 catalogue entries** were screened separately from scientific suitability. Current result: **18 mirrored entries**, **23 excluded**, **1 licensed but inaccessible**, **2 linked without a mirror**, and **0 pending**. Mirrored entries map to **17 distinct collection folders** because BEETLE and SciEntsBank share one original release.
 
-The acquired response/stimulus payloads total **6,190,804,432 bytes** across **30 files**. Files larger than 15 MB are GitHub release assets; smaller payloads, licences, codebooks, source records and manifests are stored in Git. The release is part of the same repository. File size and SHA-256 provide an integrity record, not proof of psychometric validity.
+The acquired response/stimulus payloads total **6,192,443,865 bytes** across **34 files**. Files larger than 15 MB are GitHub release assets; smaller payloads, licences, codebooks, source records and manifests are stored in Git. The release is part of the same repository. File size and SHA-256 provide an integrity record, not proof of psychometric validity.
 
 ## Decision standard
 
-Redistribution was accepted where an explicit source grant covers the files. This includes formal package-wide GPL grants for packaged response objects when no contrary data notice applies; a separate file header is not required. It does not authorize separate proprietary test banks or stimuli. Standard Creative Commons licences can permit sharing with attribution, non-commercial, ShareAlike or NoDerivatives conditions. Those conditions are preserved rather than replaced by the project licence. Unresolved grants are excluded; clear licences with unavailable files are separately recorded. No restricted-use applications or custom access agreements were submitted.
+Redistribution was accepted where an explicit source grant covers the files. This includes formal package-wide GPL grants for packaged response objects when no contrary data notice applies; a separate file header is not required. It does not authorize separate proprietary test banks or stimuli. Standard Creative Commons licences can permit sharing with attribution, non-commercial, ShareAlike or NoDerivatives conditions. Those conditions are preserved rather than replaced by the project licence. Unresolved grants are excluded; clear licences with unavailable files are separately recorded. Linked sources are kept at the provider for documented scope or acquisition reasons; their status is separate from exclusions and inaccessible files. No restricted-use applications or custom access agreements were submitted.
 
 Eedi is a special case: unchanged response and metadata CSV members are losslessly repackaged; every question image is excluded. No cleaned, filtered or merged derivative response table is distributed. For mixed cognitive batteries, the selected objective tasks and original member hashes are documented; surveys, preference tasks and MRI images are not part of the skill-response mirror.
 
@@ -25,6 +25,13 @@ Eedi is a special case: unchanged response and metadata CSV members are lossless
 | OpenNeuro ds004636 objective task subset (`openneuro-ds004636-objective-tasks`) | mirrored | 734 BIDS events.tsv files from seven objective tasks; no MRI, surveys or preference tasks [Primary evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC11271451/) |
 | Working Memory Develops at a Similar Rate Across Diverse Stimuli (`mathy-friedman-working-memory`) | mirrored | All two deposited version-1 data files, unchanged; author description and project field guide [Primary evidence](https://doi.org/10.17632/kfc3jyggs7.1) |
 | ICAR current full materials and psychometric data (`icar-current-restricted`) | excluded | Current full archive uses Scientific Use License/academic access conditions and no public redistribution permission was established. [Primary evidence](https://doi.org/10.23668/psycharchives.22167) |
+| Music Ensemble: objective cognitive and music-perception tasks (`music-ensemble-cognitive-tasks`) | linked | CC BY-NC 4.0 is explicit, but full 92.8 MB mixed archive is linked rather than mirrored. Selected inspected Raven data retain IP-like collection fields and experimenter identifiers; a field-minimization decision is required before a mirror. [Primary evidence](https://doi.org/10.1038/s41597-026-06654-0) |
+| Much, Mutak, Pohl and Ranger: matrix reasoning under speed and accuracy instructions (`much-mutak-matrices-2025`) | mirrored | Unmodified original main CSV and machine-readable reasoning solutions, with original main and supplemental codebooks; alternative encoding, optional logs and stimulus overviews omitted explicitly. [Primary evidence](https://doi.org/10.5334/jopd.124) |
+| TüEyeQ: CFT 20-R performance and eye tracking (`tueyeq-cft20r`) | inaccessible | Data CC0 grant documented; actual Harvard Dataverse deposit returned a robot challenge/403. The cited figshare DOI is metadata only; paper and version-2 task counts conflict. [Primary evidence](https://doi.org/10.7910/DVN/JGOCKI) |
+| HCP Penn Progressive Matrices: edmdata response matrices (`hcp-penn-matrices-edmdata`) | excluded | Upstream HCP terms require every recipient to register and agree. Package MIT does not override those source-specific conditions; original joining IDs were removed from packaged matrices. [Primary evidence](https://tmsalab.github.io/edmdata/reference/items-hcp-penn.html) |
+| Revised PSVT:R response matrix (`revised-psvtr-edmdata`) | mirrored | Affirmative package-wide MIT grant with no contrary response-object notice found; exact source object and original documentation preserved. Separate proprietary test-stimulus rights are not inferred. [Primary evidence](https://tmsalab.github.io/edmdata/reference/items_revised_psvtr.html) |
+| SPM-LS: final 12 Standard Progressive Matrices items (`spm-ls-edmdata`) | mirrored | Affirmative package-wide MIT grant with no contrary response-object notice found; exact source object and original documentation preserved. Separate proprietary test-stimulus rights are not inferred. Underlying original SPM-LS data are CC BY 4.0; full terms, original-author attribution, DOI rights metadata and upstream transformation script retained alongside package MIT notices. This is the upstream binary-scored object, not the original nominal CSV; no further transformation by this project. [Primary evidence](https://tmsalab.github.io/edmdata/reference/items_spm_ls.html) |
+| Historical SAPA/ICAR 2010–2013 validation response data (`sapa-icar-2010-2013-96958`) | linked | Historical deposit CC0 grant documented. Source remains linked without a new large acquisition; response-file structure and overlap not re-counted. Current full ICAR terms remain separate. [Primary evidence](https://openpsychologydata.metajnl.com/articles/10.5334/jopd.25) |
 | PISA 2025 cognitive responses and process data (`pisa-2025`) | excluded | PISA public-use terms explicitly prohibit third-party redistribution; an anonymously reachable archive is not an overriding grant. [Primary evidence](https://www.oecd.org/en/data/datasets/pisa-2025-database.html) |
 | PISA 2022 (`pisa-2022`) | excluded | PISA public-use terms explicitly prohibit third-party redistribution; an anonymously reachable archive is not an overriding grant. [Primary evidence](https://www.oecd.org/en/data/datasets/pisa-2022-database.html) |
 | PISA 2018 cognitive responses plus corrected total-time/visits supplement (`pisa-2018-timing`) | excluded | PISA public-use terms explicitly prohibit third-party redistribution; an anonymously reachable archive is not an overriding grant. [Primary evidence](https://www.oecd.org/en/data/datasets/pisa-2018-database.html) |
@@ -171,6 +178,78 @@ Redistributors should retain the upstream license/attribution, source links and 
 | Payload | Bytes | SHA-256 prefix |
 |---|---:|---|
 | [data.ecpe.rda](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/ecpe-grammar/original/data.ecpe.rda) | 13,659 | `2eeeffcab7985b10` |
+
+### Revised PSVT:R response matrix
+
+**Licence:** MIT. **Selected scope:** Affirmative package-wide MIT grant with no contrary response-object notice found; exact source object and original documentation preserved. Separate proprietary test-stimulus rights are not inferred.
+
+[Source record and documentation](https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/edmdata-revised-psvtr)
+
+
+Source: **edmdata 1.3.0**, pinned GitHub commit `3c0036e4a665b61adde011aac2215b62bd5da33d`. Retrieved **30 October 2026**. Formal package licence: **MIT + file LICENSE**. Full upstream MIT terms, both upstream copyright declarations and the original DESCRIPTION are preserved alongside this file.
+
+## Redistribution basis
+
+This mirror follows the same policy as the project's other R source-object mirrors: an affirmative formal package-wide grant applies to included source data absent a contrary component notice. The inspected data documentation, package metadata and source tree did not identify a contrary notice for this response object. This is a documented curation judgment, not independent legal clearance. The parent's AGPL does not replace external terms.
+
+Package declaration: https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION
+Package source: https://github.com/tmsalab/edmdata/tree/3c0036e4a665b61adde011aac2215b62bd5da33d
+Full upstream MIT notice: https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/LICENSE.md
+
+## Scope and original attribution
+
+Exact packaged `items_revised_psvtr.rda` numeric source object (516 records × 30 items), unchanged. No questionnaire, personality measures, proprietary item artwork or test handbook.
+
+The codebooks are unmodified author `.Rd` and R documentation. The project field guide is separate. Loading the R data object does not execute a package installer or reconstruct a secure test bank. This workflow added no observations and fitted no scoring model.
+
+The author documentation attributes the response data to Culpepper and Balamuta (2017), “A Hierarchical Model for Accuracy and Choice on Standardized Tests,” Psychometrika 82, 820–845, https://doi.org/10.1007/s11336-015-9484-7. The instrument design is credited to Yoon (2011), “Psychometric properties of the Revised Purdue Spatial Visualization Tests: Visualization of Rotations.” Package authors are James Joseph Balamuta, Steven Andrew Culpepper and Jeffrey Alan Douglas; see the exact upstream DESCRIPTION and notices for roles and copyright holders.
+
+The MIT grant is relied on for this packaged response source object and associated documentation. Permission to administer or republish a separate PSVT:R test form or stimulus bank is not established by this mirror. Only keyed correctness, not distractor selections or timing, is present in the inspected object.
+
+## Technical inspection and limitations
+
+Native R loaded the exact source object. Its dimensions and value set are recorded in `manifest.json`; all cells were binary and none were missing. The object alone does not establish a paired second test, population representativeness or scientific validity. Hashes establish byte identity, not the correctness of every interpretation or upstream rights claim. Retain original licences, notices, provenance and the distinction between author codebooks and project guidance.
+
+| Payload | Bytes | SHA-256 prefix |
+|---|---:|---|
+| [items_revised_psvtr.rda](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/edmdata-revised-psvtr/original/items_revised_psvtr.rda) | 3,182 | `e2d7c69fc21d0574` |
+
+### SPM-LS: final 12 Standard Progressive Matrices items
+
+**Licence:** MIT AND CC-BY-4.0. **Selected scope:** Affirmative package-wide MIT grant with no contrary response-object notice found; exact source object and original documentation preserved. Separate proprietary test-stimulus rights are not inferred. Underlying original SPM-LS data are CC BY 4.0; full terms, original-author attribution, DOI rights metadata and upstream transformation script retained alongside package MIT notices. This is the upstream binary-scored object, not the original nominal CSV; no further transformation by this project.
+
+[Source record and documentation](https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/edmdata-spm-ls)
+
+
+Source: **edmdata 1.3.0**, pinned GitHub commit `3c0036e4a665b61adde011aac2215b62bd5da33d`. Retrieved **30 October 2026**. Formal package licence: **MIT + file LICENSE**. Full upstream MIT terms, both upstream copyright declarations and the original DESCRIPTION are preserved alongside this file.
+
+## Redistribution basis
+
+This mirror follows the same policy as the project's other R source-object mirrors: an affirmative formal package-wide grant applies to included source data absent a contrary component notice. The inspected data documentation, package metadata and source tree did not identify a contrary notice for this response object. This is a documented curation judgment, not independent legal clearance. The parent's AGPL does not replace external terms.
+
+Package declaration: https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION
+Package source: https://github.com/tmsalab/edmdata/tree/3c0036e4a665b61adde011aac2215b62bd5da33d
+Full upstream MIT notice: https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/LICENSE.md
+
+## Scope and original attribution
+
+Exact packaged `items_spm_ls.rda` numeric source object (499 records × 12 items), unchanged. No questionnaire, personality measures, proprietary item artwork or test handbook.
+
+The codebooks are unmodified author `.Rd` and R documentation. The project field guide is separate. Loading the R data object does not execute a package installer or reconstruct a secure test bank. This workflow added no observations and fitted no scoring model.
+
+Original study and deposit: Nils Myszkowski and Martin Storme (2018), “A snapshot of g? Binary and polytomous item-response theory investigations of the last series of the Standard Progressive Matrices (SPM-LS),” Intelligence 68, 109–116, https://doi.org/10.1016/j.intell.2018.03.010. Deposit: https://doi.org/10.17632/h3yhs5gy3w.1.
+
+The original data deposit's registered rights metadata explicitly declares **CC BY 4.0**. The metadata snapshot and complete CC BY 4.0 text are retained. Preserve original-author attribution and the deposit DOI when redistributing the derived binary object, as well as the package MIT notices. **The package maintainers converted selected option codes to keyed binary scores and applied listwise deletion**; their original builder is retained. This project made no additional changes to the packaged data object. These two representations are not independent samples. The original nominal CSV is linked, rather than mirrored, because the provider blocked this session's download attempt.
+
+Robitzsch (2020), https://doi.org/10.20944/preprints202007.0269.v1, is a subsequent reanalysis; it is not the original dataset collection. No right to republish Raven test stimuli is inferred.
+
+## Technical inspection and limitations
+
+Native R loaded the exact source object. Its dimensions and value set are recorded in `manifest.json`; all cells were binary and none were missing. The object alone does not establish a paired second test, population representativeness or scientific validity. Hashes establish byte identity, not the correctness of every interpretation or upstream rights claim. Retain original licences, notices, provenance and the distinction between author codebooks and project guidance.
+
+| Payload | Bytes | SHA-256 prefix |
+|---|---:|---|
+| [items_spm_ls.rda](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/edmdata-spm-ls/original/items_spm_ls.rda) | 1,098 | `0d90692decc86da6` |
 
 ### EdNet KT1–KT4 (Santa English test preparation)
 
@@ -444,6 +523,44 @@ Original bundles remain unmodified. Extraction of documentation PDFs and metadat
 | [merlin-solr-v1.2.zip](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-solr-v1.2.zip) | 6,563,942 | `56dd28d9d913a4a8` |
 | [merlin-tasks-v1.2.zip](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-tasks-v1.2.zip) | 8,766,318 | `82073cfd03b0f94e` |
 | [merlin-text-v1.2.zip](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/merlin/merlin-text-v1.2.zip) | 12,697,116 | `949f1ef6c22e6602` |
+
+### Much, Mutak, Pohl and Ranger: matrix reasoning under speed and accuracy instructions
+
+**Licence:** CC-BY-4.0. **Selected scope:** Unmodified original main CSV and machine-readable reasoning solutions, with original main and supplemental codebooks; alternative encoding, optional logs and stimulus overviews omitted explicitly.
+
+[Source record and documentation](https://github.com/AndersH3/skill-data-atlas/tree/main/datasets/much-mutak-matrices-2025)
+
+
+Retrieved 30 October 2026 for Skill Data Atlas. This is an AI-assisted project provenance note.
+
+## Attribution and source
+
+Much, S., Mutak, A., Pohl, S., and Ranger, J. (2025). Data From a Validation Study of Two Psychometric Models on Test-taking Behavior. Journal of Open Psychology Data, 13, 1. https://doi.org/10.5334/jopd.124
+
+Dataset: Modeling speed-ability trade-off and test-taking persistence - Parameter validation for two psychometric models. https://doi.org/10.17605/OSF.IO/9J6HM (https://osf.io/9j6hm/).
+
+## Licence
+
+**CC BY 4.0.** The OSF project's formal licence relationship resolves to https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/ and the data paper explicitly states this data licence in section 3.6. The original OSF node, file metadata, licence metadata and full licence text are saved here. Retain attribution, source links and the licence when sharing. This grant does not transfer rights in separate third-party tests or survey wording. The article identifies copyrighted motivational-disposition material that was not republished in its source repository; no such stimulus material has been added here. The repository AGPL does not replace the dataset licence.
+
+## Exact selection
+
+The unmodified original `tte_data.csv` and `mr_itemsolutions.csv` are mirrored. The original CSV and PDF main codebooks and PDF supplemental codebook accompany them. Provider SHA-256 hashes match all five copied files. The main CSV includes the source's questionnaire covariates; retaining its original bytes does not make those variables skill tests. Exclude action orientation, motivation, effort and other self-report measures from the skill-test shortlist.
+
+Omitted source files: the alternative `tte_data.Rds` encoding; optional `mr_logdata.csv`, `ct_pagetimes.csv` and `tte_disruptions.csv`; stimulus/instruction overviews `mr_ItemOverview.pdf`, `ct_ItemOverview.pdf` and `efcm_ItemOverview.pdf`; and `Preregistration_Psychometric-Model-Validation.pdf`. These remain available from OSF. No participant values were changed, no columns were removed, and no test-item figures were copied. This is a selected file mirror, not a complete OSF deposit.
+
+## Verified structure and study design
+
+The downloaded CSV contains 1,244 rows and 164 columns, with 1,244 unique participant IDs. Observed Group counts are 992 in group 1 and 252 in group 2. The author codebook defines group 1 as accuracy/non-speeded instruction first and group 2 as speeded instruction first.
+
+The original study used two distinct 10-item reasoning blocks, with each participant receiving both instruction conditions and randomized instruction order. It did not administer the same 20 items twice. Distinct block items, fixed item order and changing instructions must be accounted for when comparing scores. There is no claim here that this is an equating dataset for two established IQ instruments.
+
+See `manifest.json` for source URLs, byte sizes, provider checksums and local SHA-256 hashes; see `CODEBOOK.project.md` for a guide to the original author documentation.
+
+| Payload | Bytes | SHA-256 prefix |
+|---|---:|---|
+| [mr_itemsolutions.csv](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/much-mutak-matrices-2025/original/mr_itemsolutions.csv) | 829 | `e5fb1b59fcafd1cd` |
+| [tte_data.csv](https://github.com/AndersH3/skill-data-atlas/blob/main/datasets/much-mutak-matrices-2025/original/tte_data.csv) | 1,634,324 | `288515597704dc92` |
 
 ### OpenNeuro ds004636 objective task subset
 

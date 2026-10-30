@@ -1,12 +1,15 @@
 {
   "research_date": "2026-10-29",
   "final": true,
-  "scope": "37 previously researched catalogue entries; source-specific performance subsets explicitly identified",
+  "updated_date": "2026-10-30",
+  "scope": "44 catalogue entries, including earlier-report candidates; source-specific performance subsets explicitly identified",
   "summary": {
-    "mirrored": 15,
-    "excluded": 22
+    "mirrored": 18,
+    "excluded": 23,
+    "linked": 2,
+    "inaccessible": 1
   },
-  "unique_collection_directories": 14,
+  "unique_collection_directories": 17,
   "decisions": [
     {
       "catalogue_id": "sapa-ability-iqitems",
@@ -168,6 +171,125 @@
         "https://doi.org/10.23668/psycharchives.22167",
         "https://icar-project.com/",
         "https://www.psycharchives.org/en/item/7466aa16-69bd-49ea-baef-7f828f5b223f"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "music-ensemble-cognitive-tasks",
+      "status": "linked",
+      "reason": "CC BY-NC 4.0 is explicit, but full 92.8 MB mixed archive is linked rather than mirrored. Selected inspected Raven data retain IP-like collection fields and experimenter identifiers; a field-minimization decision is required before a mirror.",
+      "dataset_dir": null,
+      "license": "CC BY-NC 4.0",
+      "source_urls": [
+        "https://doi.org/10.1038/s41597-026-06654-0",
+        "https://osf.io/y97t3/",
+        "https://api.osf.io/v2/nodes/y97t3/",
+        "https://api.osf.io/v2/files/67dd57509a9368c91e053a9c/",
+        "https://api.osf.io/v2/licenses/60bf992258510b0009a5a9a6/",
+        "https://osf.io/download/dk4eb/"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "much-mutak-matrices-2025",
+      "status": "mirrored",
+      "reason": "Unmodified original main CSV and machine-readable reasoning solutions, with original main and supplemental codebooks; alternative encoding, optional logs and stimulus overviews omitted explicitly.",
+      "dataset_dir": "datasets/much-mutak-matrices-2025",
+      "license": "CC-BY-4.0",
+      "source_urls": [
+        "https://doi.org/10.5334/jopd.124",
+        "https://doi.org/10.17605/OSF.IO/9J6HM",
+        "https://api.osf.io/v2/nodes/9j6hm/"
+      ],
+      "payload_files": [
+        "datasets/much-mutak-matrices-2025/original/tte_data.csv",
+        "datasets/much-mutak-matrices-2025/original/mr_itemsolutions.csv"
+      ],
+      "total_payload_bytes": 1635153,
+      "manifest": "datasets/much-mutak-matrices-2025/manifest.json",
+      "selection_is_subset": true
+    },
+    {
+      "catalogue_id": "tueyeq-cft20r",
+      "status": "inaccessible",
+      "reason": "Data CC0 grant documented; actual Harvard Dataverse deposit returned a robot challenge/403. The cited figshare DOI is metadata only; paper and version-2 task counts conflict.",
+      "dataset_dir": null,
+      "license": "CC0-1.0; download pending provider access",
+      "source_urls": [
+        "https://doi.org/10.7910/DVN/JGOCKI",
+        "https://api.datacite.org/dois/10.7910/DVN/JGOCKI",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8208979/",
+        "https://api.figshare.com/v2/articles/14173244"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "hcp-penn-matrices-edmdata",
+      "status": "excluded",
+      "reason": "Upstream HCP terms require every recipient to register and agree. Package MIT does not override those source-specific conditions; original joining IDs were removed from packaged matrices.",
+      "dataset_dir": null,
+      "license": "HCP data-use terms; linked only",
+      "source_urls": [
+        "https://tmsalab.github.io/edmdata/reference/items-hcp-penn.html",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/R/hcp-penn-matrix.R",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data-raw/hcp-penn-matrix/hcp_penn_matrix_build.R",
+        "https://www.humanconnectome.org/study/hcp-young-adult/document/quick-reference-open-access-vs-restricted-data",
+        "https://www.vps.humanconnectome.org/study/hcp-young-adult/data-use-terms",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION"
+      ],
+      "payload_files": []
+    },
+    {
+      "catalogue_id": "revised-psvtr-edmdata",
+      "status": "mirrored",
+      "reason": "Affirmative package-wide MIT grant with no contrary response-object notice found; exact source object and original documentation preserved. Separate proprietary test-stimulus rights are not inferred.",
+      "dataset_dir": "datasets/edmdata-revised-psvtr",
+      "license": "MIT",
+      "source_urls": [
+        "https://tmsalab.github.io/edmdata/reference/items_revised_psvtr.html",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/R/revised-psvtr-data.R",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data/items_revised_psvtr.rda",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/LICENSE.md"
+      ],
+      "payload_files": [
+        "datasets/edmdata-revised-psvtr/original/items_revised_psvtr.rda"
+      ],
+      "manifest": "datasets/edmdata-revised-psvtr/manifest.json",
+      "total_payload_bytes": 3182
+    },
+    {
+      "catalogue_id": "spm-ls-edmdata",
+      "status": "mirrored",
+      "reason": "Affirmative package-wide MIT grant with no contrary response-object notice found; exact source object and original documentation preserved. Separate proprietary test-stimulus rights are not inferred. Underlying original SPM-LS data are CC BY 4.0; full terms, original-author attribution, DOI rights metadata and upstream transformation script retained alongside package MIT notices. This is the upstream binary-scored object, not the original nominal CSV; no further transformation by this project.",
+      "dataset_dir": "datasets/edmdata-spm-ls",
+      "license": "MIT AND CC-BY-4.0",
+      "source_urls": [
+        "https://tmsalab.github.io/edmdata/reference/items_spm_ls.html",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/R/spm-ls-data.R",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data/items_spm_ls.rda",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/DESCRIPTION",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/LICENSE.md",
+        "https://doi.org/10.17632/h3yhs5gy3w.1",
+        "https://api.datacite.org/dois/10.17632/h3yhs5gy3w.1",
+        "https://raw.githubusercontent.com/tmsalab/edmdata/3c0036e4a665b61adde011aac2215b62bd5da33d/data-raw/spm-ls/spm-ls-build.R"
+      ],
+      "payload_files": [
+        "datasets/edmdata-spm-ls/original/items_spm_ls.rda"
+      ],
+      "manifest": "datasets/edmdata-spm-ls/manifest.json",
+      "total_payload_bytes": 1098
+    },
+    {
+      "catalogue_id": "sapa-icar-2010-2013-96958",
+      "status": "linked",
+      "reason": "Historical deposit CC0 grant documented. Source remains linked without a new large acquisition; response-file structure and overlap not re-counted. Current full ICAR terms remain separate.",
+      "dataset_dir": null,
+      "license": "CC0-1.0; not newly mirrored",
+      "source_urls": [
+        "https://openpsychologydata.metajnl.com/articles/10.5334/jopd.25",
+        "https://doi.org/10.7910/DVN/AD9RVY",
+        "https://api.datacite.org/dois/10.7910/DVN/AD9RVY"
       ],
       "payload_files": []
     },

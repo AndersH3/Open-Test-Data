@@ -1,8 +1,8 @@
 # Complete research report
 
-The [PDF report](../output/pdf/skill-data-atlas-complete-research-report.pdf) combines executive findings, all 37 source profiles, the redistribution audit, acquisition provenance, codebook references, methodological guidance and a numbered bibliography. The [generated Markdown source](complete-report-source.md) is also available.
+The [PDF report](../output/pdf/skill-data-atlas-complete-research-report.pdf) combines executive findings, all 44 source profiles, the redistribution audit, acquisition provenance, codebook references, methodological guidance and a numbered bibliography. The [generated Markdown source](complete-report-source.md) is also available.
 
-The report includes a [short front disclosure](ai-disclosure-short.md) and a [full AI-disclosure appendix](ai-disclosure.md). Research and acquisition are dated 29 October 2026; the project-branding and disclosure revision is dated 30 October 2026. The substantive research, prose and tooling are AI-assisted; independent human fact-checking, legal review and peer review are not documented.
+The report includes a [short front disclosure](ai-disclosure-short.md) and a [full AI-disclosure appendix](ai-disclosure.md). The initial research and acquisition are dated 29 October 2026. Earlier-report integration, supplementary source checks and three small additional collections are dated 30 October 2026. The [linking chapter](../research/linked-tests-and-legacy-integration.md) and [integration record](../data/legacy-report-integration.json) document all older candidates and corrections. The substantive research, prose and tooling are AI-assisted; independent human fact-checking, legal review and peer review are not documented.
 
 ## Rebuild
 

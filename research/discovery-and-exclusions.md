@@ -8,6 +8,8 @@ The [Item Response Warehouse](https://itemresponsewarehouse.org/) harmonizes res
 
 Screen each table against the original study, version, license and transformation code. The warehouse also contains personality, symptoms, preferences and simulated/synthetic responses, all outside this project's core scope. Collection membership is partly rule-derived and not exhaustive. A harmonized binary score may omit selected distractors, trial structure or original missing categories. Avoid counting an original source and its harmonized copy as independent evidence. The warehouse is especially useful for discovering more candidates after the carefully documented starter set in this repository.
 
+The older report's “900+ datasets” statement is traceable to version 28.2 in the [2025 IRW introduction](https://doi.org/10.3758/s13428-025-02796-y); it should not be presented as a current live total. Its cognitive candidates were reconciled separately in the [linking chapter](linked-tests-and-legacy-integration.md). IRW remains a resource, not an additional paired-test cohort.
+
 ## Important exclusions and conditional candidates
 
 | Source/type | Treatment | Reason and primary evidence |

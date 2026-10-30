@@ -3,7 +3,7 @@
 
 The acquisition agents' JSON ledgers are supplied as inputs; the committed
 redistribution-audit.json is the portable record, so the PDF itself has no /tmp
-dependency. Use --final only when all 37 decisions are complete.
+dependency. Use --final only when all catalogue decisions are complete.
 """
 from pathlib import Path
 import argparse
@@ -58,17 +58,17 @@ def main():
             'storage':'github_release' if large else 'git',
             'release_asset':p.name if large else None,
             'url':f'{REPO}/releases/download/{TAG}/{urllib.parse.quote(p.name)}' if large else f'{REPO}/blob/main/{urllib.parse.quote(rel)}'})
-    audit={'research_date':'2026-10-29','final':args.final,'scope':'37 previously researched catalogue entries; source-specific performance subsets explicitly identified',
+    audit={'research_date':'2026-10-29','final':args.final,'updated_date':'2026-10-30','scope':f'{len(cat)} catalogue entries, including earlier-report candidates; source-specific performance subsets explicitly identified',
       'summary':dict(counts),'unique_collection_directories':len(dirs),'decisions':ordered,
       'redistribution_policy':'Accept explicit source grants, including formal package-wide licences covering packaged response objects with no contrary data notices. A public download or paper licence alone is not a data grant; packaged data rights do not authorize separate proprietary test stimuli. Third-party licences remain separate from repository AGPL.',
       'release_tag':TAG}
     (ROOT/'data/redistribution-audit.json').write_text(json.dumps(audit,indent=2,ensure_ascii=False)+'\n')
-    (ROOT/'data/download-manifest.json').write_text(json.dumps({'retrieved_date':'2026-10-29','release_tag':TAG,'files':inventory,'total_payload_bytes':sum(x['bytes'] for x in inventory)},indent=2,ensure_ascii=False)+'\n')
+    (ROOT/'data/download-manifest.json').write_text(json.dumps({'retrieved_date':'2026-10-29','inventory_updated_date':'2026-10-30','release_tag':TAG,'files':inventory,'total_payload_bytes':sum(x['bytes'] for x in inventory)},indent=2,ensure_ascii=False)+'\n')
     lines=['# Redistribution decisions and downloaded collection','',
-      f"All **37 catalogue entries** were screened separately from scientific suitability. Current result: **{counts.get('mirrored',0)} mirrored entries**, **{counts.get('excluded',0)} excluded**, **{counts.get('inaccessible',0)} licensed but inaccessible**, and **{counts.get('pending',0)} pending**. Mirrored entries map to **{len(dirs)} distinct collection folders** because BEETLE and SciEntsBank share one original release.",'',
+      f"All **{len(cat)} catalogue entries** were screened separately from scientific suitability. Current result: **{counts.get('mirrored',0)} mirrored entries**, **{counts.get('excluded',0)} excluded**, **{counts.get('inaccessible',0)} licensed but inaccessible**, **{counts.get('linked',0)} linked without a mirror**, and **{counts.get('pending',0)} pending**. Mirrored entries map to **{len(dirs)} distinct collection folders** because BEETLE and SciEntsBank share one original release.",'',
       f"The acquired response/stimulus payloads total **{sum(x['bytes'] for x in inventory):,} bytes** across **{len(inventory)} files**. Files larger than 15 MB are GitHub release assets; smaller payloads, licences, codebooks, source records and manifests are stored in Git. The release is part of the same repository. File size and SHA-256 provide an integrity record, not proof of psychometric validity.",'',
       '## Decision standard','',
-      'Redistribution was accepted where an explicit source grant covers the files. This includes formal package-wide GPL grants for packaged response objects when no contrary data notice applies; a separate file header is not required. It does not authorize separate proprietary test banks or stimuli. Standard Creative Commons licences can permit sharing with attribution, non-commercial, ShareAlike or NoDerivatives conditions. Those conditions are preserved rather than replaced by the project licence. Unresolved grants are excluded; clear licences with unavailable files are separately recorded. No restricted-use applications or custom access agreements were submitted.','',
+      'Redistribution was accepted where an explicit source grant covers the files. This includes formal package-wide GPL grants for packaged response objects when no contrary data notice applies; a separate file header is not required. It does not authorize separate proprietary test banks or stimuli. Standard Creative Commons licences can permit sharing with attribution, non-commercial, ShareAlike or NoDerivatives conditions. Those conditions are preserved rather than replaced by the project licence. Unresolved grants are excluded; clear licences with unavailable files are separately recorded. Linked sources are kept at the provider for documented scope or acquisition reasons; their status is separate from exclusions and inaccessible files. No restricted-use applications or custom access agreements were submitted.','',
       'Eedi is a special case: unchanged response and metadata CSV members are losslessly repackaged; every question image is excluded. No cleaned, filtered or merged derivative response table is distributed. For mixed cognitive batteries, the selected objective tasks and original member hashes are documented; surveys, preference tasks and MRI images are not part of the skill-response mirror.','',
       '## Decisions for every source','',
       '| Source | Decision | Basis |','|---|---|---|']
@@ -76,7 +76,7 @@ def main():
         r=byid[d['catalogue_id']];link=d['source_urls'][0] if d['source_urls'] else r['landing_url']
         lines.append(f"| {r['name']} (`{r['id']}`) | {d['status']} | {d['reason']} [Primary evidence]({link}) |")
     lines += ['','## Mirrored collection documentation','']
-    idx=['# Downloaded datasets','',f"Acquisition snapshot: **29 October 2026**. **{counts.get('mirrored',0)} catalogue entries** map to **{len(dirs)} unique collections**. Each collection retains its own licence. Large files are attached to the [dataset release]({REPO}/releases/tag/{TAG}); smaller files are committed here.",'',
+    idx=['# Downloaded datasets','',f"Initial acquisition snapshot: **29 October 2026**; inventory updated **30 October 2026**. **{counts.get('mirrored',0)} catalogue entries** map to **{len(dirs)} unique collections**. Each collection retains its own licence. Large files are attached to the [dataset release]({REPO}/releases/tag/{TAG}); smaller files are committed here.",'',
       'See the [complete audit](../data/redistribution-audit.json), [payload manifest](../data/download-manifest.json) and [complete research PDF](../output/pdf/skill-data-atlas-complete-research-report.pdf). Download a release asset with an authenticated GitHub account if this repository is private.','',
       '| Collection | Licence | Sources and codebooks |','|---|---|---|']
     for dr in dirs:
@@ -86,7 +86,7 @@ def main():
         source=ROOT/dr/'SOURCE.md'
         if source.exists():
             original=source.read_text()
-            # Include original project-authored provenance, not protected source data.
+            # Include project provenance notes; preserve protected source data.
             original='\n'.join(line for line in original.splitlines() if not line.startswith('# '))
             lines.append(original);lines.append('')
         lines+=['| Payload | Bytes | SHA-256 prefix |','|---|---:|---|']
@@ -103,13 +103,17 @@ def main():
 
 ## What was checked
 
-The research catalogue distinguishes response-file inspection, archive verification, primary documentation and unresolved metadata-only evidence. The acquisition phase adds byte counts, SHA-256 hashes, provider hashes where supplied, archive integrity checks, source snapshots and explicit subset rules. The downloaded payload manifest is the authoritative list of mirrored files; the 37-source audit records exclusions as well as acquisitions.
+The research catalogue distinguishes response-file inspection, archive verification, primary documentation and unresolved metadata-only evidence. The acquisition phase adds byte counts, SHA-256 hashes, provider hashes where supplied, archive integrity checks, source snapshots and explicit subset rules. The downloaded payload manifest is the authoritative list of mirrored files; the complete source audit records exclusions as well as acquisitions.
 
 Selected source archives were parsed to verify response schemas and counts. A full parse does not establish that every response is valid or every participant is unique. Provider participation totals, file rows and distinct respondent identifiers remain separate. Some mirrors contain all deposited files; mixed batteries are limited to named objective tasks, and some alternative formats or additional annotations may be omitted. Every such selection is documented in the collection source record.
 
 ## Corrections from acquisition
 
 MERLIN's mirrored version 1.2 has 2,287 metadata records; the earlier website description gives 2,286. The versioned deposit and actual metadata govern this mirror. The English C-Test study contains 40 users, 32 forms and 160 user-form attempts, or 3,200 observed gap scores; whole-form duration is present, while per-gap latency was not established. The working-memory deposit has two original CSV files and distinguishes raw task records from participant-collapsed scores. The OpenNeuro archive contains source subject identifiers beyond the reported study-completer cohort; recommended exclusions must be applied explicitly rather than silently deleting source rows.
+
+## Earlier report integration
+
+The earlier Candidate Datasets document is preserved unchanged in older_reports. Its candidates and recommendations were reconciled against primary papers, data dictionaries and inspected response files on 30 October 2026. The linking chapter records corrected designs, version conflicts, evidence levels and unresolved access. The original citation tokens cannot substitute for recoverable primary references.
 
 ## Rebuild and locate the evidence
 

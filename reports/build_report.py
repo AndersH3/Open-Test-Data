@@ -213,9 +213,9 @@ def main():
     story=[Spacer(1,75),Paragraph('Skill Data Atlas',S['cover_title']),
            Paragraph('A complete review of human skill-response datasets and their redistribution conditions',S['cover_sub']),
            HRFlowable(width=75,thickness=4,color=TEAL,hAlign='LEFT'),Spacer(1,24),
-           Paragraph('37 source profiles across cognitive ability, educational and adult assessments, subject learning, language and short-answer performance.',S['body']),
-           Spacer(1,18),Paragraph('<b>Research and acquisition date</b><br/>'+DATE,S['body']),
-           Paragraph('<b>Document revision</b><br/>'+REVISION_DATE+' (project branding and AI disclosure)',S['body']),
+           Paragraph(f"{len(catalogue)} source profiles across cognitive ability, educational and adult assessments, subject learning, language and short-answer performance.",S['body']),
+           Spacer(1,18),Paragraph('<b>Initial research and acquisition date</b><br/>'+DATE,S['body']),
+           Paragraph('<b>Document revision</b><br/>'+REVISION_DATE+' (earlier research integrated and AI disclosure)',S['body']),
            Paragraph('<b>Prepared for</b><br/>AndersH3 / Skill Data Atlas',S['body']),
            Spacer(1,15),Paragraph('<b>AI disclosure</b><br/>'+short_ai,S['quote']),
            Paragraph('<link href="'+REPO+'" color="#087F8C">github.com/AndersH3/skill-data-atlas</link>',S['small']),PageBreak(),
@@ -226,11 +226,12 @@ def main():
     sections=[('1. Executive findings','reports/executive-summary.md'),('2. Research method and analysis guidance','research/methodology.md'),
               ('3. Redistribution decisions and downloaded collection','reports/acquisition-review.md'),
               ('4. Cognitive ability and performance','research/cognitive-ability.md'),
-              ('5. Large educational and adult assessments','research/large-scale-assessments.md'),
-              ('6. Subject tests and learning-response data','research/subject-tests-and-learning.md'),
-              ('7. Language assessment and constructed responses','research/language-and-short-answers.md'),
-              ('8. Discovery resources and exclusions','research/discovery-and-exclusions.md'),
-              ('9. Verification, limitations and reproducibility','reports/verification-summary.md')]
+              ('5. Linking tests and integration of earlier research','research/linked-tests-and-legacy-integration.md'),
+              ('6. Large educational and adult assessments','research/large-scale-assessments.md'),
+              ('7. Subject tests and learning-response data','research/subject-tests-and-learning.md'),
+              ('8. Language assessment and constructed responses','research/language-and-short-answers.md'),
+              ('9. Discovery resources and exclusions','research/discovery-and-exclusions.md'),
+              ('10. Verification, limitations and reproducibility','reports/verification-summary.md')]
     source_parts=[]
     for title,file in sections:
         path=ROOT/file
@@ -246,8 +247,8 @@ def main():
     appendix_heading=heading('Appendix A. AI disclosure')
     appendix_heading.bookmark='ai-disclosure'
     appendix_flow=[appendix_heading]+render_blocks(md(clean(appendix_text)),appendix_path)
-    story.append(heading('10. Sources and references'))
-    story.append(Paragraph('Numbered references correspond to clickable citations throughout the report. Source terms and dataset versions were checked on 29 October 2026 unless a profile states a narrower evidence scope. Links are supplied for verification; repository copies do not imply that external content inherits the project licence.',S['body']))
+    story.append(heading('11. Sources and references'))
+    story.append(Paragraph('Numbered references correspond to clickable citations throughout the report. The initial source review is dated 29 October 2026; earlier-report candidates were checked on 30 October 2026. Each profile retains its own evidence scope and verification date. Links are supplied for verification; repository copies do not imply that external content inherits the project licence.',S['body']))
     for url,item in list(sources.items()):
         n=item['number'];title=html.escape(item['title']);safe=html.escape(url,quote=True)
         story.append(Paragraph(f'<b>[{n}] {title}</b><br/><link href="{safe}" color="#087F8C">{html.escape(url)}</link>',S['small']))
@@ -267,7 +268,7 @@ def main():
     assert 'Rebuilding the PDF is distinct' in text,'Full disclosure text missing'
     metrics={'pages':len(reader.pages),'references':len(sources),'text_characters':len(text),'bytes':PDF.stat().st_size,
              'catalogue_profiles':len(catalogue),'output':PDF.relative_to(ROOT).as_posix(),
-             'research_snapshot':'2026-10-29','document_revision':'2026-10-30',
+             'research_snapshot':'2026-10-29','supplementary_review':'2026-10-30','document_revision':'2026-10-30','legacy_report_integrated':True,
              'front_ai_disclosure':True,'full_ai_disclosure_appendix':True}
     (OUT/'report-quality-check.json').write_text(json.dumps(metrics,indent=2)+'\n')
     print(json.dumps(metrics,indent=2))

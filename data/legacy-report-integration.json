@@ -1,0 +1,74 @@
+{
+  "integration_date": "2026-10-30",
+  "source_path": "older_reports/Candidate Datasets.docx",
+  "source_git_blob": "5958278f2d3fd9a782eeb960f00a4ca3f229017e",
+  "source_sha256": "e4cae906e97d5544265dd9129a118d87b2d57d92556fa51e0d10eedc1ce837ff",
+  "source_bytes": 15708,
+  "source_repository_commit": "4a4516e",
+  "source_preserved_unchanged": true,
+  "authorship_and_original_generation_history": "not documented",
+  "source_citation_tokens": "No recoverable source map; not reused as primary citations",
+  "new_catalogue_entries": 7,
+  "previous_catalogue_entries": 37,
+  "current_catalogue_entries": 44,
+  "claims": [
+    {
+      "older_label": "Music Ensemble",
+      "catalogue_id": "music-ensemble-cognitive-tasks",
+      "treatment": "added; timed Raven block and matched-pair definition corrected"
+    },
+    {
+      "older_label": "Mutak and Much",
+      "catalogue_id": "much-mutak-matrices-2025",
+      "treatment": "added; two distinct ten-item blocks, selected files mirrored"
+    },
+    {
+      "older_label": "TüEyeQ",
+      "catalogue_id": "tueyeq-cft20r",
+      "treatment": "added; actual deposit corrected, task-count conflict retained"
+    },
+    {
+      "older_label": "HCP Penn Matrices",
+      "catalogue_id": "hcp-penn-matrices-edmdata",
+      "treatment": "added; broader battery and export identifier loss distinguished"
+    },
+    {
+      "older_label": "OpenPsychometrics IQ1",
+      "catalogue_id": "ospp-iq1",
+      "treatment": "existing entry retained without duplication; public-domain claim unestablished"
+    },
+    {
+      "older_label": "Revised PSVT:R",
+      "catalogue_id": "revised-psvtr-edmdata",
+      "treatment": "added; exact binary object checked, package grant distinguished from stimuli"
+    },
+    {
+      "older_label": "SPM-LS",
+      "catalogue_id": "spm-ls-edmdata",
+      "treatment": "added; original 2018 source distinguished from later reanalysis"
+    },
+    {
+      "older_label": "Historical SAPA/ICAR",
+      "catalogue_id": "sapa-icar-2010-2013-96958",
+      "treatment": "added separately from compact and current ICAR records"
+    },
+    {
+      "older_label": "Item Response Warehouse",
+      "catalogue_id": null,
+      "treatment": "discovery resource retained; 900+ claim tied to historical version 28.2"
+    },
+    {
+      "older_label": "Crane et al. 2008",
+      "catalogue_id": null,
+      "treatment": "ambiguous original citation; relevant common-item co-calibration methods linked, no new public NACC data grant inferred"
+    }
+  ],
+  "chapter": "research/linked-tests-and-legacy-integration.md",
+  "scoring_or_linking_model_fitted": false,
+  "added_mirror_collections": [
+    "datasets/much-mutak-matrices-2025",
+    "datasets/edmdata-revised-psvtr",
+    "datasets/edmdata-spm-ls"
+  ],
+  "added_payload_files": 4
+}
